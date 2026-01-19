@@ -1,3 +1,8333 @@
--- This file was protected using Luraph Obfuscator v14.5 [https://lura.ph/]
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
 
-return(function()local m,D,K,z,W,P,V,Q,j,A,v,J,F,Z=string.byte,string.sub,string.char,string.gsub,string.rep,setmetatable,pcall,type,tostring,assert,loadstring,unpack,string.pack,{};for G=0,255 do Z[G]=K(G);end;local Z=5;do local G={33108,{0x1B,0x4C,0x75,0x61,0x50},j(v)};for L,y in next,G do local G={V(v,L%2==0 and K(J(y))or y,nil,nil)};if G[1]and V(G[2])~=not G[3]then Z=15.0;end;end;end;local G,L,y=(function(X)X=z(X,"z","!!!!!");return z(X,".....",P({},{__index=function(z,X)local h,s,w,B,l=m(X,1,5);local k=(l-33)+(B-33)*85+(w-33)*7225+(s-33)*614125+(h-33)*52200625;local h=F(">I4",k);z[X]=h;return h;end}));end)(D([==[LPH-!'(r5>9R;sGiSpiQ<YJJG(DA[=;6nS?u!i-db?".3?i=j``T7HY,l4o[KY\&@j^hb:te^[s-\'[T'U#?8GQ[QfA(6#Or5=pSChgj@21_WiNCBV[RcqA/=<>J67V^D,Q;h&3GCn&JAdq=jRbL+>3]>T;W,eDTM1V,MmH8n/dmuaOGKm7%6*]0Hb^'dc=CBFRi#n>U>?*#N+*9B2eW76WA7qMioU!qJ,>,jE4!A:1MCF^"bHO8(apa_ZJ;)mJha7&NV#n6\9H-*h`_bQ8?f,RG^J"VAGMq(X'9H"<@^hs6ZiLDn(%iD3;2s,s8UQ@l6*D8pq_d`H5.BYT,r*_AEJRbY/FL!EtuisKa8H$(5)XPNTu2f5rr(Teb8agDt>3!Z'n?\7`p!.UZ8Yoo2+;n=Q-D@RC_NO\o)-!b1lG",G^=(l+aPl5JBX#9l]j:ab3hn'2bs\\sY:pbH>qufCVGM80L@\'@b6YWR]0F:SKf/,o6QT!*Ah#*%f?*VDsnWG$IC-Yr=hbWJ%k(lu\Ee"fauEAbqdD4ibe]:>cj]cL)TBB+guTRQ,KOWlBg[?E/q.r%>r3!mpMT8f]DqP<Fu#N<]CQ#CGko6mgY3h7Ep!cUN@8Nn8fIpKaAT34oa47HE97qOPVTLblf:CXeq(Xs8B`>L@P8?!&qeaj5:qe,>oe>26)7+(d'V&=I2b&CdsG@'(,s#p%bkIHB4f+RFi(ke6?O[/(n/P_XI8ZAbL"Fh,k*$L7f`6A)Tr,SfaVE3q"&4<*5;R.>,TFR9jFEQ6"(\_+\p<Q+A\$<G5.&=uT$N?ZQN(.WF5E^c>aMt7WK27T*i7m4"k!=,",[@Z,+\,%oED0'.m=qT!=YRd4'9VN25,%rsADrG3KPhTgDn]V]srrJ=WG>XWho?Ol2Xc(^(g@FWnbo$"-:0n5N68H'UZ0g?;Ut<TYKA/ciP#"RhkO)LbdAq!pANL1N'1(Gm1%eFgOlW*^<`XjBfY2:`)moOX.R<lls4VC:qQo57R78-cduk].8*1GoUt0BHe(M-hnn'%;^P'JD4=roB#-M_YO)`KV@sW>;=FN\Dn!T!F8'7H)f([;<)>`H33OAbrL?KV,6(K]^B"@O>To*UIhN-9XO2br;]iL,&#Tp3:`@BOU`$60kO+gS\%=7e+J5G`.mZ@Q`![6e48sBG-nK=o%(u*UDB"?Mj)g_cAE3IU_<#m:lTeaT[HJ^/*\MuK\U[XYuEV(#amk"&5Y#*iJ9ht<d(iB01Q*m4H`'CO40E3I05)%^C&V1=d6O+ET+5RGq><NDcFd;k^@$K8[?Pb"@r4-QbJN(joU!0soS]93,]9=X_J9FuGCqc_tol6.)='Rp^1)3S2(I\I*$b8nOS-HZWWQsbLI(l<0%h=FaOp*c]OJ?6\[dQjA,;_DX`D2JlOSlOd8bO$X2=p"Vh>s;(pm[#@pYSqtK,#lt`*f24s6\KZLNQsAq3=C-Qq:)1jN*Yf*;]V4J_U,R]:(sheS?]/<lZ%Y6J#aHk(0R,n0_53U,OI-c6L!o=7p\&<QG9n7!L#J_9&YPhCCItA1@I^>gD$3!.d5MnbTA!]T9SMl^QH`(8VC=E[1#@e8ZXp$&9mh`Vj5GIoeBTl[-`Dd18(g6.#G0qUWc`Q=E@O8k2u:'0c.uA't=Rmb!H+4a3`lk&.f0`l$ur8-M,i`mm>2C$!Qf%9Bct4:I=0M5WuciOE4J\a=sLcZCR1VoZF5f#?N6a"A*\fiXeShoVpt-2W5p2P.i.J<pnY-3qpE5lhT*Z#bj/R/oG9Fl/la#b$/=?6F+D^rU.b_l=h0k2@oeW!euch[)mP`<Qa/Oah/^+$r)ImLFOr<9FgOrgb\%rPDN`Jl7p.X)hJLNg.a%d@7!_%KuI_=#!88VC=e&n2s1:=K8BM%@W4sMJ*XNEcOf)8V;fqc,7>GGNC8[i@48c-'B";C<u=^@6nnLi;P33=,RU)!(G.<3b>.'"?KqZ,tOJPDmJ<Cqpk7-#e>;]Rom/!"D?f(ZQ9;s4(-NF%\6tV4'VqOmj7E0T,i^F=d74`_>&uKp?Zr9IS!a>FOKSi9pj!>`!OIqT'56CB&];_2aB]7<QZ[^A-f?m"u[Dj)!b`kAO;gp-R$X:gHO)gH\^+eanObR%SSOZ9pEoa$l[OX3MRdnMD8@%!3fG?S72A=\jeKQKEg35p#Lg-(D!n'VhnuDX@W`Q3=lGsd<$MsB,,W)Ej>NG&g(Rq>kb2-RKM$pi_&2CXc^hs2k+o0]o^H*%"pB;,XmFA(/OX&)K=,ielt?m;k>TGE#Vs055R@D'l.b51TLDa,MsBsglu6!Ob,m&<0@VWUdl))oI#kmo*cM\Fd-9%03IL)(A0))&)A3ab15=3W0jn-J6Ws;SbNA<Xp^,HJD%B"2j>QAGD@Ur54??A/LqO_-!i9lr?"+0VnDd3-j1h484t\c3LY5G$P=h8JcZJ6A/r*:;b(:h]PIUQks@G!7`T:H`7LD4Tm;+D*0(Bi-u!7R7.B!iIc1R'QWqkMgT[NKb=5,[kqk^J]5(dI*'Y56cYcO"*K6efkP..\B/M*:nP/d**$]Kk0,Chb[B1KDZub8@*1i8I^:2h=`j,<-5mQU!"matW\21qHbc6r;n!KVSE6Oi>JZLHdTbV+d3rO%TB57((:kj]qW:Gh`6N*"Zq@UcIEKHYF.+XYPhB$4@_O:dA@hF?.X7A:0XR):pj4F9[^_6TUfq<6M=Ug#"dc2dO3()>R%!^W;WhcG<ba=M[ci(Z/A@`e$)b*VCU5P\26oM_3rkELGZk#rI?6+\=g)Elr=-2?4?B;$Sga5AsG`j"pn<-m?&3,L-h0US(N/Uh\Gr)k-/Rq#tP`6)-ibKYMgc2]+Rl^q`=UN<HIQ'Ldf1O*i+alPjImgP+P-UhO1Yu0++\4dak_+LCaFZPL2.=(-*to\Hgeo9oLioG2`AB$;`\aEVL(*,K9"8kk[uWftT<]1qQInZWSR/YFV'<*qY$0+6/b=$T^`:*P"ZWWt[K3-cSq#p>;cr(<g6md_0,Q3$er4?rjEamtKD&]>!`2AI1:&o;Z4j*;Y%H?S+F]tJiVRTe62:Qj?B%0oZ>DQ^CTYbiHhq?md=/OCgHV:;TjN9_WX3P#.udk5s6.QtOktUpVZ/Fl)g=@OmC_HB8%YF928C.RdV1?<Q+1EVNkW[djJT7&5sSb&d0N(HSjb:JVe]r*PTUSVH$-?+-G"<nK]eqMTP[tZ>_HVAI)45"Jeq\oZFlb9Cpt$p2/MbVdW*_PU"c+*]XFA`]#eF)P,3c&ZI;$`n21b74:#_5QjJ<%U(3(n[F6\$L25sZoU<V"EE+@c?F[`o>`7JVd.K%*)iFnpCI+,P5;)Vc+HEmm!I`Q`;`%%D\;a=,"NSFgb&^Tm0Vbou67YWS`u*Rg\0UsA3&Y-7Q=]Yg+>admRbS;lW:SAgWI`&=,Tb>X3tb4iQtn.R8)%9@$F;c$N-0.tD=VP62+VUilGdX9=mi"%Up[:'Plb@S1AGR$,5!W^Z"AGFY@ehnpHO9C*\$X8cd^J1VVJs)mKtu8D-p>s\42dGN:pl:FO7"fjTWR79_lrD38K'_"2PHRa\#)F%/-QHZ=^EPeE?=PeG1$.%5R6b:h?Q@QLFs#Xd.FFks9%Y1sgojfeI_YqJN")[!(/_W)t44Rm;!s`Ko=LA5Y#`4`)ki[Y2609jOLNr+"W1gQl&Vc]%suKP?8Pd$1anVhM])jsM!:9V#larAIOUpM2tfV#f>-o*m.0LZJ#sL7;50m!;[/7ASskW<>E[5nY4.b<.]sj$2W;EAGmY\E*[d9m5IWgOYIF-=M:.g!QkgB+M>*RJ2PK@?9oSJ=CNUR='$P8Hgh<gpG#h&;UhJToQ>Ho;UlObhX@,"?1HFG?epjEKk.oN8tNL@O'<m?1qEUCWXgLo!A.>9qne>:c8%8Z<$2LVIT/p3;,6-NIF]n[@2;mQ7J@S^=%W8f&sH8Q_o_L/`QANeO]Pp2-aO,UNPc:&?Z\rnk7T3AbVo^a+Mej3Q=6id4M>>6McZA4'@fnE6T9?oN][J5'EsMXQ/Hlb+Xcd:l@m&L?CPtTUeb5jZ+[1[Gk`D/'Kp>G0fO]&+.\,P21]tlZj\m?EOK`$5ZG;0XCf9#5?:pQ2&tJ@hV$mX.`Pm-Pf6od6tcVEgo=27612R"Y`6:cnb%)^t2MHM^P<:Msr)s'G0PpgSSgKm#V<=,^)rhDJMh^[;7H(fm'cLch]&Mf_W>Z?<Q!%e^4M_7WV5]2Vq?C:/mNL?9?;S(+]FM&a&FJ4N+7IVM7qE!&(U#OG<Ue`FQ'Nhr0j8CG-\7ObpAE6aD*[=cafMi0MY8D6=9.=h2l'p5MTf"QnVEL&FNmXDbPaMqc:ZClZ!)F-a^(D>"D!=VS&X6j5hPl]2Ffp4umfMNNj.E(Nob57o*SVP%N@KF3THBt1bUjNnq:M,9lV6:'32;(0laTsi_,_B.'JOho]dSBj!Bj\Nj;O$Rt4f\fuL;SUWC_t>K="1c"fpf`REH,6k?[d**XMHJQ6CRPgSldFqeQjOXS&WI;r@1XPHeMFq-a53Q<-Nn?MNf*<YH]4_%P(\.?B1pnY*OZ)G'(0WPob!<>87T\qrCgA&ANf^P,kS?nj;o.]<`=Mc8'DPSH)[7t8=5R9\O+)t+n!CtX&fh']072':[J7CkDd+]Zkd$YprJb`R\urTrghHgIZdW/0fb@$=8]QdQ!2_sDbKLe9ksd>W&n4G0I-96G;#Vk/,0OHkGa_jL=)!nj=*C,%]I,2RtD*9`crJ&n_*g'i-):R4;3_b!j`p7Cj"mY>fNt?*G<7X5[;c4BAuOT#B5FPd%:6+N*hM-dA5D)UCP]2['DFBUBT+ATk]J!7f6,j$-W51&C*XO]E4]0:c_s&C3SIsbPjWNRba/f&'_3W?+,];"l86F3'5UZ8>r?fN'nW*MaY'*0u]VV"fP#5/tGd4](3qrBb2W"d$qA+ZJ)$?@AE1s'3m$#%c'cmaS@p=_"9>`9VJs(`N#n]gXYBP^0jA_Mj&edYu=K80)m+k7rOF/T[HePSk0u2:,pLFG&]TcI4XX!Ho8-D:`k!I?7ZQ"b*0LcbR+mhMqGR'kQG"Sc]jXf?+t#[(!=.W_>JiFKl1>Yagpjjn^5.K;@]Qcbm7q/;%BXkB5[Omb,FZ_6+r@R.OaB%7N1J#dhP)h?`?k[:9BhdUJn3#*K85]_GB6p;jAf]@s\IpAFe4%J#oIlij.EDTm8.p\W-k-ppP]1!U4bLY`se#FPaCTbV:F'aheL7p/>sk/b=-e@lkt9V,q+NR-*m.p"F,R:R$V]BACMA0(\aN4'FC>XbUYd-J)0c6I<W+,Q!M%)Xcjc0(DoR?$u=,4(A!KNU0#1c1NFD(Pt7,5rU".3[rh&nhn0HUZ>P_YMpi+-Ad-]UaaB9!!Mc'1W8k\CW(72BG)Bq7+R9IVDqo!6>Z3ZYa)2MTL/*lG*K`*n?cKTeIRhg&MtM>Bh]O/;B-5&r#jYqeFlS+./0m/Be:_HQR7MXk[d\d*mTfgTH;aAkW&'@Iqjch"'dE._!p^s7B*B@*1+JP-"QM`JYA0+C7r:tL`b<\\KXd3K"/jP7?(58<l>b)V8W]9^EC\@n&Va$CRQP0Lu+**3V";R\TnN%GK`]`KFtd"+6-H$CM3E[m72\n]gk2Oqn(:ol7[H'AEnBF/>krfFBB?HdtOVlbt]\^PUc/qj>MjJ,U7AY&8Z:f8LIo(?`Ut8E@KjZZf@h#r'O6/0'g-$Kl)EAEH3'.15/oN9t&<Gm&ZJe_IBp7337$UcfrYB9Gjs"OYN"C7cJ^r66eQ1Q/$P8N]APPX'h!>)N@hX8Vt#PXN$KDpH[o-e@+0).p>gWc54PibQPDf->CtPGdNBjittNt_(9eDR_1L:]1ju];,\9jZGt%i;'"`VaOJ\T29WA*fM;3XQ3U9E=fO"S56p(Y`%ZM8cUnEW3i`CjaBS@`LSE#-iP8@(b/]%0;Ief&i\A=@<Fd;9r?1p2o:nC."=/g4LKS:b@q#Is!L(N4i]FZgZ,VSdV[3/FJZO4MO9@uGiR:3`*"+Rq5tti"j5.i@h(X'MMsVK]ns?F8Ct*!bWLR+Q)tR\_DFI',pb"7,-SU\@,SfSD6'VK?&$$QNH53RhYqi+Kaq3gVB`Ba=3m0U3`6,>[=?RR9eGO`.5?NA?Ykm2L<R=ip3.KYfS@749.*[s,R^&]8+*:#O^27E!2;WGm&^ij==d=JTWpr>_jH95r@A/NkdHXg`3.VW=gre::b5*7TLN@U@>%HSJ&8_f6XAJOCAYpOOSj?obG!^6'-MB,l-?,NKk:Z+&Xs,lcBtUT'`c__PI#(J^ItBu\2=&IX_RU"QV?g1H2!EY,#<Tl7.,3tF7fD!V/bhu4"(VCZm:CF:&gMgue`c_E@/b(PICU@&ZsbMBI>]4mc$@/>Lh50VR=[L2;0VmV=^NWkM[Je2*9UdY"N;cN(^\qgl02'7eD8W`'@e0i1A\6.SYTWdiD^Sap`%TBl'6@*SH7erE#\\;l\tRnb=$D<a2UN+1*G2>@<JL@QQ>AQ:6E'_3@NkdiW+,>Aum-V]PR*\L7-RKXb6?*Vj1%Y^V5YX^``m+5&4/P#-1)!V#JffU\=BU0g"FGHEAUjn,gcLVu_=DQ`Gc[/+'!*4f+UW)XGWEdjPn)=C&_uq,V3ZRdW`J#3UE8STAa-N7u$sXk$[Y9+:)RiUg/[XDA'KVT^FV_]4DfNT(Z(?5F@";;Ig6@kJ)p%1"8[o]RL=iH,#&hbphZDIO"E8JW8li47-'5t9ciM/n!8#h&+M/]'TZJ^k/kV$6KiJr]FpNe*JMh)0'fI:2b]?JG+G=ME+I7/(,kD>S7u,(79F^M)+dkP`ZD9Q*Y@(:m]bZ$<-RD>Iin'2SVEJ*@QS_c)5jnqn1N!d_dU;?Gu-bt;_%R3Ak(X-#^T5GV@(m$g9j*FC/b]qGGB-,/56WoaT"W:L1L>Yb6$I*K#%J"6.5fNS*^@jDm-^b0;gVB5u7F^^Zi#-N*7\9/%sZ/Dn]TQU;22"^r_Uke#b*s8nK08j@*H8TSO$,!dr;m[@-IWb_B'Y^CRF02QF!-"51%s^RH$A3W.UC67Y6gr,m_c[$%P=uiY7/jAeRes*qU%e6[DLYYtCsBf7H>F9pj.d6o]fhq!/!$&(iF2uN'04TEO-8:L%h@i.j5r!]g$)dlj?ELMN>V1ho*54KLqLeEhV.$)LAn3hfmQfYbEr_FdsO?tk&<D2>r9qC3+][ULIl1Pk-pdB:2A!\F+bmk8`1]GPWVrrXh6m"'&i&>R=oBPlXG49mD#'F<PsR;A.QG:=o%([qbV66lE#>@iMq$`5iSk)pR0VdHO6/rs(R1X+80K\*Qu4(dAYpgBS'eXgYaFL;9f7])fIK<^9N:ukd6L:&?DC?._roKHZU\IKK)D$4odf]8)"7<lQ\q[+c>=b?_1Y@`Konf3I:;(*7X/5&pq$Z-]*Fk^Vof'k\((Z:oh#2mpSoR)Vs@i&W8-#dG":gckY#.p3SV\%(/?#VmC%*g:#%c=bI0W1ZP+(1ZmXC!%[bV.9j2-LA3op[D\OYh(1Y\Gtu0@X"@fjG!JrNLIcB6-SiFeRqn:d*/o)bTLh7(3(BtM^[Q92*=3=g=:i2n+@ND=HroKGmk8e=PE_*VWM06Jd=d87RX2K@IkES[r-4OPC,D4"JRU?\d0aufRF'm4Sm6o>^qE@gf@-;9%04A[#Bl`SSUYam"]q]*=R?S-?Rm'5n437,VOiFLC\qWC<jAmucS,JhM@HfE$`#n0PB!U1%>9RRL2AU[8G_10GJnnGD"f(44T9GhQmn>MlAZ?'#!$XtR7.'[\]\VSJ?WT(g,^QRZJNj;b#UpV7a4_jpHBOXi@fZ-eN-!%8&PK_q#H8hkFI^ZWtqmrE1!as]V@TbkYb/u3eDkU3%j77P+n`S`Q_qm:#$i<f#*C*\TUo*J_7+iijdQ9B43kn-RYl1<bDYKiOnb(T1a\:ad-K`3HnsPYTPZp[G5EOV(J>hii;69fF&e`L&X^9]jJ&c1Ip1OqCHh=et><WqJk0#rj2(cqE8Dm#tSb7$dE3>%XT-:PMft>SeJ+_0@)sUCQ#TQGg4mam1ODuFRe>,lD`9Qe=N9$FqlPH)TF%U;%S?-,"Oh/T\Gm%cauod3<#I+ekSERTXBQ:i9-C%M[rssqMpC/7gmOo7X0=u?Fs):D[8qOQ30eh#J7N"?Sq1&+8U'r*'oD-R)[*LCuReh^HAZRGSh[n=%srCSM5OR_Q8^^;0!`J_\iu/E^5_DkP#Nmf=fCQaW#RjY*Bl9:nS0H1Hp<;Ogpr8G!06MZ!>P\hf;aoRAI/np-VL-(CK!I41P_9@B!@mh'T@bZ7%@s`++6j^,erq.U)a_k3iNJIfZYfB<aVkY`o?=U;B8no;Gp:4JK\+grO@8$MqioMq(?6YC9^W%1O\oeir?P$@9peF3A1RpadQs).P4/P8/uD?tX`?W$9$b$)N)Z6t(o?lrO+e9MJ4@p(9LJ\NTj)\q3-96SgO??d9h1d*_Ia2r/"5q]7H)p+F\e#p>%KGE5l&So7Y\2\d]l,S![4ekF<I';W@s4N[Tk;qP';Q<G&:s7gI^pmj!]OMf/VCC3PWYD/h/V=N.$[LmZ$`LU4hk!2rU<V>VeW/N:d$4ASq5gVRYpJT:Io!T]I2_:h!=oDag9u1U'4pK/(_TDeT'C-^IS*4tt+lIGi%g/dIlHC[J!THT_Yg%@W:Lk1)-Wr5'dUNCp=I\2'6YLE\l.-I2d>OU7r(tS_`?f0,m1INXj^6Y/KIOuu1R-?)GlmT(<WcZ1l1>SX_ObA-i3:`2f-m/EYJkRJmsfeQq,2Xq,XJ2ZG@9m9>;@&H!EhUA5jPt66tc`>)C.f`FY-*h4AGaBiY5Dd9nZef4j-MXoOR&*1$fuD.]+#ETt&cF\U#C8[:.7gnAuPS'Sqf0[tfW&N#J`.k@e>;*0Ia`rDHj`&'f$T(Auq1Wpk*<gmZ/eJkije'$EIX>Sj0[?ir#nN3qib^ppDGFQkp`KKeWhnRP\Q#DZBs4AO43m[WYa:alj!+%XSWL<X2sXAf`(Z!As+0k:Nn7DX9g8%JdBJQj1]aEARN`D7N`N=5#%.E37Fi%<-u74T=<[WD"i;!>6\3tWlIXHOQ8>DeV8X^7FX8^'(/a^!]Gi9Rk!Suf;MNC61h*E(*i!q\(-R*n2kHUAo,bB^,p3T3GH`m$^7FX)<.gra#HR5G5=R+kuk%2dWCqKiWVk#e2m\Q.[PBstb_lQ64:$I@qdU/>pD$kE/-Rb=e#L$,P"#J>1OrIQ;*B?=_9c9_#u_qIWo>!gEZ<L$c29a%g%pH3eZ%F&$MeCF.Pj!+PRNEpW86'Abh"B:^\[>D2uJ7@?)fS@>6P-smC=`5Sj2,:oL+m@o$8m'n)D)1bN"Ftl4;q_d\!&[Wgn!^]9hL8nCl=@U*R^NtO>p=5.0iW>e'?C3kaQ20uCs8'I:H4cOMeA(?hY_SSVa1DqHM]K?MbW_6(O$$MTQ-:pOgJB8&VP*/-o*\7)F`:oc.o'baG2-Qlp"F])BPThD#7(AjX>h@SVe/l3:kVne[teNI/cUg7]NlD/=+-b*b!ZLoEK]'hq-U=,E10*qbb08$3]&\_Z_Cf3mnCULkmR6R8A#**d(,*b'>;3of(c?D_ls@XO:[hT&YO,ksF3)UC_r[S:eXH%f.9&+qf-ccq/"Ig8]!?DD),A\ArX:\Zadl,-S$[m-bUS%HJ3$:)S`*9dGQ@n)hUW6)dGZ#7/V+c@#X-`1O&t+r>J/f6&-W394M&&%<=AmG96.7DYQrPrJ27*,?0C0JS$0WX&RuCrIbk_]AU&-%Ps?)61tZ.fNqf"ZL;XZN?+Jkqlc:1.IDqGU7"Jc/I4Lgd-R?#62^OfQ4$NgO8M1JqRA+k?<S"0b`oVPn^U,["m>QrH`fjN!%QC9%GFQO;):mRVAUL:%gsTnh$P/p.K4)Ug4[U5\R"I3-IV(p/sZ,_"<U9,lhu54G+%9/fkB)GLKH;W,b?M/=MBZ!W,S<Wlc\=F(sBM/_a"Q>Uq[^=$u4/0^TBX]]!rnmT/tZ'oK'd)tGrK:V/h[,B.2U=?U!9QthGqVF9p"i%4^.aV-@cS@e9Wm_cj+_7<a>hh\oe^TN*8"PRE@"<(f!LJGSQ=ft!q324Y"bjgteB_qh6]nUHf@[W!1njIVVWE0WY^I27R#1M;2`RTY0h8)Sr:Gpl*PM?6B5ntQgC>-X&*BaL7Bo<miB8kE,%='eM:S24=O'J*:CCT]EHTRqdOcpLEI+UjA[+/mB)6166\N7"6k2Tu'TNgc?ni'gufr,`M]9c_Uj76H!m[=<HT]OFS%,l3CqEm64CR_mR^$LdCKK[bHOJ!l=gkdU.aV^)\qTKe,VW7L5o:<MY$p"GLn"VYV$\OU[+;6.ln-EG\"8qb<H3;4s[q:Cmo%8p/IFO]Hpp7I,GC=eS9>IWsj%&)(Qm$\kBaAU8KQ"9%G%**6P=Iu"k!&EUn,umIOhnGrUom<J:.hfU)KXKuZR#E]oGoEnQi+MBerj!)n=``;QIJ4XfZEC,:leJ&-'-''iCW"VIUVCqiiLK!]/-lV8P[irEi;j,/NN33_R%T;fI3K:TRa./qH)ZIf$o*t`+MEGIICpjj$+:3[l)UPUo0%_[&+1[OqVL>Hhep!8dIC4]*Rh_3)V#/7IW&qM"4bZ!A",R9FG*=^ILL1,8K7j:16/3&I9ZjP*'%Lq4#p.@*`S7S)`I_e414(4eA'b1FISiXKa(c]deY*hD2=pLfs+96'D4![nap-j$lr9b)qI=JBE<PF-;RFia76M4uK/%GAJ>__4L9b5BPX41hof5;]Sc$m4<;q>);P,((QJ)_]kYoMF<3sU23aq`-)NZ+P0)M3:u3h%<'02S./E4\$fWabb'BDs4,.[!JoVV^bs=0BQ6@`]/u44"ad4G#A!6^H0#1`Ld@uHf6'rko[A-FDcr3Pjh]1diM_^#jZ_5[IqQ/RQZQlgK:<^'#dP>fV"27UY4Gfr\kTQs(i;R*o+P>+UU8;BJ+mloFO1?t_&OI&hOZNA6N$m8GH#]4j9%Z;hB)2Q&_HnLcQ1Z?Y-'TuS:_dT;Rg>k_=:9rR=4RAVE+Cn,p\!W\\hY@`X`L#I*:,89SN\/Tu=+50Z(_-n?AmSmo&R).UEYe48+bb/hBTd/`Qi2'$es'm+Cdqm`eXjYH(HrY\#gLqk?2XDl_*Y"Yg0&"hYTi`;;<KY\Z4TnC`\<cBEOm:WD"96]5b`RGS;H?kt0807!(;dQ@I`NG:;MB"&3`2JR:oo2GfbZ&D7"<dbUqM'/*fQH<UVghH,ShT3::4E:u[<f`MXW1,@R\DC?dO*3IFD77o(]S>[PR*Qn7UN,PqH4Vd"oB5n>+tS9*>.=j;.MA>M#?3nLLT"!s$O]_s]9K,M%ncj1.^_aDa!%'k1\p1h2j<=n?%ASBS[rQE\/DMriBq0AEZS/U<QMK.,%$:\d^9GjTU6(;H:4OgQUJ!QK#,luh)%NPiM?U,K?cq)&uShnrV?(QbhS44>balXoh-b*/J<M;'1ote)\%c,5:5dq-0t[*6\>X*^q]u?f[]i_Q;%Wq8X*V15D74G)KN=38W7:WX&LabGpu(+QI<B:7E8d;=Xk>.2GDXE;+X6.d+MkpGOIAi^OE7A1V%D=C<Slqd;;Dh!\_/b]`A^AImLP&ZQ>ac]qgQ8[2UG\9@_)ZO(k4_3CfEY&ZMkPJM\lj%IYR@WKT10=G14QHPck>5/dIFVMNfX:Z#+D,G56acCZoMkMAXqAK@#H.s5fHE5aKS3R5-/6)KjZ@E!2dc*H@4[tMHOJKu[,,0?_u+kir`mP3a'#f0/sZP+Q55`VEr](C.*(GXt%">([fR*9YV=^pmOKc&B"Ue_O%=P@55m(jhrS4s&cT/r*,4-qT@(A$Pd%T,)Mg6//<nG0>8??cLb$!1aq4N\'m#@*\0bpE=;8A^:)^tF>En`b`;4X*je^%V1o/_qMifYUlMDil_fS-Uqi:_f[j@5@mi"JPt`]]6c57<b[@DG4JJE2E#)A2(RIo?cH$0Y%]>VA73MRZ/oeLEduEJf\>,`$[g5B7[p\pEMZOBW8s*iqE"S4qHa5*m2P3d2MN%<1ioL[feKAPK3Ls^>g4]o#MD<0Yj/-Cf9MV+/!UaC'BQT?mp;.rDr%O=efTqDn$Amlh>f2bFL1!9+%,e'/7!VGGpa;0tNO\dH]eS^uFrl<=UoB^^a]i]H8J0p$60mG^"ne9N]ceF/T3U4@X'prH,^Oaei]0AbXH43:a<]#8b-M,?YXZD<B?E1ooFZj8hpVN\Fl19l\l;9;S*LU!AiuR)05JOZ&M8KABB]0fcG??M!!EHIaR)F+M53[:rMlHDDFb^]*,?``2k[VNT7ZL`(*&gjJ8DW\uoXf)b)qk>MarR$6DUS$k?M5pD)EK?Mm-(!C2'Up^C9M3IJF9K,6S#G=@E>gY38r,C;Sq#@#\qC^/;i&d#S6<\V3*3W>U"U"=!$R_5Q[3f'c,Gp=n,4Mt[a@j2aAB<&H8RA)+cjP&M+cTot\Im?>(?N(49MVE^i^*n#oQe:sLO(iL]n^#DA)rVOgCEbK%FbMTbltaT+E.S-hBg9e7ma9_>8iac-2g7LXrT?WhsfkJ@l*@XMDgVU_0q4!/lU9Dbh+om*9W5V$QVjtN='KB_(L!]c0j!hTilSWTCN*.`,l=&4,I!F-E*m[(h(3^Ss;h'f23up#/THaDU)kE&8S7b%X7'Ul?8NUBqnbbW_@NTNIF0LRPd%i(C@iY"qm8r2^2/aJ(6nF,RO:d)c_*G#ng_0VQ3]ga;7&lHCp!&V',D;m%h&`Q#Z@BaQ[K_h,-=.KYU,mpK1^'^7S9'>YD&<`@_<Bg[hsm=GF06Ot0K+JD,)/80PJslM:7_C'Sp*gTdSB\R,;,pL=9_&PX1>X,pB8#]=]f^*YgKk*b^@O(l[./H04/7,;H]"jQKe:gOiHZ1!6/9@Zl+;:o1G69%tM4(`C.j/[XQs)jBa+t?<u=nrRdf<n`2HSYcQjk5_WcfMUU[k2X@dr04a6H"8"UY%_$S7Y'81l,bPQ@ufG%1&?&:WZc!dS:@Gc2^SeY(f`ih&A=84_+*+`:LNZPP1Egl;Pc,4Fq7V@rc$p1d7uaW$)'AR00"o)W=^g.e1+Lq1R*fa;I`]2Qh&q.76uS[U$W34"D0[U9K^u;cC]H@^G0l3=CfUGRfJ(a19H!I#*\JiO5h98@mEHs+>HmrY)*<#<o$-?^E3T@rD@hG9dVS.*0r*FYcRkr^uQZb&e<ZeUpsL>b"Ucl+2ae)DOpKSsVP3A7&p0XdN-'5\R$uUM4IJYboa$ECqjBW`G"jSsmCmVb%]oLmXBF';P\V6a*q''TG`_h'1Uj!FdiTe)BSR69^7qm^o*402n-ZSTQZ+2Es_9:Wk'%GJ<9p3/\2AoElQAmYq2+XN:p6'"oh6jq9DYG=oXh,hV.H_(=hPMUTToCS!qD/.rh>)7T0`1MCjj^6SAEDKTgPbLj*a)@"Tul)8XNOKoM&1o46,qQ^;p/"q6R544cj*j>2l^K6Dp@%iAhCX5hkY@jf,I2HU7d_]co;HllLG!A^EcLV@A8Z?B;5a+tk!P'-)O_#<^9;t>0Y+pE&gd*kIfQ#Ngg=u-RrMF3m2@sgd?15gDL!ULOanSlmlljJ<WtRCY4<928,8#VD&VF1@d-\qqotZ-63W$&7a;tS,[QFYi*LTren/;mo1-OeJ)Rc01i@7==HJ0XKaZ#jl$dg#5.0psFU$EX[oARnp8N<0s5G'?+fGWDM]!s'G@%ZlQ<t#Se\3hj3NRPj`K=&b+#b(Gd2LKDf:@so#KLi4]T\Zn"'Z@9B[NA[`4[/<]F`HeBG"_&igZm4f>i!46bJ``Y;F&4apHE,Z)8$Ej;A<j9k$l8C-ULU)c[JNaQYI(bSS'5>GOENin*=_q/;;6OI5pCF-48?^Wc==!D;OiIY9oVG+];R((3O(.oSIH\@f0F)qM\D#Kf[s+roUXHb/hg%7'YC7eaD<,KW(1'd&q$5I1j4>`=K6>k^pd,BF:u&9:YOG/]JNV!VV#9Ac%YCcKNXOO8cbED)<d1%8c-p#+s70/>NCt5nT1O'ImXeLA.ei-mm(MmW<F#K;f]^.cA%FTg^c[`B_5e[mQ-OHjBeK7RF%PINqVfo+peQb$O[E6f1]uM:e5*"*>o,ou^,0M4r6TY'Fc2c@l>8DRi"a$WGD#lQWdiJ`<J]FmtF&(^*r6N0X],CDG^$B+U)0A@\/GMaL.X5](G^#*5-\?-(Wr8Uf`#gc3FF.Yac*F]FP"4i<J!#]&HO32L"A1?<EAX9XEHMgTLB$_"IRRcp2Hc7J"+W+d:F&l24SaIn>&jlh=e1GJSe'3]J1W`YoqBY..9B2-7b$J:>f,VqF#Oo,MS;^ePOZZn#K(]LG7:5e\-0rum7&XsH#Dl1'#:.S>r=qT;Y'6c';h<l(,9(M(H)YTpLj#)!%^uSR)`E8=?N$9W<2[gl>'N4H&qJic+@FVuo%7)(7e!IBFAT;WSq[ETfe6+`DO$OA,FJNh(]i>3R$.`$!%)UYeM]`p[CLI?u>*,=PN+[!sZN35-I'OO4nWW!fX\Ap+UJWGf\q(Ut;!WjboX]#rGeZ(^>rH4"4F"3Ym$l&?*oT#"^;sI4p!`cR&4d8&\I!JQ!fI&hWX])G#ZDt&\7itdXf>6..,(*<`uXJK`)$Gd8bLUBMmC[h=VmN-Y:1!W7V@u4.>s11m]R8!B!m`$@5GD&I/=1oYdjaBZ[Wl$D-=sN?X<<n="u#R_+4Iu[#[)t>G-:XgK<j(K@XY*jU:bWcs\Uo-^04kRX:H1UZ3&Giu=nbAKm$BRk30&R6EIAf=>r&:ag46!Ns@CAH=ZTK#6!a-kRd<>US8!3TNuYs4j>JKC"EA7b<SM8V1g-,aTjUh_#A,eM-qjk-l_b^Nn],H=N.pd'_36dO5\.(u%9m!IOV>5DHi[,Y5`.O/8#Oho1A(B(67S@hjYY^^d,"CErJD?631UGsd1&r<O'kd1g]$E]pO\X0S7eS*1STQ@VUWgmni,V$5Jalo("C\pZV9"GZk\M_\)=.H,c-^k;RMWR8N1`e&:?Tb%]E>Pj_(+b*o*[fSs)I._`G*m#?!C9nA9&F4GWrFD>aBXnPoR5'Xu&&IKN+c&nS.:9M/Nc?"%Dcf17=,j`[)NP+`/BasSH0ZZ;_i]Q^bJg&(Kg[Q_]g1DRS[6BfG[+ni#/JfT/$Dr3e=k4_7gQ`h%hQoGa8OgV\)?Rde]5an]Q5K)k@d/'V2T!BpfB[Ti:Ta:GSJiq0t+W,JQ/Xigtp<"6"WcHkR+CG49mQqqLT)7/d,OHE*5=]?(DTEbl7ZS5gS.0C;Q?f"*gP11e7e,0tMN#eZ^c8>]),5bLW4tfPNThY(S$bG?0pM&ZC?""qCR,\OQlHQ*gKeQLQtFDg2Drgm'4SOGV8@'pl#@96tBF7\mJc2bBJtJ/[k`73@G_BmtK5=Wp6Rjkgtg\t@)XJ(b@X%RSPbg54_BTq^+Hg-`p$DAEfib2[HpS4gfK%iWPPI'u-#C/lhaFTO*f@n?++%'s2LilC4(Ed4'3ha8K&7&MMr+Va@>$Y]O">Go-Q%@<piC]Hs."Og/gIs#g'%A.JGN][l0,a9#WN%?WTle*(-.XJdK9qN#i$+daGqm]gr_R,o%?Ered%mUa3LclYeRulJ)k)n-[F2MCQ+p4<^Z]MaZNh>L0UXUB>'s<A4^*sLHJ9Y38N?SqKDQI2<B^^=B@#0qsThb=G3m!<BKc0?VC"%P_5]EW_P/9p6$=pK%nW/C&")KGtIT1obo)tVAFRuMMPSm_U]A6n>*j&dqM<mq;H1qpX@[NkjQ"WK!h',3^HZ,0nb1GDFjqaWao6Bdegj&-2B2%'@qi%NB6"nb13L2SIS:*ACB7=DmdIJ[q>q!>gq6R9p*Yt%h`O4[)KB_j-$`%Q4)?b`8[NX'hlBX4;]dUA[@F^=E"dk^jl3.OVr5(I+MM)2Fhtcu\`9V#[+a4dgm,U!,Yk[Ueb/C`$N,6GE*.t\>VY$^:/:0gmJ/NhJ\ZjdlfqN0l<9@t5WFi(.JPG%D[&iu"W)&$7OA;6@r&k!jGD_+o*Mc;4DF@2r4(aIbm9gdZOqDRQ!&#t$c)&^U[NCZfdE>k%<QFnMC4+Z8@6om`!kZFH]9_U;l5onM&)qs8*+&$S@VqX3>o5oQ\l\*63dZ;I:@um^MjAZP\3=Q39FPGo9Ren*VlYt3W$J-LV-m&sQ=^b<642FKDp%N2q$@[)L`Mc-#VfP\%)iJlDb$rbgc&_WWO:<VD)=%-Z!<'uDVs2n\Q_s!@Y'^FWRc#0&re,3rM5@55,JMAHt;Bj(R5*@-=b3DM9H!);8i>-aME\&!jB-Bghu*45qod2bgqL&gY/-K<8J+p'$oq\^9rULns'N5-]fXq,cBnoTGTPaCi!-t;<[+H,%I[taK?u%O!un:9Rn@l`o<L=P\(B@'.W-0]g]8-nbs_k"'=FPb@n,@@UPCEl<tP+D@8k!`gJ;7QRuj+7bm;1TFkt5i%K:=p!!!g6uM-"OKcYj3p;o]CRr0J2mF<\?S"i#l+MhaoV>R@koJl:FgbP`Q8HT!Mj_$=WVY^Ilm!!C24(D=7U.uQIAB%=8`gQ;aoYQ@qO.ppZP(@Z/.KnL5I]0`?7>a3)h)V3Z;U<q!bMjW^m%NB]NXB%bLhMq"^cmMjN)u][LF`eq8<,TgujXqOg\2s7If%[IAf<"hG7Pc%cuF`@m2$IFU$5kDQHFsZe,Ja6uU%VRtI*dpPd3'=[(+o!KLA7%kGNI^-UPqL[7j5</[9M]PE'qL@4?L^_P]_0J24ITP]FJ2;j+[KYAi=7-.WX1j'd[fFd#/njBeSH&rr+$c8#f7aleb9fgY_\_:SPl3\\Qi[X0TGh410`kgH<o3=n+0E@0<`3-gJec3?Mea$BH>aq!tX"_nqVA+(>?T4<BMW*=K1CpjhQ=;:)TGFT_).6.'d?>!5RDAt@J\+ee1Ct1b?\BItqUeb9T?qs2@94;B)@NimS3HXHQh@Q\:LE$BkGERofJr-A?EDMJ]q3%bKk=K8,Ke\s_b3s<I?CkkOM6;khoZX\5PSk4gVVfn<pj.#;Ns[c+O!4&,9"NmZK#gj8;!Ao^K=ntABs+@%nSH=P-7rk:Geam#$2JQ;oK)Gi)14YUL-De_rZtp2VJlI%b=f"kF]UZiJ3++bjo`PjUX=B0Ou9?h%WqF1*nbkDSOe:+;e\JGFX!o3<!?h.038aYO=HdmmmVZgW1WPn/6<f\sX67^Kr:b/DgVBl`G7M,\CW#rK`u8a5@bO3r&'Gm9Ad47`c2m2_6,$kSU/qFNN&mNup480<c':hV^Z,>n\E13*7[cn:t_Ufs2#P(O3+YA@!#:&f/kmimO4VVe,_o)k[KEUDkkr=CaVKe@6)-q`,S6l6Wem,*KnU$4JWD:Zj,b_j?N:<b;e4pmS)hV+tZ9>;<,&PsG<F0d]*!@5;MQ:e,Z04nFBXA$Wm9?WZN`n2'%YAFmU?U*I-o[$B9;&Y7Bd8VF[K:REdi\)AsAITHq+S3SB$!JQH2E1d#/+BjjT7emb0*?rY8-ISE1e`qM'r0eD]!dAp+PoJNe[lBlG?(C(+HJK"#0,_ha2C(LkJ:,ToN2/>B^'T[0J>'4;*U'C!d5GE-KN_)+VE&?Z-JqsS4h=hJ<)&Ff>\%uUeHP)R1jXBhd"suT:2T=FO)L4A&cM#u5(`_E@W%K7L:lWe;:&1XD,o@TrujT*6/b6%?VXc[YWUMePXbEP*b3CrL37f*FU+ce"hT&`O#XT9m!C0Eh@!q>c230)YD@M/LlY`j!WHTUp?>B-IN2]lZFWT5TH=q1-GZ_c[CTTL[Cf(`OT'V(C+m7P>PWThN-P$FlFhDOB>bEs8-s_!7"o?dm+rPl_iPrTUqj2^%.\=a*Y,"+B-RCkl5lh92m9b3W<(nl[]Qn5)0?^n,W3+e)e9n<*3WG/?ObZJoI\oe);n1sP&[]&V$%+<_oqWD1FDMUE*!+D._.;^AAp,Ba+1O5Gi,@i"eeKa+:D7,G1V3Z0lN.O`,(M&!$J?%Bm\rCLKl0IAf$-SDq,Yd];k4pRcRuC\caWCK22[@b<e$`o25>Wq<*<4IMp$.mt%O<=_.d^jI/l]3qi:feu_P%`1^soX!ce"rccjQAjE^,7PK+MYD-?D;N\cVOUnH,/PFK]CS[jMG,&dX"](C,Ru8T6EVXFndhBa\0laNF&f7;#lCDNF1"^34gOrcl'9Xd3_B/%`6q'=tki2I-YZ8QPU.W-Ib&W]Pi]06-L=Ch,DDm$g?>!S@)Thi\.!^PR7]i?9hd-dZ&MaRAd"$Y6P^-#rQ_YE"9NWH2l-2#]IhU?qCkTt!9C584B\kSD7,<bf+OGc9hVj%kOB%clBH&V3QMXjSJj397k3<t1is'"#j1*<70T^!SL1=AM#8;qMm4'R"eoj4]NX38!ABr5=iGUYc*rTR88<][ZcK(^/Kh_mgXcVuK>/T8d&@T[43?ndF:tepVdjbUNOniP_`F'dt,4DDd+8GpUM:0d8a<4SCUFS[=P9r!@Y.*]l.Gl\)9cOq^SNj;$kHT#=jrX]6@:1S'Dd\4o"Xe#V63)L&+1G[Z3C2S/'gZ-2OO!/G],4\-QRNm,[1QMb*dL^,Q"l2p0K6)uT$)E)`b8b07SF5o/TBqQ/f`6%19P3S>qr6^bkla\`Le@QSXuoR=:_W)V]JndHQ:7"<s]PgQdE-#mKDA!Ltc?a^$&`nPWnm/&P?j\%nt&XFRVMH)Gsh*0iH,(p.b3U,m='UU^J2]RH^h5I:a-"/"_kcgZInB"p`<[T*u1TGO_7k:b)\i_%IeQ0*SUSq':gjCErSPgbf0!of-]%'+]\M>ZFFa<H/j#'O7bF1M@`,X5dnbB2$cb2#M]i4=0^8.6V:5achFK;P.dO`AV29I?_>*rZ7PmlHTGVAQks$B[A^?r<>KFhmUVa*``b;aAtP=_^7Ep-+Qd%^X>MqkNV>>=:br&3mb)9VT>$U&Msf<3'8dGhuHrbr0J:%S?Za''ol[di'g)(lIm4V&mec91QdA;B,5c@?A;T)PQQg;E.?A:r7tun]8_60oD$Z2QPr7?VOl*:\6d/2;]u>f]nb#W/tJ.5gs:KJ#4AO+nF7h@5mhO0n7`?DU'plsaqB?m8!k*#1Qh4,*e67C+kGY,T98JX#c&DHLIF'HXqYWSY'+$E_!T!AfYi:'Yi\LfZA:b,DhZl".+cgF8NTS59cit8#^]GDWBh[sqChe$#XK</MKWqA28Sc7+GB/a#_:GSMR:WSNLjZ6S&$;>XBW#G#VFsVrf"-=_lLqoRiMU,'Pt</FALYN*qEB21[_E<V4)`B78RmVAXku;h8StP<AajTfY!Wt^Z+"K7qjFEd0K$@OY/0uRH"i"gpniEqQ()V._r(D>R3,'DkH;SBY4T05#Ga6C&o\<1da9mmO3@T!lEdiH.'EPbpkO)pCht-cN\AhQK]r#]CXWn?O>Ve9\^%0*4JCFqU_,r\F\[GqTgP->9&\h43lkUm:d7F%&VpW<CW9#pA5TDNhb.RA']+_!$aJDnLNjme:Gn:n28TO.YCC?]A25[qnaDBIHRJ]n-q7JB-*j:G27Tg??spo[gZ;K0Y8_j<?CT2"eXS*Q2bY-d+c)(elYp[TPBs>?XLK-6<F'j\ti3RJ]LcPN8Gc:^BePAgr&`_P<O>[T%s)>Lb[l/d%1pm;e\9:da-se<U&U`YYi(3je5l$E=d(-WKu6q.;Z&B;ef5"$X;t,Y]`N+,^6b)A:s5j;FCUr@aORLCf>Xl(0LnSEEN$4;M>7A$!1+G5Ji(YKdj2t)j)8sViC.;/tb1hYb3Y3U^;B@K8gjmKm9FQh9(aE5f:6BL074n>;h7UXhP*O6F@pg4+M;1.5kA!0$CL[2##3+C^bFs-DcS"lKVOE[n=:q!4%T#;oI=I>[P6&3@W$'4#`K,^@($S(,\:g+n2Pq_BZchH@S=LDufh,n,&[o*WBVZ5PGpe8F^'7-2]n6X/5n?K\";F`HLji853:/$sf\8efn!n-rrr*)8Mj/k"bJYQGmHO%fceo@@4jM;]O1Tc%D3e8o"2P"s2(M*/:GqD!YX)RE70Tp-@Kkk$Xi;k@WT>]hDMdF%Jd;0jk1S3UEeX/i.B[@$I)aF2qaNI(P@G+@dC.m&'pG))M(tGs>'..%bm*j"aZ@BGcQ0&mrFp9ojgpA9<lXU1-L'aiYgiAn\Qo_2C%VT%a::cEh/!#\pSgnmNQh!rQMjF0Vm@oC?MZG!81qH^!`Fdgc^jL%2>GMnisQB8OSfQ:h"6Ru0r.*mb&p"Sq4YV4WnEMgI,1`"ap@Md]S"kOsgq'V!;`Telk=<tW$fE6$Ng=[:G4ARNg9I(W4Y\#-nL:Y?K#_Z^Uiq.Q+.MA=R,.%6d7eq3Iqe6/fW?iXT;s5t#q[&0I6VIgfZPO?q9YBIM:98AA<k]/=)ee0(9ap<i#'dp-2[V%\56a%s)44(hk1-%R$_[Z`V?Me/kZ80*a(NKHbg8FlA*cj)9LG'CU4mM_oF/K6e2R%UI]HB4FRZ6'oKD#N(m/jKu?[\#nKe<0EC*RL8e$UNqj[Piojh*=/<ckuOV\0\Uesefb>(,r0qqH2b!c.d&&Z2pYMP/gp4_o*I:uP7;V%ol0eX7s)\"(/Rq-@fIKSi7%YTqnM7"9LKqQc4Qcf[R^JCWQKM+V[q>=:BN"Z*mo8-HhHbK^<P&`CmjCA7$s&;UKhEbHgc`mPOKnHO[jo0AKI@B#6T]558XV>Ra%Da.9TI+7K`=[k[e_%p=4Xu"chO*Bm&%T%a.#?B_eL@7RT#<+6ZEi*lB[[j-Q93mI6W!2/<9)&)q2%X0G8k^;V71i^D/11su.]^N>V!.28,]a/u9`5i03UsKN#;nuaO'OMIHIZ$m+6_q&E=[A3J;Q@kIP5WI(!>t3F9>`8mnEP[_1HS%`7F6"c7DcV-hQ^]>`oZN>s8\<"1a-\)`*R;qSt"s,rqV94n6-.q!)gYhG77aLI^AhOGtLF'=U*ho?$:k#[M#,F]$T;fc[Hfh5&>^]L%hJo[eK(25l/@NM0pJJ&J]4g/pV8;A4-h`4)DgG6QGsO@PC!DQ@%Ck)m4I!BPmB^NW7'C[)6s%d<Q>i)-:umJo]$8A1Na\,#,XE19@&<Lase@UQfF1uOCr\%NhD>;1V:'(mnf`KBKQ5J)\;PNYo95./HaLu![ulERBNKU9WCVqp45f-Opl%S[?"_:;ctO\I0sJ/<X6\mN&!f!W>N3On05q"h!.$JMrAE^hbF$Ws3g@!W^TokfTJhT]8WQ=SpfEQUYa:/Z,&Wu'kf;Y8`9itu9ggmX!3;e!eb([>FP^%_Qac8&-kXOR>&@7IF`]X!6t2\uRQ"si2/1:-_PY7L*bKATG>@Hi=Q#Zu9+;J4.</t!\"Gk+A,QW\Zncb-(lUlf2q>$$](h09X$j;.VBj<!ORo(`jbF"gla1``n&E@K=U7NC5I!haJ"R9%4g":Q;\J-f+!M\hl.En*.8l'R\-4*"HGp8=6O0pcHlAHSRRqPjou@]%Ol&Rt4B18n*<iNeh'P+7X+E-qRl=_UP0es=ThpZbp-a@@nHn%(>U^CbcgYq3b<RTeZr0=Oc!i09Gs%;WM>E,ae2DJu5V!=ien3/j%om])9<],B43/u:e0ekdhhGdSGjBNi?h)Tc#Y#);>)\Nl)`01L$()6/c4,UZI@Ef2`5\(1IP4DB<iYA+dnGf$O!p/]$0g8R)VA?FC@8L#Xr!JZ"6F:;@F86K&^o\0`X[J^ATHl!6iTMOQHMW?/'N2h$H$e="`[nQ$J8",)I4=[(7>R+cBlT;k^N"#,-M,c/n_0jZ=!%j.-4$g,4&/nQ3AW-^GNFfTn5Agq2(a%;H76:CF1kT>6Y80_faf14_p-`g,KB`:_XdihmMt'RIH8FoAcT)KTheS*TZ=\XVTAa1+cn>"Oi/N@4+X/RdrcRW7\LEb=(3R_[oOF_Xjb$2i176M=k*WRE+\SFb$?KnTDa@SJ70J+C.cab*m<9\F:->+Jko93TqGF2u1jAF')7_f+j9JT37iE3?qO=)[6)8H:V.mC(JW1-glVV&9dF2&QqTN:nki\DB.mF1*9%5lSK)a#+We2!;=N_:g<o()X@C#a(:rR7#8`2^j?Kq*OHTpA=pnY=_Oi<]56SLaeYcbT8^e[m]5i%EGEIdFZhr9>lSD)_]E?X+2arnoQ0<6W/e\'QI]nR\-\#I$:YL*ZrK-cb%C;TB*Zi]Kr\>)5G]`"]l[H*p\i]+tnI//\>JpU'.ni&`uf!!q*ImOY)qoGa.4Zng#HDVHLb*Akm4lA\Wmfu$&L1ZYuDu=jlcQ&8-!kY/?O^QlNdl8;YfC4SXZT7*PM[e`<'7$R=./!M[HMFG*F_^#q/\FfqGE-N5!KF*<8d-!!TS8-U;8<JjKf$.@hf*-OEBG9_G^PGRk@=]DcLZBjMQIB!8W\E\!c7VP:>aua]!V1+%j^*"8ceW/iA]YSq$g2!5^.Q<Lo?LYs,&(,,CXj:ij=7o2-P/@M"r/d/D6t)fJu4n41H"h;8t:?WUB@Js!VN/aNmb_biqL7lm7la('p=`5Kk]/11eRd*U7DNjPm1+Y>RQu/K_j[i4Q(O-MHsd$)JXfZD-9j+0cTaTX==8+^eq2G,$i>3C&\H[+?T_Zne61c!SZ*/(A1YdbEI+jtGSNn7j!]JDg9fhl[h-["/4spL=u'[pT[)3PI1ZA-SP!=86d?5kSf!\l=l!.<$:"m#Iomn#>h_RBp?#s$]ub'70[()ZD=&qE?tO3f&^Q[CgcTasJ9;=h<?1a@(B.qcn*GOqbM[qlUVIW.g[l*FkK(KL3\ii)rQG<(AQFm>TB&R+;6f:uhiqp^>\Jh\;I7:'^S*#1jGAa]'[?j"3+c`1B?.j>h/*gMsbr61JoqnUfcN"**<&n3/^3*7jf(%R`3tTRK1R@`GK7fq_>;=-M';1H`1LJN!qGTCmhT7D[[.[nneJ?BHME2XNdcs"XP_KSH[uj(J_=EQNabg-rhhXj"]i2)^ftC]LHTS5Tb@H3o=];DE>-+5;h&-4pb]JSnO013D3K'$m7nrU3N6U,Ue.d:MtL/Y#ai!^(;W%C@)!%P`Y>.r`8gXHsJ[KG3bamnbj[_!U4d>0O/;@\-K!JX4_[fpKinkl[:'ZF\iVU:gT`.3OSdn'N+TFKg#U]Aib5dp+lA2Grff#"e.fi"t-hP4aZHY9q1BJ<B;E7!\X0"l[9M%2#Z"Xc@DemNIqod!(4-<GVSf#N.L$XmkF',gtXaRRNb[4qNR"*N?a*E9C+))<F7fXXDo>X\PF4NS<MZ(5TB38_m!8pPfgpgNYY&,>]?;WVg-7JN+0?e9uijS>As#3Yg@6'+2Xm2-*?TY:u)q\;U+WI.Z$.p:FCL;J!)iiZ_p6j3F0c];)5f4J$IMCGfHW<l+^6l?=4=XLi<0U)\r?e,(U4$,]!a#ZoQtLCqc"Yq:$$K$l/rY3eb%DMh:R$tE/Uge$I5qA)S1`;?UN:pnodB'XEJ,?oL:S=F8@T%%qgr,KFoU!;k']?7nBb82h[G,mS+(`F.u=`L>J#4ot2SCQ<'3TXd)]D3Hd^DD)</4S#(+`L;;.$fIa-]oO3qMq(*\$ZA%UD3iO4nL1=@^c>b[nWMS[hI$a-B/_@H\O"lR7.VS"i2[6THq\>`N@oA[:0B>HKMFE,airL*cd&P]Ek#]]p@)E)U+f?X#>G!nEX'bP[[)8X@V'g)C,m(F%8!h$j^#/5T+`H+X;3QN:Zbpr_$''"nWABmF@-B+K#ZK^m[qA=d,0![r"rI#9'0n5>1!_K>?t:,8R^L)G4c"SEJ$)P:HFTeH@4)ONW2S<LFHgkEBg(!kNd?,N*tk[=*AoZPJEF2p2!XG\J,q3_?u\h&7i;J8X;.?f0N[po?FlSP<I`ZM[5jY,i2Q,.8U^=The34jL9O]+6p9.F%-sRgA&dUJm&PA0O`8g<?R1O.Ak;cG5nt$uaGikOHq#lH1[L#m_^qhH=DrCDO01WuI>ib#o_S]5cpK[A$KZ;ps<7VF$rY#p%Vn19q:P@2GZ^G+QH-#ilfCp*$q%;c'cuh3V9>_`T?M]P.(Z&ZS4IZ.iX5:LdD`mMO:"]_.'ZBB9(8>DW/\#%FXrfQ<[Y+AtgQ`J9s`1;rX%.%Y8K`,I^WhXLN?`H'b4e6bdl7$esG)i8&YUWFH$QXiisMI(5g[3Jh,r-j#U8q1\P%tIJ%.WI!l&.'h&W6kVW6.s!Xq.pLPDp-Us:`<?RrQN?^1o5o6*b4tKqnB&J]7Pu*kI;^jonYLkeE\NQlJ7(<S"*+)n8e\E77/r&;34!!/3e"R"HlorEXW)qLK5.7/s4$c^4IDGEF.!2A7tMEb?/cXfbn5K1Y"[`_2mZd]^NCs\s+F/%S/.%OPMS?gOGNb##a/IQ,,P<M*"RcfYi[_(o_;P3CP[p-ilR&d0m/A_`0p6@o^b=dQ#;p7aCRXnEanjh77ef2(<*!l(KmD#8bemEBPA1=#<oX<99=U;VR^%IQ0F"R_6S.S4Jl@3*T@(Nl8/Jq,P99hMnJAfj4mmlI8hV[A/-m;7oO*CPEom-,WJo\4NaAa0P=^bQk\UPqjN[Y>W"Wr'fJ5mR0WALua@kfTqED%XX)M`mf2Pp//;3)5qTQ!l4]HS0u"rIA*>r\W4f`C59:+AIu##>fqXtN0fDY5VR6)B.e28Kj4D:o1!QAk!KiU!NPWY/2a*$O/h\="7EE.8EkHs@_JsE'>=0K8`4,/Xc3gT9*!Sf<Tse`@&bBifjfAHs-gbHX0-o-@AuoV5idbWYK'#//IXqXp]e?S7<@,Vf-L),072X'GT''4PK\sF#53MuM_f0$KM9d8aL9Ge\W(pi#>r9]oDYNWp/8Q$8B$Ud)84DqL(BLL47BlE04*e;LGmo@8sJ>aZ+VX?JO<V5EjIJSiEPS0G6baoWn%%lhk&_7i(`>dJK<g@bAm;dgjD"dV,!^ShAe,2GQ=jI(lHCJ'dB;!3aEHt:h!tXVH-ZA69m,VG\HBfNiAJ)<fU/5+-ss)9^h!V'6lf=h?j4uADFbb,L+,Y@2FqkPd0#V5gqV.ST<mI#K[]KQk0CGSmT>B[HG1mZWQIj\;:RJWFe?W4'0@)5Hid>Ko,.!-K`_\EC1D9e=parQ=Sk6X,+>*,>ao/nBO>)AR/r9ic.G9EaS>AjVd6'0t[WrQMD`/'2=Ua'$0O=(bOFmr37knnQJJE-7!@9V['F<BMk&RBRn?VaM$P+UO$*T\EkghE3@">:XM\1?'I8&=$\h<\m@%H*Gl$b;g*YiF,uH)ANUn?!C9"YPCZW[_`A$RG+*7^`mW@52\4dO.nu&UKG&`r1G\TF`EIMP&J@ptX?B&^Z<F%GiV4=MYT@SBGd=4h'*>IaOX.3oH\OXA2e&s*DN]Qc)6N`r>CX_*6e;RK&3?^Qe@r$!o;<0;Tg)dHbo99kKP\-/(dJ4jOpPS?\O^Gi=4IeFT$@ZXj\%i73l5@c'*jWtm`jX%N!Humqt<0V@'7Y]!@i<,>M$l4=4uGG?4oC]@5L-!;0\'l.Hm'FpA5NZk(F/2aF[el/3.%BcEtS/S64TRmTOoAUKf//I8lZ]Y3.DP2)oIThEj1\6^?8e6&:m&C,$u^];JW_I8`0Sae?N<)LOm='f[,`,r54if`ELi+NWY7pM3i"gOT-OdA8>@J'05A7XD1)VMq>8h@dg#l^[3'Tn$K$/(am*_86YBFT6B%.mq$UD\Fup:]9dF]!fcaSG4=CLFO/uF(leEbX(cKn[Q^rk"E#Q[R@8J@hlPOVo6MQ`hB@KGB[>mY$Qs+"4*ot*ZCB2qY1,g_tYo]DI;5b+S\iK_'R2oje9WH1&_tFj*?e-;EUOkj"2"^%<LnPEV@$'h?'PgQCRP<Iq$]\6kreM/f4'AqW9^Y:];Lho67\-d;22VA%9LDk2b5!Dl+HuRLH<gVGK4105h;M>'\\L"S6%jaOL_F%_+qT%GTr7794#O6quMmPid&6[Hr:mD8;!J4F[b%-4HqDoK(FFG,r?L[kt7WpAjW&Fd:'d3f+cR[o05<dOde0'r$9LGpT<R;67$P9:K.:Q3c==VrRIK4cmf&G*^QLR]<gTeCL<a]PR(:\Zn]-1Whf)as7A:j!oc!"Yt-XX1^c^^U#)oi_8ite(AF8lAb5JRqZ'OAW*Mp67qf1BP2HU[39eEaMoE&=.o+?CB'1'iB>6B1MKQL1g<ILfFfgmiu"WAWmPf2+f39Z++V^8G9Yjl#qGQG`117;[2Xu.Jd'*iN::r"PD2b_:&1N%hql\P"beAqnOpnr.,2tdRN7bgOX5;WTn5sib<_oQh_Bd7CbhD8b^;G(0t#TnX%?)iO=nk-,>;G>bqN81L^U"k''?P%%l(d:20"ttijVi8ZH*q-LB&4I:LDVZeJmM5P7cn`niQgJTjZg<pq,VuIb83OCdk]1^.bF^JQpD=8FP`DW55P5+OMfIJ@>e6LLi!4*IUI6$Pm&ZX/Qg!&Q.Z50N,VAB0>*3=?AlrQC(s1[sH$f?!Xc9cKW?D)1Jg:*1[?r1V6-##71.jZejV/2tVIGTO#$=K7-X/YkmV")\SmiqVA"XGNco_8*=D\&HWq?lrWgVis-KI\k#EJ5d,[Eppo[hnut3e-&/,c[Ic,h3j/P=fj-5h*[5(Z"nLp&A^i*i'4P@'St_.GVrP%IJs]>PZf@Fq4+<==`<p1<KiKYEa;_;Kohq#a+6s1PYZ.$dPk>ENSVl1[ko<qkaZ"#=LAo-%.P]C?`EgtP(b1R#&bEQcb-:8n3RdCFb43(U/N(Z;ofWBo<t)S;rZl1i"f"rVpa+#J*Uc/<4RRR5!=T@m9BUP#nTpj4FHT,R$PU#4P%JP)304Qa*j`(E$RWK7Q[jso:t<M.;C]>\#@FPN5o&+>4LsVn_mOOZ%na<XpAPWF@fP:+;gpJa-]ZI/d*64@lOPmCR6@+oh?+uC3L3!)/LOY:HaeHoHLr!odm\I"?%>"8H@\]$TleXRI"_V<8]0:K*X3+o4t8g^f!>]N<PW8Ro[QZ\bYLbUGT&BX3n$$s=u'HF<F8a<h%k=aOd8G&o9Saii/kN]dNkO9'=r+5c0i"%B5u0qG:?>k,aB="iL%*<q)0fBW@k$Ye5U@Gjik=S"uDD73^'e]ifU&"?&^&(Y673r+WlPUrg+gfC"dptrt-9]'eoKUGG:L0!SAkp]7(\'0SOX=2EiCF?g$5uc^R[;j28Q,c2\eV>Hb9bIN]VrAk9p3oJOs8k=l3'RsiHHjRlrKK>!u1Ncck:ZoDV9)V4k_n`7`!o>gN+4i2rkY:>kAJCk.QqJ,FnIik'H-5Kh6>Z<9l%@3^O39K*'pp$.4=<^mq'mQSNrG64S1,4DPBY^KiAt2O&.n,MLopkc8]h<'&]cPC;q>%K<JGX!pOA<]>GY]gb*.`S#QCCmUUdaRo2PSrm/>rRdp[EV;(Z=C7BXu=l!CD$CK2/6=[:o8S#6CdP1R>H^'rFuVqN4=j@]AZa&5JXU)CbooB9_-J@XGk14Er^ONq/JjYeKQH]\CDOn&Ho5!Yel4LM?^Q$FaZ-`O(e)E9]+T\3=fGO20kpMSl&h@G;Q.%JcOLqe(Cs5hs";49ami;TmTlA2cI7&+_e0Gu_o(k'dH=AhJX@1/ml8JfGfkO!0q6"BBuo`CX7]\,a[KK_PrhPOS;kg^K%0%i+KBoD]dkSF&h:$74O"%b8/.!Gm8;h)g+BKfVTmrYuZ[P3a]O=]/qS?T*(4Y_?B6*D]p(ankGV4&t!=.p9'],F4U]>^s:\3+>[1#bRc)'`h>u?A`+m/nT\k]1[r=N]J-p&W5Jq+=s?*C"J+K-+2L5e"`5a+`AkaTW-"AYlVG8lI)``*4-k7j$,??XN"+UaK-`mb-EcS$FU7[H#;,M%Y89AHI;9t2./i:$aci@hA;oC_C`3MAZ=$cD;QbQMTis6VU?=[3-`1.$Bh_m8&,&_Hg'*&PtIB(Y]Xlm/IsDi6`i9skF.D>AlYrQa?VK[lYM!"@gE+9NP/)?e'`'!JHT'M>%bd]'f[/LaOX\(9KQ7@ESZn#)F8KYE).A`A,8uNT%/2t(>`5Nn.boe$NL:g^N:!D#7`@"4@`;0V:r._@(^2Kd([Lh1ipeKQ;=1.*UjY9Mp<X[.8oXi7DpA<"AmamHVUn1fGHlGr=tfj3?7P*qWm6a>i/f1PF@2$'"=hnOW`N+[n76($>,LgrJ><fg2LPl&#Lb3@!+fmJ%Gl7nroO:I.p>0."<l6oQG%k0(B?XQ)p?1/pH#?XF3E1O=f4@2U"mUTME^$-2\E>BlR&'CQ_GJX*461#1`4M-20,I8XM2G%'-`$*i@^`/l#^u&5a-:pK9CQB[`Ju?prGWTK_oIGRKm+F2pSj/Ck\1\Rc6PWH,KgdB7-32MBYKd^WrbDoF*>7=.kE>r5+5=#,q9&6n\:A2@/NW=JWgWUE^YopaKQfD*6@5eo%m-G:Nt=S';_Z`RY.n.%dpE1nab=26NAl4$nV(XUs4ChctUrbQ`B,RT\:l"En1-`b:/A!sI%?b[C1Aa2SL.NQOLm^6P*_B/$HN6:a6J1TM7a=@LdMm\@n8'+$;*<HP?,*rP--e2!m"F*m<J]Fqtp:/@,!CC*o^[[8s@95%1E.k$tZ+@M#=k1:4.'%JP@ZXIK>8!ii/&8mWXfX+(Y;O]l(CM;j)'pqio/302CK:^Kbb>jk33Wbs\%#h0b?aP75t.QYUMKU$70,rYb!(n@Rgp"jLCnJl_@+,]4uN.:K6;/5>"0R*j%?(TK@B-,,`$aZJ'[[l&:uGqQdZa$d;Ll,[/s=(cGY9t#]LsITSIu\)5["N*WK<+K<U3,1O"u*O]>EFVu$4L)[7%r%a3MK@+-E;eJse^L-Dg0UFp-3=5=&RhXKc2:+MT?.HV6lZou*iJ#GCh1nj`ZK>Nf70k[Z7T8lLqa2c7kDQZ/?XqA"SA8pB)Dmp=]$FMo!j/R.W^nRUOR/b`L3B'$0L8p4CO\\.B,@mP>f;fAtK;S_48Ft=QR1TRrZL^<//+P9&CR"gcCYT(9$'a[*1#$`Wg\uCrIe0OghN<N%<V"/BHY`:;9uP6I;I^T^p11)GD5I'(kP`\ZVm@Fa/8!:(@U4h1]"TLZ4L*)9N:MW:%Cs]YlA.\)Ot.+UcH&bo\,.H+p2#9k8(M]2OFPKS?dKk]N_+jO9r(_R+Pn=*Z;q\06h4;pWh-JO'2s<o%&Lhj$s)4S^8&^c&#b;uNc,<G#ThLR,t!"Uj&D)[,rB)]mKik.[IXO2%)DJX=Sp`[PRhhCYu&$+aa^bAfL.PK6WbAH+%;E19:[`HFW:lk#W]gAgW7oLQ%9Q*4b0f!3a84DG=/;+Yj/I.Y*T9E9kLSS@jAi&F_3-oi2&pZUYGG1R/.A:`Rpl@s4h8\)@Mid%T/GaQ(O4n4[94;=UW7+l:P/G#oR(.:QOaA!qa8@;m$^WOJ#B)m-E&Y&t=P0fT:q&\a9<VSFdIORE]]uT%9\u[+m8=1`5VeRZ('5g2:Qb7]1a+Oq]M;q]Kp=Y^"ZnmCruMN1TPSi</5*/?R,Ed6`4-qg&=]<(Do]fs[\)$lq\<iXu*?K5qK'XI9WY9,e)*A_.=`T_)s;+XmFng`f`Je<"uC8#I.gr"SF+3Bp!p'PsJ84*ikARTOJ'n/\"p%U#a`Z"/3T\-If+UNK!#?Dj'=ak#?&`tI;-X\+6=Kcc<bKd[-6q(o':$68bpf@dP@2nWHBK2K:+'I#.$rj.b75FIqZmO0M@0d@lVb9Bq1hfG0G'iYnsUTa,-a^dV?`Oq?iTR('=[KLJ-8e=:sZ<N7?>*Hod=cKU.@<80Iga[,qg;=s!Amp&17cN:r`;$=cC@OnM-`/\m42k5.*PnIY4M+oas7cPf<:&tj,CPB/*eCmgrc@#f(DqCZV6&go`GDmbGQ2/9mE]UtjtH@A3_ugW)nSQZ:Q4!]C/M!e()&<DN.Y[i*/bK36YPYG_)?$_9-dF1]9>eofuZ]N&_dS$<q8)q'Y*hpH,S!J'j\qRYmMa/Ninm':&,0962`B\!>Q_oEVdkj;5;%knd/6pJs]ftdBNXB*3b6Diqoi/#8E$PkerB[G92X'jRkFR!!LP;X6M\<#*eNFc]an0DCm?F5E%FNe$hG%[2CsRDq9CcQbiTsJi"l?>mNe)C4bBe/$A:1Y?>_ffZ8o;GL>TL4BaZhn?:.d(+<(k^tPVPbD\F+73s=JNuT<&Dtkuhou;"C]-SM6>K=O*lfW+J89E=Da<8LAndS:7nO\Ji2ssP(>*5HBe#NR=b"Z/9/;F*kB^.feG#+<SlL6c50:Y&F\MJeq`%#f,,NO=,AZ]uP2BD"%M3[saktCR.\29jYG$MVIYl4IVY\/4[^Ae'F9_Q8j<d#-_qcOKZa:P;[)P*_m61u6Pjr5`bpqXa4K=N/RNC$<aPLA@Qfu#G_nii2n(@@aVJID^hoS`pB?E\N9)p*I(iY8K&nkUA>IaM]7.mdN,3]a\':5MBN.Z6j?>Jp8\"O4'K0II\<I^r8lNu>+8>!Rlj+S)U<0_Ngu7]]I;Hg6cu7,E-p>?\pFC!JD9;3b-/RE4PJ69W49?3Uu!-Jl?A"jOL91V1o)[D4%fS!.0^+\A50mQelS7n2VG;#2^:KX@p:G=:CWD>^H`N8$NG&huMkhPb0YH&*@AGA"G=Gi#GOm3d+pNI^5lVT3Q>;`m)uNu?&B]b,Na]IT=.P20`kb`uT>@4qS@:hLN7j.B/UfpT:.(IdC'^q&"kONaU3d*#NFJ;JN`3KI^2&i;ok4U]5pJ3"L#fEgGD1m\JBAc&)I_DDtlQtNkU\PsN@P/j`U:q(dlXV2\/0\`hE+(L^"FKY/pe8.>L>V@cPWI-7i&:Bo+\)B!\I(gE#hB5YEGJ;`/D(\h7-L*SC\4Jph&"1qiH:J'LMN?'I3#14IH\CgpLEhra<Se9g5YSM''$3S)[r;\M)B`o&[6l%4(Q07E_f)c%a/Hl="#+''Dn?1VT.PI-.04lt23(HS^jf(@]B(h`$;2gT8OP*(>/\<$!R^*tg6gYgro3]P"BZo5Pp88/d5KBJ?GY<P)R#pLNW68C&OpSh:da:;H+=/D8u\V?$go">[08*gHM*.`+pNs,&,!skFYYlcTW:snkWX5-m#5?Nl`YsGMe-FHP6VXg-:9r$3[+4gaSJ$-l0_3_7Er'7kneKfU<N\G)g[R48\.>A'9%36\F%Z:;Ynm9b;(@O.e5KDdCb!?kG8Y+,nK^\\aD@=77IA%TS0f?V.*Ur"GS6\7lZ+sk.T[jkC?M7(faM:ditd]p0>Z&+Y/4[>L.!QG/lVo9c`qTiAri1(`68dle1'Tg0`gs6BCtFGBX+c,`-OW<^IN/iJPg*/.R;5gLb5Bqp`E*Jr9l?ns4]83[4U$b%),W1A:B!b@Na[c_-^(@5>:i3W5F,@Snu8_@d/k=],<XD>o4B_(?@uGja@)68@(Ir'(o(I^11S,d?/!%qGCr)W>">dTUU\^e=(.VC&&NB07/B'jqrZJLpZVLqlTUUWg?a`5%4KfH_-U8D;"k;)CS`o.4?NP5N@`1]R>cY?4B&m9RG[&FfJf)p+NQM\-OVT@`Wg%sSd_gIW/NgTnW,KX""g@H@e*puZ?MrM[!b[t'%HU(=hh$oT42KrIUa_9F@o3"tYG('I%^iZ2H`U[_%g4/%1)&-h;+$]2NMW"c-R.424J')XQi![sHVpPNgHZ,rf=95\:iE'HlbI0a'A<MJGoS6gMPgk[s2GpkJX^dlL6)EhkFRdA++&8*UQ^-NZ]RM/L<m=Rrpe/q#olLtm&!L_P^5)Fus)@uEY$]ue_)f';Nn*9+bm!c-a?*@+W`ET2ik-J=O7=Fln4FOXYYmA\6L7HmR)K']#jSK42F6Nf@N$`DK&KEVs/5m1J.(07fkWF-":Aa@4Y+?6!`cb@)pT,I:i=6V[JE<Q>[b1UcNinfVrf62L+sTW8Q022.g%*]<:\&p>&>7/#h5r8>>agQE@5OG5rQa!(!?H6"J8k3GJCtBX?XE,.XggnrGI\[_'LbWkk#U(;gR!G<a4AQER9o_Re#<-0dWiqH]_7W@6#KjoA1Qd:JZqkQppj87@N&lPeLsmaR^&bG?2D+CPiqohE6pTTQ8n<:c(t-ms6]\+Y(jc]p^NkI=HYR96\S0>)"QPNhft(s!>F:"V<A1jLVs$bA$F83am=^NS(/A(fl&I?h6!*,LCR$ThjeF&'-eFIc=qNVQ,=,p^&;])pWJH,-HA]G3T4muG$sAeR$s69J..<2iLQiF/#f48C=_JX_d+`$P0f>1kpQ#WqR9_FNoYj$A7k>tQ0Z(DH#$T!$9>2XT,1H55(s<1('I&Eh%#iV<C^=H'b=D?8U$3oq>W-QKu@'`]7$8g\!]oX.kImgTedom,LISl0i`h@D\48qq:)8^S?_7DUml9DJ*pe[66-\hF4V)/PT\O)=W#)1M'8,$.#%";J\H>LZo7G$#%BQb@g^nPAtn"`@]jmj$!"Rro`t6_)mWBuZA-C:$ZfbP_i4OSXL#'r.:PD.;F#h;gPlR\/isES_(4hi?`G"-c4!lj*hJCW4'uo:P6A@GXYb)edRUtfEMOG'DQGq6ks[(ok_iopIb(*iA-om--?SI?g&>8`B`Cp,.g^^W89QXe;`S%j$PCLdbIc5QfC,=obr-))/A1fhP^!b(?>ok>[.bP/CJ]Nlp+i@TeZ8_rU'tG5A*I,+/&JM0@Kg.GrlN'>^QLsZ]rt"6+apKYI>1YAS0;-K+kYV"0qg7bHqB4lB%<X=dF<]/UJ952Vfa#US<W&9KpQ"#N18FWMU`1nOfjMI_>)Xrk+0l$.\6AMl50WljB[[[#G'pL5K!QE_7h@RB^LsN)"fD_=XpFb4WR49PjDqWPm6HeP^eL)pt!pW-.ZEFnioc)^"RIo'UW$(T&e.9cITVRWK^@=6&6Li@``W6X42Y.@tD$ObF+`n]Th62lCmUF),)R;k^O)#J7qWbBM^GQNFOu$j"N^%[%FbQ)Bh+?jG\Vp>f'M1a&.A3L#lip54A?u2f`FWL9fYDMG'8B7"/3MA?+Y_8K'Ea3m9++$a^n_WAKEKP)b3B`Va.AS/Rr9l.6`+6=YbG]E2u.9daIM!bXmN]'AO[*1c#S+X$#7UD6$RL3L5+J!=u@\f_i7Ql4_=6dXK%Nskrd;%$kpl6q0A?#)O:-GnFhq&M?b]gD@oZ?p(ZUYZN4F$hAa5%iC+[/8Y@D^Wnn#=a>&Kq[)]2+gjqmkp0+,c0JS@O=[W8Q4>f0Gh@02\qs)D%aUh#qj6Y1Ec_RrS*;O5u8!X'eDuf]fmm/U:)h15!?/Bo)ts#eA2V]/RjTI4W=QYIcjK(M.7A<cCa9f2Dd2fREMbAdI>JLRJ3#Zh?g)$^1_=h*36ZSJbRc>L_#^^[K?XKYbY,FQ'N@k!8';/P,80[^8Qe#])@gHaok;N8m`"@6h"mjDCjk"dT,k6=\F`bAL%/*=GF@!p.Mff1TurW8t*KEG(I0<DjKGN%ctrR\!9g/^M2O1Mq$NQp\hku'-]0(^s4ZX@qRg[4=`7KAQ-Ck4jSPe':l-G>],VJ\VX99o\kXf\^3%HWdu.P,o@=DPkf`MJOG68IZPLc8d#q696?(G]Lb.$,WQ4_.;5e.Yf7#*TnJ*$j>!ME)XeK%G`.EMla)PS%+2S+>Q>6.,j%XQ+LhPDgE&")?(788-HQ,d3998d8-7lp5sBb)>co@()Y[/Ua`9U0gK\^`pA,uF081rq1P2l"!J.SVlE`;?CZQmpb&-HS)Q1r]e+Sod6PUaLCR_c"H>D:lRAE/0j>o?*1Lt,Z<g$4r,9@s&PG@)gY_upPORXDQJ%Ic)'_6suB8]!Le<9)!I(du0?O-bZON;K6@:!`GbIXi7NTXS*YFT2L->6ur`bg7SLZ8@&Z%4B'LK%ed]ZEGfUeiqeJe2;_T![\T3EMHBPigEIB'2j:(/;DrdTa4.:\SojW<`<cQIT]r0NN(h"Ne/"2_h%Q=7N\@Z%F[UJ5PHZ#+lT]>.)K>4SjJSfaPkW'SJI0gH0_a03krLkE3@:j&M"$3=k=/esJ>n"L?WS/8_cMgIlh^h3FXm4H=:$/\tI=5%r"i%K'^W;u/Z21To@7b`TH[7PXcWl.Vo@lUiq4o.?Jb\@cV5gF^KU15laSUe!PM]F!r+'B<SW59TlR1bq@)Kn&Dg(=\jIZtjX3l<)g5Ai@jimSE`YqmltighMc0(AgDu'E;&Z%jU'?jtc'E/m:F3@Tj+kU65NPXDQ&U!\oP#@A-LCZT15S_c3H6H]"&aq_V<mh/G9`*9"<)\qFsc*r"]bR>)V^lAV,1q/6LE'fGHqm.Af-=4?#,JkqQ]c9qXt:cq4/2'AOOiB'-$*KRk(L4g42ai4NdNU31hY>IGXm,MQZ7O$dH.SJZS*G;.PAoD#U,CR!0XaX\f43/CBI+2NMJDqHp/OHVS4N(tnrF\?In-AI5*h9@rnFDtk<o+'elLA=#\'UEfe#Q[G0%$Oc39>]t+a>\7In=lI7ql5MIoVr.j1+D9G;>t"9?sd0#NG;lYoo[2[i3mTCE#8T;^idW\?0@4?*9k)5(6'kEVJ?=/1[k=>5+Yukn1)>0!u^qdo&?#d.\$CeMu:6[YTCT+e1-=Ai?a!2a:1h\7D6K;r:Jj9AXo/l,FKSEcG2nAQ7NFEKUCY&j[4r3LKj'MO,X-;LrYSM6\@hq/%G)Ao6?j,=1q&b\,jfe![&VYPmui)D?"):O_<@p"*gsq?)DuOm4OE>/'W;:1b2[Z>MH:(34cgRW[@a065t_q@iWY9nAW-Zs`qZX<X/s%M]eiF-^-2[)Jq=`iFOe!1CVrMOI"Q4-sFmCAlAVN*r(WMicHNne<.1",r2JK(t*(_/_"'/SS7qTNsm+K8u9G=RiL1fos*lDQn![b%arD(YSa'9?Ti`PO];o:M>0LF)D@;T!.bS^STmL/#6[q.R2h<L!9DF?d6Co)D-&_/;\J,Uu"=LbpA`o5r\]&%A[@g\SS,?d,8ELSDI$&aJn";BeSr^`8#D`fb"feX;n_/[sbD\gh@?FQ4a_]^am6QlpKlU#QdShZ<2O"bm;3=EpSP^IIn<>k;>,Gq0G<6;H'%f?rh`D)4"/D,Q@"/FFB]kbYG4W+d$KZ-cf6$dY*q1b1ngg'QIB0SA*"+8?]E7qO6!'r%cf;&aYM0?5tq9KN$gI'A-eG<6n$-bams8oXpASjAWE-A/*)GrNTFkTB`u!_q@52nnQIrJ,Q:7O$0sI'D=H2\W+neckhU5H6.AJ*Vc=0AjZ)P_-(7S)kC<PS&`%Iq8bO/j$r3]M]W$ac9W?#a>D0mb;dKaCND;VG]<8MKJ:iPk`a3Y*M\rm$6rL-()%&cQFFRpruA/3Rf^U8^?B4!f:Gqg64dT]3J?*%@&pl;UQg-`WLF3uF=:PB#<rEjOP;B3[;pS=HN$N3H/n[M5BIrO4N6qM/a)QG>;m.33rh^uP(!8TrIR^1-:Jc[&p*2:d5TEdZ:u^;r"MrCL=G^,aVV7M75?AU;WA^#f_XRXB&Ej6'`$$'gl8-5Fe9kR;T9YaYh-XdCQOV=$X8.[MV&`Ji&'NY[@FFDj5IIQa4=4oe$F#g&AajoRsQ$)r-($FXc&U"5fSK4%%3q7,[D4u3k9RO_O@qFUiqId;0)j<?TrlYcYT4$s/P,i?DpIF6j_X@PF(-SW&ct2@aA.!&\:G//8"rg"CBNHkUBM+kTM8JIJ]GS39@;V$60KYll@Y\8s\*=1\A=,+N%QOd'<"Lm0#l#Rciqo=.3^oH,2_%->h/nWWN*V0Dj>Kl]rp;!*?akni\oH;6WkJnOc[^2!N'2c8-S9_W"ud^L8Zf87gV^e5T+&V$cLER2hr0lKgbB,)9>BatOH;qo7A>iDPQJ[9s'HJt:DN%c9Zd4V$+<ikc$5e_&`&N=)#`i#C+=&o!OTV5Y`5)khnBFe/mu-]>E?5agMpoonK!2ETWEVV`\ZTlK\@r1LE1D*E.qZG^3lZP>Bmos@.#(dJ^GY#6J$r?.NgG+N`ba&ok=`guAH<;07hJV02O-[#LV)QNbg=G/!BBfEu75Q8rg8d56@q\(W,0na.9n/MSNH=b#e\ImCi^/4-82,jJYdCWs.GY7h'Sa$f*MNl!+V+bgO\aF"m"2')C'`isZSA)7\XF(F*j2)m0X5%LSJ?E"#S:7$I;8IF1c$dt0PFPE_j9m(&\St!'5M])30BdfGF"tL6T?3OqF3k.>`/ks=1XRg[P<H5Ce2Uf[o9I!/D'ql8)Y%0NH4r)GK(ug/g:d5/m2G5AEZaW]=u!m\>$=lC<mWSlPeH;a@?s3H'*`pEXA'"iS#eEZ'H^E9^tW-c\1VtHVlj]IV$R]mIE_822a:T5NK""@S5)e?UJ]J(3@RC=OS*+;b(TDV1EHu9ZKALO2Jo&7a,3-5Xb%PN^3thq83TW75Ub+T%uU*[@(%LM"lu<;&0`?R;"L@JWmMD=4dYpN%P2LV3:,OuFcY"*k+jCXmqB8c7\*7lU8Jh_6D4>=%=%uB6e_P:o-XW;RS!in^s2?&mhNtU2@IA_q]ibe#f\]7$^*:mE1%HPWV\S>du#uV7SEK;riOC]S`gX-'Z8[a?)t?pq(ta^9t+=Z5!]fj!E-5F,j+J-O)DOMnLUQ9Zq>"e.i:@J+MN59lU<L"iq7+[1lti<BLc"Y;DCYLrrVWAJ,n^>(*=0CFt68c$fp@gJX5W@YjDJPPD":(lUgOr8I#.#f+e_[^t_!6d'-_(:-kDWQ)%p%eeelBa4DB"m'Oh*8^G%'>d;X6hG!^YUYWbXi#,]h@/i3>38_c!rHPepg&f+B2pQ9E@m9db+4hKr;<UuFpK<YI*Wt6HTCAh:hm[Lr=,TuO)`h9"YsflMB[^^d'KhZeASbN%'X49_l]j<,9RD<]AFuN8+;XC.o`K8DF/PGH=,6O"8K&!lDMXr!+N8/tg797YeuW4g,JV[HL9&'G$(R=Tc*Lb%-GpFk_RrQ"LDjJ"T$PR;[>PH[;K9#R4'H-)f^Z0#IQE^OhijSb;i7KSQNH]Mo,aK_GcYfc<:J/]LIuG?H9+S1p!@Eh&AHTfTXO<lJnhD3Dg[%#j$@X<=8BCf6Gepek<B?@1rh*:-JQ8-#jE?%fK*<f_LP>I/=1_]C)TNJM1pLi>Jj-VWSZcoU^>95Z8iBaK73njlgoB%big&&:O^qh_(kbb6SduZ--ds!Ke_0V"pTu(e51oh>_RA+Jj[W-@dlN6L6+-l"iMoZ"r7nCE'M/!Bc/sIH1QZ^*`[o;W=3ubftOO!Akcn74P1c.k`m)0WHd7@U'%4iS_Nb8Xs`qW))_/=aR%V/JDIeTDoT;<8!Tb;."Y^+)Ts"\dTEHgm*>$Yk"I7D+a3W<L4?+D-_ML%4!.Vbk1YL_F84m9*8T$`^;-8H@Rf\)U;>_S$eY8fFXC-[*V<7+S%ak`84tPBP?S"1mJ^<CaBo),B3RNs+99.8]54+5ARpXG"CPK\[T\7C:ol:h4V-R[&(=Z)L3_GT/CQ_EY7LVIGslc>.<nm9*n8Q(BoQus@,'<eV-^hC@2:]C8%l0jc@>GpIph,+i6f_AIZk>eK7Z()2*!%h%dSfJ]ECML?nj6Vh%!Fr$^cO^-OH;W08amngKFPR^4>QFT.gWP$2ir-g':\`R2Sh[4Pt\Me#@&fHDE!O[Ai+A6H[=6)*l%S9k;Qj59^\eQ&roMXpVFp37F3PBiYp9aeB5Zd-)rV-;=sNlj'W.G(n0.daQTs]4RQi<SVZE&HY.nX>cgO*on"V]kCrIj\/[mMACT/9>:GsW)UN@<2G]=8,SJ31ue%u6oaICi^%Ha!qmW:LqHW(I^__g.K9."CDn$I]-UmD9h-#OP^9D5nE+`.Tsm>h,l=Nfjj6\P*o+Oq6P#p?gWtD*CXc3+$eM:Z"I`S@;[fcoH-#IX:8P_4+d.Ch;8;^N0kj0F>H@[EL)n\pe5XU+AcgYG)Tb@tSmINCSHiGM$b_u`D.;q)3UtON25U!V^bf1_Xp.mLO!_SOG%7%"YT/H(BPt9%?/Z5*JJ#Sq)g?U<Yl4$#eR.B<k$[;9CM6tM1Ldt^:T":FYD/hfTTm6*#\Cd?Tm<e6PVaf>PuYJ7,Et+P8g\i\p\I;eMuGWF$Y4&XA[_7.R=*Vrmf[,4VSe7[bSf;#Z-%XA.7lJ8ZX$U3.D6'lOO!I'dE,pS7\V>MRCSSn%X`kPG3FrS-#BN,<n)b0HL,n&%FkJRG=0FN-'4_%P<l@;q_2CN[#@?a`a6=-M"+N'_?,h>Fs0Tn'0`iH`RkCpUTX)-3K`pN&c"4+lsa4gn@M7XA3F!"=#uVs3Bct*i2tMdQtL0gD$4#F(d]45AXBR5nLa7g0EhGt!,oB&i)!='+5lSiDd^.C7o(*/:uls`@8<!^ke*>)9/$"3+5RN[]l!hG";bs`W/%R8i'gBrRnY0L"iK?/U3M_XPV6H%P@X*PRs*6br):h+XjI^j<$Ka\7uO7VJ90ACj?;%O04k,!*[Ggg<OMfh`bGL?E\,8'ohMSJb'au#3]=3HOFT6t^`7hAiS$ek$K[@]%Y&1r8C,jqU0RVJ?!Wud3*f1r\]oo4[e#qYqp2+"#_))=[]kIFrQJ_>]d4m/Ab#+althsC+UNSP[FHCiQuoC<2+nRC&h'7egshe?-J\X1SX^X]_A4sH>[0K$,KGcPj(5\!/s5AiLbn":Rg5DI\DSKt..Q?\1G@f9@VVXOdg4I1Ob_/]WWWMkF$q'V(+tdMoL6=fo%U=<\5X&eQ%P#<(.N9K2KH*Br"-5h]b<$TRDMj)NqR(<>'GJN%[sNWiP]ld!A:BL>IJ(;=1c9R4O6t3bjN'N?f%,hp$I]r*:[.P4#OfK>9j-X#>H!kSEjr/6dpg?Jj\VklSmpNg1adC@<Hlb%[]!8BiKqBi"XS&R7]7pW%-H#kh9`9N;PnI!D\b#;!^a)[e&)B.S5N!2ZbjJAHl\8Zo@N9PHDfJEY+A)KTPu;:uug`*#56KCKOrgM3lUg!M7=EeZ%;*=)Q>fM?A,7,W;Yg0=jm!j)o!(Hu!XS&cQUu0/I:!L&YEbs'5CDjS;O3-RsUt+C?WFRjV(&^6%krAuE(i)B4Mn>4-Z>k:#"m.ZcH?;2ePsPW4:#FlCG&ebaUHeNJ[I0PML0&LnJ<HetCs@m-@LJ,)I,UKRomJP/bJYH.S.Z*q(WALL3$CKP':'5s<>6AG"tO^EJg2o7'*dZ"_*9uFm>`"Z^b'#U>UGV^EMqhiDaERm0][^(kMVd;-95T>57rW"@(/7mdQ/4ud!mMNp_qXO,V/,\CGbnq6CD"lQ%2S]gXo:KG%"c-kFi)*u.F'5DI?q88Fcu#\O[oc.n"6A0]ftKgUlb`8l\oB'-eQq[X';9+/r8;4-<kT!;/@*M8[^C6OCuIWD>Ym"s)2!f<"D2e4kV8Xm;S7H!bL9$R[8:7@c]Lt:Q(P/%#P+4fUc#j-q,.Q<&9Ej.!9`/6^]VumBi<lrC!:.P."Voh6?aKV&i?hB!8B'f2q%(7\sD+]6R$Hnb1!d?&h4e1lJsmm2$i.5iG3q%e*K,lS9@U+/`t,1(Sp*T4J%cmC\&sONTC!Va:tk7hu9.9'a1XUBOe9r:77n&_J(V_FIck^;*8/93+jm3%4XAghoPdY8^n7?EdB[^`_1!e_Cl2jGL01>$<<KhP9q0pW&N&VJj)Z+.:VI1bk"Z-3>fU@o7l5__@F(d73L'g*c<X,N(GFcP`+dFJmNu4akH?1Pc5[4Dbm@\MtR<0\'9>T%ZRREr]dpj&t7e>&=%Nf<Z=qb3eC1!*X.nUC<Ae:nD"VooR9Xo.='TLMsTpQm@n3Qq>!UQVVk^0b9Y8*`UUc">S*.+*-]SWEp$s]Jpbk^-aYQ);#Q:**pm$A7Pr+6OJfBmIdi5*m(,c-6[p3E;JL:W]i*.pD8\OIW(DPkY4t[H60P?%fbf2%T8%oe@RIDnrH\fO4"2L54[0^Fr-Xt0KT0&)EJ'h%>9?<6X:)UXWgXPMi-fS_A/$"%8IkUe!a$p)b$JE1=aDa$)X!I]Yde9;4oT#C'QH'mls!!;(\D_gJDrd7gO]8PW.)KhoKtp"*[NJ0_;;@O9L@\;.B(e*cmQ"kX8U]#dp+8NmLgF1qQ%Ok:/];U>\k:d!I;Eg5T#U.lecVYD!YZ-Z]siJ,s`=,_Een5K#h@38ikP:R@LBj&e?K#Q!p!Nq+]$J6gW%!Q?VeQ.CMOH/u=>KG^3lcp^U>!U[`k,0hS<&53rht\JVd#+\KEA&t:ddEn(Vj<X*4AJJ(j24:X>eH*PC3?:5ttbp=bQXs_\ZBJQb]["/W36M<IcXQ4buATduBa99/F54&(>DZRYcJH')o7lkafiV6E15mPnG40o#F8UUR>?bU,kOM=`d4k*p51//L8ou-*IDo&bMM2Aao4V5SLB4')Oo/'ZFIo,IR;5!Z3qJfB-=jM+iDWpZg!!R(JI,B[\',hres(;-sH:C!S0*&&.;8%un#4@ldoLP+pY@S\JUtCt:YgXG6Rm?hr0bYab@UTH>#ej(ZFN/;t51"^,'B`Wrq#<ZF,oR,,"8\OV&$7>95aD@1i`oc#[oi6A?76\fh/U@s61;_+R1UrCrH<[q,M_5IOIMErer5O];$-shP`XU)-$trq9i1+'0<4lN;cq`1*C9sFkFQobm2guDW7f`PdDVclXF,@&In2K-`!Jrbpl80<[J7$I,sj%0aLMXoU,m0Y2hD"WT!VJ1ZY.T5:ICJun6[ZL%<he@,D5mgY_Vm-05DIc.gE.acf4P=!bF>7I1YJ/3"AKdIKqLp2a=flZG=s&"kGeIq!+EaH",kTs6@_0,F1<i=AT>4crTa3U("2>W8O[XR&joVJZ%$B)i4.Z\PYX=b<_ck%n(;"'eRU-.c+ZY6X?n!L,nZtH9O2Kn7Y235$d'G_tOuZnHQkJd,p#mD`dV52=(q-_iPN/s1)72_u_U]gco]'..M.'B,^_a#V]25kmP'+=iRd'DS`B"=ob?.`6'#VNR*BKblGPZFA44;2_T\YNQ,00WFQL2mJ4j@:STn+fTNTl=TL'?V,EZR`OD)+`=K[[aqoH@[QF;D#lm:TmYCT;SE+&&C%Z`j9idG2LJ-uH1d_'+]QnbD]3<dG@Kh3q)KZa;p>AE_kjT(HaG;1L;/6$qG/OT";0D<$H]6GiM,:&=&S[[OrDd`h_L>!2Q'$NWif##I5SjtHP6&Bk`]Y@*.b'`u=lE0:K8I0?KPH=MI3YR@DIWt`-(DcOdD0m^%$Yr:(/V/]BXQ-mH.g11aR$>nVXOLDX$`]jQsZccaW=+(cc=2?'DB$LNJA>(Dlk`_Yq-6<AY-.I6O!YJc9a0(ALHW*[Jo:=5NgGsp1(ZoX-H>EW3(&WW"4-n(PLlBh<Q6,R"AF;DliYD7jf;9&$hGK`u#PoJD])Wd<_NYCn,B/ia3u1fn":aL>=\1TA!4@#2LLh`uf8.E%B'^Mc*5A+<7mV?P_G2SW9mrj!=f`pm?bQ?#1Ju,+uIemRXNHpDD/EI4':B'nU%7Qg$6VH@HPuhYlQ5:5I'bZ`"t<J,@W!rHJlX66@^5p/1_eL=Ke[Yrb/[1*1Sdi&?rSfL+SSn0L(a&`<2cMqkMt0R"GE922!BTHju4h*02Kpn^]hD?N@,Z"H?Lo>rZE7Cp:h4_CI\`0CAfQEM!RQjsa5mrdc:qBq%G39@*q`sc?f!3\#m[:ph0/cm(KP&#cLaNfo@^W0NTfc2+f*3+CEea^L4iR%-@nF:VqV'];p9#]T#C;cA)9bSj.)I3dRW=&sRN9Mkq]:LqSLe]3Qkh&ej)TpDD9J=g)"Gt65i?>b=4]BG[]m2m*^lbGnWVQ="X'E933nOA$M/?MmCiu-l:;^YhFhtFeEjC@\-@kJ`7A&`;b9QuFdH@BV#/GYF]lU+aiWFQ#d\a/8'5>d]PIUeg#Sco@FhIb<8#EboPX!ToF6VUS[-A&9fT.r)LKp0Oad(.n_,MH1<-PH,E)@!>n([OgPR\a]<>WpYJZp4jb!o-*S0#_b_SXJ\r/0C)YeKi7'=pP.>EeCrFIuPGY+fnqT%A8,7X3ed^Xm::eHBhckfUQ$<h?ZoK+PLP+q_ubq@kp6i>nCt$(KAsa;t&:l(X@fIPuPWI3qX(gl;f=@;fL;I9\dls0([nfZ!(,"L=d,QK^=b=on88nL^"1H(Q;%D]goL?D@gf=1El!EJXMNICJQrD&M]@DRCPH=At!64=QL]o@Nm5:E#[f[r9'1,Bt2Z)&l49V)LQQBa6".5T&XlGH&>2<.]im[/QNs+H4)"m=O.k)lg]/+(XU"<k_Vfj`;&eD1p#YmW1#1LnakRME+0?^]95ke&OAJj->WoMF*q!=)nLu<4VXGOa]06:sb$X+/#6`^,rN&YOC.;)n'6I8#JM'4Gc:BigVmDB/B[[s',dTSs$cnm$`nOK;E5F:n:Cc$$13Z#[X#Y0pjL"/RBW`KE";Dk!O7n%VY&rAV/)egBnLJB)#F*;C#<YDV@JP*u96.]Qj-`$]CssLE]3b<qK;DPUHs$f?['jb!^d_)+?jg3Ag:1*O@\HT4[[h-5AbGR7DWd#[FEJ>Ur7Jl=r)qc9hY+'['e+[1#q*%&;_bl1HmX=-3Ae/bUc7Ejjj\\%R&^<,4<u\5=i3Ei,:J>=pPV^;3okE#59WPEMtm\D.]j+:&sfUeW<ePdH^o/Xh>7P(H4!Lm?"&X?_4QjD);MVblfK4hhi$D23EM2GV1sbkdiR$]`A:cO-dANmf"-l:HL0oZ@:24p-bP(F-6Ie,2HV&jQmie+qi0'=btCA=HW=?ncnT'_->'cZB*f:okFl36/'ZpFpkhKhf(`oqu(liR`-.&f3K<4j>NXPY6=<hMSO'mLipFm'5rHrmU#?@'j1mGSpDCoHFDrV82"!d'QYo=X1n>f#P@A;h7c^GGO(M:U'_>\N@Qe0t.q_-gX(DH[SLm30rmBU\p6VMC9i.`o-B6-u<X?1K^gsEsoo3opKuGMoZ&uRmp49<gC%H/dN$(a&M<oQMdDi[<UgYKFa`fjQ@KLa#rKgf$L)dCse.k83<B((]*^1Bue$cZ)>;!J3_5Dao\nZ$,!"K=+/W),M6V#J&OtaO<I7VZ@0rpXmN=m\%&94]#6TDGa@^Fq\;c.*IG(4ABqhpVOUqQ<8Ta!o'\Wm]nIm]_koi@RcJWG]IJr'1T#Js'LLU>(ec7Z'/ktf(fQXLltbJ]bakK-('66cSM)s<DrH@\lDoh@`P@i>$4_TB.RH?&pVjV#G_K;,Xet%6>q%3s7;Mp\$&.1SK'da44.c.t!_L6VQ-_(KYpfPUp+7LEi<tkF1(ZrtU)CPSF1:c/C^]5)7f;DLgqeh=s&k7Z'Eb[o;&.LioGQ>o.k1+CBj3\.?#KO1M)rMIJK"DWjZ9B:4KB<k#ltZO;8ur_nJ'-ofP!#^67SN"A+[VIFfBQ!eR^pV[lb1&d5E%.*W"u9N_r%JDY;@pW#c.*\2k]ZV08Z%]n$lT]F]qN&<,P=\Fa]I:1lo0LAHWu3nZf1M0C($`":b'9[5V'K'588s,0d_dHd+0n%`$#0Z23N"L/rPhoC/@gg-%'QTUYY^R81JqtoGn6$n;I:pP</mq^f,Ohlnl9gh4mZO%8!0s+U#+gZ-([,LWh@['td+N^kHq+IXb%US%&oO2o[I-$9"iC\rpOk(\;^n!acQDZluDO>hM`1q"uYFV)H$B*#]eb'P"[7[U0SOZ*2:D/3AZ\,PDJ9fA4b!M";Om^dF,VDg_[C7=B>As`op9t?'4mr[Q1)[!LP*G/(UGKYgM-UkY^uOa]L[*pD3+<#tMfhFGZ!W'$*]E%=<og_:`Oo%pdNo,M7uQ8HIm$e'DB^_=T+WoUNQF1Q<\t;R'CJg"AG3aHkX\ip[M\u=s"qRlq5@]Y4kJBd`u!n4p;A;BJO11C9LpP<`Ehe7bK?6f%*HgZ?e5;Jfbf2Q-k#Ws@:'\ZcHd+$[Z<$A.u(%TB"J1A6)4c%mpo&/j-'/LLXT(X!M(JV0G+o[K%SDaRNfrLFuVM.n&g?*O3_B$>67$q+.@kequ+iomHWq89XENeL/&>&\0[:ORn16VFBim@T0H:0FqW(9D)BSk-g>+q%,Vkp#5Nei<.Z6M:s54NB.&imAIut'C+s^%0u#Nsd;*-'ToO&RVhOu2VnX&k%,9->"rMj2C*P'3./nE/]-[me'_"r>YR<*Q-KZ0u0frkrC(Z+aC"U\]LpVN:E-)A!L/^8XVjueKERo$:iqdZ%Z]q`'LOHm'U&9pX?%E^TCeB6I6H$([PT,on.8"V@X<9me!;Z.a.j@:`K$l^SB=\NOi_rO\7UF#nYFN:(8W0)OnEm)EP1[Jih,@k'?(%sW8K0nHRZI=aWX%&0V2d"V0bPq_4d,1RSkfc>@lb#5gRg%g*&Ub=QpR`4Qou'h4Ua0/I\^tPb#eb1)/#jXJ-h'UfK`t3/D\"S!,#OgD19/Z%0a<G;Q/+]Ic:$`qpgA[_\SIoolAdZRRD"p5OcsEbG<CE-[ogiNau\6Z)TLr8S6dfi"l%&<o!O2d^k@j[gAb]*^5Y/ABT.3_<oKYrVENVABqE62Fr&RTe1OhKcXCreQT"Yn!JL]70B"4rLnK*Cp<U30Q;^s"[]aan&^DI15G'bN<6#iUN8!fZI_%aRTSOcTUf]'PNft9RZop*Ldf3_3SM#BNSEug\hK\q%jT]tS'"=+l.7$LLJA'+=T+IuC5-3YrVV=iqMZS7)A!ne?hk(2^["W`)XnGkEu8oj-^0?d(?[3B`DVq1ef`sMpjKWk$*rG1`<1j44bE++K`:BUJmY_`,37$LI(Pb6U>'W>/aWSu2)Mqn:dtf?7Sk?J%Q2fm<I[*2,jXJr[fD4.n;ncKaG@;(`1bZ>[qEen9HK:0$FQPK1NpmqDqo+qr4!DVK8PS@(Gs8!&DrirV:=`FFprFQV&sO@)88pF^NWmu[8@R(?0IsNrauJ1kI#1im=8I/prfE.iF"o<NK#p4=4AGI.AgEYKmNd42S(FG&=.#-O5>rj7^58rM!R:=:$+!@MDBaRd1I$p?T/[VK.2'hr?lTWZ4oY*ih&34<FP@:`UHTG*FLC8nX'7\U&2bHe8!F2e2tb%'qbq%',bX$cQELt9_6()kN`_+?f$F1j?cdPaN3Bdgug`qQ7GAHD[fPd=5%qr`AqMW;Ilu^0O(6?^Cd+;OA]75n/TRQ1^Q[o>)S#`*W=d-JO$"N_QJstdU%PR!_2HWY5FT7FBrA4Q;\qkoC-h$[pW4n*9[H!L?^q/W1F&KF7S\]b"O*U-#[T$6,%,OfmZ&a?XRDS#Cg#mqt[?FCC)!V3m_n=/cjB?9=U3_!o]6goVC8*NSm.9ma&P`PPs,)YNLBfZX.h<CC@4MjXK2+3@j@aW_)1ggNBbeLF3B,+eqST!@=C+@si2(.t,e6KTJPh\Ru$Q;`eSeBbtW9ii[G@s0R0?ZIl`>L-$3$QShceM_Gl2_6!]*7i$s1!Sp`81>,EBlPAC_E-rP-e<Enu8,ol5\cMH:[$33$qkOP3g5#I`l?_A`01*^ae,"$=N,lS<%i4BBmO37%i?UWdN:lTQH:?T5.tQeo=h;\>qL90-k60>-%jYf/^iYN.P#@+!]_hS?Pgh)QTAqmR*t1gKUeo!/d/D<YUkmU=E"R;a^3Y?rQj;?_dCXTGX*h0.$g./"\su8&EP[o>Ga,>KI!ls0TW;5<#B[0Oc]IKk2Nc5^<QahcE"%Uh]<B',KEZmBq:#11puso/!8I2Jnr%Q2:l@rS!G-!&5T""rUs7/!i:3fGG+HRg7fZSK7#7fTUK+eB,8]Nu^3s4b_jJ&g\V(LiTf;278P3"h2`Ci8=Dm_C%^TAU.npLE@;8p%8nZasp!$M2HrT*PNQJVmWVlH1Xt:LpDa1uFk5TNTr>@hgr:`P+jDe=9]OXOfqA$:\`:=@c*4k.Wq@k(GlQ+s&>l"M*4\AcbOIuu0SWV?e[j4*p?[%RT5gc[iW5i^&i6t;N6"7!8oRC#ip3V2#T&$3UhYPph8,7<>*-7DR>Fh/^K8AtPQsJ7e87tQ]XIHG7SBM:JDg<07bil:h60cO&`(7IcZr'Wm_"tNOh(fs!M1CuIB03n9r<aA04I_5LU-YstbaQ['FSmS"h>qC!#Ke<t851,7R-C(ZZ2ENXf*W:=,bJ`]JA[+/m`[DjJgV7+"CGVgL0"`BU<,&^,$GKN`Br96M;0t/DPfl,-&*Yhd#?*J!)F>CjIF(kI5=Ts2#KJZ:J_ItKdjesH=a2Y#3pdZ6tL]NJbT4sXKippgiOLAC5J;SS;WTRis4@ApH2:Hk8pk^T5lTi2W!BS2nFTdj'-otebbiH$$4o@7:Bnl%Tg@Qqul^]EE*]odF\Ei`0:oP`6leV[44OoK`r.B=H_2o4fl'b_#F&3?.>,&^5K6(aMpoQI#Ym<4:]3HCPIT.j+/^b]^+/>"R>;q`tq%PV?nKZZG;!u0;C^_?F=GF034UE9s,oVp84'ZPmoX'b.WK_\agP20k(3VMu?X8CK09QS7W5YrJd9p=g1*OFRZfUj^d2];$A(7+VNVHXA6t%P4==&T#LoagWKEqYsY;d&ddORi;D1mJ/""7)>c+,obi;Al3+*S"j2SJg\aIaptFs#3?3Jiq1XC;]Lk*G=a@.T*Nlm+I0[.^qcQs]c82C7p"Z;?WlqJJqXqr=IH\[i3g$8fO*Ik(FrbbISkC6-T4cT&mNPf90#IWMWtZm"78n/5[<"jYB,SEAGs.c.P:nG573M52`/#ns$g.Rr:?PlOV+lg.QM'sj^):*@mMc]"rg5Td#%VZ;\9sV:ArmR3J6V?J4sJcSo+k4V#1B=W$nP;Mi=<&hlU(&=n2SLs$]:c'7ia@#@Si+?HU4-4==1(*)lI<5ZEb?<!1kH+\Ng2ukoDIagN=\$Ql)f[rhXP3W3ET\hr!D$*W_>_*H'iSGWcsQT$#QtI#T"&gdcI9BKU^1CrG"c=XLVq1kRSL6erqR+7=)KOpC7NS_&XTJC;$^St)#O+E^%V3Cl#=EbS*akECMC0#t];E,?lEK82!rda_-m,3_Es@Q2p&s6O1K0]Ai;H_3Bkn'BXV`:u$GjK7he(#e!uICi3PPAN@=1/"I"QD8%O%c<o1Gt"CV,%D31Xn/-(HC_,?!BGIV$(YI)a@qe<EBOBTc.;3sHQ[(3>9G4I<Y8;cbR5Cip[S)u39SB!=WfJ;;=/C5]m'8&pHZBBrF,K3GX2qi.)bE=K/3m*FAj_^r5)Vhb9HcU1(-202O"&UmN"Kl!PGTDNn10\n;Ub*"E8r&:A*orEmEb1+EpG^o$9nAF$us)A272]1V.'9gfG7p8XMNiauQ_<$*mRU4E@sL=tDf%P+_dL[`d->j*u`1GW!1j,oC\d2.Yc/b=QN)?o>W,(ZNGJU;`'<b5Mo9G;7*f9C"^nS$e8ZB8?&g@SQQO'1E!C:;.fD8fEC3T[YXBS89?u[]LPFKs7Pl)s69Ro<)ud6q)lf#NanJ?sOsJfqe/jbBctSYm+@p;t9f"]8>]HAaFD]kGP!FYo?q6oSu9=^Ci[DfL6-3NHN;KE=t@k%)?A!XgpR,^SOTMG0<=1i8/o\H$3`i8]Kq\8mr"-"3jdW,GILCS)GEC*uQn%BoYpZ>1;&QZ^8UuT:WfV**4].I9%\aIr>!@hm"G>BG@iK1N;S'"t&`B\!5FuqG^,,iM)tIOpmo)*UQLBd(4#>p`f_qQVG-/gu2b%X+T:*]%p5pKgrJoX*fI<(14RQ`=5Ja=CT.`dMFUsnRc1HgGHb-5ZfQ>kf]I\o>F##;="g]X-#j:2\UP^=nT\QQmfm].hf_."HOGL_Y0C@+B"1.dDVZ8:!#C6j#Z+PHTa/CB\V)$+<UCbs)dS9"Out5od##FJDuI_1!"`qg9WFDjpZPIjOYfAH'OeH""-aG!Gt4Z^ri[C>6(lD[\A+:/+I8Ak61b[\6J=kB\R;#B7D+,qXD,jDh*"N3'DAf?/qC0,K7-QRsRQc-_'=Qk;%iHW,Jq#a_tce=1O)H"V\S:'_Y<+gM*cnUX\^Kk-b;-^k^\o]V8ELE=e<\)q)EWHH.OBDHIssd)er&09ej2:_1?A-]YtVR`[[@KNTYu/mm%_AGDJ>)#3g`R=3COZ3#p@O5)+mK(Au7JYl+L+le015"s%#afi[0I?u\ik/:,@4jqZVd;OrH?1b'f</0QMBJ&7#UZp7A\1A![3gfYfaO&B.B_^cVdrX#95Jcg>GWaE'6da[9k%HP6h:YPhk!S7UFCtUX*=Y\g[VDk^_3Nog%c84bCels7(LaouMj9hMl2,*&]2ueFNlicIW&P>(Cn8*>JL.XU\sAcSZiUTkKhgq";5s&afKZSuAH(RE!aD9bJpYJ`GOL.2L5?t2E%Z,Qm[?F81`:sQd4pst;g#g/<RNqkRp)mE69bI1/#q:9h5+?e9sF<@_"=Ai@P,I?%COPg9'P@9O9=RLHV`05JG/4@8<OS4Y=3@Kec9=XKc>.8@[mqn`,`6++a8Vk7<OqFf';@N;^;3=&t]!U\?:I"^L;6/emo[n`1b*K7KW\3q@Y?CF3BWYG^0/=D,TrhB\1iD&D#k]g&Qt:)3ipt(Fl<_[pYs9n\0\@4a#nqBs95;W5oo"]Su#6<D]"!\/85V+S@6\B6TpC]C<MukEj3Tot8Pi)Urr;nHkN5QM:C*A+3M,/hZQ\JMNCqY!Oas@+W:Yq9DV?pAc<2\2cGN$2mgVFhl2Y<FgrMb?8d&!Dsa2@gXl<Z4[IF1,9NbhYo0]ZI.@*4&%J:Ye4&(-lVuS@T<Ka,88W)102h-a8i:N7BU)djY0Rh#T(>SoU&7HPak%\>sqeNM-FNWJBh<aLFmL,^Pa(8e2ASFOK3HIVs-/9V05pFnC\;cmm@.L;H%`h^ceA3"H+gtIBMDeoA`'8ao,G*4;4d@-l&-#HG#rW^YM2grFr&u3Yskirk2'q[P&!<jX)nD$b?q5iqPOIF[$=&.CDu&.[kKWPN\UeV\ZBaffo'k:@h[5S@^k+>q>ma7u&`DDIP%e"(eR$j_B+,CBe:kKKt(R(9g-m04<RSGQ-obemQ*s:ZKWl;hgB^?kZ_,ZmP=Cf\Ar8cqJ\Xn+=eY1fJ.LbO\:f:o2j:J1T-m0`mKbn7Er?,_-,R^W\n?RIFFlnVXmLkXT;c$iXTEb/c9g"@B[7_Y@=Y@]!%iep3b1<(tFLH[:CiUCINrlFumpq.P?iIsq&3oD<lYbU2<8LjGT06rf"fU%rg^QV0]F2'\f6OD"P>$6'S:rB9dg&'%FOK"^CEXKS&dM6;;?:`9MaR0C9[T?a<ELbegX@]X*unYI!o2F(M@<3k8-S`d3EE2WP]-fh'5+P\AkW!dpuf!P.P7#[%cP"l6m5PmLL[QKJrKKi-`QTCXOPZRqrd'#SZMbJ>=3)8ro]Si\oMM)Ui`\7+0F!3bc\l1AjL0=GA8l:Ui2M:C8.@+9VKWDYT9L8E[+?oBMBisK>JAco6nd87X^FNtNb0'J$Ka%6n+[8G`PJ'UE]70]"ITSU^Pt9-r]$glZn*b&9[+c_C'b+>n7LHi$9?!,-6)gFI<22">#mZ=(Wj?Tm@'?E)IH)0IjEA2QUf;Er']Crg?47MOYo6RqjQU.Ofd]g<+*fk9<)lKdF]1D4hI/+=5uMW#DL[DQ$'Gd)j&-ZE:?F.B/VA&#,d,;0#u<=IdrW:&%Z_?<`t1[on9&IpEL(?b^?a^We&gmeg%cL&Z`5ln%P3Non,(/GV[A1R,#?B9)sV^G2FfVi48,@R$,>R!>]\,_-_D_U:BJg#=Q+a,jmDCJ8C$@!gu'DG!'O5(bkYPY&6,q-hK')K;ulVe:nR;h['1g(j7=)?H!)q2S40gV`R@32V>/&_S/fbX>G[4/k-2fn3tpIb+YLJs-DnK<Tpc^VS;-\oH-"Y>l(K84U>OR31UhMJ>=/HeB=(MG+>sCdnoCZI(5JOQe"ia3)Uq7>#p/FOZrWOO#,P5Ec.i.sYEITVIUpFAFnQBk-KumL3_/sJP[DHQ@3)l0MB@:6qtaDmJ%3F"Z)dWZ(s^(EJKZp7XF@JaiL50.`ZT1o]lAd%'L2PWQZ:]?$qU3<s5YHePt$b4c4If[E51J%!%`<R?cg!hkU($n5/jEfIfC02?m%PeN\W6&![=6g),_aB1`*8fe:JPY:Bi2JT;r2)q+g==.@d:N0a;`%*C1mZ75ia[3XgF;SXRbA+dKY&d<cqBQ8b;<5]aMW8SR^.OXpVQWoXqW(`hHW>XBgTUd4PD*MSEBR/>Who,E%6,$Pn=LRCFF5^L=cSj`;=^I\A>X!113V&2$:f_(?S,]^^EYSfOdn#XA#QDTBtB&f4T>Z$#8d5bfRbGUFnjuRA.&N^Gj<]TTqh/][t6RGqh,ngTA%&U'sqD3MGUjqGp0,=8TeJi3s@VJVjo;7Z5\)])pm7nYXm450B2>cp*LuHRm_Amb3_YI"B)ct*o>=k`d/0r'TV2Fcq)9W;&&\AY]?T;?nU?<QgZK=khcdH#Z1JW:9e:fgJhaCbtoUZ.72]!fjl"lk@_#?7iGX;iEB0hlpD/;cRb_ui(LWLALLLru0nCmToL?"6`r^BBWqX[/9#25>37i-qJ!C)8YWVj+CWU?r2:m&RN$d1pG#j#@/5e\MjJqtPg/0:V"qiF#;H^*$l&,+[eT)/CTr%$XoHQDD72`PC*q)H:6f(b@H0\\:beuZQ!_=!"1*&H&7QC#tEKSb8KKn.R$N)[;g3>"Pdf>8a/VB8EU@d/lTqk)'E%C6*;$>NFbJ1d$eB;r)i^SEpBKHVZLIM<ZI:JI^BZTj`7HF7a^T27pui^o-.=R]`cI*&HE&buF*9d7)O?^U'C6,SMj>#BlB5''NkY#F70hU8Y?:;f\QILli)bW)2F(>A0fesBQU!ob3:Ibag<!Mb"R>;)a/Olr]D`P@3S*%ZIic"9IF`iDC+DSY]^gXmG]6?2Ic",5Yp`G:I]*i0\3Nohj8cn=iWDZ%48%hOsn)S&JgPsj]m!83erSR4[+la5FU)tcY1RdT[#;2Q=l%\1X'jf(%0l[[6g),e2sV^eD3@oZfS/`'CQf4Y.n0!FVAXI[=-5iK\qkb4#Q+>$\k4^BOEZ9D@pXlucW<&t3h-n<m%JQ+:Uj2E-'3]RUbKEt1(kh[YJdmIhYmku"t3Y9HbbqJX:#p<?XK(R^9j@K,'@^A4pZEhG[6b\,aciSG$OOZ%J/8r1O2'mT>Nk7iqFYS$,/RA]PR&Sdq:N[OqX&M!hs-$l,Q(QeKIa]B`%j("Q_0Up'UkN`>KnO8o&W*EYCtj*k\`fdTQ2q))i>0Tg1!@q=7l_N!'WH./Z6U%#@\&0!-#agDX<l&d?dMqnQW%/Ic?GVgb07AuXN\Wi6#LiL7Ya2?rg](X^YNWRi0&timDb/>[ECbMhut#A$:'VN)X"IgVYGt"+lGU.<='BnKf!M?:1I-&JJHcLkD*!S+(m\npNq-"VlVA/Na9-tm:BCehg,UK-QPX\iCJ>6CoK=JBk`SYU>$R]9:?H_2Fb8qla(TR4c7GaI<=I5(u1GJ2jO5Fafea;m$H$Ta8D_j([jM?7+O#(c+fJ<AHDpd`"4PYN+:ZLYSY>rBs?'7kBSpBZFTq9QNDsoV7Y`X#?"j*^km>=*KuNKdenDE]+:;POJSKTC,DDsajb0a*Flp^()H74WlCUk,d]F>82h;q7;#YRQCJjXcY\du2HqYXCt#:Qc:lE=BJ16=<c6h=eV"K*2'YH&NWDp#)8!8SUMF:GgQ&UU-`DGd%P4c5,RrA8qKEVOlF0!/J\p,7lH)#HQ7:5%G/U&#PW]UZpZsc`4q?PK>WqE(WMK3hIp.*r7Bk:)\D!>kTF/$g2@.$`4*^@i1"gAGk=(iqNSPAAV63,lM&VO\j^j)!q8HNI*.D=+X"Q1_mAA.Ah]WpUd=*4Ck)#P_$8rP>CSNG4Q0Ks"l*RB)lG\lsiKoqs*0$9upA1&N:+nL*^T+?T6Odu'0)16nR=HHj/tSsnWmT.U.$1_L(ch>3U,Lb"d)*S$=H9d4fT@U3"'!5Q:\i!e1i%K[beZEu[s+$N;g#=GJ,E!%CTf5)Ui!K2@,7.r._3Z_ZV<FW1g.&*r[F"*JB<Kbif=PGh&oZH,?pK5&mU#uNS=2)+JbDDWU>!uW$.o/0<gfIXs&_!&4`jH?5);8.c^0(mMOopQaJl1QhIt^n0RU&oKQ\cPrXoU$frmdL/TQ$lIi$jBEa%0.GK[eBBum]P]!'Ra,:o.a[0ZJaR"u?%ALX5<1;[/n_ot%bqsmWL_d2+CQ)uJ>@kO.#'^JeWm/Q8d8GE+Fp^4iqkWT?W.J_eROe-CZO63\l+3044(uiBMfq<Qj_ES<ZE\M.hAXLJ<.M%CP/+"sV/-HFX\QLn\H[%3#=M%daFZ1G"GqV6=c7M5:t]H(;[=VAoUK,3Q\?>aGF;,a%B8#9SR1u*AQpDM).OON,IjZ'WAI;Gg\[gpQiUot@-H+U/5i%qaV`ojV6:n;7A'354rUrtAQ'0ErJ?Zq$Tn+<^;>P@BGa-^;Ck-`S^^pkV>Crc*!sj_S?lp/RrPoaOB9XI*SlGD9mM7Y^O0dDDN3D53"m?)l@7#E9?:+j\oK@ZZ%I,3DI6Vd^I5T]W_MkkR3(.$?E2(4.Ml>LV16_6m',[t%YP04Iun^.5ZV&[ZT"%tK1EP`N"\gTS5bV'>a"PtMh+3M2pPTn!NAg"W1ljWKNETd/Uc0:\S4-*8G5`i#[bK4X'0]IQ%5J@;hl-,5DUWheeqgIm_J3dZ+j`>Y.Uo6aks%L;gVTfHr9uMHhV'2IC>7M-Teo">>UFIW$V_s_a$VKk2gWC]!?nL_.ft&b6ug0&A#acn'S-)dk[,JbU5I<lk7MENl*SS2X)G=PB!tCqQD`P%C6`n`sftDQ,N:>Zqs9H=)cR<#i4soNd70KjC6psi$/l$Feg@e1'5FidMn]5SV4Quit=_RhtuBc6/Ct!:%QBQf@W$akTScNdk(4](@,jD-;16>W^<hjo3)>PU\*b9WMm6?aoDd8HoOtcHNV0l=b<`QB4JM4G/!'W0Z/5gcJDVibpWdeq&u.p<[-]SLXs51'""UJ]fsaO]?%\p[].9FW*;'r0/KHjN=Zk=NjDm]Tnr0h;@udrNsu090kSABh=O*X:saKifG&\/aB*M01$0!iX[D^Om`A;n]\D1PQ^A]TblhD^M32Y0(1HZ'F#:snF:H@FSQ0-$i[!A$292s\J&!oM*\s&H=]"Hb5%fublrIoSn34)!.Wf35CXaQ[_F$oC!<6ttR<c:])?W-.Q[Vib28#59#3KJ<n4oZ!!F)c4/cJd1X#MX1l8;6)kK<feLmG's?W;p#K#b>Q:iu3s.cmGZ0R[n3la.&%2)5\J34epNJiNM23U"%\(hUMbk>@+?3\(2WJ!R\*ohCN`51;O(b.ZgZcS\I0CsVW=q!i%q_S`^YWp63`9OV^$154)6At=qoLKO'X'`OhAoW;l/gKP'ojdsn-rHar0QS]Q%^?NkN>P%:%Q!H&7]Ja"gEUnbE>*%i00"PrLEhqlIi$6Q\k>;htZ2RXOO3VMSXhu\/1p+\J(-Go6'"?_lcp@%eCWoK$T[;ec,"lWdO#r;Bb0N$g?)\]c'>X=M"!j=>e0[>:iD$eIMh[a+QO#u/04CBZ=5:m%,iFs3ER!V*`L9'_W:qoC280B(%`jks<\E4bMNoR&FbDIU8]X-L$b`ATP?206U5,:nQ,[F.khE4TNt8>6"ka6+CaN(28QQ#-!Q[n#kjXO:_b-?dBpQUA@oOd_r`MY!,P)13\_EX_OG7YjR0qq;DYua4FDb;Wa_Qr_f8fmg7or0@5],,pa9E%(0'%^3pk,[3>f'F_"j;3E,@)S&UKEN3g%`bpTHZ]J.&8H\jdE1lcTH@&AbAJI$^3t0)4?SY-H;I+bmNE`/D=RW:#.$o-K?eVCQ1fI!\s7Z[YN8IK8h2H'jCShJEX$/pZ2Kso@0j*Tj="<r\6W"$[4)-Ze\L4d8=X,!nP%1P399=b/n6FVQ*GFBWAjJY3(eD1dbaT6\*Nm#>hapg=r^gO7j4&_NDd,E7u=aX"M?Ohp-bS_RGGt'5H#s$W`uj%BFWY58PeTb]aQmMH_3rJ#ZCQfdq34WRoNTQ]%],Efj-;nWVWhTnPbN@1K[1&P%*ok"/gRDqOk/r!)@OMO1`'+Fo09X_:rdMQ+.@.M9X>ERg2c8ZZb!lTg&m(ZqVB9k?@E+`1&Zi-9cY>5&]+@a^Kn?#3*,9@iC[*=5$)Z-1+DA@\\)l/V\=G3nlVP/>m4.6s*0NZFP"!Z&Z8CF2c[ApqsnQ1&0iEIC(UI8<8rOXqW&0ShtS4/&4Z&&A$$S>9C06?:jH6!!2I`&'m,?*!%LoL&AN*I7hk_P#[M=O,ML"(e/e#8JSN[FV/SD5-prpIUu*&,cM)AMGs5D+h0gd<Yg/p8EOgVD(SM)j2pU4Wf0/T=gqDYpi!*Tg"0Z2Kl-D#;mDN'cmfeK8Q;rL&'g\b;M@dC.LtI3MZ2GCd9P&O5]A;aEd^?B"((CPKFtWB(i%6\uNZa&3Z>]l@aS0EH<Y@S=7I9_;344q9B0!9A,"`S*R%+=\9M=og-O=Ms_57*/=?XZFmVOicr!FkTXLNnJ:C)CS*_TZVotp=#H/i5:\YS@Dn<@@&/%7(^Zd6'%n%d5Ng;59+$0[Z28m_Td9]0)6iJXMg7<hF'Y+t=)gpO<f:uIY^l2"FCD8*@+a[H\[sRs1gM]#JKNjSns!-#D\UB&1,OR]&#CKp3k[LQMAi_:0O5AI(@YX=kB$sJ/er9!?jQSN$k,.K7PK:LhlK7&@sgXCM+N33QP7M^_$,gRUt7b4qO;]0d]L'#&g%G7H:^F54LW7tluDEQs5,-gWlJF<:cMF$D$c%K<=fgd0#F8KH,u`I1liZaA1Mf38tS_9macL(T&*f1FAC1]5D3Zl=mU\%_gYs\am,!3aosk>+T\j@I6^:ogL#GqhHi_d6i3?N*[Bgfcdaci8LDch*J)?>N!%;p?LZs4@S1bO%Zu,[<-GQLM%DosM`1q3h43=fI8"XbUs'?QftmboGJD-q:RabfC1iFbm,OeE<,Xlb3M@/uMNRVKnJj'mbiD_*T2o8p.T.k?`$.0p4;52j<Rf'B0idb2O7IcIhJ:#;-?m!3L`^/+g3$[GUY2n-^X5o<N2Xgl>$"UH64Je\XSJN9HU&PdGgcrjr-7hubS&,J]s)=qMDQXD=5'sLA^+J6j7jnL1.!K,;7cd7&?KU^##GANSj^4h5N!jYq934Q$42>m<jRa$Ale/F@HtC:l#%3Ofgc>Ip<7I6OUO)Ne#B0#e`jhig'(E&G86\_>n>V$(sc#K+W?3>Q"$ETdB`VPST95,^?T0<.RTE3A)Rrp:<(hg>as)4m6O/bcgrRdI0IGSNK`N?m=B!qG+>-igQ;Q=&(/Zhj<TYWTi7R)jpqc+a0'<B(0&*#$8o!QoaB[fh;s.)-\h`*^^E2B*+HFT:6X/i!U;dgY?=/7l]_@?PHp/;I6SK_T8+<"?ioIh&@B1KneMF,FmrKOA/k1;,FD0s]l@H8%I7^f5X7MC:S[_jk(?F1G`I^oq_!eMql'C_:.Sa7qg7nJ/8[-"RgE8T@sZ!QTL)%OS=5428GJ;4pL1G>/Cs.MRsl_.%iFHfd;-,2?R:^f*7D'Z#;t)jo69bQ"i"YO&I\;4_<sTVQ!$RqeNg7`qcm>UV$HH$\O!*>o7'.o$Fe7uj:u,ioE%Ak)W5-?-?.SQ3&=.51AD-qQ>I4(I=LqBGeU]5euQ@0=X#i?rIk+,4-*`FCSA86q,Q%uCkR$m9]=QBk7*#t2tkbdY^OT44.JKscAi,(9+/iUCG.`?l\NQ[`2kMV0_s%##@Ib4K1urnn3B2KIuP3dFSB[,:?dcC_j[66-'t6/fLrIri4HbQZ;o42-cF3F,T@bhiY0%p+rp;OFS=J"L>&@[iJ<,)\d*()g6V;C49ZZGXVq46;NA;ORmO`'Wlnpr9je:u*Fl*M'MTC2,[WcRIW$9kXXg4l.3EmWjC<4<+3DjE'^DA>*/I:]IG&kJ@5+^IG!m#Hn,BiWmp6&T*)9_-)H=$Jc$O;H[I1frg`G'go)EZ@IZs@e=3U7"3.l@FI'W6F.mXu=*n-joPp,[o`$W@>aB-RFMhh"p4V6+>65,q"c^UNQRppjF=6U_1br`Jt1tF9s@Am0PRJlq[r.NdY>ZbpK5-F#TQoCXlNWtL3W:rPdM"7X',=h`6O\9\=j,`\lTW&"_W[N,ZJmB$qX1dd-a+mJe\</B;<@+bdL@r*@i_U6$OICg-jt2`#/k)_^RV@jA[k=ejZ^Gmn%X&juoMRJr!P#K^S2'TJLkAR0>kefM4'#/Z_"?NLCMB@39#9IWH#2D]h)#'3ATBs[g4%\!&Hn=/`[^rS?sPpFLT*Fjgt+LAY?<XjDh=qf*;=V<Qg9.&J*G-H@kch>dS40e'?;\Fq0&ECRd?39?"3jHB*1\pF%]$X-MUf*H&<o`FjE;6RP]KJbY*!%!A>'QpThK5V.mg2(g!7e%!E8N.g#>n;b4"5PGC(9+S=&=BY5`O-P3^ZVm2UNb\]jfqGqXF9%f_jaP$D<;LDk3'Q1.522i#DQBQgP<CO=1?LJ#k5,ZC%%iauH>!DTC(/R`icn$i?cdjReT^N,'L)hVdo`CI1iD*,dlde;\2*tC>S_X5RfGZKKbki!*eSMB8<bbd9B%$-k533LC,b5lX9sQRgNS8GBUhoUf+Y&MtZf:Si)u\l^?N.!J"D,$'EWH-$90_+k1SkrsAKhYYKM(1`AU+P`+=),A(*f/c(=uA$Efj(R':Q$/"iW$;]3*H/`D]In%S8[N3kaVNo.OM1%t'kL)49'1+es%%_^YZY=6dsm/=NF*S0!>g&*K`g!rmd[nV%_Rk6m&W@89lb4P,:-op44rB()jC2"<N&1X6AiF9gTChiKp%%rh+]QlVT%+Op4p,o_md\XE8Y5'2<c\M)E?DsUbcb5'PlWJg*n,!OU\W0RPmYo;`&K-A1rc.M;P[:?0Vl,n":b_Id\i&>n-"4ZY@%g&;1+Eb722_a/O5e5NR*UF;4L-f%DdD;t)<Nms[L6!eE9pOc*s4=BJT&J3BD&E:m!S7^[.;DE&7HQMfRQp+^=A$5,>dE#5)PN1TRFA?+<(]SPogl#H(0fT5)/D=3_o35E'Gc!0"-udQEp9m<Sp.c8r]h@Mb;U8#dQ03a#e.c<:A)+1OKYI\ImE[N=:)JTGeU3]<T82N/4T1BC1L*$\)Xls2Is8n3hFN*Eu\KW"bI5BI'tJbM?"`?bAc2g4!j$ms(6.aZIs<a*-jUma7+)j0)!Bal,ojYMQ!rhTNEooQSq:l8Ad,)dA.$1q0F>SW,p%+e"(-Pa3>:o>@e6t?%?>Xl8)#a"ZnifEVCs+I*We@Fgjd.e1l9dIZQnC<D4;Jh_r,krpbJEh8On;UG]Ju0=rgZW'E&m86j?IPmEW#MOK9qlBl6+,YV=2qlb?CRK.__SQ?9=\Slbu.E$HHC;%[BK-4q&*LOb4!(si-mWE):NtOMOC$2Q)>(bF+O(*t(ZkK9([%[N:;(K9e&fL<.UD^u]dImC:J[a$4(O0cgdp(kuK\X,`s'Yt5YJ383ZL/8R]6r+*>Ml)nbb-#SlH28'r1MQf*D\do1Lb5R-/1;Pgq!0^LMF/ek]d"k;Tdb$,%uKBd2<l-"GAuuAc8@?Egi"2=n=@$@'PY&K*N)G+oJA(X3tcOSGPu:)]-bEHYQm?XpMoJ5@/Y,h3JR>,"a]AaYac8=J]2PHE_3jn1/3/L!]#RN83+p2\9q2PHp+KnCk2\8@8bp=3?c+/CHi:'^0ap&d,EE668qP^ID(ZTTTo1WX]'*nH/*6<#Aq,O-L.ol$:T]2VW%Y_mBnf.O63<oE*MNH?1298?;%6PBDgrf$uI`gP$7De3A3F44i%+Ta0gh[Bb3qV;:I:T%Nsf&jA$kjZn>AG]:.lbm8m54ffbpUD(=S..H)mc^kJc,_Egh!8#aZ)7P33b3"*dW@YqMUf\1qah%.R8<c-P&!RFoZ3,VJ;5$s!ZcA0?NE>0-CV>*Y%+GX!R:E_&jc0N(%n(Jt=4mWb5CfubX8A]sPD^1[6`N!3NUF*ck++q'g&KbD!d_4/Q+o&Zl"R+'qI9j*Upuf7MW5roE;SsT5f,T+Yp'b8"u[)>0J[>*!M5#&n3Ak(q'p<;!qje,e\[`F.aN6Y/M#Pdeu6VekmSTCqN'[;C@_WIb8<#lfm0"eAH])&hY]r\K$FF?&Ate*kLUW8$2e6<'9"\L,i^f<-'X\dBBS%J>LLH=d;G.kH*G0s_<WSG&rGZAh^L]tYoEPV!g'e/&\&Y`*pl6:L0U7?prZqF)4Er2kJ<?5&)1!cW!8EQl'>r9o#5lD1.,Va6n$AP8$)q_WnUN%np_)2D&h/JYj)_[#%1gn#otLJ=]k'<8lJ2C4KmMcLrtq#h4YG+]"J$fmgD<%pO-,ieV^LQ"?J1k4^IN-e`>gX5KjLPkKY#lY(dHC;"NL8N)sX0P;];=&seh$VlNPieD%/8rf;5;M31nQ1cdl,j3Yi.TNjG:iA4(0jVk&"#0hX#%r:(FEK9Q_HcrYA1iS38WJZ^-_J8QjEr3RO*M#t."86">s#%Z%kJiSmZ7/="]'cglJot*8(.Qq)=sT:MXoRh-%BdfL4O2#*edVXE3gZgf9M^Sg+o`+Gll0qmabI\n$0@+IF6[h:NdC/+]LbUn)!YkH8e'%^AO.`%afpoh5G_/\n!MO_0J-Yi\a%hq8DNMu;mDg'k9]*?Dcl!SiAStnEN9VcT"=;H/a_4H;97;^I-:#57?YYD.9NOT`q&>$8%=gfW0S2sGuU:P87lUJRisO=C8;F]>Y^^>`o9KfULZS8DmGL#e>[UEOkDp>"9.L0=T%`!W3hasC5d\@rlu]"&:f\&<8suP4CeT=gE`LWmu0d9QbX7\GUT.rCF!m1ZY<<A+.fo_k,Q?Y2PfQN:OiDZ-56R^iM]4qKfZS+bUHKsa"05nW(onLC$40G>em,7QinZ*Aq=MdlA)AJP.HNY"B?t_dqdl\`G&_)*c\&.P%>%'!^BCbmgtM8(=rj:7-d;]DO9)BfAhH,pX'K9cm,6ZZgYe9HWK<rk\%GMHo8t$T$3VeACk/J_:Or)1#Y*3$UXB%^oG0L.C0U2D+\\%B,g(PLRLP.L&fkr$ToNo,qqka_;i"$DY/:;imWuo]hAN+qn%AS0ds$C#o"nd<nQ4n#%aW`LKXOng"iaV_d?HCa`lpA3T.\$$P?G,!hHq8b4+<nrG:bErMo5=Y3&+<I5hh2Uq_!E`@#Y9)V$6QDHUR85HeTEVU4?B5dWBV6aV(m[@!$=_VfnHI&7)h8E:A%@^m7OXaqU2LpKRH9+$N]\F"e,9rZ`-:')^h^0sQ+D\_\#Ld(!X>-MR5'fWGBaa%9Bb#57GQ'$?BFJD4NjHEA:`lcS/m#%_OI9uESYn!<h5#qSAhLkH%2DjJrZbkDj?#*0qgW"=Y2&a<kPUPmh4mZQW2_=4q'Gl'L4\QD>94_oM<"^/-<Turm"U<l,N[,8Om,tE_0/e@#nKjKGReVigVD\]h57,8=\$,8P[ZZ/'XV/S<-sCI%$e>,s1<s:#WXV7[Qrtt$!Me4sk=8:J$NSkWOV5C?c/fPqZjNGt"rhQf;-Cn>X)I5TM^L):=25?0bB'T-Qh?peRqE9p*nI[S2gd"Jm0L4jk#=mGQ54AEn<5!Vbm"DeaI(=0pm7Cp&qSh$%g3`Tct4J4c%0:KFnSTf@)I,0QT<X60(iQ9nmSc,$"F-K"B<Z(V\a@adkbkn[>mi`"eYb#N>pX'9d;]EOGedZX8FInjtE0?K]"-7ne[(/FYFi8/O]`ppK""[gtDgl),1Z5?+=j&'$5@GU>mSXK%UX4fWjJJl2F*]Q'5n27QuA)eJ4Do3Kp<C7<?+&ohh4X,*FqNf_Ss'&<11j`AJs`Ech9G?5D#O*f@='cf3rCD6gD4_GRr/AT:m-Z?`-u1/]C<U`E-HXeBjlcmh/ecAB&!c?1s+3p:=4WFI6G+nU0UVgIp?PH)?4kO+1sOSXt?FgWm<h0o"?J$k5nH71r.=UR:V1i0kdnoAhJ1Cqfsr/nc=OW@U)1$&1Ag6i"$RpD\FRY0:8j)su4HdqRBR[copSql,<4;^;6S(%^KEp&/<HSkj9?5(+5)X$Zeij7'7U<\Ar#TaPk%:Lj:A-::+Xn!6gBr<r#&l(?alj:4g4s#FF,JFn3k?9EjNP&3`?*))XM5K"83_^M_cL7<$0kaCTH"P!Hfiib\j7@rG,Wbu3k"P!o+Rk#N`S%q"'qAs6O@P7h=ZtJ,jiZ(LGK;nN,u$sOn`a&4H^`TI+N"u+7-'S<#&2WS(eHbRIgAFLH4&\BB$Y"i6,#5Z&rS9?R9H+N+O,r#G!ch_HV]FuSg*6PZ!%&iES(fgV;qbs^Sc>S.b?1b%jg^-?5!g5cL/^)D9&df#S@6U%O3)b'pr]O)7l!=iFaD[EJIMbAt/d+jn=?*,m"%)1V3<J9iAV%*0FQBMT\(OA!WWRR8rQdFu%BMVc<A>7r$l4=['H*?9a[I\la4U=ST,gJn+,dmm:7Jl`"8e#kL'i_^qm-]qndk"'Y^0P+5uTU:'YX99Qk!+'UMlC>nVfUbnM`_>"Da8`8qF>+FW[oseFOUgT=F(q0UA.9.f*E2rHt29+(DXYPtI<dmA_Ym%-&!rMrhQRuAJ=V^9eUYRB,+,<Ie.?`8qZ1hdV-Ct00UpJDug)ok4/W(i*.6heEI-]]YG*Z7/W6ZlZ*7bhoVL;HmF-rGk'FBVGZ>Uf1K\j#35Gb5`Ef@=N@WU74hF)lo>-a@+khOf7f>%mg`q:m,5l_)L/%SUiV:87!(sG`gp]ED4HVYF^G,QP8R/*YJ%S\PBO1i0\87hLsOTD;b)d`ebiBc4Z;RV:1c-i,JaKT_aJeuUA*[!#C`F]37EMD6"o.B$HAMKLIFkR2OBb(sg&DVu"`i5O!nd:KfVYa)gks_dN72VNc4CCCuW!]kl84,<R;s?E'';dcEZ;.F=%Ot1Id3%Fl6gA!BC@MF+;n&8p)QjKTFYkfXT4F`\k-0r\_B@>t.Tj12KfaW3m)K?0O8VkIES\4+.m?5o-Ger[^oo_`"4'1p@$9!a8N?Fi7eM[4H`@LUB'$Zj(W:2g&IZ^Y=m]IBmRD`d%*<L>GUUKKT/C"&`SY@Wkh1IXX"<t)DR8"]^@/Enl$i]*2+fQ_,So5rn(tV,<TC+h%u2D[Y#k&^,$ML`b(61?$@:eYW\1>67P6E$#(?$93(QP&OMtTR/4m1YNJAl3'ZAD1bD>5LD_croOSVcif0P<5KV4[E#oR<?pJjG@<b&"L\\_Y4\-?ggo097P'50rV4$\<cUM+Y_%e=L=l0\,!2W^g-";rJoB?+0n:1I%bX;#3iSXr1cSish8h;Y+[2tPR8CbC\*'3#dQX70d=$"NRO[,J4k5Z3Ue8$m@1)$D!aBs[Fkc\u1._^3h9#kSu*fY!Zr+f:G6&V;1-+kM,#QIA`t`'c0jFo-se*9":.kfYB'0lgWc::,UR&bGRSH@@@5Kr;N`>Rc_l%RY0S-nPM=@N1/n\TJTiMsH(J`A)&GjA4!%ro1U`j:uG)&SIJ8<'#E<YH;X(R&*]T<<IGln!Op(8,DGO6S/WfK.:JJO\>-(h'j#$37*_&?_*U^6Sh"/o:1D)e=Ne[M-UeV7``>=C-=\!:(#SfoeHT7%A>&.!7;1qLDm[YJ>\'k2U.h57MI=elV5Vnrng>1lJ\Xt8\P'Q]a;=C-cca)SXT7.JQ'ZDRLA&4&p4=qXSUQl:A.pKQ3*A2kX5/m[KT=BR5P^R>g@X^=+MII>]VN'XID>.-0FUS9Y=C_^$qr(raM[GfrtkZY8?7j5mrVK6Si;[q&F$Y\"ejo&/?-_"A!H7s#4o2ZCB$,S@Y84XCUp^Y.s`DG.Jm26>tfJ>o]9ZM?'^TASC8#N&3e7*=+8ZVR>M%`.@b]p])IkaHqnkbMcHY$W/1(2W^g3E;c&p26?;A^ZJfs%@n,p)hM\I7W#2.n&APH#*$6Z9%ktoqDTrs+1dn?NXSb93dL7W9#q(GI=&B1;+bfOPk`CXi#GkJH;E2#Lb"N2$#D&jHE!Q2<.9MKQKf$=pJ]=,nSgiFHHj42Rcr_W?R+uS:hH1=R?S[(ZL)Ah<[>>]k#q.Xo^$@COGEIK\9'l4DK-ldh[Kf4+*SWcamWtq0_#.FdL;)0XM4!\[!RS-]EpKu@(L!/=$NI9b6Q-$1dR6*pP$L)(69i6NKsb)8$$,&Z[rn(L\HrG7/.gA0U2KDC?upJ$I[!Kdl!dl=[e8;)L138SVOaTrhBLsVKQl$K+WMT!;Q&,AIM?!%7U.*j)Phb&.eY]p]c42L=*RnHFhe_!-gW0<YU\MjPj0ST>,Q=JO[XuN^4j%9!FJ<WdoQVrg(HCPZ-&>>oQCt-Wfsb(#C]YRoUYscQMFLc/L(->J6Tpd2sbYVo,VtRp#tmSbkmZE5&Qqq:pAng[n&qPB08<on=SW%\V:&/?b:D4:1g8Q&Q9]oC^XkQQj(1jSP)E;dcJl'S2_P]%;bjk3qlsU46G]^OQK89C-N"pk@`[Ofmsa#"NNgfP!IW(&?QVK\3']^(-'MIL[j/IDfQ&^Y,]+?B]kh<['o'fn2ipNd>(3aNC-j<4ug%pJi('oIIfC_c9@YYf<Fd8lj!N$oVO=WXOq>(NNG')cCD/$B6UB_p?miP#7V59Y^*T<]Ht'1QY9/SNK*oU<1STUc@dj0TL\!P"0rW'R+J]MG+'aIDooL\poO\IHDV>d$Ln>b@BH<J`[i0W(`39$N2N1Y'E-V[.!17Jm"F&in4?g$.TkJ5$1*Y@/P>>^4"']4%]pH%X="7aSO#o.cAWro-+gLK[IXEUesUuSA`jM1ek=?164D(`2HBBMI$s'l1'j=@hJ/FO$o4=`o#`1A-;4S@<sr-^e986(DqSlD_%-Ie1u2KDG$Og6SSD)&\C"]A'<!Z.h4g1G7.^VD9B`je;:CNO$^9!#:_[dg;fD6rGT,S^qbA)AI],%.p9db`CrY03$"(?);UE]PKGOubEJAOa\YbL'FdoD#0WS*>Q"Z/O/1g71nj*"p>-;Z>%;@R"kD9<OriG,Y[MBAd>G\6>6:<?dhGZ4PE0PtaG`TM3Ik/.Rfre<W)k@5<CE&-LGQhuZ!@pH4;fKG(::-t=KkIlRN;lj$s);HmVWtucJ8;g\/)OHc/`e,d6Y7^_/4C<E*9d.r91N-FhB%C!5F.+BBjK6G,u*E033\s?RJHK0[I+3qGJc>$_t!'*':34.r<N_A.H87`Bp5d>Pu`^kShM+6ZnN#6=jkA)8P4f:@.)d24[9+c8Fo\7"/c^J's]T&jrbq#4Z:Q/g@b&B^8Ps29;@)\(M,LXRRbf*H\Mp.7QJcm:h>u<E,#VHBoK1&dtBEW[tD3UNLB(T&QD6ggX]26T7hrpq:^7!Yp[n!`$-S.tco1*rd?tfh/bMO?qn*ena@;iEXjL,EA'GkOskr+C+D=.+T@3Vp-<h,r.cRr`tV*ES+Uc?Wr?HkS(rTrBVB8C7l_`RgKK__HK'a,iFZL.@&"-;uG9;Je0O$T_n6sBPMSIInt^qrPZ1hg=5CgBOg(im&N5<"\dOB4T-n7!X$][-GbSdX)[Xno&-G#/(!p1p:fY&lJutDO0ju0^iXa1[p*EZPm%gHcj$4?0QFmG\km/VFZbhmR6g#aZGjEdrrdu6N/LPP%&7[)7]p7Pgf,TXPbi=Z(;XUiPQVq@%$nqO@IES8-gZ!K;4qgCIdPme/F@?+_[HSZSJSoJgn/-4#b]g`r;t8(;@V[U[V/hihl&>JQH:,UPfogjF`l4/p&1nI,WnO#mS6fFf?_5BJ3Z^M\RO+<7/6bG$t9me,"J$jM4`rmbQ;dO$;i0XkS&A[J)n8ciuBKj1DFkR'r9hf/'&RsdkM-=ZIC3bnXt"P<5QOhIg9A\W!G8ph?Ed[HQ_H1DX+c`q%cTSC*uGoZT/&8OMW2rCN#A_(SL]V=!'s.?>`;hi8<8$CZukR"kCphm>d;1*(-YQ!nTh!bQ.X"_-36Z;ZEZ,a*ZNP>@YpLHJ+5sOXdLna\e`B!5IIdW2TsQo`ePcZ`mL7HsgTX\IQs.&Omc%c"gqDSjTc]/$DatQP'f*Gh]oSl:Gu8'5ZT@AUPE<25gM8[L%NLY]2;rKJRR'oD++lF1L`SV>u6+O^p/(lRc^+6$!"K/tF[<L`M8/"Zok<PWGgC3d;_G.@VC7B%.Tel:Q1oGiDZoBjC<(l<u77H_49\#.B%^fRH.j\5*^Q$QC6NEReq*-NE8m(o@gdPRQl\#mU%/CrQ<eNl%4%0fQE+O9d#H^mQ^ec;/J/mmM$B9im[P`i/?'l@il^E9g*8!jr?tmpAK595*Z9aI?#TI4QA7BnWeH&:@(Ekb8k+Bc&8P/U4#^q)SB2p9c+OQaJqrM.LYM^]\jQWLTHrKEBIn&t0(B;ZfGSnk)`Zkd^p*H/DJ4Cg)5tF7`-jQ3@#?Vc1RPr6h6;3%8RMhR=.!*0T]^]'*EuT\E>b9d=WL(,";Nf?At&#GM;C81::f;J8,^>A"QuAbkOSM`d8>%eZB),HVEh1MSN]c')DI)m8hBbO\@6)M^Mu#B_ikmp`obOh$u,nnl"hC7ao">n!OaB!o.7k^4md=`ATp5j/`:Jpin=Qe67E-okVs\?S0u<fe)I1@*1&G8+.1*iA\qeiTs9,L&]R"8/?ADL6ib7bJ%clBpQi*SSBKP)nDs7CM=m_;mO7Q=5hd$2LiFP&NW@Ef%HDJhT:0)0?-7bQkg2,oV!W3hSu8VN`ZDI:LQ(B)j6hZACI^mt&a'j8Hi<iu`oqH&jXR&_2I(fRWjnl304J:CAT":,=?S%Cc4j!0H2\H&CteaNfMZagqq5p%u6=)4W;HjYK3HP,',2>kUg)ibjt$*ars!cS8o(!VBTG&p,cJ^[F-Uh'IkJU3#X#(>Ba+p"f3rQNDd)=!A(6M=qU9$l:aeTu5q^![f9gT^lAmVqhLpf<N(eeH#g4'ssLd82T8XRk+A1YS^55Helkcqhs5e>$'29Gl3iC/lg'YU=Q\9)I%,<;4,UGlakf*/+)/_H"@&fc*AEPE=:29)!u-4g1/_9*.gh9?@"(2MeVKc,GL_>BqkFJGT_,fTh#h&%X9brBtqD!OCnFneNKED7gl!QaLp48*ndhSnUA5AV`ba]:/&BeW<W3TBS<*T8=Pg%[,,3`s82EioD7,R8d$'s<'<%9PtI\(;QV]T;JRqE!#qO&?^:D,JDnCLiCmo@f50S@mbADL?!orq>6_:aQUXWM%&6D*=k)2aM<LmL!]DIH&Nd_P`<3l=Z9_>55#3nDL:rAmJ#WV&Gf$]Fm&![4msBNI5%g&3DkQB@k0UKlk/t\TZTY.J=7F\cS_J?j]XH/>(n!Ht3kD]!D&q-;DQS*ZM=7t&`HE8ika6]t:+Q!n=:.a*:kAt0N3-cK+XFjEp`<";VRf^Q]/h^nc/M!<[)p2!SC2:Q0[uh=J2MI8EA]T`(`LhDf0eP;oi:l4q<$HdK:P.6!cb`tDW*"k@m_I9'e%3&??&4)m8j"W"g%#LSN^OWH&jt\@>([GS*W&(q,C>%>HXbhbPt>G8(A('1RZ5W9%+h%K-7e4XTE=%JTu<rX67q)LsNEpm,qpVaDt=sP%W\I!>tT7n:NYp7\mI?HTq$&Jq86+nkWlfnRX3E+bMF^IncU(*/#mTmGQ]/]]fB+mb,"4[!c[&0_5mulb=ShA7cIPipEQhap!a@f`u_i@&&YW[\N%\q:S;[k]W:D-I\Os>Ul2]G[OfocV7I2;S&6L;pNmOlX;`3=US=8eXRs2%\Y9f^e#M(HGjIoFj8kXYnW7_@N7`U=aLTk<Aes[o#S;$n;8;I_S0rb=gNEm<Horapj79>$Qk<_)EmX[m33ES4jFup+.'f)KC!*;gF3f(95c2>`1%aA<62^2)ULP64."FtWrddC+dhr9pdD-7XCuLg+d+bEs3eX#YbC.1+)S7jdmi(u7H^5+lqPqR<q'>Nn[f6K8(-:e<h?S'$cVW$0*<ZC1+=K=(Wd6V?<n&%kFR"5^)F\]T_R&pO%J$KE;:?^\r=K^f7je.&F(M!X>H&troZ(1oMjPoFg/Ib^S,rkX2<ls:pGIZ:4Oe><KEN.:hbF^5OXO8j67jOk'D+6L-qiD`!I@O(-u[=f>baE5n>Ag;2&W7S*7._'qHMJ[Fh*+hR[PuUCN+RSR4T3'qVN3F?OeO0]YdK=MLefrbrm:X6V?i`:7/=(9Zu\1tt#K.q`%j0Ym)5[3<j2&"aMO:Eo:'mZMCd3"^B'jIfbkSQ::nQCQ\i=jsDk`cTP8J/qY+jgM=pM'X>74%T96bSh/n/P<g!'0RV#G7"rd6ip2kF*I;$B_^g$(_P,*:V-c;U#?Hdlo'Jba>W:';@0+<7nCV$=^iI!I1S8&(JnLa'dd!kFf0&fT5b>Y;>O,oe3)4tid:bcQ".hq'?%:'CU'W`p0fm\G2Lb7Y5h.Pqe8Fu?Z1E,DB>qA6X$2+lQ;?Y\+b"kBAAf?SQegD.Mi?elUPW!LJQ(Bg#B+*C._Q(JKhjW$V-%0XtA'7CI^8g&L,1q=\[\RlA_W&%m8c\bG$J]BmLi0%3'.Z$Lf*t:g1Uh&^E^`LF;\m?PVd"Oh1G9V]rj.g1'I3]Ga>\o)I'l[&_#P]?2[AB1$go`F?khcNB+un)fQ=f?dV(+HFD+;BgO@_^6d'A,N^%[D>]Q^eJ"YCXhTS6ui;AZ$N%kBSr)<ooS"7A']na@RjV9fj8]nC*-W%h+Es@#;U]KkbrEhI.JM]d8iJc`S[I3lD&d6k5)m:aR*%N:nn&Id!HJ1R*+=O?ksL&-^p2jF0a,i=dCXPJj8aKqdhSsJiJ$.Q1DO@'oPET,#>fUC/".D$X'Mr&Ln,=MLDLQ&5G.2^u'*t%A4R;TOAfD[)A5LqZ@WE:+>0/4K*tVL8f=69?8<Q`YkC5H^Mc5l?CG43`OQ0m6n:%[MXmEUJ)eGm\Uq&E[eiA'NmaVfGtl5JA<9%E:$ZZYBOPL5-??R'Uq2]2[iO,;#.jmUYl2Vk%56-(#$:'?>#0nDO5^mS6D5(d_R1a^Ru(U01J4E:,Fb#lD^QZJ`p@/TpT^n\72o"0tLD_HpK7eaB%^"IW%]$,kHFng]-L']s`R0<dh<A:En4(I4eXYi*8+=pjp,7>a_o9C/::L#cJ3;5<1-q$\<r\aR%!:\6[^\(4_od."#T1(XCR.I+P_cV0<_mcD"_cEN82%HG=.+('0_50,We[D8ps'5'%Y^Op:RdOo'*V_5XVYX#hWP+Q^'M11I/GGf>Pu9d(q@":t\A4`8_us*VA`@uJ_"@-hE4<_&QM:[sol$X-$c^C)S1a';WeZn,&sK;c^+cLPUZVo?-LS1&/C3EC"g_f#dM!e<`)Ena2jGM)rU.H3Tb.Y8CM*7_7$X^mdM!VYIJK72W*2$[o32]#C8fRM(b%Y9:7N9`CN6dZES//B-nreFlqmQR#r&XjtR3p8/cJHQ^*s$^FV`)G\hc6#9*A)s]#X4p70Of="$dO2*kS5;TZAVt..cA^EsXuFn$[+D0\H"ebobfiYr+9!%k2DbHS7%^Ej2sq#^X.C*34pY$JH^AMTlA."G[bGln!r5W<>E:"Z0fOEW"A]n#>r/:acsLd]?Wng[0CglXXNK9u0;%]mD;qb-7btb1"<O]t%CVuC[=fjtEDGkll$t'Z'u6LS+g`)iQXcL6*Jpeh_Ju$YRA]'oSfn)S0^30Cdpl[!\OFri4B'K"NZ`EBh(MugFYt:5;lTPJi+.4ApU(ZV6\VQ<?>+1/Clu-Y"NKXPe-R<2(X>r(:>->8b),SRnZ[8q,LPa6'*N9rNYch%_ae+%qe>ajC)2N/SSQ0IPeh?><5RB'&W>\lWC+Ksl!`GmcCT"uBhL_rR=DWA(N@"@.H'q0W=g0Y4sK+CHH2AZ-j_SL$r0!EU%OpR2p(>q>ICBEL]h^-64+!uoX2G;`Z*<G[H-*i61Sp-req%q2[n\kd$C<]m)]Z9mj!ZXanE_n"_+HW6VPm$*HqUs."!nDbs^**c/nKFEc6cS&:H?;>rjL"#=!?b"%t``>HNL9j#"=FrD>^iI/J-i$Ta:-aCBQ=:4D%=NC=^DCeSs#8"3k[n4oQdBH$KpWEMPISfuJFM),%e4%(OEmbq#d^j:6MC\\L&R)Y6"Wd)')Hgf<SfYi#3ie[8Sf7qgi1'o3@SB:E3^h?6L=Ahs^`H(H!giKO\9T'LAlJNPeT\]s`f^`,KAi16:=$8MD8EY!00**MJg0oWS5E#nPNF\EZ%Pr3sSl.-G:"rR#];+1+g-e>m\?ATFH0ufkF9[Ff(ngfO+irYHAnCa4,I%)*OMj?-\qOt.$=+/AbX"QNi3iXJkqfn=6Wdu->?MS<)lbC.U;j!i$)E+r'CFj%?u(-,+e4hM!*rlrB8(\jfTWX9:sUD1r7\]$'HE6g/b6+N))Cf]:po6SGkbSI0r=7YY_r?i,E4Bo)4"GDNu<?F&O"cr-s_N$!f:o-&897+>YSn.Bd2S^c#71"-<2(6cIDf3/"lor^JAIp]e-fM8eui)="URh*[4-G^-FZ=1!'p!K.?Vh(8h5e[GJTkb])M#8d\Aa%&u)EqL?K=6K6N`YOh)$Tl1!KWZ$aWG<gFM<n;eaT#qtt=hL9F0TVRRnYSVi[$\MU6cCP?5-rou:>.\T(hp\b:%)d5KIXT>G\YK;d$!ZED>F'`AMQV,;7)\O.&P[#)!9-V+j(;0)jPFU@tp=kV`Q$XNu@eZR?o'eHts1N@6He:/8Q/FRnaV*A(S2R'4%]jTqk$E=XqiPccTi!Jb0ubBOl^c?S#W*EG^Af%"m!='DM@%MCK3?-An*,>4r+\?grgp0Q\!7fFL4?DC`Lm?W0*cp1WOmcH*LgX0$B<0QmTA4qLtVHc5[O9UjtlZg^hm$ne;7`X9#@Q%"aA;AipB5(QS/]XCQqa78[1^$7VH<(M.TG.Yd*pZQDo$j!L^F?Hg3rro)<_qL9:&fO*o@XFaQCOY])1XT"k]4"$VGWFgb't"L>::B>M.@8+X8A?a#:7ofpT^6<j7HsMCBAnr:[_jJR,MU,F&,.:8':SV5`273(4R9Y-HGlD^rP+^f<5+"d<b&LnKfI\`F$4.`#IX/OCr!V)NAKMpdq-kn(&PmN?M,D$FbTo;`0tp:S>=*Mfff^^BM/YNNkN8$:0js5JB\NhMi)\$[YQ)h]#$<]+_25^&sqMqn=VAip!;pq.%iWX/TeOBLq!l,$:;W.\`%,\Xe;AG=?)I47a4ARC5dg]rJ"Y>aJ7;9d][/$"c0/pi%EXS!lF(<Y(2C2Y9b:$HkJei1G+c?DDdn;L1Cp7HWWo\m%#_RQWOg,W$.AeDrgM%mFkGNk)j'RpcuJjs2kY8kEJVA1f_%4@U(("fm]g^L_.6Y,=0n4+;kMM&TmW8_aGmJbf8T8hZ:]>T?ne5Fqm?aK/S`1Xqu[all>:F#34ItOM^_!ZGu;fI.M[Y/_;a.5s74\=2\Y`P4frn@(p5QEE.#hqIHq;cpJ+]7(8,t<-9:C0_67tpkB?,Q^TG.0t.K@:lj:?rnZD@TEMHFM4d654h0srP(tLM(U"G:F0r8=$mf7bmtKtu[m7^<P3Ud9iT(..Gjj:O7<fOq74Y0E)$sQI'$.RH!W_-<9D]?OU!p9c\LogaiGo+2mulAo-&n48=S1j!i`Q1`5*cPqaZ65'=fR<r<0DM$m=,TP8!fL*JY%0$]ED!p>)EI)5_[[$mRC:7Y]T(\DTN&M&p#e^J#n%(%q2V#-(CuFPGf,=[oF*d6qfQnFnsikGp7AFDIINJS"p>+kGt(Q0Bk!V@G6cJECbMp*D2dZ#)+Ujgt;+)fs<(khP!/[r5uBnjetNF+^e./m@k4Z%P,_MM]@Ph;i.@)q(5PKrr'e2r*7i]`Q;W>VLQi^jW<'l;niZFNdYl<r3@9!T.2Pl&EPI?hS2VX[&)k[af:rmc%4%,**IoRWS,n[Cl<<.dQC=SS@X[*mJ9O[bKLsOf)4qhiLqmCG#@O]:[Xge4Y$1$H,?G&F.k@e+!>D'`lt,\Sc;;o];j4=^V_ak&#[Ioc0Sle+,qIA)<6q(4!"68\7M>Tk`-7O0l<rt#P"UFGt7mX#Cj,8B'-8"^#0.OA'3gWg<!h*"gk@IW_ON@Zo3ips,i?#q_-Uk2Xm0\dQ)G-bOTIiA!,:L*m.\@s2ZJgEKGpt?_KhnfYIg4"Z0#d?/rT;hi+pm"F@@1AuY8#n7a$:P'd4+R/L^ujHIe;$!kpB:#@VEjTHh9;I-$c^ta'MOucsVT9GcMT[,YgQGTaHcDAt+Zbreh!6[d-^hYjo6o$q08I1U`nGNqnrFkJ+KkNB$Vtm$F3ilY$@eqCA[=[uMHnfikRDPFF=><$!-l&kHk=K.f0T(giMjj[-'@d,s"Z`;0'UMFWq3g53ZC<#hO%88\-.+Zdg22:6b*OKe8*fK-_beK&9%noq]S?mu`IW6hAk1<4Gi7B19IEcN_YPg>am9TtjNr=:Fgh>QH^V'nr3iXD+VeD_rui1ibL;\1AG[K-X,/R4^r`]aMt#NJe/,fBn/i1N>OhM,;;D=rTZ-]-,4A@],qj_TAKYdVM<K-c4)Ii+2O<);>G[S>In=:5&D\q%`bcEtdQCpjLna^=mILb&_!UlFA!kj^oem'?^lhs%pRE>D)M$4&"*Ao9j:7Ge&$3u^a7bHEQc3?"X.`<M`T<:I8B^"[gsr7+Vgt)9oe]4.SkGKkj@XXWoAIic7^*>I1qY[4Lj.F7d=Ak_9@&HM?P2R9%[W]/_9&c,?@J'`BBG0BNKF6Z*]snQ-W9\4\o<8O^4VG#\F0q?Wmo=QXC[(ah`_Wh[=XMh.VkQ'3MUMPjrSU8Y.jGRi<:r%aq@[)[GKhY`gPW5riA(4X7A]WX\kF5O2Kd`#C/9T`^0R2Sbhf5V&X6".^!Jq&-7(`L+$l/3PI%RR1e(RHt=SLC!/Djd^d0C"2fF9IE-ol4+ClUWPE]KE]'@rbl*GMa#';`)YtpM.qkl:`LYXjmK'LR`]t!>CS[UQ8LGITI=e5.+g.)He$q7dUfnCie&Bjo[qZoRYtW';*XDs>^t[Lt1,&23$=P/@V;uIZ-%B\kL]lJgbk)'%iFWe.@![L8`g4`R6f\f["W;G3i&kY5A*Z,9X2lq+FrA_O?"2/5Fpu)BO+r,(Rn!l$aseWWXWb4]Rsfs-`f8H5O:Pcl+)qi=]l5nW70(@2I(fV7d^,t,D@k3NGe*4$$/omr/i:mP#1C9X]3#6&j'i]7(0D:T=[m:2R6H%^/FH6TSgf[+5RUKM53!QG77)3D00em9\mA!:BNUr8>d-l&q?_d7i)X8*_"E1%l19,Bk.JC;Y>8]UXg^ipa5T,"X%`F4Kbk*8jeF?cg>mQO6fXTgVHkNB]].l5V:TR3-F9^&*Nl/u6u9X^R)W"sj/"P60W<+[bW,]EWKi5QZ,ajV;M2QkT1_BL3WCK?p7fC<YTQYcY]RaTT@u/(]A[YHV&\&]=XfkaRLNT?^/TJ`Wu)T0OrGSjQ<PS:9VmKV@MifnH`eT#5PE*qBXD:9(%DP4]$8qa&FtFqI!e*,VL(qL[0_q8iK<k`!/ZQ:!c_rt%j3^UoNRen&5!sW@T12@":oS;'8#E\U+k49"mhf$>l<;Bo"2]"l'D0XY^aaTglQdEn'?$h$@\;;ce7pRDbF'',m=:QO_^=CH&=\OK,(*fJuX3>U,m-ZIe+b5]BR*(Rh.HB</U"N/"EZ3??H?39.,T--g9R]:VuoVE>i+gS#:_pL40`iRqK\?<#_7SMtKooKW,5GG[1t,>?Itt+1#%e)*R/Ca2)V4H\IuKi=J-$Sf7?j8dLruPeLeFc8k!jhuBu%071j_=N"a#FSG9KrC",4&S3QY\;H0#JJu`Yi>pMH*4.<,P!c5@qpk;@BH,L](1u1*(PqV_)R'BtW-SWiJaknnq.MfYg$oh,E1)%\8.eHX5_&j6+_mKLI&-_7B[EI1O]3D[*1As(?Y;95.#k6=C?UFrW&Z(S`H[4nRcX@-X?5EnBRqcIT;5gjJ<[pD;T/g:)tmo;4(Dp5JlaM!o8IG0^Tecd;rm:eXN_:$,YJ<5N.C*[9``2=3SN&5_#"YV3DT(MXe-pm&Jg44HTNY/aq*iESG-cl2PRX#P?8@ik&,#n.>8u?Z]*$T^m</0=&\Gs-,oOa<Y^e-iL!Zi?dW'+]Be8&S;B0Q,.GkMYg"IOZ.E;@L<O\WUO+p6:?)<3TH?]-Tng]upC#e'Np9J*<Q0tE/T\lF.]his&pN_p[E/+15iC-d.LgcNB@KR1aX1,9RF`MY.s7d-#&\$j+@gu@HTcU!m_qM,@\oSN9,D(,&iA,[gruQS09QZRko:[nILCbD&,!,`@HN?%QO>?l-*/1ela%,X-*E;oCope^M(G])`':O2'V!-:>;<"OB*LlJE\>J2VK=oQki0tKn"pFp9=c2(B`flYFK\<>c(@s9d]pXW&^_e=T#3_l`[_"OK14]COn#E;9&$q.Gm6V\p"5$r?[f/aW*B>,LXOLjh+kRIbsKY.Ik;j.Ik9A6_LGo01Z&PH!K<6@qs(^22I=*8Z5&9m(M3"/KWkrJStL==HU:Vn<!,l5(Dl/Laed0$"S/%/QI1:.6dG/;FM_RHn?=2#NQ6K.3OpH*i=Ia'+b"aY&cH_h'_9>3^sZV`mQa[d;9p=HF$NMX2co$:+1Hhc`rHI'Nq,Ai%IH9XS[100*M/-1fk83^0((ajCt87*k+2]1g>LisR$gMp/*r,D-G#Q1hMhsmndEa[/3O\3T\pS$AaS=nn#J,KgWpLW0:b(tHC2bDS=Eb#C[WR)DcA"]`XRH?E9N9u,dV*;r;Hmhcqf#A>.i`\A%G[<!3O\b[+Ank#@X$aPVXg+@2%jnFe?(j'?=>+DK8Y4e)NX7jc_1&OnC'n>[l(N?b$;n^g=(KP1b9m;8\is+"k>EY^@_[LiV/:8?i"*]o_R`#d*+kGj!mN":ddur56:dH.a*@81dD3Pt3A=W`bTI%i17cgrsh00,bo)l+NF[)UOA"@/75$hLH(nK0<LMCP4TPmcm$LDr,+WT?&0bo#F2%H'5`097mM-JDQ,aOl`0:]B)u^<(K6J8Z0c3USeXFnr\I*<=YWUANa(=%Y',T/WS9:P&Hh[SEl2%52&'\Y]XklhBnKSm'`u/XOCfFcjpL9!QjD'C@gcE`q?Z9CMo2p=N;MSX"%qLFYFQ*.!E`U@%MXo,_C5fYl_[rB@=]\opVe,A'g)]:GGAlj>A<+K-PEKp#e'd;8[,kks54YWuVNeS56^>`Q$dYDYOIfrOb%*GT^<5aT^GA%e*?;G*+Nk#H;6D<%:nQV^@GX\U"2<VP1_TQX"MVZmt+oZ4)WIj8eb#\r[>bci\O1j2oe?#.mUigJTZH%J6Df&UhF+Q:/m77s3!kSc$H)8AQUr<d;$B)9!'H*Dg>NVVglBK7tPN,DiHM1Fu5??&70!4i)/bdld'tET5h-%H!0uJ5h#-@EP7mK8]p\7Uoc*j>X7!bA0AtGtR+e4ufkK]Z]rn%Z"_Vq^o.k8D:*89_^qMXC)/H';se9-<1!,oR=,9FH8P:#>UNH)*EIlWAk>jgTXtZSeV[UR%48[,.Cs(=L5Eupi/HEO00XQ"c5maLjZdMP!Lc!QKuI"kSIo34?`qZf?8Xh!qk6PJH1o471/IYQZ,.!AWh,@>),8.;2G_+1JOIYXCdAWp&[(!ZU2F'cf,!83-R8#Ck>3K)]h3GDIdqa)Rs.`cW#P07-*ML'jOf8,HYmp#<(Z9rJG)U^WnPq7g8Yq,4n(XKD^C:[@WCjg8lXc7I>/G?e!(5I(0*Ia".M-UONs&3fV`Fkd.JI=m`XWD3?3b0DaC;iKbCVN',c6=N]@s4]@.m,I:)$DJ[D+O-n3aN+ZMAf*[b3Sf](.-cSGL:fDm:_0s-g[FA*ub<p3S@2,Qa]&NG''QDJqTo:n7qF<IQac.O'895$>>>J7^9K=%Cls'7MKoW&J89*OXe&c1+M55aS(p6\[.?CAP6P.3<d1U%K^PE6!RJMXaa<<l(78?KD-+V\e0Usr-^3oP0ZZVW]7PAQ8#-@i09B'MNRbGGRK?`45*kVk(7;s=]rLgTh2YB2Ipi$L569Y"%61%<s2]^[R1b*FJZE`*^qX0#P4"e9sk@rX6RFZ2PM,it;SZ36h^FKk-s'ZVu<r5d1ElRbJcq:!qU3Sau:q(,HTdnS`pIoN-VQ?VPB0>%nj"[;-@>upA;8Z`&V9N]n)9Er!FCdB:!hL^Z3M(pqOn!u*^Tpc+3E7K`d?.&Tl6TiGg@BSTS(f)74W@IBjR_qjU,p-28hcOK,fK?&0-t,(;qGs_SIf21<#>E%T"K.I;Crsm`_e-DlUk?&duSVM+hN))F='F]h6O(of(E$"GVAV:\6m;7O.Oq_$'`6!r>$&f-h?dM#?FPlaA0WjpW![T6=(r)H+@Zn?5I+83ku_lq3"gn\9u$B!0poV`pntDA(/]q@`NCbcJCYfqIBq9Ehp@:4-IAR3T(>uHQ+8pRu0tna1nL/@/T?3b3aQd=kRMW[:+]oHVfTA'V8ir>C[ci4QP(SoZtZng(pU*Dpj%Ye^\>OG$sNQ93P'K-]-2D7gV$gWf)W@4cjXG6;iU18nIbS0F+KP^sKONBT0PN@8g`DS!\,E.<T4GLqqTB)j^e(\m9,uIs:Qi\PX>qnVap1">5HUR.]3$CA-*M-3PB<1Wf0_H'>rq=JFD1+gBa7g/pk=C'db\(**G7B;Bifq]R7WIRLe=3ll=tFPADNHpM3nb#2d3,]q:<SqR[c4gM@-@,c@:QLQ<&nEl)KhIQXgWR68m,%CHZ"a*aMl5Kg%A]VoU!]Gb?HO-KNBQ"#MWV-0rU$/PY)F+%fd?+Uge?'O*^!eHo97jJ#l9f6'>PS`^hhJ>>5JlG594h5A"4lB7C(=0+[$^qd;0Gm`fI/EL-+u+"#j6*.>;??gR,hmt&g@f(0\Vs,TkjG`L"q5WFT:Ps<KhbolcLO!:);hYT[XYdLsC/)b'el88SiQ?Gamsq39,B`I\b.?Lmep00n]U]jtf4GXfuY$OnIiOL8@g9Nde7'fs''iK+9KI[d*^9@DH7*]PB;Qk2>JQW=NMG]<#)UDdDoC)?c"UYK3rSHgmn=!kp`OJ\j[K;LX(1V2Ku:^mdnbGB8hj'WML"jT%0)-Ooslfj0VuqMo9b^`tVd!sBiY^ahhKTgp1l:<]$:kX#e5o]nFFVIS<nohXWJr23X:7;"$Y(GTmPI?Y"H6AE/4%tQ2)1s/LUj9p,=XX#:[!%%9T#EAV7HSptK0$=,\-sqf(W-OCn;=rYhj7D\MU<9$+`BYr_`4p@D34<LYFDbUR0XjUfD%UC/e=NVOljo.PeS@*\lkb\-X=Y/N:*DEVRC.FlG.K$pcalN-,BtraNDRo)'W;4Zj6[(]i`JI%Q768Q`8skV!J:-E<LrQn_q5UT[?uQWjT6lN"pH0IO#!`UM\-?][K1"#[L"'(P82b,;O3d&AtBl^r=LoV)m]`8b<Qh3nnR[diDjkfSErO-#AE.u'?<Z7I*ooW%(iI\PZVRs_KoVq2^#)b7)KPbHUlc"NTG]LBE2M?=n5L8P8LO[UF_bAQ#L>t:ZgRTgLJnN55Z.h_cfT!6o`V3?]kIe>mjAeqGbfIhm=9(Sp61+I_VJD'lP#sVChMD@u%2g84O.Bd2ifBkRbQVj[<@ioYGp>T?kPf<$i:,4J#(FnOYoN%=VElIhc+oR5EOig7bea1B;=P#.Q>uh0<h+"/NC&s1]s@1f5kaP]aHK`?Ne)>=DnK;S[&6$BsWJlt%107tS'_9LHWj.!R:2/uF%MCd3bCb;*8l?U7P"d[JRFZcC7dYi3,frJa%<%/u^QePAlkCi?5k9ID(%]f/2*?s6K/im9q_i6<@DojKSTQ_U$(1V5%!#IMH"8DP.6[i5*8;?L#G5^5e'=4ZkiEtLURJ@<gWkh2J+rPTh(>m(XLjY,csd65s5OuLI7:($-5"C#R*m9LT_pdY&NBuY,?"hP2pZYe1LT7k14qf,e2]7X;UI32t%F-%HA,8N-/d#Z[dMn92-<-bRM.U7UM@7+[5hf!D``A/8AFHoSu_#\QNFpr8TQAp7@lWaKA<.^$EopG=Q"\bcCh']H?[cf)RZIo(?Y3Ur/L!IWo]2nEEHqO^M+s^X2mOts9r6@?0+2*3B%hnQK?,blgjf"U!%1@Ea30=<^5ViQS6)VZWA&!uEJ-oEZ<R6J>A5iFL<:Z1W3s"=gSWtGW9^(un/2V:1]-iR[iVt67_Y3D@h\$ph/`Dh3%?-c?]$;Tc/nPc#H)*(f['3F-H>fH^VOX!GnTF$c3F`%+j?u+YEOPRu484omT7kbI/r-mKTFD:X)t[5PSMEM*('DUSU?R%I%>`<4e-Y#rC.V\f7h'ak9^`gZ_k**=aYtC89ro63c,Qd7H;%Bho-@j.Bg..9E>,Ygb\%Ba;`r@R4r>1SWsRC8<d>`8[NODo9`g+AW,;0rGDQe=MdX\<i^J]O6=W0fKj]kKZ5pUjG[bH#LpGot_D%Ljl:*G7:"1@03E*".08GLG9CWC+\r>^lU6`GR9IK;&"0*TLMR*u-iZ8EBPeY+(_;C@`?UXY,h2b<4X99bK>+]lTe[X0W_:P4c6S:V?7L4a$DH3*(BhlWKnc$<DBfMeYL[W+lJ:Q^EH\s@VruMG&OaLn&-"s+\o>n[#('i"UT-,n2gBW#o<.$mDSgd@(UH-^O4oFH_q&PAtSAL-U>A[^gabWWN#_&B*I$@[_deef^)X::669D?a*iunT_OS:e=$u1+j4LECMJ;@5UeHKT2K)g%AK8WXgBT'>2Q/R&>F\t*RV/gYD1h=m(M(>nC-V4MP'3-AF8NY'#hB1if4Z[^_0F[>3"i#Eri\?%8]RU'Ar(2ZpU.Ti`N4ro>Seq`Z;^F/1c1/qpSoCm9bV=ATS+\"MJr+"@s'UcLJJ6;P/so!+X1ujNYGI-Icl"LbU`oA;I4OR\.ZsZGijp3[,&B8CX7\+*S_5njM2s_3hdX=PB-Y?^S^,="1XOE0fA(_J[]*mIWO^P,!*49B!q];JTh[:E%_Zqkqt:/*Hd?4Id=MXMbLOG2C,)b-`rq^cuWJ2K@OUQkAi<sZYh3h!:SuFSn*\L/qg#jHm5P&rQ5[?_p5^UKVJAWm<X,:6fUijA)uHJpVER1\k1(u%bb@BI/7\8E,.OZ\Hl'Ih93$8'BsntSEOVXf8DC4b"uoiMg=Pke$R.C&.km-ap8^3:VmW,hT"lc)2Tl@?7_hF*<EB2'5WGY5*tJILqRJ.,?r%.THOVl;N)&8TqOR8kR-k!L7WN,kd+(=.Z>iu=Okm$Hp;n)>`f8W2G'#P1[^eO55o/<.0'gQ9VdCmA&h#ppapj)pLAihH;q?Cr47;=,ar_;&&RThR"US@^=jKOX^N[V:^Jf)oDmqmKoVYGf3*3,>eL2?cni$iB/[3SC[;CmUdLAjr)AC"]21nqXF:+l1"EX+3r<s!^D$8&E%Z8(pWja6i9>o"a]ms`29i:^&+P=*,I%2eCG:((C6@$jKku*5[ulA?lIW2VhsWr1"=Q^$^Xo_WrOWd2F,Ee55grBQ1M&<<Z:ic*G;K=C5gC*B:Oe`NrUR%jQLEh,0jL"6/s=*8n(\`EL<l]<dDI=B4#K]RO/Tn[4P34;T[8LW[.3b%Xogqa+9Fc02mBbOG#"H_C1F:I>qDTPV)qiB;2<^Nra8Ym@6.*TnHJ[Ki.k3H5!!7LL/&\N`*S[7iSCh>?YOY<T6/k7;4i+qK">2\oAAe;0m6#+AJXD"88,-B<\nH1XWFi%\4I;?d3R,X(M"_eZ2e&PJT)*Jj+HF0\VomG,EWgf8hkXG`]2K(YFj$s7]m)7M$<$c'/`#M[#Jr]@Q`+)FGO^V."^>sS<mBddZWj0\c/:fLWGQ_SH',!OTHQ3R??W.#2oXL/V]Rg>P;%RiFMp[\@\pX?ll;2L<Q`**!mcC\Qt3j9f;$RRIsBIPkbIt6oWlA_;UJr^qe,:U/dun.4H"Z0g.1IM]BL4;M@((dLZj+`!IR@O7$i?3<hP"k&/1KjKsq]0`(m_Kj#U,cH8.m[dg5,A[(hMQN5H1Gh.qZWYo)fGT'/-@-5m(AXh\D6:PP;m'T%[F!)#p<@Gj0*glRm4YqIpc&\s^r1jLMbCadhR#nGr5#nbDRf_9@!&r#Jb!Xi:G2e/'Ia*/'MtA@@2#O,)o/*?D-3E]e570\`>OoF=gul!()\UTXb@5m8AfB`b@cKF!O'3iBi"q67?kso?,(t8CgGOo9B-9?/+F!,/QZZ:mfW$)p)J9H"ULU;!Cgt0\T@'be6=0!:6;qK;d,D+g`Q^.m.!8q>'Pdr+aL/$=U'/"!F-J.78Y$]EHj[t]Dpdu$jsr*g$Dao02`H&<mRNE%RKrZodp_)Tn<1tLP3GI6n@C[T(As@>61r/tN?Ca7Oi;dd]>b?BI\/T`@19=<\;VeVlA(!q.F&;d=WbQZgcOWIS3h4jrshKQG(F@EhEJc6q???7=cblR1_S4<H.OB]S0)rn)T+em]DMtfSC7%:lVs8JAkm+K^sYXj1Z-+_,.7h]A?3?QO?T!4%-BlR`4_Jtc_s>tB06,j&Tq$AWNotueAg_diC31Nb,pb5fIUAdL"`m'PCV1C%8Z&*Sj$"fNn'3%Og4"Ra6$&%2CSU;^$Uj)A=^"V&b"&G5IQ<ZU0FOd6<ACa'<S@a#196$F*^)sT@H&6#i-4d=:B[n,GBY?87*B+[mBc=nK89@GJ,]uW6PM0^9_@k9]-8-68B@YI"4^;JaK;WoU`/K7a^OY,A/QbMT>;7/@ZqE+L8T3+^`*C:gG^dn^++6VTFFpB3)kekT^7M[9!]'\SUqu7II]"rWkr$+K;ZJcBAuoHMEs`+tA_1$#2l>Z!H"6;hL&CcAe8gKF8-`=d"lramGn)"m%4BiD[^n(ZXEO^r(H=AfE`/<Po^?clJX44I<-8V;eCOIVYL/s+)_%1\TFfh$Yh!<`IaLPWf\6JQFfkb?<u>Pc]=V@$*cA&:2._POO*a5h:EhZs>QG4'mbR7IrqlF+;G7SkcIXCQ1$d8Vj-.?LAP9?")CN?s!9r+p5k]_b>u[)l+scLI'7^nEU#SdH,Oq#M`uo:2rJ*@mSNKqk"T#D6#ZcX%6ReWdSBaZ<;rX[Pf7f@ZqR(j;/n-%soTl5++tHm25MaW'j&s*Ui@7mGi0GCnadWBaCV;/eZ_mCl:\En<\E*V^0R3mG+(5e42nhp8<N>Jh*u82p3>dH0'C%J/=0]]Y.^n.hF1cS>6bn+m%35=S'C-1+/jA\<tk`%CX]S4H\8FHP3f24AB::!LXVt6ueV\`i8\'Q:!2\Si4u)eY1Bgo4J*_i:SF==OPl85QUHn9=a!X1TZJ\@16t7Gn;$I8[i]\bQp-S+XYQIb\g0'R*$pDA`_kC:4?.PMK!dUC:qo,GaZ&>GKY=(&(1-ag2W)7)81]L&ujmqZ66r_'d#%>""sGdD41_I6T&'F<h`J6Q]gm].J0XN_LI]^Y?HQa%m'1h9WkJqLor4UcS4ncbSk7k;^\a#YN?Rh7b_,eLN>']&/IaUc*)Y\?@9$'XuH`lVs./'N=!PUs,Pc,gnVr*JmQQ5"mfK9=dVXBDHG30_]"qI`C2,o!2!%58SJGb_P?VQdkh:?d!:XX`'4oaq<_j#\7QV_5!)9t`54+s!!kBTflgZ'Wm6@^%TXJC=Qs.c;_$L'j>)p;Ol:?r\'E#kZ+=K,_I,-=j-I;YX:]^(!a`R)LoQT*/2<bED.o3d@\4cG"CAf^A[bn<o)#4B+>Y/L?6eth"aq3-3U/Ha^A*\PTq>dP+bbFjVNFS8;B3U_#'1RI?3-;/p?dnlep]B+0%iXX9]VII!=r?Q+gES;q^?N60mnsho[RXQ]@/,lfY_puegs%g]qaTeM6VPVo]C@Wi4kde?NJ;bIN$%S<h=1r)(rAE%7-qI2K%&Xe1Q/:c$S^2kPAR@"rO>OUH_3\4NG9/osLik4M&]LIN6j(YH)+Q;D'3t>;Y8!DYs4;`7ils,0R([!dM9NC\h8@>_1"G#"uUaB.9G=\Yp1j]3YR.*)ke84E,SuEf2ssWCp'GYM-'PcGNmeQ.npa1q,(#2@'@bb,?>("*X_3.NoLZ(K,d@)?F]ZOp#TrfS*nu?/]bO$i_u]<eBBa/$X"(/;plISi+'Co8^]d1U^;Z?a\_V3^q.B:h5ntil,j!M_^X1^Y`S!7t#B*Z8kP:rB15d.JV:&$Y^L5VVV'@RI,;)XEIVMSbVnegNsd9lHbIIT.r@OPSH)0KgA<VoX/q8B.1&BQ0Smk.AEaq[(CnM*J4Sdo`/:=BB1Z`0PhdQ?>B"$r*URdE_0,J"AJm[<*aB$=l5MsU1D$Wa;<jo8Pe<c[QkB\;cHNJ7E&PoO>!9CE>XgA61BTn/P:<B8h*X05bfKQOHE"L&Kk"i\==;B*5QKRhXA4A8?McBXZ"=H)YC'@H`WR.e)3(-YX?<\\i=Rd81WGS-(Q=e5GhK-G%n.#c3qqU3c)>OVpuX>c8XJrqnHJB:#(e>j"22S<+NS5YTZfuHs?"4S`_TT:j(R):X<9L,J4l@c":I$#o#6#kbGOh"m(lHbL&YXF_+^Y4B_9PT1%LSp01RM6e*Nd_/c<==K`EEpP;K#]+MYh7!c*>S8ZgLH0=Y%.djZ,<RR?J[gK=MaS);bZ'MeRg$@IpjTspXn-YshO)R%5lLqHB?7="XMCIekJ]R*e4hOJdNQoqsIIdD_:[1L6+WK4;i:D_hZhTsrD92968Di\>mcD05egegbi=X81lSuQ%+gtKOb[.[RrdqdAQQ`[b8L/31r8ft)O".AV8lIP^^*X4PY?[Q"WDDc$'Z3t=h9O7E7MIAr@/2aHqr6WA,:*l8k7EKbU'!<lPABU%MX[.(A9TKQDn*d*!J.Aj(u$k#OT'd([QY\"7,iuij"s<)=p_on9oVs6>qJ\k2ET2I7rNs"KWq<Ci3M/[')\_TT1<G&OldC*`Lk2%G!r^Ok,`fMhu#(R?kqnmFpY.G-Y3AG:dZ.0h:&5N0>tU.%5lN6Mq/CS9?hf;Sqs,Lq,6#Ti2e8>*E.%5ZS,Y"SJH]=mY[0GaB-<=ec9<'8YXL*QbH;"XN8s_EJ=dj5VqLD^@S6=B@,4kZu?,lq6E`_SnO]H%GWp:0YV()2(XK!K<+kW".Y`OH&S>V`6u0-?hnnooqeAs6pml\4RTe0X#&EEQsB<U*N\+ghY<QFQNHFY'&NlM>NWH)8&WWM:h0.4(uQ#jhsr"*FGJn4(l8l1FQIC"W$;m[/R>F"J,nQe4V"!YZ7ttKq\I%)rI>__?3)`K1:Tg>cd'CF>l$S$AsH1uQFAJNl`ZXc0+,t"jTF7_XUIu_rVGG2dP$TtB5N+SYj8?djg()K021,#f(6s0JC,dk<%6.$+ZE]G_6=ZRbOGl$&i_in1\*p8[Cm[,nX<!?>6]9N(ti32UU;%.eHD^<Pt/1?7=4YaLkeuonKeIdP;_>s7C,(SJWEj:P,:.CJbS?T/JnVjT6!&E+o)+o0!Q*8G9W11@,AtA@_,nbG?%X#cs;[]aGL*T`M2u#((1U3+Fa90]/Wll/%QLZW,T8c/lcqW^DOGMYB\"g)S-)Dgl6>J"WN%+N"I^<(H3[0R56_ph")"I7L),(b6*ifl]E8M6G*J^X';W&S!NE!8u`pSc52iZl(lT5GFG>@5)RKk7.iUYj/hHuBC32-^#h\PU\$4)04"JJ$j(\i'5T8/$*?o#'WP]'C-B!D<)3X2kT'p&%s2[f^^SGq!iR`/_-su--llShZ7P"?l(5T.>@DAo-^g0'YqKVcm*%bjj4"$0Ml!?f78CQb64rX.R6*`5,=tc-JJ=^DoF$(Y`%2_Zp#VahihIZ6FZ><Z@XrE6r::,+gbiaMjthfqVPb=4lmjDkO:D&]biWg6&%=AcZ&?Gt@l;!V)_[9aGmn"ifB9@/!Ou(U3jAf[-?0PgJ2kr)XZD!or^s@`>`c`<OOhIKV`)e(rWr:VnQ_to!8BCVd?B%MnXeZ,XOkR:S@T@A#SAJ/Z/^$-:O>a/!gc.G$gtUFkS!82#d)Ad&*2Ks;3NZ599W8FPXA]eBH4hhX>,SkaKls-dsQT6+:Su('=H<aX21Fh;P.d4a2Co4&)MfQr]RC3Y;5R%<Ue&T_TR:fBs.&.1`*L9Z?Aq4:g+.T'8<E&U!sJb1`Ji^Fcusna:3UIhHKuO5t\K+PYeU=q#;)&h>-7-Ud^^.L5&?jm^A8*#kZEZcemWq)dZ"h^89T68i"HEL-L;DZf]^6K=<DfrN]]Uf#Ck!;ZR<H26DLT[`8/[EiP,sItRppV)q,fFs=7RMXFFJbrjU4\LgB6^BO+\TOei3'ANCLU[*IreUd)FR,(N#-`,plc6Btoe^1'kW1\NmILn#j#@rWOlP2%0_OM4"C8Odn?k5p-!,bF.]U,9.8U*\:aFnD8n@c'Sh+83gZ0^#L2)'kcK;TG`?M12/!,.6;(Kp$t+dNlR)S:t4=+`ZLicl\;RArjb5[^0B"uSV0'APIrUe@9;WX<`":`^-ur%*J6+)B"gep.Ze<PMuU[#R,PJ_Ij,nbU^'%Ya9<#!+0DZZu[\'-[dOrE`J9o>;[991N<EOe-_GRUmljdf]$ZE6&Y5VO6SA"bn_ag8MhN6eg=Rfr3'E68UaO].M#IH(jl/ZCN+P;p4Q4I8%*gUOd3AQk(2GX9ZAP>HE^AP;k\&m0WkOTQ&a>l&R6o-F5T"`575meD4;prTp>l(bo>jXX\UiDYd'<5T9'G[dej9W(C'rnZ#>n5Z.Ph:uaY2bN*K#BqEKiik>_X*mGP2_PiF@Xjo)-)Z>8HZHc[/,qf3(R<hW)9eNraTT,!ijI7SnoYR%3K8*A(>,@FF&e_6SG9?*8*=IMLP4oqsmXNqt:N9/e=f[7,A.'Yse7)^jYTI+b-];_h:qi3;@f4HL1Y2CK-[BP1@gs"F`HT`8dU9sQ8,q=(#7cI.3!;)D$F.4rV;BNDYI0h"k:IF>?&')5<BO2:o&Im)_I?T1"L5rDn%):&_R=&IrEF.G\V:o^RPZn:,SgRkYS%B&&Yr<Cg*(gqBToD<q/p*Z_OuH+"P;?nLo"8N`E#=S3tk0!a3[RD76JrPI&1kXI-MbKF&J3P=S=s1M)?f?GPBNs9/])49&%4,G!?6/\f5lOQ,G$&V8UX5jOQCN<%@AkSOn>+?GDDu9Ep(:1Cp=8>'mjI2*o?fN&28spDb$Mn)mKLiFU]p+)/;'&WZlQ;Bc'LQ9LHlI=J]F[W8WX5:e4NDiL#N#4DI4!OS60!1R:cRLTLYR$ciHqZk,:*<8)HqJ-d)&Tg6_&=58mDu8c+4r>.k&s>Pm>!t?Y5ZI,>+RNL`:20D7K^!M`0DXXUi8')N<a7n!*H*"^^p[Y3LQu'=YpB,YC(8tO?))HP$/jDnE"/"pk-G_+:j2YP&`+>8%GJZ9Pm<)hg,C<Ka2ZZoNM9^4Ks,LJ(?GC$!BcT!VC69LhUqBO0Ghj$>l3)G0'd;qp&mAqmGD($q(_HD*FQ)DWE"ss]I.J"o.O5F7^`coISC$!TPIYC0o<1JNWtC0_V@7-$(JaoIS[[\2(Ic:p,*#V*ibTT719-"5$kL-n/R;lLcPb@8okXHn68N(<=499g3[io`/5KW%E4>;CgN\JFebJQ1H5MpR?2=;r<o*#Lb&^2,J1<PBCs7T+HO30fKq`\@.I!9g@3KsC(I3;T7/)8RqJUs)`]ZeG,";8p?\u#SB;M-?Ef&SB.2uP@\6HB/B9bOaQ:AD"4._FSZ*2th8mr7L1dm=/.]HC&9kZA<`>Kf=1jK,RkAC$M&6^t]PVQ.:&9G^T5$\Hg>%Z!UgX"->S;Fg)-qYocbd3>fX`.-W(4i_HI+EW#0j)dhTh;tW@jLf%<Qt1PChY-n$*kNhTNdU'I8u$N6[+oR>_,G<qPQV2K=s+.Iu4g$T?+/#^G]PY+HShf4m17D2P0I9CWi*]m(3qFteSdclIt&pjL7)=RU%8'Zd`fD4pdsbs1h77jIl!adeK-m1^hX,hEZa]_e:=$BeRGfCT`"b-K&j.!t6WK1lSTVo-s7E)Ts-@Rk(r2"#n.57rU][5Eu\F9p_1Tj5uk9nm"!-ULQ^%?X*SrmAP3>"G,H+m9AM#'Zq4C5$l<AFn\<G@7.@e%bq@g[,?PW\_$Ra@C3bqUs2h[7hU\lmW6*n%85eK0_5jkg_0^hH-,GJBf^oi&c%lL!Z;B(,^_JTmH23OHhK*n(nB<ofjDq`6#SF\TnMi9<&eU)=>^cpAk596:^ej0;0mF)07Pt%$mU%KRMAc9n]?48^DjU$gW>W7k&SkNhr]]Lbh&PZ)7uALNeX+=h6j"PR8*BeUZ2*>Yb(0-5L!-@EUJCA%`(lMI>*8eAthsrprJ%^]31R6Z[aBj)%q*LfPpTIGGdAB*=Oplm_&sBu0k,Ggdldc7!BV7EReUJ)LH!kqku#6Oq%9^i,!64Eas7NHHkC.+BtnN+_a,8lPO!^a=[W8Qht1)jePY-u3kp'm(fJa2#-s#+o!d8g\kVITA`BmAbo!Cn;t11B'NibglsoVaH<j+bf[EiU(8*HbOY\9j>DujT[EV)5Lm;I@^gu0BQtZY/'uso8jMb8%?hn6@VJ,YOdm-BE7LV"DCRulsRHQ`N;@jGln.=dU_.EPMZfXfnu'?d\NT_0rEDh!-@tKEjE>CfTDg+$7oH-!0H2EEe:8^HIZ1d5gILmfVB4DK<Ok%POS_]o&(C#o/]p351lWjlX\Z.4W%hHQp*?GgU:_=EU)H.40*?T9'7[m#+o_6MZ]\4&H3'aPbo@,Uc5;>)i,WAm5I"2C&F4iBB0E<c;40Nm=U`#BmlVV4*FN&Q_*?J7X_1)X4IiDb4%jeZ\#.24n!8W,ALG#l`qsY+!okh-2u#BW$'JVORTl+)"HlM[`<$<HCg;[B8B9DW7m<&I-k]f@!WalP7f=QnBY$Vma?BrT[ZfF;Q<kC"KG*5cOWpk.EpZ4;^7r"lC3[9^UWq:ArH&sl^E^G?:jd:5@`];G;kl[`8*7?Gs&)XV#prq3(KstFk/9T3#h%\#PX_-E]7f$4I4U!o6Bl=R"T79)5,N>G)V:q16:?4L@<d&*Fd+_=AFl%YeBKG>3;T@##^b+CZX<>:c[sQZ._;TMB^`f_P(l5,u(G%J2O.09\/'e9Yt3t.90E9$[c_C)D`Z+f2RXKE6.CX6m_qhCTEPq?G`,Ode$6D]Yj3=MD/O6KKtRuOk6+l\<I3oo2,'7_VZ*#6Gl@dY_9\Y/KK?/.a.Fs&1$::[h0;Ea=d;K_ZKC((lO=),A?CuC)eT#pacR^kLfq=)?9CbH1L!=1"mr?)\+UuF!]MK3=WH`o&XU9SFMGuTJf+`7HK`Xq(9$jVADhUETWZUg8B<KN\%$[&#9bYIPQoDR"hTaJ`\uIG7%5+ZM]]S>E^_r/4M\FA_uPjm2]?RbMi,f%^8@TCK'8gF=^jOV0<\b8u]aA?3?>X"%/"'(&WtkY3/i[njbACet')ko88Ef.nj2ig+P*4IdVeNMpCl]TASrhi<TM_FD//bIUIk=dbCtoFIga-@Dt=,r<1h#6`*'IVd-gtT\%W;Nkj_Z:)D8hOkII.Y;CMbMo0W<MLpin0*'Hu9\VUmOR*4g3n=!K%l,d(+f=-5!)F_pT!YppR%QX+0g2N9,Zs-T!U#H7;X&L_"s%:PTb2Yin*;d<Xp\seli2tQJ+(WEO8oiV,9%L@C`LF/?AE`dJ^MUIaJ:Y(UX5\UV1DRDQ0V@RRQtMtR1Q$"g!uJq$fcf%%V=K>?uf.YV8J;(N2%NCfAN<3Q2>=Tns#R[K/NgQk?`5a(AhkmG,B5?%kdcRE/g5McLD@X7m1p<K[+/GN:,gtg*'XG3e6<!ft"7XVN6OJ,$S5DmChSVUY!"Kq.#i93d>ChPEosA;Ps9%Q[06#r%8:CPsZSY*;PEO.*f<b.#\-X]FT)*b(d4Imm;jEjRL?[5TFJK^6Ed#Q\,8u9Gp';KZMKo1oT"f>uhtWh!H#&8\X/Z\$D]Z;6Sl_]!K>a5#=`(o2N^TBsI#<d(kA^:]>J%g*%aM=Y.dh'1YJkJnQ+9NDan5G36hHU`5n,V<d2VbuX)^>gE8d]5"cL`eM+3Gm%o5O6d>W0Z!/:_\,=73m]V=[0H#FZ(/;H\QjYeRcLj1s#i0M.$5e@G.42,Z>fQb+RRd%r(n`S>ME0mpGXNO)r5CZahKt,4D(0S;c,#Nk+b/>Ldu!2hDn'HqC1dISXn=@cs?n?W(^TA_b;c\VYi%IJID4@_0ZiPHGDG'1<$#kqf>cuGZGi5(U5(sC49S19I*!GI!e9^^?Le5^f4(NFnE#B73=Li^GMdeEgacg&.Ehq+?e.Te$1KOg1%ic2ZlLp@1UAUF./6\O#.qc+&LQ\3&&5>_LDf+aK-eWZH[/(YiCGIs%,sE5`gd6cMAbm3pLP*9XsdqSJ;o5TF#o1**orlga4ET/E9]'%^j>;>,j.&lZSh,Y)43F)d(DqrVFPnc0'POg($,'(N',gfm?JF"$(>?BCgC(TW3NR$48VF?<jV8`L@HXS;=n`q$;Rt\14Dd5hgul07K8p"jqdoc9g:j"7p<U@;ga-M*No?8rDk%ms7BYbj'kP[l?FE'>DieA+/gA)4b@FgD35;L[W4@YP%E9%B'puW*En)gQ8V$UA^%V[s?VV@'<a(rTWp"mo`EKLOgkiT,haG5p),>S48L[!:U0ra*DF/6':Y4QYO*Ib-lMt>7:]Y"p4I/fEqa&Y:?XaA@(p7,4ph."A%n>Uc.Oa`ctt?%GQ`+%W;1;"Dmk_!t1DDiOAXK+JYT+Z,%'2mC?nUM[V^nI2ibiUtP^!=KKU615RSApaSIB-1fWuQEs7@d)&H8I`j#`3&oHR'XTKn+-WTQ\b&pXDS3]AWAjKiNu-N+fm4L[FJ:rIq#BPp2U.rZm9S7Ug([R/"G<5a^g:0A\WQ39-fbn&eL*1VgsHZSV8qt=T?BXQ%)M:D#/P!beM_\nMq(EcX`01kJ^DUHH0Xq/7X3]E0odq=8G\%h!1j4-GU8[SL4nL+r4BlA3=cRKP`su"JV-WNPrK'G+G=1QXen%r*$StGj-Elf@jU]?U:psL56%ZSVYdjj-kLU,An4l_Ki5``OhUW3inSJ"_JtBZ&`bfp]]-*GS*oRu+o3-`C,X,D9n5V&fng>u_Ubg_0>WrXj@ZSoP<C-V7+s(Pc4AWBL^#+rDMG![Nc?XMf\q1^rY"'bXhk!1]EP7"F9P'hMIfEqn-sd8`De:M+rlW2<%6\n"<*ga[7^#Fodl\D<fd*E,aF.0GGhTJ_LdD!n!h'@`qE15dr_O_739@cl&X0S<;'14"G7F;iY[Ttg5(XkK7!nCE?m/MEJ@uL+DMRk<%R[jLpe`-BS+rO\m0KN=p0$Zo5\e?>MN>*+oJ3!PL*/oc4uj0ht@h`G-:3a]AKbn?ZaDhkO-m$a*%Hg"rt7VPm]7oGijH)rWl%;N!F!;/A8?a2OD028r!rI$iN@9#`?-XV<n!Iqo&&Qk[I$XAroSO-*7pU8Q4G*a<<OprUu^j!j'7Fqj-LC_lLFEPb$<#;V<u(+bW?"i"X)#X-PH<Wj43km&<T_2Jo!$AOTg=MZI"/WM*lNWFEA@GgJq[Y`[g=&rXR:D3sf%B12PlSIhe51P4kDZ0?:N$ke]@F_sb/>Xqu0Fr&k(oa5?'TZM$mDN%a_V41dtYc$bdb^`0]FOcg^s'CK/7a2JNKK;o`D=64imX/1Vi"WsL/K!#]<BiZCmKmB@.rG-`jG(UcNb-n'2iS0Jl\nNWrij9#p6&9i33/)_g&#W,[kE(Z38]EI'g]rlT;I*"CaJ!WF$de/c][-$_RSW_&kL)q.EmY_]1lo7#foFk$pi3919s(0(JqZ`6!K/oINVi)GU9<qCDLX,Fh8\g%sm/V%IhJCcOA1S]T5Br*<qfj@OYJ,j^C-%;8@]VcN[N`DAgQ#"R!+Y59&hbX:DC3:eLt9jCNRF3:IbsJl^24<'*?d'"LScJtcd'9ep,<F^gd%5qWNpR!S[-s)I]PB:c\FVaa/&h$eiNN]OIjB,GQ%_]shFUY(g<I9BV3iFQ)MnLdJlk&V^0Z;e0T=c>=kZ7'(!niB$C@&^O.`RUGsk+^N/BCfFF!h)HG_utRIQ+rKWY_H_(8O,oKl+@3sfYtZ)g_WYRZUmdKcNtRBYh9cVS:R\c/#-UP*K#l8h4;98bB0qh^]Cpa4ScWDL[K<t,;Y=fbEPf.8c;+i%cnq8fT=;f+W/j0FiCC']s1@(VW*(>e2Y?Y<Lg;`Odg0+"tt$h3lV"0l%hk`ED,YOj"m"3GHQCdZV\D?<5UY8QYTDMm%i*UZ0hc-2r1+.lk7$C:MC)[K"N>KTor6cn`NjV67P8l+Y)qQ__FSblg/Y0k)K"]LQ`$F2UT)!0P+]$X=8rC'![(Pl!tSoLGp_-K@$lt'<YTm^c%rk7.h=lrf8hK0X8QYaqqq1j=W/O!o&cYo@nlI#1gM6Jf37:iM`hN484]S@`]Q&*<8sbMP>jBo\)[6=O@gZrS]%S7hJfP1'b#l[eY^A>]-,1+otG-XO,oP<@2i?d!oTR-p(8279RghhI(A5i:!SIQ>ok$Rb4:OP&f'G"`7h,kVZi(f!lnQqBq_&hV*Zt\=oU/=fZJ)AE3JE_OAERI;8ZocA3%ML1e65O(r.hOArN]A[VV_nCC]6[=/&o.5iFpO:(1-p>FX^<C$.CDm!mjSrUe^/HQ\4\M;pNLQe1B=',gUOg^-7JRe:XQaCJYoXJT<F2ckJ-&BLVgp3ruY23'FT;lE_Z:=HgUc5&l.am2Sfl,k0#$QJ`pN-&5Hkq.q!K8U>6S2\WkjORC>alcBFZF*Tc0tR01A?%\_LH3Ops@$>A$J!6L78lG>mA$6SL=&DGm21=Nm_3nTWN`lgJ;8a7+L_aN&Zrnl9fMQiI`m!P>ZAlXFQE.*)tJ>aSJ1<GJX+b^84R5\9u1Aei>T@*F/T4rZVseE5;:WWmd<9NrGC7rVDYUeO1&Z=30Q\*KBkm7nF\]"48l'.g1l*UU(#B3Oek3oJWW6%`AAbdm"LGPHb"(\qu<^(+b#W&B*K?bW)Grj^@8Q+J(&mH/W#gKQOn"Vs$skC\=][n,OtJrYJol@#!ddF^`Amod<-Wmu7;_CUYCJgnO'MTqOliS\Qgg7@4rpqT9<O*YOPSBcB%sU,D]`MsA>n;<k?]Tqk9]0E^b+Rf,u%Cud3)aZ#VlX:aWun0aY4<hqP!^n2/JCFMSr5U=gee'#09.fMIG26eR@PBS2>ce5?L+!L$g:,`.>.%r?g^gGcm5n9*-=i$SW3+GFk'rXi-2=Xgb+PP0o0a<]\FH_XKG\S?GWB0m.L,<Z@\0lRl=!*NQOMVR'1#oh[VJ!m_`Vt`WP`I8)BN$6YKn-/tkN!cI1='6+q#Iq5$,fkhb>7f\X&r1E(SQ[5'o[0X-<(jl+3,LgC^U[bq06AKF"H,+/7QG+1u_)0$Fpi9O][X)%h,>(f1b\eUPcnRWWgi0VRdQtYp?I`(sWL4B[_:F>/;MHEIE!SH4l#,+=m.O(6l4_DN,2a]?%47MBhWD$&@<VG<Mj5@#D_]&Ids^>an6j&RqdY\(^bM.-#VefPlk(^UKE'"i3RZpY-PZKu4K%Z%ksZ*u$O9o10i0aIUkqPt7<t81+ReA%KaG@#OIDRoDhajBTaa-lue>H\gX\/5TP^Md?LY!JZ#Bd/o,i\a5BeUsC4R1J$`m*mHtsr1>aATZUPu$_qgkaoQ3]-&ge:lV+=Ne.o"=@!#V=A]4>aUXe=f5_a!M64?UrOk+'Y+4pqhO/Q&A2Rq/<$]ETYKj"Yj]H>#tY/UtclGCXXAJo(J#Ri.T?b-?!cY?i6*OMs0O<:QDa%!_0lO8B,I2A;.<`_qV<`IhWIU_<[Quo-X@ma\_h^Xj53/_.Xe4`&D?Dt%eF",^XqqIgCD5e0tnYKiIJUpiYb/XD,i]YBYWfRnYDN<?q%qe+4ob>`02jNkM51gmo6>e?\>>KJ]LB;Q.94P(-+pn!3oqri0S6`&NAaP9i8QEsao8Qe0U9UNs&(eonU8LOH-lVHP&+m/5Tugt'28F(%+4H69iOo:E.cFN0b?3ZgDQ[l+na:J,ZaK+KkV%8tW=g?KG(#-_&q(Q$0K^$U"Ym)T(<uJk%"Efm)`H/O%'+gD=iOkSGc9BC'5Ml;k2@%02H'mkT7q`7gSAOgkJ)*W#g',WjtV0`Sg(0sd&Whk'mkjrISonTnGnIbaHNn$EkQ!#kd<dC)W<::1F08C+6Xp%^iOI?_^S?r3"H+K>dM&Z.qU`W!\u>?=k$QBf&:j1_!-e-.WT:HdZ#`Nf/BhRgIstE'B?=rj0rd6gu((CN0>q*aoGH*NiF1j!$JE-]00CVZ$pVPgSY<7bQ!>\>_O5\A%PX1Ntp"KmL+sg84\>(jsisB3c]V[hH3NJ>2cAQ@q<8)7]X\\"4cQeb-ePa)6C@J]2B]gBqVP1^<Ctbb@=@+9WH9X6ZZ<'&(tZ7hUp(S_g@l%:o+/iGEF+8mn<P4XoP/^^:O2>&C\L;5os`6"2?1_qa3MZU5p@EO5'!`C\%rSmm.9f;is@Tgp`i!Faiiu<'ZYRj[$KBF'[0Y0pL`s?0ShIc%oF3L_TY6\,rD]N:L80V'8qH'Sa[*#3]ZC\DEFhA.&,tf(Z;N5JnJc1SgLC/_ZT@.$E`j6JO81'"pWk(?qEMlE!.-&'KP*g_]Hf^)d8O^k&\IlD&'Gh@NT>fnt1lMY>=+B5cqgHL`UqA4BlgrD;jVl:EA"V?S".08ZI@%$FI`p4Q/OaaRr)?KAlR;;"bm8OB6aF4@pBJP/`RgI,R*GNsG6&^(s>AOLVr0GKO9Nj*J+VRlT#QppZADd3TaS[#aF&sWf]J4RO;>n+LX2G'^OlKK`4XpdUeg.M!'/:74XVceY6/dH%cm!46`=0mCUPs#2*$/UJ'UaclgU-_d9Rpe2mkl/*%k[BfbB()oh<`#r4#/UcU"`rfb$-l[-\;iT7+\'*42Ih]pm&GiUdX'5a/AoQrr+^n<S&*m7CDMR6L1=(g>%"R)2A=aJgTmg!_[F0*IrDcb\J2X^l\Bs++@_p*&UeYt@+C9U^IM$H`<''.8%Vs6W>dH];d*2XbRN[@rhU-Em>*_uF'I]'Ipm*5C4E2h^3^ae7)fbJOq'X_,UpQEKY7q_Y<iZ;:l's<![rga$ep*`fI$EN3FX!U?'Wl4R$%P18JO!jWQ$TF)irrCA'%#FA['&lHj?13H7dDSR#_CT<5oq*L#UR?(cdbgm!!B$.%.s7;&iT_hfZEZ8M-=.m$r\&"ldJ("khNb?3WQ%6X\OFpT7ctVt^Ls2=6d'AXGe&>$J0aL59)A`hX6OipIa"eU7;h_JN7$(UcPC,`G<(HTi.4W2?Blf_eM$B8XFb*JSIrZbi9Q)1%R\YaIM\cNkl+VG6UWnE7k6dfKT-F!/JkQ*d&f+7Q$j(=<R;XPW<^Ou9fA)JWuSF&!I$1.G(\Z]jO`h$Y/_>#lc#9T6Umpaj:.[@I*>R0oO$kO8RNquo(1-0G'<c<DS3hm_E!Au9:nBRXNmMlJDR.8#d[GW(t-Xdpp?M*(a<Y\&a]dc@X)==T=trS<F7C:q#f6E(fhROrN=LJ+!da6-8#4GKIZK'.YA[Q$2(`C+GB!&=2sDX9jI6iDJI=-$!TT\tS*3E5JlNJmm(;35n8)%>(pV(A$3;HtjLj6_R1,RXAIP0*sWrOr-9W>DYB4-Vm=`GZT]_t3Ats.<1/),r)e;m6#LA%64/I_;&/J_+,L'c]_?T>l8`=Nc]*:uJa&o8Ze4,5@&&ORA5+.@8f-]-^%P+3+]^Z6N2hX%Iq!Ku)b<.rK>lnp6/A)_dJihR:])Xbl_ZE&e,5SsOu6mRS8)Cr&rk!qBngE]-^\'!sE?]0E.cVdgsg1#`U8,O&NH#q^YA93NWtDDn460fFuGTU%IMa@*8`DfYV=`%no)eU=j)Wp+%R"f<qg$A5,go<.jXT&Yj"4Xm?'UI>\<CZ5N>OU!uh0E*CP<8XlL<_D0Y`*(KFYO'iBjUO2#lEtd:=kOWdiZc2c>N1TCJRdfo6u5mHT;j5Pl3MEOfmgf\;@@5;O<4\CE2!FPP2HHCStA;f`+aJt-"Bs'\l7@gPa=r,KeE__&ca(DrRs!/i=Gus!5WcjAT:6HG*YMkPfp&ohFHh1NF<>lEd&o\<XdeQoE,@Od4S8>@G968#Fo`VO2\J2jea=/]o<ER1<B\qTa>E2ZN=5!j*h6'UFr7Q@gjT@4^FW:<i\V<p55ZBSZ4ATXu152kK>#XDVa!iIS(.#+V!S5ZuC6qVd:shRTc/hDk7(SlK!,g8H">3bF$Dn3hjke5W3gR=U'Nd@^`bpE'a.!rH-V5WNHB#',uaHmQ+*bCmhV)hqej3DM*1CC3QGhH/BSg"q(:a2d*PV?9_9gQ'1hmQAbheFSUV[SJ#DnpBN/4?UN`VIo3nb@_IFCE#WUH7I%!Q%49c^"bb@<&t+'8@=Hc?g7M=[d0n12(9Kk)\CjMRJ=X<R#[<q`no=)pl!#!sTjR,E$OGRH3hKl0hkpTtY1PfP3Gbh6a[7L8h1Zs['CGBodaQ-9h8Dr8PWklmLT`*Z['b3a"Zep5!#'tO<>VS7\+EShjJZG4_iVg<)QPh*X;*$Vh3d(3-dTP`nH"%]PHrnubcB0i_2/_o?9gS05O<FYC:Cn`QNmHJFci.S+p\KPSD5^(JRVcQe]&)";o8+T\[+sQ[s@u;jo=L\L!tEB3ampb9fdGY<isX],Ag\7$7SL9l6J"W)!o0SC(Lk'2->[p+kI"2(,d8f)HTM93(h^kkK#m5T]?755UmG_`r-qL=^P?D+%-^EHZJ_YQ+^JZ^E:(CmiG">H>cBNm6I"*AJtKPd:M#*AlrA,F]&UMKQ%m&l:#'J16rX1+r5Rb$-CTKJR'pQ*pt23YCj7OL=>cI6N3).c1"D*=Ed3);6g/V*AFu;B3f5#mo"3ShL&:g7`P(8n*o*<=X*]p]1(YI$J,HKTbhU8(cqiQJ#_VWeY0&@88u&>&iM6"OgWsjM@TXs-bb,cW<7GU_8uJk=j1CAot$Hl#t6PYX$EWkA?D"_1JCmSNqF\,-)k^tnST<3dDU*k6_j$[,D=".-?;.#gpmDb%\$OV$j8-g7!Wk!FMe.^M*olU+KFOViN+@)*V5T#f9Gmh8GI%%p@2b;3CZ`8[dQKqeaj#h2k_5F0+H&:GU-^UQ-U:pNs`RQL%/=E?nFf&VHGX$27Cbf=5VgH#A&7ZHU<'qn+%:a_A-mP2AJV9:kG_<E]>G%mu.R.I+7LtDnG?&GMH6MEVAp$hM#C\JqoF+J'mP1c"0`_*'B*hS/Fd!4eo$*;f9,UR&NR1FA`o5B5\kR9Mc]j]p^L5l@*o;19'#NTGq-6K+i_`pqcB+3laT:O6_Vrr>l9_`'ZjdkcRT>F2dt,De8u>],qKdU+rB0e*cSlj/2cTVGm^>Nf/cje4"I@Wm1qV:Z2=I51`3MFON2A0Q'P<.Z.!,'Ul$KAW!)\c`9RI<=Qh5,l`g(5KcnYeY#'Dl7fa$5O+,.4:51$o?EpMb;(uuF)gK].)r9\LD+YjE%hsOCgfS,nB!aT!+]7U2n.X?!D]7&6.Yud<1S4@K$\hn7:M-Qq0+/38093/<#q;#q!Wg57t69L,ma4SO='O^%\1[T0lj`l.Mgr/[?8gKeJNOgfd(kBZ"MjCE8]Yo#,FkrbgoQqZokf1W<3&(*AUN9V]&cm`lFK(ShUX>9+9h)P?6#\K&Rn+/.TmB-t]&O2/74;hS7s]W6[87O`W<[Cih_'WH'_TeLV[:`3"2OFNGK@Y!j@E@1-8Ba]k[[?N;m.X9!>*o$)_j+BYZ\a27S1dA39i-iV."cE/-:I6)QP8r)%"<,h^J?+\Y@oJi7-fn'nod0pt*`P's_$^dE^Z^U6B=B3efLNP2Pm_nbiqh*4lBPEfAGK!09Ru2;&dUZ4!KuUA,$rXLXe!i)$U'0-MUMRS$(p@0\[>6s^_F))Zf'\T3q,9T@@/7)pj:#,V49SlF">ii9$YRNtkFnEkq[t7WfJ2oK*1R?BTaWkPg6`GG/227ZO?dso$h;/6HFiT8,9_8c;:aM;W%QWg"bgIr@N.&pQ)=+GT3CXh1eGY&>0MiR8=MR7Ya$:rd!\?/1kEA(,.>[h$b[dJVEtbr\;>^p.n>sBfk:ceFCOkl(A`e[Wk6A*_DHqC6[Yt+Ng_8+^N,102r71s]s$aE3t;7KCo5^u&F9tu`s@N1RoDj@^G4i4;SuGZAqO5,P4LuOBS[XZ5DCEKBW&OI0FnBb'8^Y&&Lk1DluRrSXZ+*bo@^-(:)l-`MN?V@h?*^J51#N=FMfI<HIf8GYr^@LaJr.]!k\PEYtanOc0Q_:nhV&6!Hf\25alF5b4:fsm,%Lt%gt@AgPTXrGu3qr^!LC$:1BP=$b`AoZP?JM428QC"i[j=NGh7=Ga%`6'dAdiC.FXodB#8Kf>8M4>*aHA[)d6DQOn>A-h:L=8a`$iSai78<0aGIJ9&=q#V56ZaS=q_Z$N:Y3g;(DgiA@'b3Q1u]XDD[i/=H_"mIC:[$@uA;bOc8KYo'ErUB,h`tF#Ps4U4T?-M^u6;oD;Ob?g`CZb!Id&U,bj>c#eAV=UASqql]Hi(F65<7>RIkaJjY.:>l-Qc$JF:(lO)8-?0*S9kWc8-)_[Uq$M!;e(8V4/*Y3YDZdmb40HIs\drU,r]gUZ&UT_QF9?_7?MBa5[1tlg<Y"VN#<J4O2emj*C@5TjKnIGp_su?XB9GAX%UFIb#Y?2CR/E]#0oj@30j)6$H#BN$D.srobQ%K2OnqIqo=[`e&.-&Zt%#?5SCO_GF,%AD?f?B%p9S,jGM)"roKJW(bsm%0>H*9\OK@Ao1c/l&]$e)C]/)3Z%S*K6LJk[c8V#Bq5DIR.:5iZ\=#E"nfgU?Qi:)0.POSPE`WWe`^<PeNd5_(U+Ms`s6uPn:Y-H4@+_PnD,--H3Pmb9NmOm8Kt3+i#;kSGsF?^.@4(j5M9>3#_d(X1Am.U$3dduF^L:7<r"O\R[#Y]5D!H(h&Mh5?#lE.JZSG.,`U,ASLDd3e<\gn]6ZX+kI.lM!NS;_iJb\Cos#I-XU9H;"k[Qb(!7`cRg-n,%s6ku5C5!jb'IF_b\Y#D\-WB1>"fKn476N]e+D9LD_fb1YqI$ilVLK@a&n$O`E\#h5q)g3?4OOHTZ$S7=@f!6KAN[ee;EfSN&6Aj.Jl;\BO)[8]Gi;V.P:6%+.+)a^tZ].8Eed:QUMuKehdM2GjA7S`4+L1/jIQt[>-GWl2!rd)r.2g+m\c0irK]";3B.=/S38Tak\WA:HEHQj/l.!W]Cr`o%qeL"3_^u(\:TPd9&I5-'%4Y)Z(Y>+X4&7Dre%=7^5njJ3uh"JOn&dR-INC3,\2Y8ZiRd[XO'A<d9Z;7KBqM6FjBnNDpMjJe5G]6:;"H?k\V#!qb=[n2DhcP%'QVMbf*%cuIYU+ERm=3/L[b+V/2mOt=c5S/quLW[X$.aLtC4p],?7s*nAfegQEKlg5>M\A93Gr+R4&`W>#(6\MB>R/2O+[&-fOb^ql]n?S&Tkp/PS5+>j60DfsmKTMi*^u^>#i/eoKF7B$X-%/r:FK3RP59h;`h&nA$pipZG;ZLKK_[*Q0$7B%jM3=%/]#J>P_Na!h2u\:A(98eGN8PP$s.DoA#pN-_=^1][CSNYL7RGKW2%!`1bTnr0$m3Fc7(=*gVmIG5Q36r`n_(l@,<Q1^$WTT*hbuOP\.-)u,X51$E:*:T(D-4j2$h]@jd'YB7\K'S2'e%dnu?V;jO-GTl[j(<\tb?H!Ph[+L/pEP,_ho:_@<_K<oCXIPQb"Mh3,&IF`:P[+hck?;n4;Ip2g)"H^UagOR:o=fg*K>.AJ0/T/e;1@GFI?Y4D6$1n$=Gr,7r)NosPDZsI9dmEeUeB^I$gJn<cr!IOBh&[m'2o.K&h>]O?N(2A^`r=##1]'=]b2rLEYb#](rLpJ0F)UP/Ci-L7oDq]/>4<.U:Z9*f[\u.Xh8e-itKMseBK<b'`'XsHI.\NJd.Kr1!?qeb/crs/OClfpOc\'BFW$INgcYIf/6BB:G&lA/R2>9b[G"'B`Nir]jmdVEM<T+U3S(u&]$A_h\Edb^tq(kpO;PPG'%>#!aVJ+<M(U(Psm;A4SUVdl-nOgafEjW-D.-H7*80+_InQP#e-BC9G(\?Y6j[383Y$o\XQG^"QZ&c"+WNTGf0<`iD/b\\;"\![GO>RX@kHrH[6e4=-;Y.;9hLNK#C\0S-FfgK[+M;<^O%$EjdHgaL=Z6o*K/.`0L10Di4%KbkVn_*Bj\[^<j@^Iif*UH=Ss+hHOF)]\`"8EEald_gU*iDNFGqH/hBIA[Y%Gs1\nH24DQ&6'M/a"!Krk0pF?`[EM1GME>MsZN_m$Md]"]jGZJH:Y"V(G-K>u3kWIS+21+"aT),q?R&Doiu]]p.945Ju)TN_.<+\JI@`-5HjB#;oGb`/R^.eS_C_O0,ncH%Jh>e5-`\'dB^`*5l2m!\T7!L]D$d>c)OrXr1ZXVsWcC=0?1c"b^+2"^1O@`(*_DEY1NP4PO-kK*:0>G@eR%m9ALe>S_SB(nMkL.SN.Q&EsO,S@cmncTXh)G3kRAla#u*r<&L+5INo,tZO9:R9,W?2btc[Il,ORJjI>Fh85FSep7aU9]]$n(_BErcJqIbg]0**flS"Oc1IVK=k1p=ABh\*\eEFF!r(lP2b:K^:BnDQ!e&k,\J+EgFE5(ZPH7+m?AK_pr+(*3k+laX*fGh\#38*>OY_R&uAu3ee"OcBZPb:TR28XFI_^2*A*RB(fSm,s%dh(TVQXQHbJ5G_rIqk*=c^/GhbJQeMA_Oro.usaH<*]Lkii15MZGbG\_bd^$;P9-8'8fpOH=a=3^SjO.*0/+(ts%\T<$Q\Std?IRQcOG40S\rT$CE3%LJRoB*J:J]2FE-sLM97J1<lMTLkh'uu<;^1Ecc(OpVNh$.epI[1$O.OfJs)Vf9%#uC^3[=KeYpe>ceeV%GtO7QfBL?2<ZG;=R18h'&&;pF^tkH=WHOEU;pFDS*5q4:9g[V#hY)4.GQa6/F8H53^BhbKPGISU!ZALIiSMqk_kGWi`#_1/tGpAc]?ZCrM\-G5V6cjG6E$#8h=\\;X<\l#[K,HUhsU7W/5pANmm8qI&S0&3F^A"Wk-`D_g<a0^G[QgGLm%l@7X\'lOs=tp7]9Q1mI<GntBlQ8AgUr++-_OXF`lt:+qegeH0neLJAMAp`W,<9E`Z:FD0\BZTaL%T([HBi8"&O?J(3:[?Qm3kqdNn,DE^4:Yes%q%K?GHk,+MMM]f<8WC<_nD)Cj]h8(:^44R*.WfVjpdEkh8\:Y.+%;r;mU/(Z1\fkTTAbAr^ks6upu%/H')5b2.om(lgsG;5G9*oM[q.a9Q0aOn@M*)j0;C5]<6aE?U:6iKT&4c`9`E4:^_qF'&nC5]hgQ9E];[G6fb1S>FXh*YLd*J/IW$S)d\%IZJJXB&WEJN@Vu(r&hckhN!Et=sD)e.392)0kKSSMT7<S(CK1N^iM:^*(O*6\?A;AE(".%CmI!EME8hH<05[a[;t/bn:u1>(7M@0F^_1X[8!QP,d\')O!_HI9[jNtc!PE[6t1!T+EmSddY/drg@1+fVL>(&V_uK=U&+3j1Q-KfY?6P&,(:>7D=I+Rd>tX=,F[gem.C4+jjN]TkdC6ChNGE)Xqlkf)k;#Z4"2i@H*$!tTc'#bkQ4TL<I^+;<glPtGSo<0gN'U[q<+lj^480K*g!2;*U0rT;8[b\2>>;kMeaf*Pf/"5o/]i3:hl<qNBd,%D%$mB-5_T3]@[KVDOQMKKCsFK0!k/:`g+f,]gSf@R?QpcZ*3KZjNm9RO6mEBNG46,/fm,74(=f_HMTSqCSf6XXT!O'%4+r*S:bWFF`co.8C62'PAW6&fPr916.Q2&cGT]`WhX2?EZeA+h?+>i'E@e(hOTsViWD^Aa(2P+W)9Wk3JV^=9ZsQJ#TeYcUGr9YJkqh,c]l%.fdW?SCUaC7E):+H=#O_;mZd"TO1jrl+`>Z)U!Tj=R6[rd(%6<ckd#$rRbKQ%XSa^gl.nS3&D6m<:ih%h8b+_((:K)RTB"Z;"LHp5l5oF8QErPQo%=]PLf$9NT,eTu%js=0_pnSNF/tQ=](Y9,/PNC`G-fs2ToUEQgc`;2cbU5@B^F)uS]P]N-*C!qJIKuH7rj,kO[4L,N)dP<!+ec\(.Vs]-']6!CqU'0;%(2Wd`sE?"Wa7k-/.SrFi9tCo2]9@m0hM!ej_R58((N]+%jB)_&o=W28ZeLB7T8O*>>5%V2'kV///l2$H;A="&+r=fTb\N&6`*$e\K25!s29g]4?G)F(Hs4^Z`A)7jai.D\b[aG.n^^Wbc0t*p7'5EiPrs-Miu7Om6cDPs$_"T9YI^FE!:c;MI&7n.5[h'oe9;@Cs>]??WHQb9a]'><LEdBuc+&6N]6``HIi:)c6dKYJs:6eM[q'#YB+s+@7A\$P[tk0M//QN#U$sDnq@K5f<m50ba`CGE4Ne?Di<U<iL&.#';h?=G"Mldt%W$@^!M_$sim3+fLsiMG/e/f5u)X/E:0IT4B\)^SPI2/.'Vj,Feg]N`$"7a7FGYUY</(&eO@8,^id@5n*01;`OM#fr0C'EQE,,V,K%/\OTOOe>m.`nQ&kA3tWZ1KM98J,qj1e@8B`k"DGZ->!`s=d,>9hLE(2F=9*>Y1Y=MJRVp2&HZ&QMH&?n;fDZ^*G@B_,."WK--<8KK1jUNbFplrs</CG0]eftL&[-BspWQbu77=b?;/5a,.c;aTAo`liZmo+r65F7ophQt4+Df+%TLiqm7N.gWZu;*5/pn1O)qKI_WD-fF0,0aAM*8obs5Fra=8&"(#9P<(Tklnp[u$qH4Db\deC(#!6>HnUkdhgKedfQ@`Mt:,;E6XB#ph`;mDa#"LQ\C'=Ejim=/"N+bg):UGJHqE$LY24FWsb!Zo9G=;V+#WX=Du$F:LmuNe;ZdE>sgn4Ut.mLHi0/k-+/nSVjfA;6Q)QW%be/r_0k9%Vt^iiA+]!2M7Fb='VW3VKQP)l`[=gc]EHhe2k;Ydb=OQ=LRbh%e0[CZ,,B-k`eaZ;$t])XG1h))RH<,K6bcr6Mk$QIB:%V7Y>I!>N-!O[<?EE/-JaN`87S!^nQd2DZo7h6'KeW`-X7:Q[+qS*49mrLu:4N/uDR?OOcsDR.$"8k&F5s+j9?3jnZif'G7%lMX?soC1&oC]r(OFCX6B2s35P!XlVjS/!Sn:_HXf\GN%JR;qAGVFO=nFWdLN065m(h8=@`KgC3+ONr&r7"VTM1dt@3I]hHSCN)6Fc3_0W(D&UE66j,&td#k2hdgJh>L197sSfeA"PlVe+Sf=$t9tW\IVcbJQC[prOB$;97O6@5$)2F"fB94g2LS^3IP@j\8*f4O%XEB,K21&$j7Y2^_knfhs"c.Zc@mt94T0OcpoY=@HJC7*\d@^#Mblt/;5+uS"i[\"U]nS1q0q(PbjC+<E0KrnUJ("*?;VB14UHE=[mkE5?VO*nTF=Kn``3iStBdks/$`-[!$r_4pRY8ECMNm6FbQf5,bJd_lYCQU9D:8uQCDUM;VR'gUEDU;SQND8pN/Ho57ipiriHqlZSjSIPQ:e(:5>qC&fN:U*%J7`$L(P]GaZR2p^NgYLH;ae_0Bk;HfecZ=%/P^&>>?aX.kk'B@.?t[(e*7?m>16g9rhS^h8G?LECdr?9:Bs/.G<8.a0b]$LLPUa?@>3R30?:$fIqMI;Q"\iTu<E44jtZ$BnFR$<R7%(YT'0L+n?a+mOt=@Vd4hl->h6mXW*Qh=!M*T@KSuAK,$nU@onr3S!ddt^c7k)4)6A757kENX[),1T`ip)8T[RAca7]-e3d7pF>N.d6X\:OD#KB\%10NUP8U&@R=qYX\;F!1h4*h#B;MLACQqQ4*OPUXH7iCFi8+mf!5qV.+h"\)N1:pD$@Ld_mi9D)s3lPXI-Ga+;ZY5ok>1"fcV2$1/#AXmL!]q(j<\@VhF+T[:ci&\4!=]IhM]i9DU,OE+@R,U!8%eGCHk&mE6$?U5c(LM.;WP*.[V$(\r7+H'+kS:ZcN)gA,pk'>*0-M``-SJDDa3Z'oFPUkYX+<JVQ<X3=`VAeL@jQ>qdkeHa,l$@3/_W#tS@JN[cb]a=S3XXe>j5OIcuFG;,\`iTF#(GbCVmZTI4]jrgoZ&TG)=>[@HJaFR)PL[tppdQ8ed\/CdTqc2Z1#5C:WIgiJWHcMT]_nZFOH>0gmRe].ShXkOjPdL5%RU\&dIqIF4&*YCDCG3Ns/SAfK4cG[/64<tt[#G@Mji*8rh/!piUMaNSNV9k3(*'tt/sQtB0qB]cV%7Y@[,Zu#NsP1UF]uchb//QY)4SB]qOP9o;X-qSX=7W^_J!`"Q>M097-ec:OGIYMC&;KAL.:U+jL[@j#6jB%P?:D8d%aI!F_HTj\MbF8mr)KK/7>AW/.k-?a$@*mrc&*c3lc">K1Ef!]fQmmRlCT72lVB5>o>HO4cc)9G&t75#Y4\fUN!5(%e:'KM6_7Cnkf^ab7EP19t`Ccm4dHG"9n_p54NL*f7G7N7FAZ)jkJoG$^5GlkGu]WVIe=$a.b?tGij%069EN#\oo/\N'>pSiPgXc1XnHp..?PE!REhKKTPn+s6a0dML99g@_G4Dc(jTmP,g=<C-<ImDcG[mJQE+#&0h1WR2B&a1bC*dq-N0W"Cd?+J+3gW:)XTf\5Mk8A+.);MJQ:!;Amm!07qHnNmqCdrNK=oSqP0a;/Vn+S(\2Vra@*YcoO1FoYQ:J:9h>S5WRjJLNTYqDW;MKMtjd.a)T%8`s1$i=9jVGfCh)rd8n6+m-\aWi?:q0`4j;pc#qCf;j-9e=1FE;+q^fbY-Jtj'[4,-CO`^6W>WL'Z*L:8piT9eb]2+LT.`6dHFR2^BXKZ`V?@A8Cf7>peECZ#,'5miP2,V@rA9G:ic!8^*sb*P(:C"T(OEmF?iuU?T?F6WCu4n./TR4/OEmQqiLl_ZB'ID"?!]3K:nilF+&"(=c-GH@4VQ7ar^4JRnR&6]!-&7YDlZTe2SL0M@=<4:*#:^!]@e[tj!51]r3Jj'U9`M2IWl%m)*8F!?NCM(;3AcmJEA.]7GM%=;Ze%C'ML%VS/R&EN:Dfi-FbYZ?tHP6iArhPZZ5up,s/52^cPCA5A+*-#K#.tOJlZkHRGF*/B=l'$tl*9>;2dE-L3'BRO]%Oh&l[5E:I7d6TPGi?[UE<7gK@SROP)%fR?XqJJtGbn#pTFd><-TJD-OE/c]k?:PMP%J_AIZl'?[4=f=R^QQcLP9.jk'kP3Z2!Yj5mTA/o@V['c`b+62(s0JNXe'hY\]t=_Ws&RJDi#O:p#4YL36XO7f3.Dg]ZT?F7l9MUg6-@$0NPXZ'T]!q<J<G&=hg8n&"2<\0:i!peMDbS/ms.pTd(dka%<I,ffN=@8$XcT:H7/!NP)\c%s0Xq1"W(6iFq+?/](^.i.2(;3X>BV]7%H7dD)h-)Z#70<+Q1F@V=snsG]&1%,R5X[1kAbD-P[16ahYp.U`57+W!<,YcFq]Zq);,'P93,Sms-AEAUV$&Q^ZKKIM*uXNtml#X?ae"\B'Oo$eRVX]'J+C17jEJ.S_i@XK1lkeai@E((1m0Hq#s?p=;W3NlG`NB!u?(q\9;rTB:mS6IU/62)khS#.Mqhk<*7PBMqa&ATe(F+"m#+JHO-KjH<lUJCJ\_Q.O0gel<?d?d<s@WbE!_B=SN0C4eg4B[p(-1hl,uIlQia#@kq8Yg?0(d<0_noP1fp)8<$/F`X##Si28D8S9XkG[<E3o<VE7/J;&-s*:@+a?Gn`!r3,j2GS[fM:G7i'Y)FBE"*H*[ZQAiBAN<6*X2g+4)qYua#@g+ggqumY'YOn[<)kFf/WUu=UXK9ko#hjRChH*acFPZ+uG.:l?R;-XZgnj!m1%\lAA[G[sEUlipe(P,&\K:(/]Z<J<,jrL7n"H6fnr4@2olG2;Np34*Aph4Ap.nnJStMb)Aj<`Y\nWY9]t'l=hscVbZn5`/(P^RO&82`$eK[(+N[A13WB]7D8B)NrUMc7$;;Sn=?Y1W48R.]eahlP/O<^eTEohrG"Mar3%5b*^`DBdXmge$(*b!N,-]25#g:+#n-j'+^L"jCQPmZd#sh2*_2c,ekqj"Ea>9\&"tcl$4Iqoi&&=Zb!A5[NYiXm>T"o^E&?h#FH)>-d$9-q&El5i3rLu%pJ0Cq=RDO#W_3:V:tjD*'`l@1L8hErg;7H)5(!hm&)PB2lJp[9e,am`5Q6<aW7"*-_]#.ZB/f]cjJj$^(uWT%-`ZuZ9!iK[L%i&_SEirk8AOY2Gj,\cDqY-=+s%OhPWVuGJ4UtDq["Q!;1RiY]8DfQ.(T:@PIE)(.^jWJc8A$M0G?Y<pi5Ph%XSWhj5+24!cfMmr8Ta+1W-KdV.T80Zkn]JGll(Y*3!V&g65M9ODD"tT^NE):.2:@m37LIi6S8gImIP!A7)7^f*>O#1KNQ;F>>$9o#6t8!'[WpY_5>Bg<X51De3qIH@s_+,I3JPAGC(jg!))V#=6E%1e.i4#\S2e]YID?^%5R--JQp_oN741])7R:6i.^H]k@9`Q%gPEPA1fkm149Bb;e)@FqW;@6_Mqnb'%@rI_;;sMm<*H*US^-knQ")SCojFo9HbVeTe#9o2>6CrWZ8fpB94N>29alEd761A=XL:rX"Yp]OY@qo/UsHp&O#<OhW2Al`3m@TFCIlM*p<S!u&0/=*"_?(t>(a'<.?Qc&cb^,dMTdIecWtU`frSH'LBrhP!c@?Sdn^a8EJ`g0P41^%?DX+X#YVHk*`@,05#_S]`P_V-(-lV3,A*W?$#nX3-c14iu5f\do!8TO1K9q[Xm?5/_nc6Oj$fO+qYfbcDE!I8<#P&i<0h&28mUeFYDb'`QMQ(H='4_nEs-#\%L/l2hTH32%U?UQe`ICsDcdUH`U;MT$UA>(l!OL.$CjKY!l[8(M4WR"K'r8e_G;#U'SNhJ(PJ$S%g-7dUN6VF^$T6WCaR^[6gKb)0aATB$!#I0p^510"/C:-]65D+^,2J\;?jAgmQ4lTY&`Bb.5>FF72'_pm#8.^\'oA_4WXg0,UB2$S^E;RRCqTi?50'+/"+TF(G1QQ+C1k*D6:SE>B;p9"j3)g]""*U#(u[pTZ?VWS>(\Y3nE`la^%kVm::PR4cldkilA#^FY:_8'F_b,rdj@m;eJTbbTnKQ<Lk.MlH].7V!3>c]4G`9H*&.j#P.qA!?3T`G*@r=K]^5%.]sfWBcDOPad?Nm=##[)O0AT5?2Fk]?qG4JOr8i+!K,QUFV,i6!C@4M<:rn09Sf9tO$]$C!8,KNCjZ@pp;oe'(-^1Rc#4j"^>@&uTYe4d<M&%?LNGMhY-(S9e<Ig%30g:@29oJ!Aj00!`$)MoD1`dqu4/P^!P'EnLc^MtDusX2[Is<aD>9""$J),u\A>q99lQDhqEH+Ao$ON"C5!.Vhtn#,L1.0L,oFk8enG5FK[HP:76,&4XD*@]c"^0ZkW/,5H5E!5hn45r?b5miMr$@ihgD(ou@c7Z&`8O`Z$A-go#N!C/5ZAQ?qnUPL5>j4X-=K*VpPs6$BVE`JlHAoZfrp0>]sP<rssB$ohJcUDRC^Z^K`%k!T)DO8U7h`\Q0S!OgP;"K(TkqTsc3!9?g*)Amo];Luhk6E&eI\imO'S*a8ZYDLOUW(GPFH1aCPRf*)>ll2Yed/rR+CS11K1"X`NVW^A]%hR"QDW`=#=\Y.4Em$\NjpYF[1l8Rl4*[h%56Gop'OeuWr/bu0]ZKW2fYk/?Snc%PXP5YV?oo5I*26c'oPFT!_9!i7XflP]jTS(Qh8(F$",6B>QG4AUgZQS:6Pb'\NR9V\?`:ZMk\lP:DJe1LVkR)OJVe\OKQ!%F)o/2^<N\oN9TWX9=@aukf/3AapWpFTpKT$gMo+NG9uGXjQ6A@JjSQN''m^?C=NjY?t`C_e7X0\g->:17B_go5(k1=9YO8tqK@+<)IT!D3^.W\n^J;ZPg5AT+k!b[V%8=O91s7S_["'*.tJ;(il<_)+ujjA\Q#f8H9B52/UM/<?T(ZR,0`^&Z2M\.-s->=Zn8Z3",`"."I`[=@.HV]C*EpLraVP;cXb@hFDDkDJ$7Qu]eh=Rp+9H;3hj%qf![ugXTKCP][epoLtK$#-;#MWbIMVi6QV6!ZR#6="sEX)C.TmP&(&rJ9.p#pP"DqH#?4#9r3X/bd5-_U[R<4WIJ63Vp;;S'.WS%!#)74($PS0Fdh`&ULrj'NW1Pt>L$,X[-NZi:q#S\/UMn2GnZ-7Dmf>?L&f0"lli$..CDV.qSq$^gG+i7'RSGGJ&E6F5r2.I-b!qiRV!P&B#X&t$GE3JqJ:KV&Z"=FD:8--]'==<kQX]qWiD'ZIP)(=b<I5o.$rr=KC^Tn@A*f6FAg.D6e\,"l@3P=jLdh?1&(!lD.D<"[*aI#1bTo6Nclhcb00`Ou3U6C5@<@t*<.NW.KY%)++1AJf9Ba-lg>>VYecF%5BFU-imYUWgf0pm\Ddd$kQ"@Q-OmGr8W_nZrL*(LeeCSnNUb9p^om"n+$fE7=GI&C_:dL=d>$46#(sS%PW#0m]7qbhMF-AqQ<qI(kMNCST9SrkDr%/+?K27.*/YK"oi1MZ]s(X<R_dcIoQ_h\+]s/[M^7br'l(*6Fi#?'mOi;O<l?@F>j=?jd;@$4WTpNqTD^B'"<C$/V`$Ncj?bWkF;;e8Y*XIn.K_b2j-n)=E5DN`>>8.S0@Re-IJ9#a(('?KeIcgZHX+Y+OG.aKN'sS&Jfp%'nfb-!"l,?Z)09-Z3/9!r)+67H"p;#X=*04%FECf(TPEkP=?TG^!H<DDH>h%1,Ufe6IZuEXCHY'"ci\J&6AdA_\R$$d`mWa#TY6Q-S6YJ@cLBs8]K@G*ta<A32$M83R<)9Qq"/G.ueRNg/ed;F]#gW%5oenJ]"lLt>5gV[u-#,mnelJp:]ZGjofgA-Z'S*S46>D&qG[1cU0h^Tj.!Wm%)Ol8EFAgW+G@r'T6ITcV6.,c>qWC%q,rt*0FqA%IW])6C@ue<l3d[8#6>n'S-Zqs1K7%O7s*.,G8Y=0bnG*qp!B+*l\OU`@/Vb#pT,Yr+eoAqXeM>q,StSm6(B9t"W^@EAP_9LHX[V;t%";Ze7,C12*3s;Es&)5YVZpaAe<<LF"AOnSJbY(d!V=QBIf9Hdh#Tpsf3`=<[<ZfN-B0Us6`3!n+g21m#6`53q+blEl/[;a5!OfBnT*A`fPGbh=&J=u,eg4:(m>4CTnCA--c@QqcCt'p2f:U9dEW?eTGOiQam.<h#Zb:Ur+;V/B=85V*/H<(Usj]jEB]d^8JLLj:/9liMK:Q!(hVoqHrN\!L;s<-472^FV/5#adH`(N/mn+BEPVq2V7gM!V,]Kg7a6F@*8D6X[@=s`Lj'3"n2DBTK]i-NAZ>iW',4uR$YgG_s"mQJ,#AJ?B)R3=I0ct+?!/e__SaL2f2K&t&&m9)d9\2-ao5:Xg_5pH$Md8o%K\A&34sK2a$"5XSf+dP+gNs^]HmC=O=ka>lO(#L'E=@hoat;iS!dn+8&\[V(@lo;@4_d-!Bn3cV'OkH_\KEOi\1#>?kY_O'L+ErHcY5@E%?DD%Y2%#2%nn)9agt").QG#[_$SC:?m"kcjqCR/Zh=a93$NFe,p[J(kcIMf_I$0oalD(0?=T2UKUR(9g\Up,'j*pOND[01O=?57:gPeagR-,-@US1<Is`LE5?HSkhZP(.@[F-901>=6NXp)MG@HI4C&;A9jIk^CD]mgfW[VZ-4SM]$=\s`laB'6QV.c:Lc_IM9E"IPF"ldLWd]<ccO93M\MrID#L.VA>Cdfh-!%,.>L,J"2TQ^m3q_b6PR`P=hhpNW9JG[2Q[%Otd/f#A_be!^"oPt_kRHef`!S4d+EKF.f[`]c&=U4%_0O@_d(V@j>MuZ_+5@:GH#r5tYENt-,B6T@X&V]%Eh(r-C\YQ*099)bO"hP5c>BmU#h$g=-Gk7>O(s'UJ3Y:>fR[-\AIMYlf<8&eMt_1h%;XnA,s^=!c1CLPTV\7gkQIZ:5l*S^.+?;s4O(i=gOT%5K1+@4Yb#2VE)8)3h?JM%Zdo,IR).'LI_;LjJQZ?QOF4jFjs+dNPWt[q2'*E:RRVh7a%,D[c&L$Ml(-i744-3,jtSoM$6e;j*(%\?#*#'Ei0pl*k3qf^%;=bU6c5Qm4nA,:S-b3`P2INRYNt]cf&`3Xe3M*/@(Opk8dBZC_n2kd:o]!r'fU8N.,Y]Bm0_1JT-jG%P$%`.%=i7ST!jRE(G;r]Y4,mk_!$9W<6P9>9@H+N&S8o#oX?sG":uQ_BbHT_>0-$cfsUF-XX*4,lKDIV";92SC?]fM)`=DVXKcr,ks`Ur"k9IW?:J^.j:Anq2D#FidnSEbFP[QrP#;I^W!Mm7Klh^>=!#<X0&>:GJfcb=*+gBBHJC[`=K#1B$Ebt=CXU-&Sk!%pcJr<_)>JFGr3QP)5*n^KjmQ8fk/7$=RY(c,9,k;9p0=,bg$[VL/%-P/_tUe!JT&Z57"d_?$fnYgYup\(UmP.TF<d$t*d0kmhf]lCIZQMHTT&WiA?4U>0n+\7-nZ+CjKbL"/aZVW#eqJ^Eat,T1-/h.RaTbQfjPQg?:TL)27-=^B"EQ9lO]!Hai"Z!Y(CJWWr%0gacfuj2!\CR3el9[6g18[;5t4aNZp]s3Gjd<^-[&CrK_"c89A/P-diP<k0LqT%Ud+%Zd*j^C]MK,H`]fDY!$jbW]O.YPoUqga1A^LqZCQ+]iWF5YJ0Yk;9K9)2.bISH)]NMNIaB[j[[B895]?Z;?SZ<'`H>3&*rQP^7,dW>XFPVeOl3d#V1oRM[#9SoS3Nd7ud3Y)jbC+Qf.SuK3s`_iAN,B#/<!8&r+kf6:pgoekl-JPG1V7Lq6fp>@I8=<AFGc7e_4p22un?@9N:<njQX"J_kA5jeT8qpj(&U2JAL?$0puH8OW]n:rGAEXF:,(Wns'h*^CgqTmEB>)qtmZL,?rUdRY)94JY4Pke6[.kL<jY*5GV)\3ak.Jr?s+\Bqsk+9Ot"33;QYCSu%@F=+3E`a+GoJol%8DUp6Kq7=tIn12+pZ;7%rq(T@&GDSUArSt0TGi4P@N\uq(S@]R?MR+ClrHE+q&Y(")\O6/=B_&1TYi%j-VT9u0s/W@p\)V5@;a+<hmh6[%R0qpI-3(Hp+5i#C:5\1md1T'uY36HMIsp3$Z)\)VQ^dC0/e&;lg*!doDHB;_pu(ON_WnAe\%5=Uf31O*YFI8EBf.]SqMg`l+:\QW\)!Dt8au0,2/4p0cdrK]))A6?Dr&6$1IEtB#1m\!*H,d]_$mogknhuJ"Zgld<*OdY#(<qr__dWM*/rRo7;*h+f_B2Z73i0^?^AK+lS,/Mj-uF[b]0aUIA$Kc<S*0&\3pk8J1QQdG1jOT,>u?QF6:8p?DAff&@;I6ZqZ)p[K<FP^R(_JM=]@7$<lc-."U`.<$5&4#&%%Uea4m[Q!^!iV(OoK&i4u0+0N>koYeOh^::$s&l=`4*>8FYJ>aObeoHr0k(K'jd4=#`\Q>/Z&:pntjMXMGT3lJ\`'XQbe4!IIQnD"MWOIW(""uZ;q9KVD6#B`Cg*'0!Z0-)%*\+l+jjXP%,M>j.7J=S;pO=l3J:JIeJq$UUK;/)Oj%Df;k6-.JSc[^FKR^Gdd=Dc`$oEDu1%@S<_E'e8S-?&%K3!C`8J'Ylrua:P;#uneG<7"TOem?TY`h'7cno=SWWn1dr7S^sC6sl6[;u?9c8aquXC5>5Xeo.pC3dS]W-phW32IeK%[O8GU:s;[6!R8D1R*)^PM'*W?iCod)5Z=]g+#mqIW^-hmR[E[*IHhjA5Q"_*iD`f)F9Y,`ZQ"_%s[U\!l7$S+D'fl-E5ub!eG&^RWPdj:q2Mf+TE>Ej(6T68Z,T+klHa:k@=agcf:LTX(m-^BA4$P>FbIQDVOIJZMT5<^3X/UK:;`?A2c&>&F,9_mrSfV\K:0mA)I"Y.-s\sYt23a0(Va\S$23n#%Vlu:pMg4UK/0q:2h3$9R?',;<<[gh-!QP%2M7B2?Qgl94g#`:j[+P_pT3L^8]T+h).I>i$j;/lbj%7/Naea;EcF[aK4T4PL*B7)EP'=&4,0pXn"gls8,I@7%K0DrgDRhi=W<ok,u%&[,asX^UlqBaC3`T;gNOW/ZJG>I1\nkT/?[1/D\m42[_bOK_gkD"t.tP9#I<oa5l*TNo\f1&[^Xmjgnn+g(r9Fi(bLBk:t/@@)0_4bSU!BD'mR$_."mF:)%_V[.>V-S$"4sfhNeYM*nDh!3u`#<!-`&dem'd_9]bl)1A2#m/=tB\7/%0&(q;Dk1>rnIuV@[0>E179$Aq.+(DRW'mE+oC7PLW)<EN5FMcoZYG+Uapt3KpN;VKNG2!Tt:1j;fruRgcA)Ar`/R^TkO9L'<;k;`s/X:;ZX.S6kBr19"S^EbSkgX(;eEM#K"J!^I<1pIW9$JMN5JoP<*@ipDkPq\b:]`^3E#]e8n]pFPZSA>fo%K'D@,@pkC?Oe7#:7U^S;j*O/*APK_,h:E27=3YC"cthYbuLg@2=sa:6j=e.;gemh5DD@Q@7q4;oN#][uP\9V3?$2CY((^fdb:F)9d$6-d77WdbNm^]UIoDK+Mn#LHR'?<qo8R#E!H$NE7KR<C6s.jg,<o2TN0pR%!6"+ARnTZJ$\GrE;;S)C**[kWY9o[bKL!Vg2D^Tp'<ZT0i>"!CZF>@14%3>/DI?'4/RZ9:iPW0>q/J_^>66lG+sb\G^d\V/,Znm!H[kdf5ER3E;")d4H,C=m)d))h!6AXul#dnl5g0VlpYMUrLqe3Kh&gTL`hLK%@9kTB_lk.AHfU+C!p:gdut-a+#jQ+E#2ZcquAOo4lpe?cj!i2#j_i&nN5&/scRDNlKeche&+DaIEQu=m>]_0:DUTm[hV_4;495B8b-&bE](>QgA=](!u5f_S-D7!=8?BLdY3mqbueAYHa\7SDB3MI:ssIM1YJ0O]pTjAp`^nT=?2)FAm3Xb'>_WZfb^h*ChuF$9W\K[%cbpPHqIm.c>mp6'sm-EO[PcRAp%)7n'&Eoed@[k:1Uk\Nr<]Y2P`9qu&;,7A.l.'TE&*m]4U8$4Z)gosj-2j'T.L489?rPS]kH(M*+t-C8g+?X:7]I=H^%r6M"ob8?HbVXO[2];N(sK\8it6]q',n5cD<GYW)%UUeS5P5Xi5c^/U:Pa,pj8i28Nj@tAl[0pNDMuW!-QrB^<(C+-aSM'?D3$*3m(4csC*P.#L"asD[=UORa%0uqJ@E#pll&pD0_b;B9kYL.prgUQu*X,GTPg52cN>kY_-#I>Im!1Tf6PW#r.K+uT<?0KZAnl)Kb`a<sMpqii%Yef0EpAItr'!*)WhQSHP5aQ>p<1Nbi!#2=Ii=V(Wo_4)Z7\Q%%[m;C;Ld2Z`7PCMr0g3!#7&HtNNA&KIdg1P%TbkTcC8$2WFd6&<R6@6\\?UdOTAMIPkr]EG92d=;l1lHrL!Z2%9f$$DG5-1nIpVokC._i)R%U@&H+BPj$K5K*uh_3>/-PPW51=FS-9j:Bs<qo`C9)<jQr=_]TQ=p1iG,O"JO)`3/(UTJQJtLRSLJ;F)q5GVqYI^FC=0UYn%[Ng"e;sg2!"*JKe]gH&8N-ZZ,Qn)NM-gLJ,q[pR(*1"Nu/LX79bLio2`k-)RHuT`GOt8\%*ul$u(*U4p6'nDU`Me1-[L2JEU"$>22`2L(E2S.&Jk3n"I0,(;BT8]m^uMrmIXI_A0Y;-6\J1KQGI+pKH5[N<C!a*tL@ZR)Da?9KAMF@>Y+dj'&nNnN+-WK`3eM$6c>/X$BVcEnMWVtsV=.Qd^leUX;I]A3&+V^k'o((B4];JL[oPa"bcV'?XTh\;ho*W)6,aL.#M@`GmO-$L:chF;J-[[*iLeip6"8[Sl<.uCBa72jq(WQOd8E-HNQ+V4'-)<;'\/V]0-Ij@eB"5OAt8%%]bjmPb9H>.mH$(.gG%TjXd?+q&9n3i\=m\"OR<&&X\Vh6SDRuZDCfD@3er$SPjOS;Ca8IQj.!qVMDaOXh-LK7+g%a3gqQ&3W0p%e?W?(.#IinHBbUMNari")?t)UZb!2@5@t'mkr13Q(bK.K^D&j$o3]+;MM#7$WE]6&ZCZ]Kh%_\Bqu2!=.p'CTDW34VYUNW1*.=LQOsY'htJu$In,OqEH-,UYqUYU%4:3n:2BDdaR8.F."Mr2niZQiOY'&?(pb>DM?*'L#!SC/Le0_MZgDKK5jQ"['J?$0f)`L=FWAl*$^g:0N=t;kL]`%#Y#eE/?P*`50l3\-''W]W)he),IKHA-U27W^d""Y=%<9(8dL26#hO1+T$[*U_RA('-RaVr>`.3k@<e?%G!#ut"?)%ZD'g6@-hr:g>*;MJ*7fe4MgUJTniB4`G4CRELJ:qaXS*Yl^D8W@Od;otQ/*a5-"c8)O;99Z.?4;TQT@"PGlgtWaLgH*m_F!hf<Uf0!+bYdA.U!hO(2q+H$TQA$Z6ZGB5gd(Tg][]Nj6@iNsK.Je?HM&s+lY4J[o,7PWdEKLoZSFTtZY"8sMA@mC5bZeVFKfY4R1b^:[\=@*sbM5AVL1P<YWS7p3eD-M0P"T6@TdV]GL[cSS2,nH>`+g0"gec&/Wdg`u5I>j<@E+o3[d^0@S(/UaHF0Q2>m"D-LS\="`aTS3<M`3B"%ii;O6*QGcD;4GCYJr@51,fi^NCuhd?f`2Nh7CC05/5diO/=Ye2[9")gC7qE7<_M2q`3)%L\SbSb%2*k<O1U40HUHVF/huDiL7+l`+8EMIE"M)b8fq@d/$6+M*NJ%0&sc-:dSt'u5D%.N:^/FB^hd7VDneG0-UCgUG>^?L*Yf]pQ3,dO4hMf#%(jpkEN&7V`s/qX3eJlVomCNHd1IQ_[EI[]0"/pA*Xl]5Jb@/Jd!Q[,Ai/1o/t>O5Sf-Z<ecJn"KDg_1Tj;N3*3#7UDX0U'f%")JA`5>#K([*+eWNWrY]*1`[+_X(\F8@R]OZIm[d%_O2&G*dA%_Kq"WA7uM,6$R)n74E46N&U-\pK=5J.YumpSisG2:g+&cJK6143Z9<".XGS\Gfo9-":;[1cY\!*pnIG['#.G/aRaK%/W%<Tfa*Ru]kOrb%K,'1]L@.;]mSPELHW.N.`\LY_4Q$$*lU@]=UNnkBiPd=KURSC_hC!`E$Ni5WcJV$]]f/H"RlBo$*'aUkH57Ns2R>\)(FLcA?Jq`kB5pR_>1-=VP1OUAsrA6T15GibnAC"I,k(1IE34US_J2h*>`h&Md+h6dHR%[@#'<.Tq)>Rjb]:pnLaZhqh./i&W8nJ-$fq\3CJ4jCh:dREUc:R0USP@FO![b(YVA)p.Y>D]b?KYF\iBQ=)'aIsirr6a#2;q^uoldu_'(KN/+Js:)7\pr*/7Og[r;6*?;Xp%'m*'Pqb+D#bNERJ]ta9OIYR%#l_cm5Oml/@;"lIA"J9U/m`iAG";X]q;!$OT2L@63`g$_Y@9=X/j:W7c"R+/.M#a*5nLa;5]Gh_kN\/WRJ5"mXE-[j48A)CBm<g#etipZ^HRfZB*pVZUlMM1pp:3(`pbn1p,bNQn.7(r/&j+s.h@OMX4tcZZW]FO5dn,"H<Qs"HU@_1k86V%/`%J]fS;ji&-V@oPh5$q5ie:]\O7(`(rI_L=>:n\I";STD)M,-D,;K0#ZF-rUVFeRZUkDq^qhpm:&7!0i0_(&'prn@][$TR's^f><l@]5r!TSd4>&B&2&5\rpnJFD'eZZh5V\/2gA6:QJ,"o>ric4HK&1hMaH\hI9@%B!PfX?bc1V?p:h%0".PgQP`$[mM$C]J.6:kr6e*H7l;.qr<^Ijg^\,0U&u^eo!u)9]2Af?Wde:BdR)MsjXh>s1Z5PZleG2'Tq.IOPP0[fR\^;$R0@5H`@/gDUJgY$1O\Zkcf9&@T5hZf9^;shh5Z@Ad-kWCiEk?4BAm$.[hf7k(A\E\X:(\q7iU8U-95!b8eRJFK*3CELHV<=)ELTrK!P6=D6Xs19+YA->$r'(V*ABo>M?((Oh>n!5nX2&PQ)+Gr&Tr4RBKREm8E1#hE6mc$d^67On)&J9r4a1Gbdif$pO>OUD%oS0c7\,3=7#"H4tWagnKQ4!.lW?Fir)<'/rr[O+Gf-T@'cE(;I]gL$\mNj&Dt%H?bf=DQ`gHiJ$DrGUo%Hb(@1(6FGn=f+WL>TpSj^mj^W:n&rf*$VbCh0-4n&O/Cn5EC9.5f20sck.dak%t(6F")JOa,TW>rLm<Z"oK["d^6/&i)=Ood_>WNb[=iE,,>nJRo"74i:/T<%qk?IP+H[^':GV,Z[G?6d]4@24\2X\BU9OXk_g;e1HmQ/\dSs2[1NW/X"sOTGkWN]"RjDQlB0jO8GZ$,-EU#,Dmdm+W+@?REH8R[P7d.o+#)8#"9:3'D&jQn;@sp%):2X(5+M"U"iHSe;=W`\9],I=sXB!mU!:`DKBQX%[#c#j,OG!%D?)>5m'V5fj+CK[N>8@h1A.8EM(gI"BQYX2aKob:p(L7Eh0&.+jIp6SI<LpZYe:,G5A2*%S5Y,VJV4R^4XkBhhLWib_DM!t2W$NNsAiLDYi(;*Ic^%$Whea7X]<$D(R6R^UU]St;9_Pe&$jMW,U-/5D6PrZAMX.YhrVSE-X@sI#7?4LXc+Z?;YCK;3'6OHb&ncts=.M*/iRT"jrpru,rQ_EFcbTB?(LY&YF#[D8mb0B'M&jOT1T$E%WeKJ3,;<Mkga^JJZjODD6I`qep$dG*b%51kH)9o4/#K$1:nbndkN.c;4RXd=W)UITb<h%MAfJ_8BP(,ZG^sbNdX_up\_dQKF4`c'h-6FmoW<4"m$=b$09hWK'43tSj9<a-e[@"UaSRs%G0n0gB^e)HIAgF,9Y<J.F*s0^/I$@rA0`mh7%?LjpXF^/_67\X`uLoFJRpLk?E;Z)9b_I"grtEM[s#[IBuc)(:OE6Q6LKVA?rWA37eOJs.3UZ$_]X?;[@(alm8CL.BT!!@itU%lmKqA'L5(L\p]O$_,cR"e"[S*eT&ls^,7NgE't0'ncfq>/dgOI*G3.$4"(,sVL;TY<=cCS"9r&_=C21='b_6S#!fBR*Fre2p?XF).VK_#mECgsG0j^25)Y4$E>j==We7E!7mNW&rg@ZoPkYr.?nXHJdH$J0=1tG)k&HQhZbc&R@%>&J5L"0k_.C_h/#AL\^&PI0U_(qfrMoZU3K,2M-IP'6]iU&!Ee)a-%i>X"USDcD7!CZ>YYZKpYV/lA&3'Z'e\1K0GON-KRC&@(!`V?HA9,l6PR*fjD3u!FgEM(?7X,;+EOd]@79hLWSk)l3u3Kb(ar=s18b09'@2lGYhEJ3KoRqCmhN8]mOHnZ:;bi61b1+>5d5h?5gTq8b]:S!V]o:Gp4:`8?a.6rAR;5gYAS$0Z_G<+VdgKB%^%FmFj)aG]Eibl`S%!ZKbY=7k77Nieo6T%8h`Zt+E><`n<eP^3%&171Ll&s1AmM_"6:4-qp"FQd=Bq$9"<e1PZL)T`5b#>a6"e$2XOH#N%GT'+.]Ln4-A34Kaou`.I\Otm"dMt2c(jcCD;'[5U9f!s,$d`EVHWW"TTOQ^8=>MdN?=Rtih@gDYfR+l<_K90H/h:bOKKdimn=E>apI#r!*(k\*#9XOjeY.Jk,DL_Hp/c!o45X.Igg&!R.DtbdLG&qYk8:bB`*XMF,3A/f8l6(W1)>`)Y&".5@.$"22PqcD6U]6=f/`2(#*`>=^91_,XB\.P`,Q%93j>e>Ldbi"N\>/#7t\]2(B__u6Wb'.NN+D#l)?uLR&_VcZ1Ts4QJ@X0`r#;plPDY)>cYMl1@#<k]GQZ5cNs%^U[@Ga_poE8jGSI7H/@u=95/?<@.5OZ?Dd3Bp]6)&O<=ZWO!%>T$coKHN.nU",hflaL0(7uStVF*@6<*YX#7`27(Nk@Xe_;]mV`%scue?XE2iUDAGTl;#Of>ri3?$.Pq??<LI^cg/Mu3P%]AWj3I&_*;5c\\S5EKr9rfZV$<uPP:2/\&*cLTYON'iAlOYAu%tt4)D5Kq*CZMHmF$HN"FGXS^6NcZD?Q%&1$4Vb6<._r(ON(-%RdHo5cZm,F`LO/to"[uC/?^lDre!1!8Z+oqjY7pnY#R1T7NaX"(ICgX)W.A;"/Ogopo\G3hpEl&;I#I\h&(X1YphOu)nn/m9riOY".a7)`s4,1_S7ZnR+7Opf2)hDYgs78gU$=l3g%G<rd-]=^]_#k*[I`j?XYB^I;(Lqq<#38Bi#h2*`hTF#aK'M5ZWd$JVM#?HDr'%Y^#j\iZ7lWe)]0T:pCY3!>mdCT'SG5VRk33jMSeY=pe`I>pO>fr->9&=XWCMF2$pmd\8T52do8L"hXM*^RB:i4C&L(nP01Q,k%^$kXJ?<&lHd3bu/tfVQ"'lWHr<7fQ9(=Rakb+Gf_:flMu!)Kb[Up=a,(@ZtX]KW\GL!^"!c,Et,"'e>/_!_Hiip*N++THT0L.3FMWs5<5]][)uBN+V#urC0!5:]:m)/'W]bSQ'A"pS+s-U6DF_:^3K*\F)H1hjKd2/27kXB.i7S<COS2,3cHLs4*"giO.$`P<D&fca<Dk),UE@qmN^GT:4j<))-GjU\`St2@Vg$OW6Qi*PH#;CG3>fGBJl9B+L#&%VWBIVL7GS]SOf6D[dj<W;&d#S#?uU6;NN!+<82Z2V;+6>%LX31e^njJ\IKOqW7g:lmWon>-^Xa8RDDm?KpXcop7E-%>TsjZ5*m2BI`Vfc[c.([8/G*XD57Pf'<f60CjT*J1UV.LJ]gB%Jp*Q>Ve'8Ik3.?OmZbV)Mlo9D8)PjhB,P8^%T])E/.)%.5`sISg"3.J>'%1S]8V.rJ'`31YPM+JjP41>74bVdGYE='[(lR.5YfC<K?U%['ru@M27,(C*Behm0%g;/=?X7A5NUMmVP2Me[Hqk3SBMi0d[Ue4dHuU2fo,I8R-an]?\\+TP9KCo]-+u9?uX;J>1/0eVP(U_qb>m&Sq3.+:d-YXZc7#Y(2u:W.p,(&)i,[l?MeMH!-"6/1K]Od?W5`uWlQ=O/]:gE,8SmXV:[^*DLq=R*S]9Xgt7KpcAShoZg@KH!"`Q@*^^L"@K-ll*d$]G5Q!2=0)FiD9o"BiAH(/cUMG&2b?XM=I"<l!UO5Z[.0%;@FnJ,(L53$162::MarB:ON/$B5m\Q+^UYq';'%$GV+Yg'tS&8OQg?s3c1O]Hik`i_om]IF!jGE]ko&9W?YUMu>:Kn,,F>OC5_-ipJ*A-GoCn*jo:AP.+gV#f>(<Wu[K\:>1]Oh(WfohN4mdjZI]-pf.CLWQRZ"nNNY.":45CL$59n%ZIK!L1oblgoB!KtVnNf2"*5laBoFIPi"Z5HhYHL!,]j&F"sgTcrZA"X`..]6oXWklujQb2WTG,GN<5:I1US#Z+9j&V28g83i'-%T@&6?Aq&]U%ro6T$HLHIb)WCGRB-K=C?nXKUale/P&AH`X;HDjHht8Z8TO`hk])``]1OpK!cu^a]5m8peZp9gjs)_9V?X)^3L&@Z-7l:Yi;/mDJ"Njh[f/AeBri6B)834.l2u]WD,,;O.<mHD8QH3Wu%pR_f*#bVl0IqS^EiH)E`%2#cuK4H$3r\]45W>dp`di?2"-UW)G84$"-"&8gK*rBu)3Nt^SuSB+5Lq'OK'gYVq&SO\#CBM6;ej+-:82MB)%@tSRuT^&%K@)kUOW$R"R>1@8q>$W[N$4"l':P'A7i6&cd/H6KgncI<VG`:$5bkT7866I%q;8&Q#N;A>L])5N$%r0!6#)ilJkqV;(2g[-.LVW@%4m6oW$[)[KL%7n'plIdoYJ/jF'm2"cj%Be60cB80J`CEMhCe?L[uL7?/OESCo(F%+L!tL5OYQc0<AE3m4Q6o:a6t'f5pg,UqdDBH0T/Y&`Ud5!C)'_"H"^X-@p+B@!j-b/SdV-0LQ%rBM,jpUf03H[@KC1:j8r,mp&3g0Gk^DH=e):iP!-mcnfI&-&+[j*)6d"CEoP<.q=@hf2A_uB22)8EptP0-"8o=m^s@j5k[Eh<C59GD6;UZ[/9P#Yn-FWZ;<`kd%IX*oW7tWR6ik4*^"m1QQ@ge;2NW.FjDUamCAo,=Pl^UQAn>a+qc$+IM#H2Z&V;C\G*<+)glTLs@W.qC6ehI>LHFWm'C=RV3!P9NT<L:*F2at+2Qh9EVbT:m7oVQk&/jn2FQTXN;Z6H5XFXk`FA$nVmT7fYP^IJu`(X-M)S%k^WAf(IX$07%2.k#1osF5M%.*i`Ee#;<KZ\N;<:a)QTUgX*3=73!"3=c,:.uksk(8&'WS:f3?O?=+mQBj1Le3&88_N]D0LPe2T@$0m2"F0A3C*!g9X-MONZ.`@9G(kS#Ya*!g3NjH8H/u-dNV4NhgFo(An0u.LD<9`#SjBTU:VW@Otn15s'R<G^G*%)PSH.m(>._k1aXS*j5.JP_j'I;LX":<MKCj<-J8f^ZTU<B*qj;e4m:-5GNO53>GV/DMAapIO]Y&!F?#YkQ9NFoD_D2&ch'Nga9ICTkKr0FJF],Rg#_'p4i1cc(R9?=i!W9a@V.>5GKa"b=PMN)U_eLbp&%(EWkJD(dR&m;Kita$O,7bbN,f/58R]CF1cKYFEs`!Tio@SH@YtU<0td%#/sP'#M@.0)l5I(lAlYrpT#GTH99^S<m1T5U7ZVYo*n#,]O%;Ba)TU]b4CR')QeNnR>'n<.S$iu(onf%4`Cl#+bXu0^SUP.Oh;JaH`Fo^@hor`r;/RL-ch90e_%6[GQJ.=9aHFKB'$1NXh31g2T`q,B+J`s%s1DAIDVV+`[eAk-3D(L**7&:q-]#4UJHBQt9G`i*prKYJA^"SW`]jA,KtB(-Prb[9\XUo86ZSl6Xkom#Cl(*^3<[S'I`(W0Vb.r@GL5F>7CSQN^-`+!]WiYekW!"ZaX:?4KJpCKX'<QS?:Yaq6<1"d`u"MRSuM7-6gd`kO1,q1mb*nApCXa\Va"m]V3%ak65t)9=fPF8bA[D>LG74'Y/sM/!o#V$c&46GfgMCmh9LZeC>&@!PbGb49Q>nQJ8bp?dBG)TQq-&$g=BNSR/<9&NN.rF/eL;kY+d*1*([lsMk(L***GX5CE>[3a0nj%ILG1L[g"'A7*sPX"<E@D9M%Uk6`STGMR_'e3hd=MDg;kVjJ019?24qqF^T+F6h*B9n8Y?*f!MuiN:i[UKNWn*ds'-DKLLdoHjC("4D:,i>VQ<$QY^KToR1eiH&[Qps'U$UQ.#%>k2Z7oFCH?lZ$2=[lB9M3H$>O`0l^088LASh.$"f41)Wn5WF'ci[P1XGrf,jbH)M4XVa"I/+rn<9^c!3VG%CSVq0h)rMhKNID5W<lC7?F%qllm3.h1(-X-U)dE8B?dd2jbpjdLNqM[QRVK3f[$c]68_ol0T=OBT)5+sB#jli-M\H'ThVT.(B,;!Q^K:/:5aOQB>AIfG.2%gsl.mRD%*BEAu&q+AC9s&fL<ZMa]4d9*=8@COjA*59]p,GhX-@"]XX,%b]G>.F8"DZW1cE;cIJo6`,ccVNML<7A4@@CH`<i`V%;RUMs*gsN`ZD34]5',>oS`\h([4(X`D\X4k/(!3rFLb?GX>]t>LeSDk`Li>`MC"en)`SN-"(O<q%ML'&g?E6.+^40(7]AN]fB5j`_X#J`%;7m7]Se$dneU,GP;I30\5PU7H)/o%S^lTechgc`4m:a!Y+_\Pfbj>O,_h;mm@G0$&P'RYQcGc]M[/B&'3&<`nQ;-Bm^70[^g&A%Xa@UJG$)N_)I0olXT>HQlbqQCcJ;'>rM@rfjY$BMQXYZ;ijRFCb0hbc`6?qt"/@<VEV`h=3R;%8aNdXnj(n$,AL";QBFcrKX:(AUSG:b`@kuLS9gs-!5f/*YblcM&hKZ6Gj2cnXBfZ%h@]VQ$uDPQEcH4iV$b&]+4Z/f`&rFd=TLGB5Qn(BL7BB6="5>VL3RWZOu2KphKJX_Om7?4To2a8'R.nQgdYRbO-mcNW=ni01*CTh,FGn2dQcX<rX+;CNK1fN0;r@C-uPdhY`03)7:0KBT,^b)gY.o3nQPG,%o1NoIF(@pY&I]n5NF0YTB0T(V!LODGG6fR#r-D;;RiA"]U\_=J%?,^RZoB;D[B"?%'BJpVOgd7R7jH$.t1I&VIGrB;6l^90Q,jZ-dNN\T1KImU<;fe9@s3,eR2r?.@1)?JQ?-sD&C#orhA?3Y?)OR>[0BAkoIQR,*6gbV?L?gi"ogT[ri9Dt[N4GuSY6K).EY?aa>r(@]<r.1g+fRuL!$@K>Bb(*p9j:o'P)X",FpdIZ$N]'m"9!=-@]AU&B)p0Y)H36%=+kJX+j^-sq%_aR0+\>*MK",niusL/o'1ad$r]^a?C-r5:7:?_<hEMc.eKt#8dL6GA*W!%M\NPHn)+_`2F%_]`II?n?=jeJ5S3!B_;a[!OS,IdbSZ5$KeEA)']70%]fj-rS=G\$eNso`6d$5J1J?m\)gm"HO*+;e^25%BNdArH:3`HJ@g67'qGd'rR9"@\(!>,IOcuot.o%<^dAekBWTB-mR:.,`T?3t/:r#1t%p%X*D13l)8paorBT*[&.aNY04Zq4(9\i.L'5fi5]Aho6X!!+A=8h(PPd=c^0ub=ki>=7!>:X-%=lu*1c!"&ls0]RLC=<@a^6=LgFLh8S-q?8KSDU^#g&krTNm)ViApHop*VJ<@n2b/\r(Qe#H\.\P&K!,s)o:DKUa?\t,1AC.P4,J3Eti2;[O=mH^YIiE?kFF-,8?)kP-VA'GM[E:]aiB)3ldWIZ*BS3(t-<\Pgq,MK,ZMOW-S>?LNqQKhPD*<9en2o'GZ1FmBEsPAWU3<)*&(pr#[f:=lQ9&=#d#nR.%^!TP^\(JJB>;nfH%<^+gq^.]8QG*t/<k6'S]jD1A*hrddm%.'J/Gqt>J+cSlf@M;UbP][SKQAu.S'W5Lpl=-`6@]A4jVYP8\>NoX"faM6O)/l?Ba12QiU>P'c!)cqJ9!;)@ADg_X_)/WEpOPhZg)PqVo&Bc45$\(:Y_lX*3!%RB99=(PBZ<(+KJ_lsJ6VT]uHt9DG(1)l!*`nM8(h?ea@Zj36?_q9Z;:XA\.sP),"(pmg6<-Lcpb.<<j;4%i0a-p/0pX7s29fcTB+XW)o1Is=g.=7l?K^21REmR;hpqhsB/1uK+teXU8kVI=>H)ZtW&_MB]PlIPAOXi1PF.@@#QpKCrJQ*`NV/s642L4WNtd2pmbd]/R^sK[O8#YN8AQ$7EZr1=fB'0cU\(6ZNMY>;VM0>VAnXMrC-Jkl;O]oWQc=YPZ:pkmdQpB<o%R&o9Q5_[,#Vkud^b>#4>=5f]n,QSAK6'2h?.G<cSn"80Y_^+=VnlS-82YrRTJ=_FC2*ZV@EjL7,*ACDP/;m0hIq2$/?8Sprn#>LQ*?9_cS/NLD<CLJBAa?op3=fYSG+pkOO<>WRIdLP(3PR7a\>$$/kLkFbAmoT/m_+fbl*HdcFV&(1gMZO:3JT3pl<Yco(H%,p&)f;<qRRQVr?rM`>\cW:lErGCPr-Pp7q(&+!/4?1R@b4Ip9,Pi`"s"F5U_79nHplU;=!P'/V*@^;QqSnm[tP/C8+kE;dOID<hO5hai.J$tm?HeTl2lhcAa7Ii,YPd!W\2;^4j?m)npQ'*&_HcnM8-`YTOO&?e"%SSJ"emDO9q+laS*IobM>-33Ws4fOJUjS/6@'9Er^(XSoC3$dE(ueULfP/Dq%c$7;@u)\ZG/KlEIdSnc$Q&TbY.QCA]b6'/gMd-Caaprk_cTagG6#j0SjV@Z,HI?#c[NAPd8V5bijSbF^G1?/H2_sDGQBW`^6k*]mu1&Vlm:=f0F]H,??S/B"^=*7e,'&scTY?,n3PF#4@H2>M[ts[lWhUM7Qi507')UG[E,;YXI#%dhsYJg%&B%?I0o3%dfT?2>PC)lL[eMFOSm&sbDZX4^i0.$8\',GZDbK%LNNY%o.U5[e;e\nH5.4^g[e5Ih98[f<l;cOn**):"L7;'.4.XmR=96R^qZSQhGYf8_8%a2r/'N+Y+.3:%s&93<3dr+m3,2Z!B8pfmB<@4argV#8L&a"bud6O;<.&D!9l5a[E5l)@`6&^n]XqWY#3+s'lY4Rdo3<?I?GIEh<GWC.rKmVe6F*b;j*9jUW;2k7.bmD)R`s[Uti.7Jki707G5?Xa#q&W.d1dbqL4BSe0A-4OW2q1T2ZuLo*s3T"gY1iL.X%NSs'FYDm?"A(-XRfpF@@)3$njh(a;XB&ATRefc!]M)T8RA(e4pZ>*Wph%/%TXr^TS-oY(Yt(&,fe`ETh'qP;0O8AhFS6-\PiIu0Y?o&hK7GKc8%aSJPKPg(J=r!B5SjP(;;g/[0J`\5/1WLF=D^VJT.g'o5OA(UI\m!`t5oUV\p6ReqOrR;(0:8_4UZt]+6hJTig"d]jJkD+db<II774K5KFc?h$N-o$((Oj@E;?eeXncdg8E@/6EcD:b%55E]ELnB-Y1k]1__,0[\Zk@3IlKN&,fWEkX5':oON0J0EsTQ`s[H6hTY^BGp@Cd](Ifh(-C8L$_9/GI[Oh@0DimZ1KQ;fQT'41r!I:]o3ng8iYSrcG8)cbELor6>1<-CRsGkuHF\Vh.!ZbAGVYcel2*;q)h*Zj>H?i+Q.PF/K=hmL%I]S]HY8;&ca0aEZ3dqW4uZdf,kQOK)8,mD`)[+i.2f?DLN0:pd'rl$sCcCHWp4aL-^!$1.Q9nRlR.=&O8g8II.*U)e05-XpHPqC-l?K%X!O]R\)pOV,L?%P'#ei)g$Z(nAi59V!s-KamPVZ[DssRUD\n"C6;a_F9`f<!Uk15K@o1iXr0@'k97`Im^oYFBE5,;b(!"]**HWME-e)F$P9CO(9@3Gk>`0%<sJ8:sUMhMN8I*cQC)\NmZ8U@5Y%S_Z'oB?&)#g93TA&T-Ek&/?g^L.DHc*Q--l,_9ZPhMF]<$CMi$!deb@ofUsgGDBZYSa>HuV7r8uj2&H4<^XC$fiNnl23.V8JI+#NK?DN)3`'t;s83RAsdp'@%;4D501X-gLE:_+[Lmu2!X$ZFnPijIEHHEDYkdCh)FI*l`D@5KM8[!D&<a?8[aqIaL8$kk=a;ffD97l?u7A,N`G[>2W5AiS2ij+*t^A3$O/<sJ"aaoad9d_\.;0)UJl,WTBqVS1$,t%sOpR1b;-I*KB^@D*g-OtZY*dZ5R!eO!$Y3p='`h^\8%E+nRG4%mD#6XXX<SI--CspY(CqKc2#q@JSDFVl-5[AR$k>qHoY$Q%A-s"%&*j)*paI92=]h9e?)8Qn@(oA9j5YI#K!Na&eXZ+ojX/3XCm,0):E6+WS:eI+6*XohS<D0t"T5tq#$fUdlpsBZjcB*o)O8lb7j\WBCLcAmLR.j66%D*U'j[gut(='cFdgb=lLJ):.*&r;Z!5OcUAuuI3ZdS.r*,c\_:c9M46OW8l,sA5?P0ic;@M\9Yj4rSK&n%i6p'D@5gWGF`3)"9AV\UeJ(\<t4Z^]P3,,dL#[k5Pf]P&dBN"l0V2G`eZN"Ck6o*.+c`Q:B.KU8juXI1;4/R.jnbU?&REooCF(V#f`")!IU:P/_BZs"VS';&VO#&r%9$PMI<o.Mr\61\8Q1IP4KNI3H41Bo<;f_-R+f5_ribb%D?B>W]FUb%aT8\=dBVMJ'@iZHmj]ioW;K8BqPb(Plo8Y8fX`_DFgebT,8S]2k@S*>R::aQ)^\83WB0Jml5%X`C&3f8WHn[F]S[6k/%@eLC)c;@s=<IWu,*mY8"p5;.9'-%3L=s!`(1[[GUZP0s;55W?A=1E3fS-.^HKrd$)KO-At-`a?Gpf([W;Sc20!D6.gi!IMM:D/;Mi;,<)KGmP"mj+Xl26=*Md1S!hWad"QgHW*Q%YO5!7J7aI@mrh0bH&e//!2&gYNSIg1RHP_LIa7C%1`c!BXgfPA["H,I.tlN8JcuS?BB/=92C!Y*8MCE(<W6?^M"W7TZtIhg&pIk?#s6F_J[+S(mDEJj8mBH4-gTL_o[@*(#`RNni=mULqONV\I!=N6fkqlm*s^B[UV(`O>I((&c&lJG-VW8"@B;S-$55DFH^%fD*p[UkG2?rP1!*S>8(@n3?La2UZ(,#VGDgiB\l`fU/:k6D4PiJ/&mZ$3-MSFH^Vk9eriNi(Ed2?k^I2V?'s94b8\Zd>agXHs&=<%]G],8If`Z.T+#ZEl@i@'dLV@'U(08/m@6=_4O/n8WYA``mtTmZ`6d:m#]Nb`g7=cS.OX#mb'.02p0\EX"VK_:G<?UroD@oH'HKOsUQ_O,I%cp^8RMJ9ad;s$'i%Ca`$/i>X_NNe+\^[lXJh?BfgPrVlVFu]Z%$f**I+4n&N%Se8o.:6#Ib-*aRIu,+<6_hYIsH)3.U4p:K\hd94pKfD\5?b;m1kKS0XsJ[?BE1\n:+dHjY*A[#r:(G/=0gA=7c=\c;V4OYC[Q",FjA_IXsTa]WFu.C12t;X1$[Id3o3J4B61;ga4r<t34k9_q;`K$e5eANjJqTn_jl[ZIp.Q>iI_pEhV!b5Q$TE`g].[>?(c(H9?BV0G9!oln&R9c-H!)8u#:;D#UT&&NI`b=&'E#B)jZJcX95o$;G)H#rNl?cs)d+Ljj6[.qP(md+6hK'U%,<_`N.XAP4r2-/mj&A"&G'f9oOg.Fp'/lN=5_V!I7m?0bqG]8#BIu[=ho?S+Z_@-WboR.H^4&90!\tL@<]`!@(H:8(Bca;o%W4?.>^M5d;YK<8*d+Ns75oV-'9<<-B=a0Q#!em"9,Bo_>NGrQ"-E[_P&bHBkMnZsX6)fjcT+]1+o+0;>DDdgsZu_k<ffl`kX82R<#94eH>r0jdXF;Wd51Ougp<&QVV_^+kkiE3]N7O3B*<XnMMA.e(f%_TJZu+o-il\Ql`#NTpBH-Y=H6O-gU8BZqkmBX&ZB2e*+mE\k$+*9Q\_LkWGETk@>.#3]d2ti>Ki@M0+g-Z$9X*S5b9%WW`q`HD>0D)OD$F-.Qccri[gbSo2`E7:D_-(geh3&kG*pU2au_MoeaNgZGZd;F#e)Q?>K4UB1?eMO-N'et'5;E)qV2QoQq<36.Lmbk+MhbZm-t9Y$C#6m=V.@h=`=Ok]OhUo[Ki"(fRhQ^HehDO*4!"I)t0Hm^?pbP"_AgV+7OdJ:!KO#3aY-hC35c(&7p]/cbl6iX/6u+Pl,^2issZJd&W\?E"4pJA`N>RkHLu)-/KK@dHmu7)f<Lk67)OBCRM-SLrdZ!`7-KREN6@m)_d3]g,?54AE)(aP?A<oMT4$`K\kiV&R'c8cjE>ifA4MX0;"M;?WA`"VPZk@jI@geYB!hL7KUYSPolH/fT&Xai!nQ&R_+OH9[Ro(2@6IaZ-iju:[>=-DPo./Cp-Y\M<ef?.='rHTp:]^Fs0S8ju%EOIakXk2MQm>+*OENagCPc98r`&,ll$$i._t],/iU0c6<U(T-))9%P[5@ogF%Lq3qjO@5]ti1pE#s:=1)ISe3XXh?):ODiROEm5[lI66Uit0F_+]lJVE<="X>\_k4:7S,.]S<_CrOUMiH"NtT:D7qupE.p`qo-.%uNDemI3<P%lW[d.#L:-ZUkZ)#T?X00sf.:Q:+BBUc4pT;GuQdn0R2,J_0/Gu&b1IeeiU*OqjDW0T3o<@G`Hcic3<pWd[pFDbjZS(eHNo2;c$UDC[Sa?ct[%6J1S6:PJD+dX_,Csom.SDT%qOAl_BREi-:sg8Bs4Hh.()IQqCS74h/6HY,LXO#B@\X_\mkn5@I2fOWJM@R9H$@jk=+1G@@EYTVJP.%9^KVKLWC#28JQt:"ns+Z5`#L)U*2^keE,F0G(tm`#:d9$Xds#mf/no#^$n60JC/RU.ADK$lOk$>!A4D%K1a2$e'WeF`2e&SYo:4oLPJkVCGeBn)1,/m2DNkGmM+.iQ29-CF5De9#]PW?C:>#7XToeS?_$1^daNUhMl#[A-Ah(Ct]btuJ%(LuPh8o3:&.qniD^[D56E\1UmhjVQ)`NZDJo9k_,_h==49hI*Q>hLYOERD3UnJ];IWMVb37jki0tc`<bBS?PVG]EcH:A+TL/'RQWR.GA4$I^`%YOm>jVkW1<SGf7P+&>oCaV.`jsmJ#akIj-q(&Bm.=4aXIl>:4ec42KB_AoS&kE=E#BrL(pC>H&/m[P/79@ZL$Ihs'-`!rpT^(23C^#5cK$2DAQ:Lr!(qq+)kj(G+,EV"gH+F%sFQ:?NTn4s=i`l]#6:)YA@M4)e>T/uc*uPCWWA@2%*]+)o>`8k%FPl&_n(*0*0FOrlaQ@I*PKi]>A;mjb]q#E,^!r0Zo7qM[*ea2UfYUj^kK;$.ag>n2d!p/nnul1U`eVVW>@t'"b3"5HkhM]o7o8_+-QWJ0fe7n/CnleL:=ue/3?n4l&Rm;@V/2<e"4&K3=%C^q.o@<aU]PT1"1Q'Lk4[t;?pl62a(E/1YXWFYd^)2VZ>5SrdQ.=e;3)Q[M-b&EP!t'nDC5;>Y6*qP9-U-Dahmq,@!>p[aZ[[Mfd@-^7'ID"ZT!9&cLZk;n[T*l:)u2RPPLXi>a+F$M]V@]B5nj7qf"[fA8Z'm<L;l/#iT^sarWoHOC&DU$sMp22>q^"Shoj2JNHWVq*RMp?$62J8f0\fHB7KE2qA+L'97Fo0LMAI;oA.fpNbU?6)^>MP^p,^INTQJp5%'h[uWK#JJ0m>-oBW>;$(`=eS6HQ<CiahYjOJ:gGWCBjJk5W@Xpd(kK$_/-4J!<5.[D6lQ(C6L;O_*P?nl:J2,mgrQ_QuPXC#Qe?KABq\+Kb^i@2YZH+EcW`"1t_fNJQb*LJ](l\T]=ga?b2-V2ZImqtQ2roRNm>[5&P!4=iCW,DT-,;(qF>_hk!9rG0`m9b(:]r;k/disg8=Fnf:L+nc_HsZg&uBkh)PCF@6qdObP$t@B?s-lE1I:?lH_A!s$#SF,5=F+#aSN-b-=!q1d&6iE$&Z0ko@"t\1m*"/?4fMA:%DrS_0SE*O]o?V%*cBh_>u-"ir?t+'B@&nolE-;dnA.tYPEtnJGKN+*__QTf+\3[H+18Y?%uG92cD<,2Ytikas,.M*Qf[>hO(e02r75M5IY!NLX?FuK+N0>eEh&a*#70o=0YY,ZEhYEL#h-1%)SN'Hp62GPMonEY;LdV/dj4^b1`<trmaYDYSg2$oiuP*4NuZ7LG<7^oVUk/'k_d=Zgm6Yd"<%Kjg/l,?N&CE_T$O2:qhMY69'"lCX/P2_pq/`SA<Am1I?[SWj0P9];`#0!`a?r'+/XH6(YZ7L-U:>["%5gQgb^$E2Q0!b7dmZ_;]F0%@O8lC3VE*2>*T$,H\l."s4<EZNJ^NHt(5p!5hEB.sA$8J"j70LP8g_$Mi;.S%AU\M"+":g'Khmlj6SmJ#X,TW'aO>\:YPWr^ZLL4#J7S"O]/6/^(Be+7@k4n)K(k0*_5B/>5bjPY2*F(aRt+E%1@*Chl@H;S)\3UfTCSp#eqO."=RDpY>;SEIn`;(RD!;%fA[9U&f5rEUOQ6K_?P7:h1b>J1;K0]-K9<67q=kg!.,W3_#_gl&0<n.%LGTT8V(^@!?Cb.,a[9c+N)d`XI]45Td\*Y)G;3?JHhl'h_0G78`U&SZ*>fKIR@c`@b+)g'OiCVp@<EQYj`5@&2M)L&,-#&"[%VnSWh;DUhPh]17+B\[G20M<()mRKG+-0O(gp)L(9j1o21KLt,,DVO<E`%smST>*qMFcRF'GbG7joWGdbOJ8ALJ_jp,4_'fM`]0R>#[KW3OcAV]E!U9#ZN$<7U3d@9n,52l)o[pI3h(lU8/\$gB%@cr,ROWqYhQN[*J2;n^oJi.c`YTpW3#MM``9)+L('RGkHY[QZo0RS1%%H/905-)_GHt*1&mB=<Fr8@W2MgIr;-^U%7+1Ua@7b`>\KT)j="iG\G!iXfs'I*cG"n@=85/>9\5;ULo'$S,q?QKE<FQk'<p))_cDkn-r]ahiDA,9#Y&\V4!u2<uf3f0dM-0qm5$;<:5>kj@Je@7JiEt/?2Bj!g]aCZ++#9CnrrKJJjFGI*FF@SA$%?5R<8Y.+4j>,]!QcMXd@lJh[T]QH7bQRco5?A/1a1*^q*RXFf!^msQia&bR.qb+_,puA%`3jkU:fAK0$9WqIZ/qG(OF(V"?D*\[GS_B8KndLcL'EW<=#,?it2!C"H;2^fuM3DEIg;Y^[0+B2?"hlW.qPc?V=*ql0,=H=hiW"l-'/B8OM[dTgsV;#h<=*Y64/fgMDV^Va_IU$4*GlA(Y/,r\]$P1!0JVoJ98GOX1UgcCG\PURX-UXLkF.2`?8Eh"nc(ftL4kDpC5&(c!(OkXH:M5!6E=M+9a-Z6U$+j&W)7egnEuq'3+Y"[mrFS387o.PO?D`o.rhW7*a,Nje`iS5r\-ltPdIS:^.pVOZM-"n7JQii;$?8>+j+H-;2KO"SbZRH9p^+:nRbj$u-b_-$ra38rC<P47_jE_!OOgT=Cfn;(?`<HN&EKeBMo$BkC6"B`kWs,8VP"40e]4?*Y]/_-CgVj.D!;5H#2>3@<ERCD!RE07Y"@I2Wh$MT*mIh$c_PFQ[A%[DU96_9gHq%@>0:a!loPV4cN<.I^I2p;0&dYP3IkskZ6qVu>d/_Ws)h@e#r#MYp@daLV#ds[GZ'k<`mAi:#^@^D0(@:,7EKj+.a`2-!M_a,smn.mfZE3CnuLa.2X%\cUtO^c@H.6)IBf_0@O>O?**f=FlP[ep,fWe]IAk,,Rl;ENnB09A%f,"L'q$F\WT8)(qM(h!]B-EW0\:!.0Z*%c3'5+abr`a4AZL(/RJcBCra?,jUV+,.8+'j#U0oQA=ofipJe"It!XJdT)KEE^[7%gYhmU3k))]>/,q/gW<<)5AXhq5D?TRFUp$eur4EX<g`uSLfZIbZ45g-c!PJX*Je,?E-O+3G#=>Y[$obfTResXF(ZDWtR)O3H#Y)\48&4%e7[hOLDM9,a"gj/0l"Y@Jon2<c75ZXiL/dV-'e6HeeXsl=3puEWc9i,Hmjg]ta9pJ+H@A7";+=bMrF4JsF\Hr>o=@neJMd=&^lTU4W#9<qs-U,VO[)4E'3DGi-T[=eBugnVnPd/^D/IBdMZn\&SLNbCSHOA'<Bq[ifdWS[dRX1;D`F,_tMsL=+@=,ZZ^S9`umG&oA$pjsEDPSq];i-3OsMqL>^tVXVnB-@u:uE`7S\9,:Bc2.LbKd^927nC)[bA.k^['D+_LE?'j=1JaQ_0SqeAmmuX!A:k:,W[bn(Z:,B-+DU1IUjN97<6m7D)E8Kha.1@ao0MmFe.Cig>4fta/X_Nh"c.5f[>i6b]2a:DJJ3XX1TVZ"9%>H*dYdGBIDaoXUC21c&o@=p/:Qh1NK6J8eng:s"NZXGK]eThn)9ik4Gep0#dROr<]"\&*M]?j'cY&&EDE[Z7c:nt,3@#=GTq.<+HndQX`NMPm7e4h=OJ#/-d6U\qSGS+[d:59=24M\SK#<g`m*\(A=8<Ugf2g=ZX^7=g@+XGc:\7W1;[ge1\A#jk?-^q0D%J"b&6Sq1JIhcV`aFk*:b!gX6L]c'BPIiIu;[NqK_F6PA9N=Q/VuDp%d4"Yi-j"e5Pb\<,X/[1o^/=I_IVm).+51SZorX^$:8\.*IN.6"[a:;UOUINB*7#0&1)g.pIhW$!Tt<8Pl.$<\dh7g+df63C=$T/+-JdAiJa/$3A@(VF/#DqOXGjOeCl8"<=cs?&+Hq)3sdIK#^E.re%/Pcb?opDZ(Vs`/Psj/bA+C@OM6[Uk9tUcbj'$-)oF:K&JsLds=D@mbO'53K161Ig);kelYm\'tgcBOR4@rkdfr;Aru$9mi`e5^76Q*A#=Ag#G`(nX-'J-`VA_aYS:_p2_>A:Im9AD0&"A7#$]l^A&%qq^^T^.MKSX9>Y)CO@#&dr]g<EBdUt8Q'0hbT6lcP0aiQ+)c$KCKl6-%ZX,%EhnMJCl8625b(';:d['\<+fSjj$[7:(3AX3Kc,L)<><;1L+0UV?^\.G-1hne!F[&g:0cN63]7*1J*4u`YfMLR806*H01)ol`HmmAN=]I$WilBXLXYsA*F9:+Wn/&-3.bZ$W_.(fpP=B/ch'uXs#'G!_.Uaug$cWR5$qBar8n!>6B0sH-V0t;khk7l[_m7(E1]!9S?R0ll*ET*(P;^J^%fGAJYEufilo-2;TYLH'RSi5=LM'=h5L'I>P,Jll^4.$HF(ih!^.R(S[8eU=;,0k]MZmr3tDf]qee-HdA;JNjA>G:FQ?YXq7E=ZN+P+>;-o(E)L_%U]CGE<L'(PI!6<Rf/&>k(PMS2C:Re=:^`q`ImaL>1%Hp-`S/`m#k5RAQqk-mC]tea_Rf4]f1E.A*AM2o^+t9Q:1XXnJJ!:,0%*L+$NkmDKQ*94U?22/PqlhP<2bHJsH(3Fep/,#K*?kHg[f+7eVR]qeRIjMbB0%XHSoRU`Lb@,LFsnm96W'gn\*&-/mC_NFXj'@9Ngp>"l-Ke>h?P?80b>-p,KPMAR:qajGuKJ-ppK#YBpmp_QWE%&DnX8%h/C##Uoooq8AXlRST@aFqBj[orKd!(BJBHgfLUm?/8@3Jh3#%BL`8MWXkZ_TOoB]sAao[13hKlkp"HnR,?BmL#X,?h=p890d.&`#2XbgQ0SrdZ"]!OJ(GR,.Q0pj*mmD!#D*<`'K/[_\:GTdbRn;7Yc9DaBHaD<Iij5?WY61jX%jF"?/l%:`P<Xupp74LcXgp'g*;GXpf*p+=oPV92PX9&o$flD>Dq-!H5[`q)o6VFN=79q`Mbkn7A!O7A[n/GY;-p4FR.&4Q4K")0RA="8Q.Il_dKHRsP;0fZd*Q]nMjjgNo9=r9CL"A!#+;("l_JQn:p6PO:/,GK!=O0<(&c0EI?.?#^JmZ+AOI-Jr"BPd9NRn!qpHClG+T<;OoPer(m1\-3T0W.3d1p\W2F.SuRgk_V3X=Vf2DAZeOg/J1DPj7giG[thR+IR@cg[%^Z(N@V>bK"^sb$*T;+kmc_.V7'Sg.C795"V]uhGh;YTOqKk[(Z70>dNHfReR*BK&gk$U=44Rl\C/^Eu"V1)eMirTYX!'<'UuOb5cnB;o+)Tk]IecYhB?I0A2kO\6EIr'0O/6P8LpOg5^RW_80hfGOlDYZdU$+R02_rf&lpTpYi(B/<AkO0;X&u<]<"'$J(@'<TB0Z"tf+?mGGMp:5UQFG?^=jC,^jOS$mJ7,3%inWWqC8j<3R/D-,*6L(;aTnZa&T"m:m'rQlmYiR10\,HYd9\tH18,Zj-%76eheb?r]-fRi+.2S_\lNGh^\*'!Xl)cA4LRq*MVMVSdBPZHLkDq:1"dTitB/A_"1O5cMEfV7Fi_6r%$I#Z-Z=*:Uo?Pg70-a8J/72[sZc[tEX0H-OP;mR7>!1n\,SXX^Np-D'Jba8$6HOP/EqG]`-T-0%TC;&B3W5RejbpaM_4i<b$8lo7*g-[P02t+=g(,P5kV,]F;(bC[ZqTqOX.jum(a+r(#&MXL+Uq6i&Ll=p=iRGr[O#S`VXdIg/oP@JY=PH,NQJ0h8ffBHj1%6<)3B$uR\S<!)Y:nq_M!^R<`iJin5-spKOGM/,1-lYLG3>c6:6f2#7(T4&;O@f7gO@'ciVObX\(;<s=MLLlBb)31Z%[Q(q]kZ.8PYUciePW^M!mO)e=5gqV733<)<\kfmJ)LY^SGt(\ST;NaYb6rl11d<bCWktWh%*Fk6Ci`''p'h@:n,#E?RduC@.6G(1Ebq,nJfUW(he!Tk70#DK^.D6(ICML=lNG!7c#9<:-H(F*iPfBrd&3feKd"GG<!@r/S@g[HW&FSsn^d.W)^K36OV[6'unLo\=F1"P/:6WZd('7qrM[V_<"YG,]Z(!VjXfnAnitLbNELW&c1?Q/*X7L-p!XgFLR97"*:R]1W$%,\CER-LAcN'MD>JquOp<lB$*j'AW$O!uhc5VRe(/*NCYbj/-a*&3\cj3d>6A*kYnQ(-\uWrcqPVijh=-=*M&0.$>l7%R5\DS?aQBh4`JLo4g0]0TQ7pGraVG_I_LXDtB/E<TkJ.)d>`_&\&fW"D$hhc)`41+F6bbkeVt`Mr`md2FuqYHf<V?2%DFKXK-HUB)Q[0A2Y/p\565.XUT:Wp<8[=,lh?S[2B&>*5NtZFphFFeK"03-fE$elSb>Whm^AWPe7d)\rVSq1l^!Mc=:lM'0*(9^%Wf(1rtes`_PkMl>H_31.o7Y:0b/9$RV)s?D]@mrLn<:j8c"MXFR<T]L+?Ja>QBB$[J4oSp\0L\^![>)/(NbF7q2r>H?l4FCH/-"Uc=0ZO]n8S(oq;>R'qWJerbVZ6's4HZo&ub>R[tf4*YWek>>Y:2S`Rkj^s^\%Zsj0S&?d#Cg:O>3c>+Y@,WCP:*sJZ2]F#+?b#!/[BIJkmEd7j(.3W4UY!(+0(?4C8n4$E6b4M0+i<VG&;:$AI,Rk9MEAPE)f(K2]Xb;h&j:GPFk#lQuOBudm[Zu8Pb;,DZ8pX<E]1\NXe?gm4,_5=ld)h#n^gaV/M/]DoK5U2t:%Wc":l#:H.^L06+s@;&lFL8dohYX0t^&Y1FSiDHkD6EcMu[?`l9De-V^:5O$hJaX.0<m-FihY10EOB:k#iEEeXq<*02a\ZHid(=Kj"T%,@sd'IesSmEDf/o>?-MG(A8[8Z_O"99V,ot;&Tq:"qCjLQ\1Alti"*D\$u/#o'R;t!f*Aok1(>`&/9+"h[$\F!?6NR1@&I/ha;B5;9M)+`I0oDXMb2?#sQ[Xp%JBp333G^UV5_k]O/,I!5!a(EuCZQ+nt_4pc>ZR,J#OVoR$"5'NCaEMSB;eOD/lKa3f+TgKuCUW/;1C;9]:YOc&Lfm'+k_9[;W9..qhKMS$9B$hZDfF.D<5K=sW05*<bNs;S#WKPQ0V%t3Y<G-bY5(EZIf&"s<gtr<os(*$\Ng+L@lfSVQhk`6jG,uAjrq^EJ=\H0TqIt8M*kfl^,"%gUlAa4rR%6C%SWJ!'2K['=BF[t.H^O/=&n^'19hn4N_W!0W-jmUJht*79`5F',\p;18[CIWq#81eclrui2=p2t`[Xl7GZEgcP&8tG.RmW^4?S8pHQc3$0j6Rm%lu2"psJ8iq>0.h<o(jL>A0P^0qo]\"j>bNe&t2$^H=cTZpb7/Y$-r.YPWd[H<8U2&J!hU<S:j?4NEVoI.g9VEe"Z$rFD+R=u]'\pVg?ZecgnXW5rC<_69i,]eX6<Zc77Y$1;K2LZjB/pj!8\<b:@A@!(jqC4E_d9AppOAeYF&c')#g,!dfkJ(e</?&0DWD,o74%K*q=ldO,I%KEVfgUjd;3?A:o',.LPSQn]"B1B'U>o1Me)7;,rI&@8"3PJId(OLA[j`SalGFf'[<WZ)u+iqXoq.,EZ=`0I40`'l:lLWXKgWgVR%3uD%R$_X3Z^`iKK9GnkDu](oNP*noiC[OVPUO['*/J<Gjr["-+iYrYDF]uhTLal.k=,T8bVJi($MCi!%>-3Uaai/Vi?/!Qr9nA&??/>7M'Won2<^Vrk*HC';LqhtdfO_7WT>@7'-?rteT`<7*e.$p=4JuZ-pD5LN0'a;K>W=%[2(XTGW&Mg.YEfeS1<h0MnsMU6u%A]'&o%4Tb.R85Bm!H,);?:<IoW#/\'Oea`qkQJ>Q)Zs+?S`s'ib1f9TjR>p]/;0*G$&RoSZ#=u2N@<\nHa3<Z8P8/@eEZptI.K>0qj%S^(QrggrYAR^#2+./;&:"L,L891]p.]6]p!u>%-*uSR*f/-cspYBrSC8V56s,l?4WT0:;PkS&Np0?2MeT7:Eo=`)F9/HhS3_cJ*!u?1\*>o=:0qW`*bDXT/UUbl`(N*^3,Ng,(LZsld90Qbg?-BG<[sdKJi+D:S]kK$is.;ctW3Au8Ao["A=XV0un+)p[=g@@K][bk2URH4-Gilm>K;#.=Zr"H-@uY,8?3Ead@ZCBBnL&ig#_P@o,TjudU)/5M.0J2T0?'DHmhh9H`63'uE6MuAP;9kJbq)TpXP%;di?A5(5&GoJGYA^%0K*^bX3sfK?,lU@i993WE9kMmIfD-!!esmen,&lNOm*Y*J&*NVcS4/BAh98MM\f\H_qlQ\s!Z^Zh,m\fS!V_d+KCp<L-V)Mj%e3NHNaW1']r0Qfst*O\_g*j!H3U>_s:c(f;)C)U@^@q&c7Xmd+`\i0uL_$iFW*^#Soj9gSiI=O8)[^lYm!h5nRm?;gmeo[Imk.6T0*0jPma[8rlDK$?>],Ybl;"Xi!=GBX*AMUPE#gT`(ZgdTpQL`eo/<J60]`BBhQKEr+YrC[/eH@iee&CubI.bJk2"e/?=8mF>U9"[hW3TTNBcB%fN@PAk+Gm;M@M__D5umpn:I0XKLjO8(T,d=X"*@2OLp_9VYU..%$Z<3PKog&d(Ep>AA>PR[K6)bX2edk*RZN4g-k%NE:EDZ=B'jr?m.U,8n$V[a(tEKu6G?CN8Sd02'M6c5lIdUrDriVM4j?:EP7n9sr#mq/e`$#UR\hJ&=,fH;<s_eG9)4,63t)H]#LPPeVaJIUNo-N*6&EEJ_m(B<b_Ve9nN:oVlbYCDJ-3-HchlI+2#6>']]17mMb4@9[_?Q#>Hmhe&1T&7B0Ylu;<Feu]!?OGFaG;!-d&>m=HgL0\9eIAg@!PP&p8dMd:!D;gtW3YTiBM&(sg?'dJ)LW^_,mC;jHjd1Qm;:_cNZbphPXmf22;S<kD*ei$UYYqMbD0"^QTbDD[2/'mU.<N]r,P(P(2r&,-D.$^;$.:iNXWG:4;_X+@9sX**!H<RFD.HT.CV_'.1X?ur-u?*nBGD!ILrh,^5SC=QAC*n2,;HO,qaPR).1naH)MZAqjL-e+Db>8?CPFYPef%c9cf!K3K^'l((3eM[`;et61`rD7Klj<-T%d6_<6F%QoJ(n>Pg*V;uCRYr2<9-Mf$Z^ZVWVOPZEeH0W_ulru*-k77jAD6A'^ADYG6IeI:alq*ENR%iWPQ2ISfSm)I)W-m`Dm'B\#8AR^bJV=Pn".NB9kG?C.3mbp'.=@c'9,MZcjC':I,/4UN>)<Qd+B,2Z!FNg?SP4-a28Ts]2r4q4Snio,<@s,hYBD;5h8m?`9iB2Wjc#WP0829DaVu#`"HHi;E-3u/"(%YQ_T7dqWM#+>7R^t`<HCm'p[,g&_4+*SO2E;5Z0`+VKOQ/9oX;(2P.i\"A@^?2sqk7@5(H]c/C.!P4HAA>+Kp26"I4TRp!/"rmdqq`28CU[]>7kgEU8E=trQ56lddABUX7&399jSO9HI#s8qtrT:niTqT,?b!E!+Q$rQVM?c6or3:<Xh\]ji_>s#75uM<FqF^6TNZ)C#!pu2nt3X'24*Lo%6L$0?Z3=O-F<2Gu8=q3AqK3+P]lm&tNi7EoJ5NPCDf5[ukDZroH6oc=J4JUfAW=8L`j=K?#Q<GfOKT)\;$i82CY6:KcZRGq6*+5tiCsFD*07Fq"_30J)9p`Mi`@D1*8rrb7`aGkeAB*ue:hmC4N`jMc%5+X:m&A8RQZhg>,2kLke\p4-R"[kkpq8_s==FRH*;MV2nO%`<!T2F'%V';J7X0!/ZT9gL5,qK;LiFl_4F*?>9BZ6E,oOo7oDO[uEHDgXc0b3<UL),b.r1cMQ,L&N+\n%V)Vo1_g5iasP;St*<=5[)QhMJ\J39G]iaW1FHl<ItuJcuL^X<`#n"_/CU7p'`*>UZEmi4?aapO4Q,&a)k"jPYAl56Wm6bUrE1:euM0i*Bu!7=pF0!ZPmn`D#IG*Hk*>*JS-/\j+,E^=_hT&dZkiL/KL'IqEeE?8mq)PS!=W<9/0sf4NDN<7ik*0a(tr5/oKY#D\o;jlqJ+_s%iGC2WKt.V3G5!j6Q2<=57:!WoH]haaeC(0ZR3rc>5q'HH0--2rb9goXtL#29-Q78AO,50C/9u7Z$($;cLa'Vu89B(;2\Z*oQA/^9bUA?Au3E[o.Z)YiO,hAf;CW0fXleXkDNl0REn-om,>=EOjtg_>CPXnKU:c(?eRN7dL;q;k^=^i8IuPp2ba.7[4[q-q-h:<s_I#RP9B?d[!Q#Cu;"+6tBM:^Yi]&1b'-Fn#Q'6G?uYVG+e;:aJ#U-b3QJaa1l%T*`[M[#E"aZ*r_lQ<Ehg(.]q!#b[b<P`_t57MeG;?LCcagiq8nNd&L*!>f=LKaOMu1WHk)55EuY)6/?4NV^UY]SES@iqrpP!))G:K&UhUp+#K'B[cj4sJ\&*:q/h*lOL,T]nQK9$:_AAQ:6:Q34F..USQl7cHScp\4a9ApE\&r(rd!CNr#Q?::1C0g$Zctn<gtCe)nVkZ-S+#<gW8%?5k/VZq"u,L>k[1'0pud=P./X]UJ=f,2&;0qB.qs.EuA%L0+i!2jWt]@;m-?a?hQLl44sWC@ipkj)WYn9RJGbQ[`7$I\9A+R^(lhrjo.Gc&8$rmcf(D#0sIipngQ06`@22.\qb8I_oJ*\7i$G2aAd>(=VLKX;btgq0?n+mTU2)ag"f9(4-)ksNt,Hg5J_t!*3?87'A==V68(Op6JgqS..npB.2u^L,<`?Qb@"GfA8-Aq2IZ-k?)1CQ1Po92=3nK6UB!@DpT$HhGC9a0/UWd_cJ#RJihhr$^`O+"LBScI&R(R"[YfEK&k#cN@F[jLThEd'8,h$[s&L6VC+r[_+6"dh=HcqN"Nf)]r3H.K'8<iQ*=!m0TfqNr3)a_V"UPTBQ*uHF7D(5FV\``(EID$KW0J^^nkkBD[CdG$^"95?*J0/2OZ<n45NWh3Xdm&ke%?a&#`B(aQSgF^7hR/XWpH"*obS'm:16`oI3r^bT0sX&Fe_it3V7:]]OQ8doEsNM+'N)D[(UV]Y^d_ee6F>'M^M<^bL8+/'j@6a7*GQ+=&gpr2#i!Li>&ek^,#(DIV9<g*N]Jo_kNg2W1kS.>J6`:.E/1i3MSG7;([o0(pfcL.pGiZ,tBBc`Uh/_RmV#XM`GpqancNS^^'m!EN-.o'192CB0d9D%0/hL..RVant,i_:n&<r6t1[Ird;/'l1Sj&";PQ*:@S3Xlg*;b5jNuN4pN5<bc.!#!abXQQ"#._$@pIF.X3o5G\C8[;8A>[5rbCBbW9NG<X.s\(f!u-1H2Vqe[s`J!k?Cmr%&KOih"n90CKjbjHX060`@^A6-A7Q4ZtssU9gR`GV4!J<\YUu^RCrQ^`0Kudo2\[5ZQ4lcVOTjZJ@7\^!Y=:E4Dm'HV>Ii_6"33Co%R6Qqd_k-O@s'(%QJ%QoWN&!\/a`$?oD-,d<JmLj*<7iK"Bu&R&h)W9o$$i*mISMc)s9r'r<ga*qHeG3,JB_N#aaqmkjBg6WZ-*jqO)(ifMF-X(EVC^dS7ciqZe#*]5ZK$Y?FS$U\u6iPR2%TD/\nAdf.fY+7AB*=)TDtnHi'>V1DoNE5mMJ=]*NoZn%.M@b&GEm,Gg%BpPZ=L0J.''rPel@NOQZ\aEs#;=_Ip:rI2b_fP[@6_@fWUGF%<]4Zb>]+h$1\5/2d;nU,O*YDm+;nD;eqsCOP2$Q;0ChT#utW)kQl5K"fmJgH!+u3Skt_Z1L^$T0J$l,?\DnAojf6"`c=UX"<r&;HP$lcO6t6CW2Y4E'$_Dc<33+P0Q8hRb5(Au/a!3IK1+f@<&11C0@>,FAgIa*g/[14]UMGMKgJM>?84O*,t"0!Eu]S<^LtQMA?iS0!4fG<UO%7XL^Y@X2kH!=ZhT>gor],UGd!]\)4G#LT\YZ+c<V@^&JY)WN3=VXG$I18/[#D2]+)oW/c)gBi+VeRSg0f>+I9B9jgP#u1)Dl5E[$!22NR2B/Ga/;V;/b!jc3H3&9V%B4<sg*oj"s%?[$FK0ZTo*;eleF8,L,.'=;FEWrnmBB;Dtbf;$:pE#>R=?"JS7@i8X*[Apik429?X>Q9mN^W6c.?pf.0Kc\AEVprJkLTrHi,tMuEJ[ZnrLaE-=[hh!MG/`_E7kVBC\&5cuhm7j.7*o^TL#7mfhg7^4*dE4]q$;2dl9&LHVb`^=0duKN`T!>T**9_eQWMOX_j?4XJSeEr`0<:=:,a1"ce`l<e]`s?4_[@47g9/%K?5PLP=p.);hEJIc^bB00C'->H^JR86"_"9jc$oac7iL+j>SI$93AG11*aQtJsA88!6nXKG]+\oSS&LP%7aZ@o!YBnO<239dlcX5e1X3ukS&"ZS"Qq*fq0=.H(g7J0WCuH(l<i$AXMrF,q"'k88;gI6PblY:?it8?[%M['Ph_N\QKCo&#V-qBN_5a2!2"..I$k[DV>Yr0K2dBjhJ<@Q5;d;VV]kd-'s3BIF._-@Go82aIgZl)BS=Q$;U<.Tuu'uY6CefO@[Z4_;HP#]0rs=0f5NgRccN(6WPfCct/<6#I[gr7]#L*1r.`fr89G*6tZ0n+lT)I]lV;"rfErSjZ4VO$hE_2MD6KW1"8JEV<dfpB=-/V;6REBlDj#Jg3>3n_U#*Z.!@/>ZDL,,WNCYH/D$UH1slSrFUPJ8KMFUaE7H,4D/V/p[0_HYH'A6)3W5o1ALau+D&FLPE7"4hXq5I)%_Pp@!K?XrL'<oSA'5=L=7WQ[<U[dI^B!FOrHNs>rMA`31n8bG)BTmhT0daW?VuM8s!jD.<lM2R:*t0&2VhY^WB6TlI"dg)<Fl'KN8%UT,/oMc[E$<SMOAKrgoW$;mkE5kk#t2T9JX9cq7"e'+^EDrc3sRRW&d`a_I`H9odngcht)=WlD=jX*B`/_U7p9ja,^\qG#sk%Ud<$iNVa=QYD*UYgPG:M_:J2"\_>.u#s1^7[D+@Ioq3N`Vg'U9(GO*u;W1hGCi]&4VoO,_KO`J/a="`P3]1.B)*l-q[?p5;(P#QRXW/#@=K*GD.aU4XGV3pk.VF/W`6q&p74?<kbj%nOZ)to6g^9+3(?;AN:WO^u8!52Uf?)H'IrDW)2<nJV[]almmXNEO`PHI!-W0NN.N%#fW8IKTgmqi%R"l>p;LWOjAKMKrbW97=6RA(\8B?!MD'2[Rl9n8XEsc0;&SB=G=cY_M&a`,XJGmZ^GRoQdD(<BO75rg@Gk*-MSHgioR/>bsGDNJNoPF^k./5TnAD2:Ma8PAf\7`$0.+@Re/n].(G_"I!SK[hoWE'?FofuihJ=5q"-g:c$fW?Ris5"b0$JAsmSsf.T!KcB4T>&;JW9rIb]DaB=Cts@dV&G:Cfi"N:R!A?OZ_=T;cZ,deMs=,`<6]/$Z()YsOG0Q[R)(-g]1#F-E4us_^"^BWc&0n;.*8<#:N_2pm0FD1^Z;"%$'?bJd\7_K6j@@6"=*jWBZ9_O/D\g%,X$8GdA^*uF8<,Dfa"00ro[uc=iWR4g`Gk3G:/lD4>s(b'^KDB;4rt0:R>0HkjbC)^,hj9j[2Y..T3GbIrnZ*o+m&2Mu_oZXh;q]/s+iSVTja@R3L'ERO&gG*KuQ0]@#WXH\"$"Alc.p+W_p+o"4tCpk%d2)`E=,`\,a/#bU"lFa.U;Jr$[OaCN6-O!l5%oanu(O>>r,L\J`3Rn("L/5Xe*n,-o,)eW&d(l,$@YFDAj0atgM`1NoIJd]s6!/api1Uiq;R;=DLIAWn$@Wm?JD>;LB%#u$RUPIuJp#8[S7_nY)p[RWb<'-VUEES:!aMap6Vp>lOg8%`abd19UmbDtbddY^K8ZNR'9;u'lG&$`56X=U/'48GU5i<+1_QEh9'OoH51R2bh@K+NVXK[Sf<E"T<Id["hZpq]fOcf.3/UY2'=G1-0#p7S]dhjQ@Tn\$NIjXc<bj`rt)A5llkODM_^+k`I83)d.&"4Pd;h,t4&"ts?^27f]k&9%$03:T*HptjYp98h#G3*C5nq6/G`&[2jobM:uY(CNM'ST!.F+QiO0$rHU<h,Bh99&eZZX"edk?r3bj):"4?S)G&U]M@-W!8[*@6e+fjGnPMC$5UF*?RRFkRa9I<.q:r[$ZFuJP;Npr`6+6\=/o&Gm*Xj`:qP0i.U0oXq[g+mDf1DJ_j6";r/Pn%2D8hKVd(Ck%]a'\B3M"4XCRB)9#HHS^O#Jrg:3u]l`&h/oWjGGb9BqjqhqDWP0uUp_Ln.nu+me:Dse!99u*^7VG>Ip:sNpT$->-T.kPXZ<X9[:7%&]]i#HHS88CqZtWI.Df!*L1Fa=8(K0oZl/d9lMhKq2K6aohT63j*EU<Kl17D>Q[iefcHPJZA+<IF`OaSe5lJ9UjA1JY%M6F4=pkWeDQm9X6h)?J!\8CNWI0jYgoLH0.4YV";4p6c2%b0qSn-Qe$8YL;F(C_2]%McG8?h@i:V@b`fUVbAYAlARW%?(%&3dhZ$$-K7nTI'Kr(rsgamk(hfEoNcRm_(Y;A+q5_D9\a'?@!)Uad_j+Cp_'aefoumm6$3'f,0AUF4g*>r[,DOO\Q;kG5*c/>J2d7'sT3nW-16f&,\*a%h=s.a0B!lE[Rl@0A&Ds1@#=>=XGO-2Yo$!FV!+ElKo4d7I,e?XU_it!^rrg&^0*(Gq,(kr^5e,q%`Uq-W`Z@*t^OPZsZ,j<&KqJ6Ynhu](t`3-!gc]Q976GiS5nb:!"a:1=Tc'<gMA'4EfsBOO&Q/kPVT#o]UfL`fOJ5MH5AnGZ,7+q`:0)=VtsoDS2mY$I6o5EHp9OIDnV9h':kneYVh.2Sp(GZCSr7!cp>(o@"5R-l/`NlN6*O+F5SMh'C/@(sn(kflflo'SfTQ(]F)s'LMiHM<gdkSXtP:#]#IUs!hR+OC/8Z1F/VC>-"dJXOFBm)[mi%*97)d631r;?l":5-PLSgdlaiTBLejob:l7J#-T_%&FmHV(*ZFV@^Un%?#suZ'Ao\SLF(G1JFV7[f%KM_#itUZWF[`m1Hb/n\XSWa-eYB(`>B3EHjRsOVJ$=jT-&tq2VZEH)JV@E1^,<!$c!m#2QtENOHC'H2*Ks7"uoZ6ptj$Y'UgSZ6lU;Jg^39*UF=FuDs*bMeE?V7ZtDE\AOY"nWr$1'9GKIHj6k@CD="R4SFgh28f1N5_XTH.V=_.BG7N[p.Af^J7a*!L!3]6rl=W;f3cA=A@K?\cHi%bgIn:Jt;8fK1;t;<U0FMqm2=\J!S+NGZ,]_YB%TQC)ph\pOi*q@h7e4p!?FAX=:g'\A;Vh+))WZZs:Uq#^o35`Prqp;do_6)TR=[`m,83LT@e*/i5]fm7o'KO2PHkJIA^F0g<;a_3PhcMbWdTD#4I"qV$=WhA6R.52B:&9fhaQT00+$X,.!8XXLd2oP"f*@^SXGh_2%G,HOecX7hRqNIT/E%1]UQ+qmGDtFDoAhd],]j/<;9q+0j\h5?i"riCH1J;H@Qi<.+$-$[YC'BZ/u7#=q_>.)(VeHUE?L\gA,n@P%FYt%ounmcTf.Ns7fs^n=a8*QU&j$#Ue&1i>iT8k>+G<b;,;cBg1##F'V3*o*<(ds6_'1d\AC]^8XE=S9,(4JEjllchoTIL,1+kqWTg693i85!o4T56UT3Mq/beMeVT%A8K1l!o'm[rNKjYn1RU!q$!>k(JW3#u**<K>1=K\Doh\P>OdOfZ>72O;l>+SFN__u6,e_9-ER#1?Z4C;'9['6IOQ5D`%tYT/S@nE$4X#6/Mn\KB/[@K]5P[KAUQN;o90>*38.QBb_H&&,NT5&`2L8n`U%*J>0(kh-J7tB)I+,20`d(.7JLcLUF2f'5hqsNd;-q>8VMs.$R(OgT&lO^-]pW])6r+C,3`>NS;C%gu"fInth-=$EbHST.msH+)kJ8aO+tK`#4nPV@(oM.BOgZO4]crm!qIPcXD!Gt`I9fm.a,SVdjCnaoK+Cq0[2_`f07'rMf\sVBGXgfmZ\e/B3qF]OW5RG$g\)f`5W-NOk8qOK!(OmY,APZr6pa9%ee+:2Gi8f5W=Ot@mIiGT4e&R>]<X`*bcmDAjJ7dI#jR`M;.RGn%4%/^?X3,?qF4WLj,o,_5A'\:<]O8$D@'nX?bh*aBl+BYY?/FfT:$7cOp;lo&"q).i+*-d=K*\jbn<A9[JQSO.sN/u#*U!BC"Q.S1hU!k&qtfa+KnQn(\1j0@`_:;KMmr5gt4m7Wqo*dVTbVr1^s&7fa`Grrkd7iSqbfX/tuj`0.iCNSON$BaYi--";IqY'7i.hT#hI*5*j)'FFhZMR\r<'XQ!:._n+iL,ELmRX6__.KlN$p<.G@E(<6:0_np7`+^F0FUO'*)C!-`*Yr):l$A9GaMbJPG*nq=^W.MbE^EIqI@ucI%4?DjeA=[a)+70@Q(Y1;m-D54l9$e&SnZ(D$GWkioF9/PomN#)=lZT8=CWLob2iXHR4Qipi^,UtQfeR97rE1P"g`s_kTB-QYSqURNm$."^(&&YY%F%]u(#Dg3\p54S]>JG<2ARS/N2bnA^B7N=l:/$UHH(,/L]1GBcE?$>U5;at'hG?"QQ+n?`fZbYWh_U9?q3IQ,S4Fm#/(mnL?=sB_1kURDL1Mnj.E@.V\tY*o^Hq8REp%7n5M0&o0^kgNR9g(3'":Po3BO;g^P]MZr#scoE>,6"Fg-p7,G?4iQl@V/o"6G?1!$A:WM!g;iM3k6$^?A@J=OO69QHP>?'Zr]*m'`QJ^rd-J6+9[(f<M$euXiSA*=\7,5goo]i`)DtISLrehriB4qNdBH";1#GOiEoo_:pZ25Hn'T*rCQR@*>L>JG[dbr[IdJLEDT6U>-dmS*"WamhM;bgjDk2cQmqA^;=guiK]j%UKKZKT[s?@f/;4CqjTf6i'$clW%Vb/t5hV!c;X5pAuBe]ZQ':!'LH!+j!S0Zf$XK]*]!EQ"SdmXp2o,d>A*#&,N2pSi(8M"_8X1e.un:ni%_(sOqpQmj-:JXMGK@1[`1D8i^<UI4-bHK2NXEhPgQNor9:FqACh_nL\\VGEelqP^/\?OnOGZ41874PH7/hT8,3%if@W=`D9?-:<u5<@sY)8,Km-f?MQ%BKn].EV6E#'Kn0@XZ]g<)j9^=fa=P]p7l;@!p9J5Y/dB\(1S7Rm(R&oMVFQA[6/bV@qEY`28>gFH(NrM?=&A-:PU;K=LYcP#4'VWOCQ<4OqTp/;=Rg0n!gE#\81VsOjcj?Y60HtbJs:(gX2c=`@o:dNcOmH3UaK0>>66j%eH,(9`=42`_pp4Y;iQTlKJ:Zd<or+g7g:a\4i8_P[<Ae!LpMm7[Nr4NVm&u/QJ>o!.ksoZEr)&Q*=Y(Td1Ql8cQS0R*pI?5+spAn_u]^hXXr#1A6+?D=#SC'*)Ir/"a(t<]a(lg,iQ/,4H9`hj@ab?4Wo$74'5#Aju<Z^@Y/MI3;R]-*_;'oGFXO7nh5JH`.q\P('Mrp6fRQiVoe_Lgt9,3&@<C/E#4f^E66:l=[3(;%dS:>Vc3?T-E@VF\KIi.Y]O-/7B&i;gkh'Vrh17"Q??[87eOoi>b"ukR*nja9m![pQ:#\h<#*+?6VgojkRfrAUGa/K=&X-.'V_H=iE9AhCF++Mg(T-7krG?%kE].a&A_Yk#]d?@\[?nZhc@774@E;/6u19puNod:=Ic7k7:24glj_P/G-IIh!2F-N?-PZV'Agb67<Oe9SrZm9)!WrBWLqOF[)>el0DIGcu[p4TLr'M?3rY0k:GJA6R;sdhqe4G`,%Y0q4jb@3,DYt#_]aPrGPCdH^P/0;:tgZB.cJ#+buh`lS>ktXZ,QdYnU=>Q_>6k/7e<^o$!n]pQJX!5^(G3NOAJoh[O*YUI(1bD*%0E8cf5emCM*$UTLkkI'UH.[u[#@TkF)e9##$ONFAot)k_p.n=$K5fAtNAh0>$_90\s(bU9mNq:t$2988leF4724V-[Vl:Vm-F.GId)c]+^62<PIV0NMXpG;K,)I<^_8j`750k7mmTo`957>SO6'=1kGqD5R@j-RF]j;mK.3E?!ns$XDM/%Vn$g_sIG^0eahu'l82RFfrqfN_Ijjo"-%MHuhceD9E#:a0fbo[eE/b1,-0DOttsfoq1>Q&<9Ut70f('jAg]ZCP3WZNh-9DiT"KkaY5Rrqc$Rn)L;:!m>sA^LLToC0,ne%N("?Wo*AlWEo/>5C>a2B>[@5<,]d5e1.=scpUNi2gQYHlN4=l8A4VIb%Gtjjn\3`^(/La/>=O5,pNgY0>r<c<0fMm4S5g<=KZ5o6Mc&$)(UU)JI.QQ*/T:t*:qIe4DBF[:f*&B^*^1&ZBr3"r?lGVKAn*G.@4LED9@R=Lp^c\,E#73gH>*"i14'"J1=@nQ`n09\-H>F3(]E_!6,4N(kPHHu4%mZOgeg6Y4$NMl?YJO]!6"I#U2&8lig`8;B/g^<j/)Ki'bVU=Ga8%b94bPM?N<=C0sgKWghdA^Y[9YDSZ7OP)]L4m:VeH@k#6@sh>&[K!V"DIZc^_fnWK>+V,pCA!u,PuZqKgRO_mC+#SV?NV'-Nsr`'geY(m,#2^AcRDC94:gQ5hYM-.Pj6ORlA]]KUi=FYK4$?'_2dLJY!^ba/"GACZN\aQJ3msOJ9gtMCR\OV-rKkgSW4E:AKQGjjXN"2..6[o:W<Ia_1Z-q%U<Eik/4ShOX+5shZ80h_2d/tNsc!(`>qlrl_f\?E\7HemTFErppjaJ]).n5'tG:MrXKg2^"@9&.+F4qE2aK7tN-[HRJU7T_*OS8Ej3ALAf8<GNNG`<-63"-75EuAL8=2FDY9Ib4tB;VQ=o0b?R/(!jbig:2j2cA?a[=:P`=382?`%%3U<M&2QA="R!2@F`W%bprc>F21Q%$@VSV1aFJq02H\=KT[rpBM:mq)Usa%G&<Q=R^HMr1HK9?t7/_BiDHe)uLQt6P4;qbo*C>/qAYlV2$+%7Ai=YPjouX_csZ&h'.G.9P7OsoB&rb[S'&S\T"ojH5FgUM9.>1Z<ip$Nnam1Q9t_0Y7I7Z_B)q)QA\K::O6hS`C"?.hn!p]jRAUi=4m.=GQI6U?)^7DQ;m"^LhZX<MOG#M`Hn=SnePT#QbW@aDTWd.Bca2]i"n>@\9no:e\gjb7(spe`e,-qNikGk]I1*<I'HiR'.DDYCaa?P`j0`VHH6?rrR(BblCT4\*g$n*ob.e[Ksh'VARbuNQEo\^Kol@>`JYDp1#6Wl)>CGNjIUMRMeP66IPlTQZ"Sc\jgf;o>>-!eo,1V]0>2N=`;D0`D`+XV;3OIJeV`5Y7IGo2*'+M5'F:/YH796BEf;mF'$(aBbK^1abl7;CoasZX%\*pOarr9S`8J)+$>me?Xi9"$_j5A%>kWP<o"!lg)9\1^j2\3qVu&Glo3:4WW'@12CA5Q_"R3^+:[g,?r@h-,n::o`2Y?^]JC:pdmUk5NbX?st=hZ)*i"Q(QnK`2bNW<Us.tG@n^+Rbh[NuQsO=IdS6m)Dc-/"+0Jp/lgrpK,Id?s"W00Tb`J-!:M@4LIe?k3pSm/!nU7\X]eG/4>D]+IjI:tJpZ6h#%+.X\@1HPUtST&FmH@XG,BKajg%Eu;bad$Z&;8.Z7gq168DTN5F%Y`6F6^"OuZ3O68(B_R52s!d*n?BfX\X]R1Hh"idQ)N#mt/3-jI'!ghmE\eC!DB0X7;r$TS+69@%^t*6VQ"1`5#rXu,I?:0QJQ[_U<D4pAH?O6tMIFS\BeQ_XhFlHYI+M#>3rOT3T`bX%X[)H"i7<(=q`DI,H.-G(+Uf.#;2*X/qkYfEanVtE2i[IieAM/onW>>/om\U+Gd2M,?.QSs9r3nLp\-RaCbDdp41?F74\PMEn^h7Y\?+hHnOE1S[;5!Ks*Q)KG]'.N2t.Q%c^WHnH:OU$gABfE/T?E@g[S='8?-8(nWqQPWip4Ul?.?\^q/62+g0@8@7[>b)(6u79:93QNR9b[dG=_'>BE9nL/G;#@p90'loRqZ)F"&s*TuCO:;Du@pA6e2h1MC+MV9bf's[S4&7l@1'4VJa8Hm;si;KntcO,u)GXLIc&pU(*0/"*6!YJgj-!XaQ]=uS..Xg9?onm\Z<:h3)k?`o=!YSd(6q<htn"Fnj3orY]&s>5F.f$(P0),(rb!8LdpUuNg7)p7/1W0RQqs.h-F:u_Aj/G'iQ3AMuFl\emEJgp^"Ltp)#-.;=jCQ#YN&30TZ0(l,2'Th8j?07YadO$)E<7NJ>kj]2>Dc_)ZCt$Z>`r^<\[cV#?Ml7"g-7K-a1:f=@AD,,A3_tViEVYUUH44lT1<96e4kiB>W/^^qp[8T,%d6d%o9sd:G=?O;F9V,*;:suTOTL<m'tc>,2In''"QPi41ZsBc3AYJoUP2G!uI%u%B%PV\U;Vn^%3C`?F.2kb-U+kZ'Yl7<[hf:0)\.KUFcJ*&(q6;C50B8\m[t?:Nm?1PI4IO.r>r23)!o`.i@'"cN5j4\g6C#I#=d55+&eDBY@+6gBDM.`&-ScB]%,])u>IgG1r+A,5^.2lQC5H,&Eu+kHnZ@3VSXGU7UBiMN"d,4<K7deWc01h.bN`Znt)t(Cf!cJh.b=`KLMI-SL03)0L5O9/<eah12DUhCR`4R'fq#i^s@GGi[D<r1[^H-sQ-uaNB[('iSD1+(6!`..CeaKcF]Yn`KcTIW-]h`VP^a=*O%4$pMYl@IE@;*D!]n6H\R.##S`@R+9VT:h)G[O=kuY$f#7J^%tZD2S':4r[-sqAl"'F&7SIh]MadU.iA@"lJ1b7X-otZ_cI!Ym50JV,GTDW?DEq5EFO6c/X0l.lCP;?'p;m:@#?6SeAs@A/cHGQ1?[7+;[YjOaZh4%.fWrNb=t3:"a;^G:@MrR_E]?J$4Gt'ALVc;<"OQHKnKF!(!q:-^=TH7k>G/I+m7M1TWT)%r^Koe`'nAl)*J($UtY+Qkd-`&rO,MHY$%,<h,qng+t"Z&.#qNb9mgj-B?^g!0'Oq;dhca2l@f]!C*:&mJk\7Uc26Ze*YAP:\qB7akl07+C0JF#mVTH$lpo)j"'4[L`Mg'<j#rD0c1B:WipWPDM]F!p'euK8+nB1@g3%S.MHTf)k:&8(:;6O_;`n+`874PLB$';neK>1B*i_tr@tkhoAfU<Kej:s$'D&R+WbTUSY34V"'g*R`3a0ep,=VetSGTN<\X,jo:u!duUCbrA/j0sqHam?t'])[ujnP`rV\%s)ROeVsK@X1EF:m6rcA->[LbuJB=IW/Q/ZWA3ZOK"\%CT"uBBX')oo_OiR]S(=k)p8>$I%uuY'E_R_AAZ6O,'-%*CV>qWraNt2klXt'Y@HtZeZ+F_"S!8=^>&*98i;ubG%4#+K>[dmiCf!?mnd:QBH>@r1R\jEYPotia=O7Ss<#TUpJ/V]%LfC;6&_3(cME=dYsM-G6$^SRVs_?dhG=,7;jp)oq5^Vp:AE"4g*#@),c"/c:!V#-uj")?bZE:DgO/SkTBs_BX*n25fQN`/4uBm.5=(gC#9!rN'pAG<YmSm1$!o.Hm/q=o!RS/phU#CrY5,N5K4.JB?H[fN<'3sdHRDr[gTta@06:MC_`t?Di,?@6(f1pLH$i6(pul+XOp9mDt!C)Q5*fP^D[Unb]N:J7QTt$8R-<q:?oLVMi$+7:`KlP,M"5`5U7AWs&Q7DB8KEufd!49.;.K.5cFKuRN@U!Pp5]DK&;5la^43.=/u(iQh-Sk=&[lnB;jCSdgg;fC*tus4LArMbtaU1<6marBr0uqTb)rK7"l;:,UV@cXV>K^H3]E..80%m+0f4DibNa>HGRXR\=AVpM6SU0+uhFKMShMTO.4Qp]-9GV@9Lc7!bc01dtZ+hC/hjM6lNhapU2tLaF,,M6ih]#k&LDdM<OY[ek^*qJGbPn,Y\E$To#tZkI-ZdFGK.t]=&/@-E2>!oDmgg$k)!@@DH>%dPF?TBG!];AiE#P#ZP_E(dUT#S,?Pei!?`TcS;Cpd#\G/N*nMZ?p0*<JV^gI'X<+*?uj]=HS,CP$-/bH>b]RmdGhgtU309?f59uM"r(mmp`f\)dlS!TFcWWc;4[V.>1qgUD*GF+p(`[QLt9FAMWG-Kp)pb$Oi(`$+B&pu+4U;(cgNq39qT5kFbHN5W.Wot6H.PG^1:@!$:dh+5YAGT*4Fr;&5mdUas:e@,)D_@O'*!$i!0`nKPm"Kft@'d#>"3Z.TqOEFY/FuVR@n\:Y]Xg'aD`-qV->0XbVf]=Y\CtCG?^1mo(BW`/9ajM:lG;@R_IBW?G2t4sU*<%D`1!A@"`%&9Yar+A9:G`T4!iHR*;?C@#MYYbN.$4alDgjF:62nK_FdiU2)qmMVlFV5YKRb5Gh4p/.N6XgoX*nc_dWE3T:#p3hQ-e<1rGs(9s-]ccm/'Xj4'F;?6tl`[/N!ju-6f%>X)@0K'3@6GL/@B@@eZUCFli*=5h;gtg3/\E2:!sUb@X1WK^U.t;dg!SuZp>N/q)3i/I32@.r-sQLj,o'0Ics2"`[]39cl5J;H(6t0N)-COC\QG/OAnHH.;$8ht>Y+gGh^jRYKs6fTeE\Vo9I#4`:Un)%SVKba'8:>..h.Vr%],Zc<D$gufh>nHNiuEj!$7[SAm#a#`KYa*`c`Nu'5nk429B7Z1?0rg035`KLRL+Qh]/'oeP]/(4\acF)hb0R^B9JPZJX*A@VC*U!%:jO9W\1MX-9ALW\32C/sCl68AmU)HQQ#SFOR`5b+L(O/W_,R0STArE(4VNLLr?Qi;CM&h+_Pd7D$B&k[#([f=t)iTe$Q+g_@C2Si8sp6M=O[!aIuPR`D0S[P1MP^^tYQKZ=ATV5c2?WGmaCCB`XnfqQd5?LM>agqI\l5U2U<.D/,V(+c<Kp@sg'6/5i06GTeSIXQu49>dUYSW]`##@-@g/fgs?K^+F_""JQVVBrHPn9B!X8S%7%a/j&+-[&d'9@V"q33(udK(-&e')[haP8D?EbU>u0])WulI1Eq`.XqbLW7>fdkDZM;J>%QGQtHoc]q4PUD-/4Kf_s'F2MiLfCXr5^AOGtK)Ot2G'TD\%-q^qo@hFT6^@H<lilBUKd/YI*mr1oqT8Y-CP"*Q(:$k$ZmENX4lj1+_"l-K5$ThUGW>-K;VM'Bc!OE#tF/s3jGX6r'P:P#3,<$[Ck'#EF$J"792;Y8D"+@uc!UUe"(G@`MdobpqdUVk_H@t`O(3"<?9M0s9JCdRA6VP^Jo3(R7Zu\E:do2nTP)#Eg@l7l\B=?8JhoANofuClu:CD3XIbq_U`=c&NG=khm#;4s!eO>BXdEOM*MVW!56J-4b=ifJ'>KR6fWOnQ#eC!q(Cr\>YKPb4CItr\F!Nb`R_4jBiC]R;L^7s`@Me*Z5`G>08/WUB%FVR`rFm_mhdhYXdp$<oAeGpTaBBZdUj@+5s3hU)mJM:5pcc.Xt7[+h6PNeJSJjoa(p<q12&J4Cf(^M.mKd]k!OoUOPJS-Va_[5SdCa.Dk<Z7tK4Tse6^AdV$9R0A.`uaRT@/hu#>f9q!%6>E^O.3"1&r8,GloSd.[U>BB+r=LcL8mc)?8QG*'0K@nW)/>Sf#pu)o1cPRZk,1nq#C,VgWVn=_c1(8^bDd.'XhOP3buT<`[(X_W%OSe3]?MRjX3dD,U21]IfXCq(I2/TU>D,,SC<d,qd/H)0F!0n^C`7V#s+8K)hK[4hUr6<GP&hXSe^[e7<E9tGlKg"n8:(8%d^;rWFccI@4jO7nJHZuAV@JC@ijA6h2N9`(iK\h35GdKLK'`(K_MAK7+g0e$=UZ_ZD@Dnj*3bK$RgUK8-gf!0/Kq+md31ME!F^;JXIq325Ge5PP#c$R-%q8&tia2I5^<[KZT0L'(\L;`)KCOo@smk;^R]A(XX^N@'m7sFujk'5nc;6(<e*M"3![h]:n5R@g]Pejp`\EHALb\A/%DCJ3#1Ni<$<Z90#4,6tUN"@XriO(qA?uMt*"O!gP3O"r=Ze`$8(<Z,PcdSLdR0Y<<_5[MjoYJ;fHqJ#)qV7cj[oA&U<DCJ#mDFe4FW<?fuIj6H)$kP!6/dQ4(rq0Ub^XK#_%pK-jRed7([5j:NS`@eb-a)l;k?j$,2kL0C,"K9Z]IO.-acV$_Q2,1bEKdFC`gSrU1$dcuGr)i*M;#?7dr#tsgJa)m-VY^cSEdZZ>Qtg%QPq;^f7R*PAqqGSbi=.D*IIuhB)V+Mo52[TIkl7++G)4M6(9DepQFTJg(]0GQ[",X"Ac"5+EPS0s)k;G&)__)V=YNG(INt357)>;/e(10`<KIVYVi.fVmiI;bmrde`lKeK*=trLgn>mQXLS&(SYMdsrh@JO)>T0+bK'U:-b!dGXc*2CL5u'k]#bh33Qm&;S&eg7iX"Hj'r>8Jtm,q*H4$)L/2;IX(9:M!P6T)W7]:6^.SCH:EHn<IGq.IW1W&nP4MX#UqQ?n0#Z[q+da3;QCO<\SOYCT8Ml!keS-[sO=VU`6T*aQCeW$H%%Wr-B4)t[8RZ([5YI4VrB9VCtf)E''#N9ccam:`<<OAcEf6O!Z=6&jaCjj(-YQFFdM*Qg<2R1V#Tn:62b4.?c:Meb"Z8&%(/-6'/KFDaoS$_"!+6#"+t;8P9d+Il&L-I2":lr6>=?P:qN`9'ed2UHncJ2_th/W"P,nt7O<lkrmX)dYAD/Y(Vs$aO8]Onn'9K/,/mZNFcQZ^f`Pl"00fY"kJkVCNCISQ1mVRi;UN?X]?f;%W*)E)f?>H"#P2%t@L08I.KQU:1-)&tFUFTf%YUUf_Yu*koGo>6oP[#kp6^c5<L*,9M,8I5q)N<rAdK7OuZL@.3"9IDj:T5u-!bJfKX=Jm8Tr*R_-^k[ZM+kq%^89VNkkM#B]&ZH5OXpSfHUXHb#lQS'L&&XVDsV+iYS_](DI.?ShY_l_\OPMDX%21HmVAmj%L*#)Wp.cPZ4-HXr8E1E8i?r+\[7>R5-(!27-3RN8'fRXc0?B+\CN5mV`kqs7K?F@\sWXkJr=Z5)G<!=Ab+J7E(GPg4&*1"mke>29;?c*?WHUt2@\ssf7EH\@c.9N^-*X1LK(MT!q(KKh@A`:HB6/R]O_WrGfi:M0;5n@]\MUdWL;++F8]628T:'V<3V9o(*68B0h(fhP2`j698n=d#+mjm\HGJCKIjHj%rKMSbA"!0rk.R2)i"<42EVs(m\"R@7-\nceuZ$/ao&t=j]DNCVNHg8XS9PR$#>pc_#%H\@+$>!`EeNP.@&f,mWX$m3[jU"%$R5\:+p&(<@%TT4BBL8l:7U6%2]`n&D#t`[T:3h#iYFM/E[QZ#JZ?U4s/=L/0_L!QmgS\)UnV2W!Pu2BM5K@Ynqq>t$GaDms%!6D']-3]W&99]7V+J9Br(JG%hp^]O&<&ub'lr9_p:KsI;\b](8jrKZh8I?b)`uX0&uF!Y$=)-@'r'i7p9UOQQS151c$L5>JP:XtF)43-:YJ=)f5H$+B'*l$X$MmAU`-+NR'md>a#V?pF^=o.`COLH[[=XTNBWA!l%5LCmaa)opu3R[("[>*9kpY<%rWr?FU)^4_e[X`#eMXpDK;,FV.J#SS`DHk/?=h1ADtnf<9M<i:M[>,Ondt3jV,jI_KuDPZI:VdoG\l\]*j]"&.He(>'$G#H+@^;RMCjT+)^NAZl4L"<6G8TS%H9$gIf%TUgu;\5-AQV$o\A#o%%BhLYEJSr[$f0'dVlu`EhY`[lCuWEp/9<>ALu=F(7$a?":;$6F8clc\9-VPc4$h!M<a0\\0:GD<]%,kr"[2REp[HTj6Q>>n7'(3N$e%qM%Cb?^ce@kmS\48VX,caFG)?Wm"rCaJ^d2`t&$i&o+Y6]Zr<>5H.J1:\iNnA!uLPbHMQ`af?sKgXg)UWO$pE12;Q.PUMSK%!NRH(@4%,cbRd*(]oQ$VAcosOsdj$&hiIeRYi&oVol@o<d;H41u2eFPfrV-np`s'>Mia[P-#d8hF&)"NSb:BLjof$]"`i=4)cDJr$USgIPI[QU\jokegjl8lnQe\M!%uE`7!3tdhF&VBRNSoG(gQjrgAn]3'Q=pf^M[f:sQmc-4a*\$()sB4PbVW>Q?,k820*^_N(K'+ZKX/<Q7h/N%bNZ(p%TR_>O]FL%KL)Y9*>J.d0n^AlbC`Y9T(DT`>aTWeAo&p`ef7N_BNMFTYC#*Sr^#CV55p<c>!MH/d<iN`Ip?'PtN?/f.eqo3sdiG6pnG27NIH*Wt8\>/TR&3)=7(Y7O)O1G<+DO["/s(OdjY+;o+M>#fmCh:/E]eM,B4L=!G50b!cu#<26"?:Wdq'i,KuB70&[b1Y,EUu"C?P:f78O5n;CXia@gbgVjNXiuOqq4:AQoQ6Uk?32M(mZiY0bHRZnOeJR6!`(VF&C8DI/ro/<rhk%'#)EOr8BD[lH7qbT9[i_o(B""HH>rg6-cf"iDmNdNgdS:l')d=:@PdGjP'\WoDY0)b8TB0UHunQ%j*>"`]44A39,lM>\t]<h&')s)FO%s1SqOqkgDPukMZ$`c5E7fa]F9jE7u'r=EJp#!A:*cTLndY;PnGU6oLiM':#lXpG`tq]QI116AAHUf%%?)TF6NLM^Ee2KEd+R8WBAR0K7b'1et#9ZKre`b_V+8'5KEGigaR!2j$meuHriDlSQB%iFh"Z,QplhonV4WrL>Z]q#$F\H:+j7[>0LkoE_8DL0Mb?^HtOCSc1/^u1'jTFKa?$/nAQ0#4+uE')@Nt-g3.W"lU^oPp)is/Yb225VBT*)RN.^h?ZW.F9>.f;#>1XghYk1uDAB"&2V=ml$j&\b/*2EBb-)t'J?hA4mld;XJQ!M=3CQ\(#B3SGVO?c76h0O@T23fkSFTi$n(]ohMs$`/omfco*a.h16;uBHi\6]^oAWZ+KdPoCU*0,k$?\LOj,JKe2o#cTMXVAsW3)AOm?gJI_]NFNQ@U^Vj,\>'MhVj--pps[#`t\)5.6gr3;,n')t2RhAl6TA44b%>2s=9K()'/XE^E8P#CQNmc.rGN;56OCh!`0=@`i#[^3Dl7g\#T5ITqo]dT&<gJPW7,kY"1K!"[7H4Vs8:f(?C0DTic*:eh*FEn?9Oj]Age\1jJ0n;Z2XqGUEu:!!?Go#1sX"b6u_*9@'Li`Gk"2goG"fKLF?4XskM9&l-D"GdSFW<)Pm`6ncj%u8pU91f]Um+^MOF/\ri^-HH$SPpgb;X&1bs'Q?ADc178VZ?6EeoDZa:m%<IbopV1>,K9jgCGjKFT5Y1Djgbr0-Cc$07Yr?^LV^.=dB-g'*>$)(>^uDA?NNb+,IYH28K$QkPcQ3dSZ?a_Q@;;RO$ZrjiESb4l`Gi\c?JJ06A-t]*U.ke\**>;-In?aeI[.eCc@=XFq"AEF+f=?XXME!q)P-p%qNK5=na(AGD\@`smli.*Kd1>ri^[DId?[Vf#DQpV6ja7)befQYenE22,_mL$o-U)=t9J[9*A\5S9/ESJ*/VCj<$P&Fk&%kM2QD4nk-d8XT'B*h]7R^s!]^@22HL^ZJtLoX_uT4n;6>UX"2lDu#[@/Lo@Pikhg#bg?1BrI7PV<^nV<mM34gn3A&W"T,Qpg>[E>9X@QCM\4Q,hjCi]b'ZBe&AM+pqL$q>6sA+4CF^L"fshRriS)EZ;3a<W->cMTpDtl9]2%H')<d/h.9AGfcGg8ce\CFK\dg-J#Je`eS*%#Cgq2W6SL3sWgD)25Woe&G$nn84-bhj-Z9Zhqj4UcN?j&FJF%Ar5TM?8_FJMWkEr[foc+H,RKiI"R)m?7c+p!a?OdbK4s$WCNj>6/sG,iDin(\'l-iVkg4+BGl#:JGE()?tV&pN+#LS:CUZs;r"W8n';q[WT[eT%,n!g[FX77cUGM8/<6mucbt8J&J1W#5^kYQteX9XtCc/k$.R(Fil'Ri)=W!11nH9[k#Hj\1hZ1t+]>Ab';CNh("H58&PhiOm[MRFD@88o6OrpSqW80T-eF<UX*9o9?#NbL.rRqio[.a$U"=$W;C;6K'D6]bRJHXjTVUhFu\q)):d_&l98VGV*oZ^$&bfK6dGq3/C:"kXUmFXZ>kEK2co5lH^<Eg'eA5P\7"eAcJ(J/qV<(]Ya`Z3`'74("=e26egN:c-@ZiN;6$[nE1nu4W=&[?9mN_Ds9NY+e.MnVDt<H/JKS[l-^G/RMpY1[Bf.Y/W^msMG[(8oSg?"30q(j99P%JSVm7+rnaZSYoVQ,"84Lt24mKAVX0>qOKgS>IIoH_ZcopO,>>:1noo;kn^6uakm?)hnl,?iB>kQ'ZEQ#4$.\V,qkiSl)QZFtXeY6^$]PZ;)qdq!i&EkiK9-<hO;.L?QM5^tRQuZT@-d=*KJ7(Lg&fp3AOci"nSp:gRU`AWjW\K047qMeDjL\<?/t(TbYJOXM5qeGD9pRZFFS?an*:H]<\qKuPpn'l)RMaZ&0tNQH;7;aHqtSK32:IZ*i!CX6m\C.=*_[I?;F&?=b3tiY$oafT<=00>1#8gBpVMXK,n5W/@o;OOZZSTL"Th_e5^f7FhM573/,,l^pc5'I2E]T=('8LJ\oI<LZh!>(t5[h?f@-,e&ok>WIA4%1UaePKI9(H^00D)#/^0Te;HMmX7k4N!utt(E0082>^2b2d&KDsWN;I5L#msp]J=aW[QT#`.#Psc"#$(W&l+58O6sKSF(Fh)^F'a@JmXlJ`>0\IKR<@""$c8ao9>Q78jRaFl)ptN@`jtsE/m++g.H4_n&*P>>J&<*s-5G;U_\]IB3g**77JT35/]qjFHD".c>S/l"S;&&en'/(s3h9R$X?>UI`[$XGT.PQgX6(l-Eau9fYB%J5Y0<iW&!CZXs!j2.J%!N->]1Q<KF'l#NKB]F*r?qn,aBn])8]R6[/l!-FI)jUa`0/>m*%!,d;/Ih5?i$YKSWlm6@'SGGV^=1n,L?8!O&G`kT$X9D([YE&?XV'*e'd<+'$l-+T_'L]Z@G#RN'6AD?i>hC]+VDTD>=R+GHNUo`o]4So&7q6Xn$8Y:a/cCh1?>uLJ=E.e635S`bdjc6<KPe*t``L1.l9bAG3%Zo,5JJiX@"cELfL*oP%@N)iXD:a3P\Bh5T"Q_f((cPSWNQRcHPPL@/+Y=KD_;3TQTj5OWfh:jgfU<OOfe:V:]LN*h=AFuF[,L@YGL;_H4K"CXO:W:#k"HN`nXKr/gG9)fFDMHV0QAFHO?Ors64*`Xd0'C"6\leX-#C'=E,+>XMFg/+!D7"a^ZT'48A2t?/_^Jur$5'Br1^(VOdF(&\IH$)$\j1s:9u^^6YNM%Jd7IJr77[<W)i9.T:pOC;7(=Ao_efHXb*G,8$=oLk#JkQZFoV]Ouu1r6rB[4%A=uKR7-;*:oa:DY--$pW9%`^AB:;s8D'=(`qJ-q/dhV<Y_F\n*6?TWRm-m_Q<ZErhRPI0o-8gog@!3l:-u2hiK\_a6a;nFS^p/[$Jbt+$Wn8c5,;g]6db.9dGCB21Ved^]&k@VZZ((IiXGuPLF&uS(<[#SP@K%31^W-,3nS'N@VgA[cV+)")C"K;.I1+Z)tlp%Asc1B!pHqiFo]#DmG\XL1F2]Ab@T2^[sd>(%AcEA5lg\L$Qg&L5LC`\?E?DAP^G[PHT>o4!"g;VYel'/m4)IW\(m5+*)S0M*:g.B.Zt=i%pVXjA%_jUTXF2HLBC,a]m/KKO#D;4"*)&lqCfm`Qc;hAZ/I+08155ck4<93Ru/27QlZoo^"0P.nS,Zkq!8a"jujfhLnQW).B=W"-^^*>)lc*X>RMq;;5nIoc1V8#jBl/$nXQs?8Bip-S&F][-XMZ7fh*h`V?VBfZ,m%aRB0f#XLb=3^-Is2cY6[,pYF5Kk\JFE9OqZgl8*.q@EH@(pYK52ALnO_L#:q@ZMFr]*qAH^8rOqkjmcl7f3iNaH:k+q<Y56*n.Hqbg(+=e*k36ZEkW`bLlr+G!Z&IVLHcLFf3$:jiJpF0?7F&NcT?kHOo(>(aJJR6L$l?!@E!sVZ*[0W&'YarB/$$K+XgDJmZ8#VY26Q$rT5"f\6-W'P#6=J>5#u:Z!EmGpdW-gjIBi`Q[f;0Sc"/'JtC/R$V$;4c*VIk)<c$fI`3qYO*fKd6#ZQ+r<dmUf`P'.\NR;B@X8!&I@[K<5,AsZ-iSYh<s=*rIn/HDkY;:pd)9k.kEBX9H7a#t$EWClFWlE$!V^nGMNcKRk2,l4-c_%!@*c-kInS0gs.U;Ir*5'Z=f7B^p7>ftrJ(?sft<!.K>5YRL^j4L$D/IE;';E(Fjh+i5MZabH=!88"%.TGq+r!mB[CXF<KJ"Cc/jlEhp'nE^rNa4.!<3(&eDhlW^jlM]\oa'JR>W/Ic$`m-j%qV_S3nkM:YkXXeVoXfc/gY0?;!9^DOZT7^_#CG/&<!\4XpSJmkYX8dOb'S"_EMLgP>@%./fVcWP_.!l`I`W*8TH0tQmnf8i]&>rdZtZZ7$M>u'oEKdbDE/7+]"bLFo#%`hB_<RFtu*,Q%KIBdH@<WSKu6663K9:<=aT1-CI9^*Keji<TfH?<_4O26V>=rN0?4[n,K(*&7bGpiJbRik=?,V\6oR[]dP=d`O(7CPH(!^rW!+@a,hG*K5mqP=jXDi91E3?0VcA>+XY^_AYo[Uk."Ja>H'jX#%#Y@@lS_8mcSqS&Zmkr\,B[(mTRF('.`ka[e:QYAB`$hfOY>S&OaTpuOmV1F"&9orO%;teA]>m6eb;A0j2/dJW?%U%LP1&P\kHYQ="XHnmha&Q1BF9du+LSjU\;NS4Ag,o>!V;.33ZAj7N`c5UGG0:bg*/7O&Ef7"ZWKPX!MCG(m$0Ur\e=ku"S&=6R2-Jj6^2ZE`P(d%,%ZUc)$*mR,[t419,[4Fp9!N9&P\9$u*nG/@?fAYs^?8\-8".gf-<p8N!b\pRUlokP`C/Oc%E:eBMFQS5m"Sf)jeoGE")E#;3.Ug6_d#b=M-)TKgu:t&16QscAU2SYO>P[6em!RJ0P.L-ZV2OR^3R58P\%NJX]9&@&Nq]AFT:P)^f(%keict=a;p-/kpfc-W=l(kj\B(T"O*<8iqPAg=JgUWU-s7CLdni3gqPh>Vh"'`HjN$P^iJgmk8STP\*-):gR:sN/IpIG1]'UJqgrNI#_qc8EoDoW_8H4fnu`c!Lq,[ho7U>As.L<+p/o/+-C,NR;S2>7gT17fJ")dY4YX8*jX&Dj'N9<AB>`L2:Y!Ifhs#Oh!D_Y]K4+HY;[$BETT?-!UJU*^#?&<F"tDeNh'l5`6rFSfO/;#5fLPT1(SAQ*$ibCqam7IqoS86*5Q$+60RZ_A?$5GmG\%.2ZWO>b4\JDbARpcc'7m&`"7*^-,3.DH$TXrWEmfB1d[@/Jk"Ua8EEPf<6DI4-o&10-PVur?TJ2;^U,o,M&-UISSN,"UJGE1F-.Yu`Af#O#W;;3I^et,XlJhpLQ$SldH3F2_'G9hqbt1Ju(L=8]$e4-,)/]Q.eP$.6E\slrp#dB'R^:=&2kGY`)dY8PoMRR]KP,+J_PoqN=pps--@C)uK;p77ihqO>``+Qkmab[[UrBCr1r\5jTVlnH7Abc0,1+^A%YNWADtJCJ7>bC_9')Q:P5\PC*a`JfkX\SE(2]forn*3kSu='"rMnn.R7)2uMJ8HUSe.):8G%m$i6'B#a@\C5!1W"5'>-i?:n"7CEmHVtH&pS>A#`J`Sb@5Tl2_FQB6*UC/NipT[jd%:3B6UG4ZuAI/mRdb$0O3s<u]hk_0+OsIAQQB*_nIk>d8/&a<6aT(hUCULJjNH]6-m@ofq@&<:-[[D0n[Lj.Qu@d#U5O!bSXZ,-p"WDMa/j`9HBdFS__gh^1-!JZ&Z=4uR#%B;A("!H9,uH.]V"8J]02)S5953k_me7P=9]_-h;4'K*2"U?/8gRHo,9+<aEBV"LRnhcM=ocJQ:RjZJC,+%C&8>n<!J4E,b'#ShE'"*V4_`'Nd@6``9ja)n<Rc%g4(<tk0O@nBfW@C84U0mlKq1)p&%U:ig]mH,Te]"bQ\S#e-$VoiiJa/p,A!?rh`A!P*PN:uH4phcN>Z9"0g[(TY>BT5\YA$i?h91Ym>.,@dmCPr:B+iDFoI7@'`jS$8S5%eq7g3)9>T/("T2-%Uk[?FH=)Tjp?gujJug-I4;FnN#\!cddpjQ7I:)T\<;=*%2f&!`ROh@BunH%L1B$F9EGiE@pNhKPb:SkI#Y`sY_f/;Ud95E/5/96#78n,l)L%#=:L(+(hmM_@hN`s$TQ.3FkcUmq(d?clh.5lJ7^7Kc^C&g=cgECSn3>iAq$T(8ObI3(#W.*r51E[Bb)<^kB`Gr53=QaYMQ5TiVENn.%4N&+bppMSR`QHRaYL`fXO]_;kR>\rgKNHVe65W2":-knhjn>X.W?/0UA/49`0nH+P'q/of>@#X`767$Atg^FtFn7DCN2RMnh.+#)JFn%!IFoBt_Tt/X3mhX=e+CoUn`1)[O,0pCT.>tlH/AUAii07,Q)j<;BJ)j("M_nrN"OopE2$[DTSZg-]_Qa[=16\)r,Ec/993<Sj&^?qYf_*n!@$D?90KKct]00Qefg*^AON0(<`!fiBR%pN2=4Td$s(4X2WnN(KhJW!*8)bRd(f[1D8E5TlK.W`jM=.QP"Tl?ACN^`PK>pQ&>0]C$78^."mT#a>QH;ZW%@F?QT6d]%n/'?i+.qP,;#_jBLS5j7"(V;6E5W0#W^#I2W.ZJ`81UbE)K.G;.U'1k,[H45K::,Z+o*]4HT2k"g99:^i*Sb06VWJfbO;p>$,OYWUX[].MGIrl.foTT-[kCK``U'/c)k?Nj?aG9=J99TCKlF.f`*D0-FeeFRC4gPAMi0_^Raa]`ZKr!#qS?AmB#%_<hi2b^lZeJY#l7HXYZU+n84JDKi-]W5sQa/ooF<9rN4<'j2ha$,H?/RC%X<EdKoCF.W,Cl3'.0lM%i5>@<tVSK.Xjde8M@4,?7k6&&63-U..2oU7J%hi@+;Id52hs+!.:Q6\/s+.SPWr1PtCKs-uAGp:SQ_0H%W&.Y`:\g<1lAQ#(>*Pb7Gd/Joub9aAhf@9>&&8<T,dq&qa$`HD<mfVbC*>sDJ-"VVtJXK!K='2,X'kr($A4VubXEd!c(4f4n/aH7nj]S)87]bh2F(=I,=nCR4LNn<gGo6HHiQb\dp^'k?4BOV'9!fYl%Vnn4b`!UG^JPW1HQn7!8_RmWB@j^jXMA2gCHK'q%pCImg5L`K@R!,jgc#,>UB(QUp3Q]o.br'uO-;'PM=qqTu!];V#'^hf<r4JNsB-rbmK_bK3Kg_RqVP?G[q9TTKf0*Gu-M\5h*e)S`GdnGXjGPkBM;k\tg%M/G*IYh]p2rRKHfPF-EX>46-S+omd?DWI.9f(3VaCELO"VfBhc%[FqH4\>'P:+<7ZZY=C9QO$nGg@o1()CW8PrHjs$6>/HnFuNKn#mUVqFH'US/`.>*QgY<GT%^S:N;I<pWQIZ6HcCm>2(.@(31Hpni8W"IlV`Xan,O/c%1Bng2Gr@?QmsH+UjtV_nrbSKtaIK:lYF^fbUC(D7YQTXuLI-9f,ca@,DP/3;B/.<[hfI#mUp_F;>RU"H,%QB^Pt^[)BR7;9tk[oW945Z.h3]=D$J3H$`Ub^ml<L"u^4,ao'c5We1j0F8n-+)Xb)hB7u7ne"h3/K"hDlK-SI[o-EX&7P90O0TjU>hVG#mrOPQj[47O]`Po$9Ra8Q0cc$s1kiM5<n(@e^X'sd3`N2743rPI.^4n>/kIBWb\b69E#_6sZIX,.TLL?E!=>H=]J-%*]Tp.*@nqVY&.J]@qb1!N?;#e+n,PnXbnk>6H(&n*Jo1(2%<n'"P1P#,N-LWL7h]+Fh;1^K1N-bE:31[$&k4eULhMVMS%]-;XhXtgN5B+4GW=*3hdbQep?*1B?0J?f:!2gKqC_ndh3u7F4JGDDSSVr"r]o"k\BN6F?+9H$&m^Wq>-n1dr1qocLU8t0Gb)h#+l**jGb>)6l/DU?p\'K9NF\f\0k_`3C!$='lC2I0nq1874`8"Do-!4i#bZdMnjfeI__0KbD'C%Anb*40CBcSrG*-[RW"-_R^[:dUA!*Bci8]B*2<I+uCn)`_Zteq'5.o`1i9i:5Dh.sc=^]042I1m8XQ9ss8FSp?/5Acfo_Z7-8dRqDLj#"g)a^dDBp"&(etegRLY6!'K$?8sMV5OlnJO3u^m>CoZ@]Q2qMetL^e3Bg+!<,s"N;R/g_6sc\j^Ij-5a>V/pp":[Afm6,#ot\IFSoKQL%p(H0T:>Nh_(fO/Eh8]i$BI/1g+ZEhgMHB.A'?q)(T/_]V[fA[1ta+5\;NIhXG8*P;]=\V)rSK:[f<k8OLrFu1&/.^U^bKpEcHA0==*4IRBH!qu#3)EeIbF;?6j.^S"FOONeKKYN;gon1F`Q)`(%*DlMNTp!j&5Am3o3Mrm<1k><F\=1CF.2BuRj%0\^\?hr].sr&hqkZ<a>`s'38-^M^Xi&pX@Ima@>D"Y$%EL*Ni#n"C8fprD9CsnAhlhbhWFSlf<l+.$jm:&!rKbV*T._uiLpRh\;Y8l8_@E-qG^ReHcnPV%>?Z%U;]1MU#`<D!Tu@sPAG2TH8@%Dr#>NCU938_:iql\\=q#S.%h?pnrd8;'>]p]*8c$/UO[rpo>%_0^,,rGQ!Sf^F5Wmr<n';APoVH9O+UL[H1o[Po((KgANZ=fn?mJcEJQbJ>c1Q8X'7B$hC?j&u8)WBQ\IPsmE`MR=5]D;E6?+hT0o3_e?^M3oU"8+t)ZdK1>D,r]XGb4!>D.?^qg?/Km;$G)_Pp?fpEhg#=SoFS*^kY%4*gCU[J1O+n#JX^<6h`B)XBlfJ)IctIXL]"`8+e)Fp?ARDXh@(6:SHjn*<5LZ(hH("GVCi\l2:8$X_7oh>t7`CcFg,o%lN8N5_o1ML&?LdRTEdXo1&M`g^QDX<S,2/U1>)T=Q([SK\pQ>gQ@u-gnkuG5kn<H$3>kKOi#/2egI!%Y`#$iAhg09mU/q9-f>U(=JBW+j6h4Qc87GpjpauPNOM=VcQY'gP"g:WnZQgg=<dEZ45&_U-+DQ\ODm/V9\DKFi]Ef*0M6B("heKXKWM:a4Y6WeB&Q`+52pl0(=H;FPLmP=>#11..L4-?g-Q@aA=dZ3:LC^`&Lj4i69IQM4f@5,gN[H%JtIq!Zg('rWJ&dDWWu]T0T]@nCEA0^3iP%2'H"">G;6]jb`)s7KH0Sm#`$VL/A_?`n.*._hba(-2@bEC=5cX#Fctm]qN\OWig\r_KrlIJYBED\Ocq,5&X)K(_>>g'#k8I`sL89edSQ;a&n:.5<N'kD.2,1FEKNfkHT"P2$5g-Pm^Ep31=LLEIg3tHM(MAcZN"o/.8-^V&j14?\ce+#KV+nh*%>`b7`BYYf3.lWCmbJruu3&N6g*^(4=qWgoqUReuRUhSmb]gIK)t@_(rV1s(P3XU:CJ^SV%$$LI.Bn%fc;U5,q+P$DS!<,/cn4Dmt#=A(qG[rd9>%)OSA6.-#f.VipVjDX.6<\2HGAYfd(59cSYk-4*':rk0XU:tg/&H-O?M-4c3AG=8$h6r9h^hZKG>JI[?t1eJX]8lN[%Z!J(Z1Q$Lu:E$N/[;B+7S%6&k>l$?"aq.8>JF)B65Js'0!0kL/T)L"ZfHgW<9aKko`+4+?=bXJ@f"i;q(1/ISP%U_t'1"mM^RYe@"+&2`Tdg1!pIskt:#ft=0Nh.KJ$$KfPU+>-$o[B.nG!)ZMQE7O.S:[?oW6_@7B#N%Gs=FsX6@<)lW=]<jqc55i,eo6al0j=<5%IDG*,1Vir8J^WY>pB:0jVGl<ip8d\6jJS*#;-/dMs4qgkV=YJXVN.W!oQrk\DaO$KP`SZN'9o00Zec4"AY2P"GV!&hAb6Q\U_*=f-JVdXp6=]t%tSfjaG9ipf:5eYpF7K[14Vt&>o(#J6Bb"c*@##Jsq.sKfW\c@Z?e:AT0WFo=PW8H"j<4ItkHmoJ@D"4k.+jJ4_/kA]ikNk`e+TI$j"I<e<BILTY;k*ldap#L?;3)11_nbJr`U:%kQ"8qfi2lau)U1>A]EX06>RgX5c)DB2Y#T/_.<;V020K8=U2:nT3k3H^'T->2m(IffeQ_rhND(%,8P=TWIh-UpJ8HE5&Iko!ZF#kKg5.K[(9gb1hY2MVB]!%]'1L5VKZuoM:6ig`m;J:"5?d!YX7q=c"b'-ccRX3r5=]RQZ1ce/E4'UDI3:^,DaF-Bj<J?bX[$..FQ<'d#Vu0si0Cn&=K+\EpY2F1QVXg^TU,eN2\dlI(#KCrIZ6=E=GTUa+Omu,QBJe?a1[@Cs1bA2e\GYSl)qr19>BN5P@Kh$V#Ya[EiQT#Db/`%8+oG2/!<uGBJ([:bQhdkW!NB;I%)"L%^D<@PB/`7'UWTe'"ELLOW_lo)D$+)N/2[kW(glhO5cbWK>^T-WPG@ogbbRu+hXjUA;8=r\0e&.b;ccdan)nUoLpd?#s+Q)e7k&Jm`^3mC$5YJhFtfK&=;aERTOPfV,mP[@9X</GL/$YW7sf<Go5gMA;+&C$qr:C[Iu#$iI<n*6ckiUYXP8Ge\AS3n4!00@<JGi!h^*+X"d/IIe%ei6)9,fU>kFc`nTJl@KBBrJ7&sQOGpl25/a7#)e-Xi.C1SOBI(ek?+a^9mK_GIqY[rN[FGT@\d!!5TK,+,8To#Sh._s_L6\Qe2A05)>*3:s<Jm;tVHr;9M^jU#aNIh'pgZ821)O-BT3HnGamKH`q]j<8_`&9q=p#2NP?`?eYZ`[<hH.>R4Jl-P1+O.V`GGr^A>sm,,86u4RCQ=efAd:*L9jS,_rqRBnX3$+4`P\@M_T5)fMWiI(i7GZh&`%E4#ur*e5fH?-*XH:Z?hdOo5s!AF0c`J[sd@/:'1\>cQWs;.DmMW+<.I'*D2HNSLtJmg-ZYlV+u(0"JuldXcHFt_7i-.qu5X:Zp#JMDa8(jH/33nU`)d%\[:kt%@l0p*fm&>Ng_Zb9lJMNRrp9Jh:_^d7'spO6f7?`dn73D_eWb'YK]Mu1%0Uh_q[m/-PN0O6XMVOAKU5YE"P`M1_hleqfkJ7q'"pP8)DlirG"cq8@WYfb,'IU9MDTXE8BH.cGr*p;LQL!mS+7PU-Z&C(=@:Kh,!IJRS+]"Qf[9c'u&H.-mU`TN%e881Ij?Y*+m]6ZE7fEB-B9NP17UE&Ss!!Yn_mVBRR<\5>5Ibo_DeRiKfSk`S8sO*QAiB\<#MO(4KlF9@[o+&I8K#:bq2"J"9PUH=*&T/.e5sKK7h=0oiAV\Uhi6(<Ga"i+hh@!f(eUF#2fh8."a^.rsh[cdr3O\A.#sk3eQES_?n+pnrH\9$)Ujn,9)aBRbI(P*S7rXY>L3I$h(j#0;R0nWaTRrY%KRU;:hKTfke%"Y]mf%0)7nrB`qF>q"[G"HS/?.fnT7F-QX.4>BFAIQH3])oRK(`U\ACMbh*PI=Ljt>1%i%<!0:;QTr1sbMirH)G^S,#tJaXOk)g2_Br.SnsI<uL+Ke$g2=<&dJK5_g1eue0a2t0ndU.]FE#ob#PV,T[[:]"[0MP9.*QGO.A/W?`EGd'3+$d3]XmJZo%I+C.VDKQ3N55&[,G.b)LD1/A9piJ)Ve,`62hN<ZFdiNLP+Z/1&^;]?H<MPWD1g@Rq&/;Q-*;88iH2b<+43CAIWJs%i",<3S-\ddM*uP\O1[:!djTX1k9S+a*uDHQpRKmC*'&QYWZD^VN$'l0/2!I_>C62+'3u):lD-D.Hc/:3UUKE"B?c2`l,5(7,)ufs+i!+CMQG3]j/B*!s(SmH@fA%r=*Hq^C66b\N`?eci2omW'I:`hAhbP)XG\Fs-Lem+4!I]d+AU$F(\ql9O,]AGKXYG0>A)I1f8(P#e`E;HY^L$)L<9D_H0V-Cp?_J&/[bpSf)@sq(DaYQhEdlMRSk!,/Kp::6p_:Lr*FKc`hpW2)rLWSd!ot/5Sk]9DR0O02pgTG,<XVs%t<,R*fBnZ$dK2&KQm5GtY/NjL<QPl?)g2Q!YjSg9,EG*t4.-OR&j]6SHYrH!?1DVok;hVYI6PgCqQgR3L7HOs/!/DN]P`8$^;P0H:AbXg&DA_k#3TQ>1]lEqk;T7u_"'-;s7d^aLVepm!7%\M(/fGU,2qD0d`Hr(So[.<Lh-C!aQsLlGf4P_fI.Rt-c,P'W.=:f<^bf$*10!nf[Z$Yu"\Q2pVM$'rM5+"&r%BI+LK=iU^0n`GJfVTP01:[U/`+*jaC\p7N2Zij[?pG9BWL)OjRgqbdYZ7D$fbtS2'&U?[?$QF8+X?l$59\(Ug5N*htI,pN,-1t"R"h@`=0]>2nPb".p%gm&Z,nrS$`_+U=<saJ`X9n[.+R!PL2lbk#Ms.hR)P-_,PP=>/:%%lPS,<*.R9pKPdCakS0<J_d:r)o1M`S[bEDDXnGNfD"=8<h4Kt^r-B\R4>g-I2j6mP`O3""0SL/=JIA:1gU\K,p)0&c6NokOAR&*l+<Wa,]mM:q1GSLJ$Cp"2<':o>iIU&]N*=Z]i8h-RAP4+:pNF:'qjBMd+`[P'XC_^YAYd;$BYaKZ)okt*Bp#t_OTPu^b]0X'b$MNLPj.m9C3_L<PA&',7+$VK#@E:Nca%_Qc$a%..cs,T*A=hHp`%rO`nZ\O%X?=e*^=40KbOo)/V]L-pZGK%YnD8Tr1a!>c6g3$mi_?uGgSo`%6(DZZ5Z#i-s/)b=`_:eYi(QWi(bt%VGA75$E"Xe\k9Bb.CDVGcR(EuO\"4UT;h0kfTSl(5GI]jo50g+5\1dQ]1nBH+,#*UI@HpX<t(*##YG!9LIfS0G;4Pt=.SOZ!WoVOXXgR&eM$5#e`Ypt4-=cV/k72;bX!PM?'b`iTUB,X?@fr^Jd^q!0KPt$Ni9OdG"!$Xc6JuiThb/OqQ.AFec\ibYdjetF9VD@4i^+sF`<X2g!(,J74*/429;\(,S=5uS8K^ITK:-eVINeZ,*dV<3eE0u%K*c'+HkG^p*XW7jka5J3Qh2T%Kbcp:AI&8c08_Qm(/cP]S+1ljZlVi04UTiDoVFTG"36a5]Rg$0B[9F:jEb.hr<!X'O)I!t2<mBVB?XjXhkQ!!n84ZhC"g#J%:<OR(2K5Z:=k#D+3H?IF!"q+lI2fIr*e$'p5;#9+mu2jqE_3XajQ\MHf0*7)?b!,t&\cf6ktkPdqqo&Ypc6-/EM^i:aD$-@[8iqh;`gBkR6&(S:^?C2IDU8-"e4Ycr@U!`-r2]e5JVO+#5o&#K@>W$HcZ@]bW+<u`LJZ4T@=lop!b;rT*7';f5%=0qDTNS!ca/%99a.TktM?NcmG+mEWkn]QM.`TZD"*\b(JNV!M/Q0"I1NfiU1ee6>[AATT(PSH=,P.b0F&Yj@pYK/^k<@g:,IqRpiGl!mLj+-9>(e$ZRV&2$<"%FcXi\*K5"Qhd6-@;Kb#npj1nR6L%X)!0&@>VS):FeBBKR3<?:`W<"0&bAG6Z%^@`EYscn.K)mE42cV?3P`n%#/RMXaLP%g^/?j,j-Y_1$p;gK;!A*\"]^2LcM&Vl6[3mmI?!h37/of:G/%r6\(`:3A_&ITCniqKq>LCeVrX046W;HAE@uon5X4BRZ,.3dHq87R[VO'eHC+iGcHoAMM0&sYug<9[1[%UWb):$Fdd#<[_[8h2\D9!'MO"m*e_fOH-[fFXb9HCA&[DPKbH35bdd5IW7rWpG_,Zl"9=(Khm51q.WPt6pX.WHVAGt_ebK#,3H>'s>,W#HpQONF+:!*OXidT;qF2*GFElguL$Q4>#__DPl#X$['R_aNcu#m'dp,_5@^dE1;eXZ.AQW$$2biH]h<\YjB^/fef>#6pHL5s#YW\jj*f7T1]Zgnf;b$-Z*XAQ3t&4uW(TFS(7OGKOg7d1GL(_+B_g@)KSrb:`Zn*Dg:(\RaYX$QKR[CmT]]^NDJ_n"im9;!*"0]/(pS5T4h!pt[UfE=+n13'4I@=HWVrm.pC7m]^mUh5Od5:"[JeW''NI#`cX&E6q`S0XW=3]QXW*laE_!4Dm*uP76Y2'J"7*:%/]l#$Vpq3YRUPG&]2187Sc]:IAjI:hW&San1-39;SPhFde_+;V$/Zp?DOdeJnYZ`q4q@12O1^?,^XgIt6d+^Bk9S,tMJ\[XYoYH8tit6;Q.!$Y7p*VE7T>Aa?rf4L'8YIJFX<QB:J+HqZ@17lm"gl_0`GYbb&-cG.K:'Y.h+L3(q_PLcS9/*FMV2gU%r:$Q1GFELj,N=a/B<5FLjL4b:c"XVjP^((V*[ISGNXGR>dDBKi>;2D)B[3Jl39dNZJ5cN-$>1X#n1.$e10<U4Xn;Ytf6LBL7+Y)32>cdTWY#gXf,G[G/qM\4'8Is+L]X^8[B2DIi;tCUS#&TNlO&73e79sf%*OK#Lm"/j;am'H)VWB5Kq"KFOdet%JV)]":O(14So/sYk7i%s8bKHglNm1s[C+i3UGnDR]>*9t,<gQdc!5\q(V-sX/qpgk'?-m&'d&]A8=>c,YA(Q/8^FM+DS1!@g[1`]@])9T4BSLPX's4+a>n4-Bq5e+Dj<pGD$(3'lMc2`M6Qsn37`ac3@3^I^Al@fu*nXgM=eMl.iS7[gc%lQT+F2FCL4S77`lgSc>J/#-5QD)FH,"o?Y'tE,+.j7J`pYDn3^T;Lq8&sJk7MY-eY-B&ons5A.NcOXcl+Z&[JVuBT+Ci52ttg">7lJp&^'*=c96,#?E(W_O1tIB?Dpm;3MeBK>>g#e`[ZkT1ru?frX!e\M;p=t'6b't=Q5JCm#^hOkC"(2nl_kA*E!RpTOskdki,:V-cD-8TPZLrA^)$X3?;jkJF\i1)pO(Cn5#%U2k3q$b0.6gk***djR1/L2i_5[-tookI#QdinkQgB2VqM0AT,)UP>=]H\RePO4)$0'.-S*L=iCp+m3XL/N3fg;%8M_U*niT-,HM-)CL).<,=*YC4gW`FU=c,6LuJtk]FM!Q/$Q%fET9dMo%8)@RC,o([#p5m']$4UM4?N4_"?17C7\fNBjIt0r8@ik1Bakc<XUanpTHd^->.]#IY(,,K$(Hk0ptdK0rg'6PsT(jq0J]*57j3;"%;A#`"nS%#h8)Ea5`P_ZX7@V,=mOT[dr&PoM,E%C*-H24Vu^Am4?\V'1kJ8h4%bsV+n7o"'H;XQ2B\"_?ir-g5+Cf?D5rOT?XcB"LULgr\I1>/`Yt(r'V-N>f[P=-il&%P%h5OLJBhi<_1nL^'U?'<2D6?/)&l6r;<bFl=g&k7!a@e69!_8+Z?Gr%aE!0PUhKcpa'F)\V>]ZGB#_:(GkqVld\l7%iI,V<Lqba:<oXd3#\GAWf0i"g5VtGl\&WWoN0cN'-.QN=h,4G@(97CZ9DH1l@ts?7=jAonfn9j.r*>Rb%d)3n)W"Vk*[**8jIfha[@t*_Gjps*Ku*JL>i#V'odP8;tSG^?Zb:%X1O<9$ZpE/qL"oOGWe?`ji(@rDTUDCiBH/TO)X8Z9HPONHZ[tPjAP70ipqt::T^iG!.DUjic/N=6pN/AYAY>QO5(aD%m5bb&5gsClKP*3d<L[`DcdZQcS\2ae[4cV8mK.Ih4II3/d"\o!7\r$[!#;6N`^5I'^2rT#?6fgV\qicD?!+'hET6'7@NG^?Sea<\C9P,.0/AQNG)5JBNI?Ma>@+CJ`1Wf'db/\hg[mBV"0cd[6I`GToGR)@c=*:J%0Qf"pAS,Fth'\GHAuJ),ZlQTd\[YS^M%X_!E<o`b?AuG?89OV;,JJKIGp2XnI;@m6!fKW)T`sRFnq258KWrDDQ\PLFS%\%KmHp>[@ZS8bneFY&>gF`8t<r"JR7>GOu)L^BY8[GPuS(>G&!NBF7Y%jKIpke>$_7)<MX*.r`FLPYac)l0nc/_#F\k]b#/);;@qUYVj^4`Re^J;Z[oNUb^#jn^_#CXUK'_<pV&jL/orF<YX-%+DLr5\Z`3)rAV\lZ()/7a]*dicA88Wipj?Wp?P2.rNP27"OUR_+6)fT?2Ma_5i<f7mNiPs*1m:3m!69(]WO20T)9D7aO+mda6f?(1/h.*m$[T5.V+qPA%.2&.!\djRq=%9s5PJbdHauQWo\JcSD_KiS`>Xl?s'YXC_+?[+E1btH13?1]E8QB&ilE5i&Y)1L5#g!!/fQ8QHNUTp1>7;RtMl%0:PgHgBmGfC=^j0P!WI:qm$:lY(TS^3d\b:qU>4I?^<`-(Y$_ZR-jS>7>[8W!uC'n=!<,[@I>FC8BUqWQSJtem/`WgbF@&g3b]Rm4eYJ'77hF"e^_+,4_4=A$[9hPAqrs`nR60YZ:cms43RE+a!$;(+PCCLN$q@!?-9ce.6%]]p\U%X![`/[XRZ'I]AOgVYWCq>JZj(%m7&-,U.#qk)nUN%K1^nej.od\LiXK8!]q9Wkj;1lT5g;PBi5OI=8jt42m1d&LZ$9[9ZgkT7;E9p\k;mI!hMR&mEl`VFB17rY='1b>1#E4O#4NfhQuF!hUKBn3q[H7#5-ab7,Kj@27;L_#)DHjF"8c[pT?a!&HSLoMi060Ra]TN=knXGbWD-m4!t@oluc3H7+[ks/<&'A!p\i1@&u\R7,T/dVP(hRhRHaBD-etoYfU33/#[1*PS9PT+F,-'bT3\an2R0C>&]BU^)k=$H6TFpI^/s)+M\JiXT7bdCuf(""l9&krN\_IR8r@MP^I2Zn*W$A:aB)gd`%k`q%<HCNd)8bBccB$6X?Ne7g_s,RWgr:RG&Nq\CIV[*e+hr_J0i++$ijl^)F!L1^3ZI/:_/2Vl0!38li\RMFJO[)%LRDl1^S8gbtGnNS9J5f@80!ih$YEKsh#7&e1.PjNmcehK#+r-J"[P@t:-)r>suLH0,QX4]/(DWJGGkW&jgnpp&_s'*WS0T:RI8aW!U`X(0LiX7A]0m_b/cCTt4Z,6T'Y&df04<64;K%\EI`ro)TSlh!]l!DFt$0Xfp-,A/t!@o;fH#,m%:9=IW4N3T^,kH8H;1qO6HXONtH$6\f;a]MFDar,!o04KND^G?V0,'ZVpR$#H@?G/oUPK;J<MiJ5XCN58uf9orNSj;_8.0.dCb31%bM_(Gc8)ZN)9J"Si(<@&>*/ET]79mIQc>e?RMU74[:'1DY%E])_JK%Cn;F0@c1b_X2W0#sGpj`MF+H1%m@Ml*fK`hh3BNAW"P]=TbSJ@L15[`u@D.u$`$iP"B0'bgpGn!"P1Pd_/_/-KC=;"9:J`4U?LM[?Mf5MSR4J,QbQ&W)T=2?eX8XLk?YRhoebf#+"0ps!&.PH7BIKU\1[QE?YZql^hS\J_tWlAZ@o`]P77>r!kQdHa#eA*`M#4cWt!7"\?i3Y<.Cd][jgNChs`t]O)^^NE1Z7uJ73ui3@]^Tq%I*pL9H%W;H>*Q"#BH?\3:p[fIi-0E]l/<3(?BRja:Qd_u6)nhAJ!X3LY3q[)TT#"SQms>.1#n,+s3)$"*g;1K@t;fJi@t,mMGkJ48eJ"2^dj/R3gN4:C!.E(4)dM%]96uj&"@YD'l"L9p>M]lr[PF"D*!63?KG(S%bVY7ZHaM`75p0s9Mk\)2*.D*WYGL.U[sSL<)s6,L*pE@69k\`JI,IRb&`u=`-on,83bVB\uY+c*Ela(*5n+A=3k]Kj`IQBce1+Ql&2Ka'B'gVFi@k]5[ijMDK'8]W;/jA!]K.@K1V\qO#/8%qc.RM9*@m)o7B5"!Kb@=!umFSh,fj5Na[U0(uTM[;(uN>6t07?d3R6^Ti`C`I,o:O;.?Qt-c&hEqc<6n98B2<0`XeTJ!8>pN3jZSa$C#LSVfs(+CJ)#jELqRE"5bPrXXqZ<$G^__g79:[J4BS*W8^YcL!u'Y:%fa$;s'J'E'aAh+RJGj>=^X6+`oDS@eBuZ!ZDfinX]J8oo/">q*sWk>HcpW1XDQ:<MPRDtiR_q"(LWQKdDX>rOpJJSOE8pdS'?\m8<(_5p]s='UNa,BVS!"dalG(cYG,_d8'Qp5OK$JEnoi`U"5;enU=q_6/QX'iVpG,_0+XhAQL/fAMHo"CK:+.o9JPP,9k"L-3QH5S!!nf6`\"LF8PDf8Nc7/0b?'Bd'j.JlWX,^Ag<n;%&RqPE:'MG,aD^K5:p57[NcMo9'MOjX'<2_Z$%")?C^d/*gM9R$>V@d1^7*7`@Kmo)B(:ObZL#4IBGB3X(^&EK)VORV?5u<TJu6*hu[@s!>(]Jf?XGC!C-QG5GFHo&4lU1pg3^[*3uGI"%(>k7$h=j(`=q4atS/Tcet[KV=2Ph,.;gqI"&b5LU=T'Q)g(QpPsfY<]!U+aW$HQL94BA$^HeO>JM1^.MR#_TFYS#\$=F?ZUM$o"pEH?N/4uLQFnDQZNKp%uI<1mZbN>s'VkBY#R(fg7\?.\Q[Q*Ac-P5'^eW,;j"L5DPWdUptkDmckS-+80L$E;>(M83HsDS^0d<u'u\`&;.,8I6IKa#^4^A>Q6cgW+N"!5%;cbaO-N"Q#h))-'i_LbIii6qr0YQtIfre9Xs4M4i6KJ-3`PBY$s5IHaMuq;UiHF]PF46<adS^AGok'HQ97i-&ZbEZYKSsI0W]R[KV,t2jZA.MM:FHhcccYVBZOXN/Ig&lkqI0Fi42Z@;*Rfe[Wi6qk!NW6d]<5P(\L)!%)fThXP1U]Uo:uX#Pb;[CWt@a*q^Gj>MHS]LZ?NL#'LoCM,jo3J!8Z@of^/%%F6A(opCh<dfhM!PsiV5c0o%qn%tkCrGjf]bIXd/P;<>a/mp>`4BXpSk5p7cPM4**"f@-V40/qs+c&n!bMkVEgd+co+%lR&&L$RoS1JQQp)n2[D1)`T^_9M>(-nR2BM)!WMZm\O.PC0H<MqE5e$bdd-'mm&_)[jbY27gG?D=O0kHbh%&>Q<!P#j5t1<Cf4q(QnOM4Vlk[&bd[8=R0.O;j-:;u]:WSqU8#@=6;,Dg'_1RS+iJ06'0o'%P)6LMSk4A=7ALNNP!2GQEt!lDI4$FqOY#_-.d8%pu@,]Sca98GUs`Tm?%Zmlgq/nTnDV8pCi`Bu],FSAr8:?[K]U+]GB&QbnT<6jcFV&l["dG+*onLVRNg*%G3CeRR31LOls.GfGF,YGuk:UM>!`E/NP(9t_:RI+7B.%@%EskiRpd5`'!.&784V;1#msR)<)AcM]4nnn8XYjQ(l6kYd5B9?n\"WWp..P0$l$Q2N"'G%m+:MBHK@V[U6lZ4:If6nccr(bH.EEQ8]hS+*7nBRY3),>*-HF)k1bg)0NWc_1hU?:L/frTMb+3_k+CCE1G)_B$?]J;o?dAtDsQ6`I.cr0J'D-i2'aaDrAP.YGS`DMn$/[:A:]Q>BCKj\\8N8$I11MdHFD0Yrj38I1ZVSc"XJGT[Q2eXt__7#u4KZDWr#]r_:<R*YLbcB0D`+,U<aP">Zu;s5!!jgPhT^iAApgG?GMLe>DYl<S:b:?!tKd9CML=?ou>k3n%t>ojj#GN,/T)N5*f3Q[j0%slpW)l%>0hZt0(<AcrTaZ=AQ9=_NR&YcF.LtPQ5>oOV%ckAMn.M3\P@ToSAF4Lm8W]A4IY/5tt$q6S)?(maKK0YLaHS7l8>1]WmRXLT]UF5s"Yfqa@a^3>0EVfsY)dd>c`qFh+m`U!?c7"!0h`X0f.ZT<KI-\aTJNLgqdm<2ka1o0_RFJuZ^M;40FCG%gA0kc_H(Q(JFoX;U,+npCU@5DRbSW:A:*(4hL27RuQ=)75,@-FB8hh2Ne*@[$ku)^!l-(2n\oBaEJU:!+<sJ,3L0u%KcJJ7dHlPRegYa=_o5!;)c(Npc.3h_oX/!jJ4"Rba_683;liQU\"]C03CX@#qkO00#c*Ap9`Z(dRJ%si1R=q8K#]&Wq[C@o%g[*]/koJm@/.#TQpq6QSBc8c*"Mq8'P92Y4*sWdBNT%M-CaglI9%$bdDZ)EbW[#sY`?T5DASQ2g\d6F:mmg8<.G^(8cBGdaXGs9\7delX"u,nO!9O#G<jbk/6-c5ZZoGoWF>\R(bL2XV]9(=DXjD_-PbR>S+`OrKG=-5I0qD@W'DE0J'@*d1!a12pdf"+$^r;P[VB+oeam\n:7+T"o?[PHLX!3lI*SI9]gR1E+CH)Vh]eZ@7>[Butopn2nTHiha\'>:U2>J;f1`$rUSGh3<DD$ZH.0q66b`G)rp:YFd3A_rRH>HtS/[WNDo32[aBZ>b:2JK^D<\BmAmYQ8Qm(>]LG\B-tS',A`3pXXV<84ii;+!FE#6fB%%lPqLDmf.b'4AW+^-5F$MAA&?c[9jV3p=S#%PjqC*`70TAgj2N%dLUI&6]tRn#-&6"0sXEq.g1gMXFg>6F.pDqgIHA,%MrT`<@4t2Qeq1F;?cO8E?FRqZ&nkBVSN[^4c_di\\3t>]?Kl(0*H]H9IV2><Nb<,fUkA'N$12&X,--1f1c0Qt[@P;3Vrp49gRLMb%F=aCO[^T0S%;D"Z*s`2:HjA?iHu(PcgoqPW+mN89+sD.RpcM]DLm,:DbK09COO\<T+pfJh-rXt^<Wpe58oKT//j'e"s9PjM"D/Y,:dj(aBrrj"<1=aZIB(,'`71,`XLd$OW2j->X)_LXjSn7hLQ&_bmBT+/E/[m[q-8K`mr!=3nFHiaKr$g1eMar/<@3pPWtJ;"&H\*.lR,Z/S[AV+\ukE3pE4[BF-$sfYj9q\65QkVhi@9]@/_`Da])5n=N5*-\Fh.HIq>QLXWHf;\[SSu3$,%m,RpP))-Ea0TE50J+?3F6%G(J:mubHEX.0R7\VFs\)&eN3@-mIIQ`nfVC54+$nmrT\fN3<!nBjcW>@$4`tq8]YN[1Hp`EXiuKqBHGXb38o<>nh9-&=>GDNgkqE#$Y?'UXfA=C.j76^nJX+6./dmXi/N8g73QSUY<^'XKY414dCOnF#3=F.#4HS%OBbdS9+NI9M"M`N0#k"!'+^FT6qEtrgAe<JO-<r78QQY,-!)=-5e6Ff8>]7)56RjCCKK9.*BlZ6P5[u'KoAH]e]lkDpA?9Z*2L.`XGNq*$nP&Ce64>#<Nirgs2EUb?g5DV.Z(@fmQEQXc"4=Rh)u6qb.dkBlp5=5cMHc`4;$(X-AET7&I$"K!fnN/OA)dKf/s>ZU--T>1uWSLn[)4?R0nL\&8r+A%i>g`]D:B[Yk\B5Oj#=T/42>FTZsd'R$7]eNO)ComJ9nP.1Q-I,nf5f^+.\;JQm]D1ENqWbZ_Bj=I:pj]5(NK9VT8I3VF8%EHgN&SSEM\-i6&:Z^;!2&LHdBes:qiFA!!'GuXJJ-rWqblUu+-W`:cQ-U';>E.KurpcJVV.PmEo@%aJaq#b6620,;.f]ES<9ubKe6&.IW_c,ZZ3qs8^BIS&F#4/BNijk&_>%3=ihd9DsH_3Tl@X?8#-27sYO(599"8@(gntXtk5Z*p6$pWeA>,#q("p_LQ+uF*D%ee]#qi;AQ&f(HbnUR^()5lAsTePue`eV!+Tlg?Q1qYC.&:O47dP*/n\V*4D\IE1)P.juQ%1)7%e[@V(fc-<$`h[TI]csP1kqH&;Ai6)ghpKH,`XQo88FrZ+)*g3ZoZmGqF^s6:`82Z05&KsY.VE[FI/BC%4l1\b1`8!d"^B)Ps)Nock"pt`\Z+&-7,"qd@p@NUd!u:&_:YPOo:@C@_tghl+cW_#9n/cpB9aDG:JG[gT^q5%fNSCE:O)ZGjDk3'i<+fg<SQtJbs4*R,Co\>TMsM):mDbr=kA6'ncpm,"?^M&)TgXOpgGbTUJaAf'gshE=0nQ7oPA"-VM6C]):%ge>Od$=])S]#Jim:T/#dtqrge4bXsd2H17+]H@dP7bYLGk`h<E\'9%#E4A:,DW(0-$*nSFG3m<\m(Q-ZHb+6Hh<HL_sHX?iL(5Ao0fm/EVmjohcBh.j9`7GJZCRnJ,%1S%)IqmLeK@(UeA3[\c.O;,<[e77\edn"0tF^SQ:Q3W\"IC8cIOjL-j;ilu,YRf+d5<.QONC4A+Yc[?<@U;3RR!1SCcoPm#&O8nj>%1"mD$$I(HOd5!JU'kHi/lN*V\kmQ86k8?&=B&&%I8'nEN`2%_dlqj9JoPKkCc*Lba>JC-7:+!'<h5`p0LoBNE"H&]k>1(dS*!!JdX(nb@^VtU*`*-Q]Y]_qePb-hDh>bCU'E+#ZKpT!qQ^:VELK7I6BF^]iEIL*_\CA7niL+Z?fu:Ek_iWQQSAhnWI6J3>;ek"as]!-+RX;6CXBM]uKcpo#rhT"47*0hTK'kch"DejV]`7R9OE+';G#WZs71Z("e?iL?8gKOrc*b:1c>\B'kpC]6uZPD<uDh(,MNV/-YUjje_F,Wf%-TQ(.\53]UrN]USgUo\#fYC'-%s+/J\[>6<@f'X;4Sq$&Np%*3rpDnF77QOZ<uEB33O3:u<=O_,h#r(*E"EHT#->_I<Rc-q?@eO4uW$C0+g(+_gChRLrc3".h;0h"N8$Dd"Xi/@5aKtGPqKC&^a1Tf97.e\<7rceWS+Fk7*62);Xe`/F;M:,sp-6EFdoLpj2^3;h#)_c*(?VfZ(GlGOJ0`c3hT*/BZ$!]p43HTlC>$KSRikY"2_kc&l/H8;O)0]^Vn9n!Im=FW:0p/E:<!1I/obE:Vo'IjG1XjWo'!)S,[S-YjHEd<W3YK\hX[(bi`78B>JlT/cfcVaKpP7DO&Y\>sAB0X\5*3q8`7VVd)*An_S'<?@"SpT(nhjVcYQe8f[uSI$n/C8'+M2Po&IU>oO[pVFa5rmo;G[H9.(4=g4,`UGhD]t!P,[ek9kYlQCLITq!`f5h&U6MO0A0t_DNeKr$mY2Hpe`orrS@hP86]=S('@$i4qm0E1)G+\L_&g#*Df?s*j5-k."+E8Fq"t(5oZ7)$/Do1+cpp^Pb0D1qf'%TLhLgMnN5XolO[fQYm0Wm0k,D>YNuQPRV\6Q=8QkE5k4?BNTZN*I9VO%Ve2pDJQ#[)W5#P2<>jq<_`[/uJ-WH*:sp=Y5uD75aaq[US#!hB-6(pG-T\e%EnU6CV"&bnY,(&a!(I1Cat".Qa[hk3LnB+9mS.D3(3>@o)sHpi<ugilk8s7QT7Z+8E^_'/U]+QD-W1Z]?>XrYJ2Kgd]oo'oNAh;ZS"PL;U"\ZibBJCM;6,3Gp).3il\-nCQ4Se.9"R%%)p>m$=6afTGVt4S11WdI16$1^9NFRm>$]sg>j:Mq0R)3VRYu4M:F_tR(Z>%q)TQ[TT,2Vd_Se>qFXW:>gk;d'.9)&E_RbFOgXp"P_C9;bYh`C9[Ehf!GAbKR*TS:>X^_%L"%CAeU'kCanZ2SQV@b#pVae,h*M8bQ*lhU$`'B<*LcALB,!$K@9I;=)_r$NX$9.<Q:EjN2Li))%5^q/7%?IPVE#u^H0pO4<p\Gre8C>2a`8QL!:sGu>*YWmNN,EoW8Plt8.04<a*Rt-UMLEE'5^6ekak_@3f[ErW$Qq[n%<c@j^lWrrhu4RX:4SH/`Nm9l!G)-WQ6dJ`m.K<,Gc]2d[L9R:b2C%5U(?4L)APCr=LM;$<o=35da(`_gcm,7JAMi]jbB1[MB>uZILFlVc0Q$Mlqi-Sf@ukOdc)qA)=]oi*2^1tDRX[i7'W9Hld*[2TRE1'&e+>p0u9F22cY!B-7O$pfPk:r5>[!Rdce^[lg6+J,:'UMbP'9VE;Q*\QN"Q^62HJ;#GBMXW!,W8-;[f-V]:I74kBEq>/7Sun]n,%3r`BQKKV$%"hl;#%B;#R,<j]cZc6)/*t="+)Mr#)`Z`,S/#*i4?GYm0gc'r1UCB=$]h.lUh^NZl"^P^#r[m:Whio0lbGh6_-3tb6YimP%0kgW?+JbaT\('^?O]jp))hht_MO(df%7[\<H?f-/*6)rl!5SXsTDT)!"9J1-hp7Mj6L5noB8s/2K[>]cFg:<Fc&APOTSMJd-g'6<OkqT&6CY2@>01Jc!4<7%5I!`kMR5U2VD*.",mbULK#"G#AgXse.Z^]Bmp*fOnk&b4S1iE].d%c>@pr@'\I9g>mPL0)Eshk_?Mg_*cf>VNCZV!u5#6\W?*K["'SI>6#tMq&jp8jM&a[u%:tn]j13!>M2]_^^9'g0krhClf?Juh5O)nWO?$>.$C.u<uj",*7(lBTJ<fPNu\Yl2A)O2B,;V>dSGd*GTUd]sgc+]lEBQhFOf=BP68fJ\?S9W9e6A%@uI@.oF^\qZ4j+sKm>$TbC]4n>:psb'a/I/Vh@d$&'?)4=h.q9%:2Kp\NeiS=s[8;=[9b9l7g2(@<rI@glB>Oh![UJJA@hDe8dh$.Mml*bteEBf0@jX.(isjh5nYG5WN(9;OUB&16G1nFn;?0R:C49ccq,>&9V.N>>\B\2CpKrHbCW:*mPoMjVaO+f;m?<&?+kV!uW*tTJR.Qr`q>W>)*`>l$^fpGSHoq)P7HpNWrq9fa;gjkFZ"iDre``RuYG*I,3P$O!9a!Ma1h:!@LjBJJhhYcD6dk<Ikj'>iE#[q6.H2Va"Vm<HQX48V:5ZF,<V9.CO2W<EC=OJS+'2P\.Y2p_]`TCD;gOdsah82Ec8;c(rqHSs1%[KZ_eFsgLemA0V\2:nPY),c!/96$q_h69eM?C8-m>Y+.Va@CJj'3!nV)b`BX?s<9p+dOVuJ#n]^;'>p'HnAlEk09X9[,pEmPp0YSY9=cG&/&F1WRh(aK84XNU%SU.Ta)/d])]goONpnTZkmZ9&)Sl?4U%8HoYj1!k$BHA_U_+Q7T;eq0DCB11O>'<NhLM18duaroid$,3WMNs]F:&%oG2l_`KcHeAFa[ZciB)>eSRb&$P3An.0taA,c>eck1Y9dS_$ca@R=Q[<.)R`dAh49'q1nk9/gGOsk?L\cRn$A.t\K(;CBk+)V*i8ab<8D1Csd>[kar9<5l.4^$*<*qf"\^:Hk$&\\)X\;;[ZWj`S+1P\7.8Knr($jm]*d8FReLI=9YQX]$]&&_-9DQ?+Vb*CG9Uf[-6_</fECX@nBG4LlX=DC)d."0,CN5'WKEoWC8Hqk7(!:Ggs.2f1IY!0-4pq`Y$u8d+...!nYp(M5-Q?L7QbHD9'P,J9iRACZ9TP0o:;k-T(GDaEXc<1X_@04V5&S*'d-g?<->hE*s,?*-=6^faTmge9E_FQd[L0A*&"H5ebS3KjDqbArZ.CMFCFdN@3JR%rXcL?Yh_NQE(HJ27d'79$+QPOfZ4kC1jX$U+cdY6t8"ou;MQP(W`8j0VWPVoPO,u+6[0fP-ZlkD34%rXC=eX0/RMW!40$io!MZj"PJ6FguXgU\O4H((0>9Vp(KU?/?PHctjT^d++,2oCOZu]#I["5tn%Vui]3T.I;=D)CFf:kNLA'@R>Omcda_Q+U*&f4PqSGg^8\Hb.JJtJ&q-;Si`?qRH[%OET9qTc)C<mIe\s.@)c3>o(LQcI)iT+j<T8@',Gk_"Y`q.-/.+H!r6@?3</\$N`RdN06$eu+t#8BV!`A7+^YG)7\+)[oVQAH!75_OuBs(;jDcB*(I7mhBk]OABqZ#4Xn\1b[S.8Zq:kb+MR=H4Y&MRT@OC4\^+tqKsPs]4$+-BS,g91nKa3MAeoaKeOQ0f!#"%qjGWh."M&G:[%]i+55LM//%R@`$?Bkn+FODkd#]Z*o(4/3^\/QE)1AU^,[b5>-g?S_2T>X$3dt,Aim3V[mQG?O$GYu5f@bP3)W!:hgm@/m>Od]lVF3"]D@'G.(Ep,loN&hj5;+i"LKN&ZKn,*=P8%VkSn]W;#Qma^mRmrOcGE&GZYL^!M]BMZ>670/p1C/P(>@91L0Z/*(?U@'eN#E=i5@4>`\1W+k:O^B_Q%FnJeqLVB9QT+tDkO-9r?4p@rjAg&IsYS[pI[(8dEb.$*RQ/n">QZC3"R%pFnXHS$5(FMm23FcEsI;kJ`>$CW'NP#s'"Pcl(^@EdZa;2m$%+!r,6`CQi_qgRaDr)e"TZrrJM;CnEbVYsZsGfm/IX^U`#h+ujATj_2,VgSdu3^B5oF:s90<6p?c[t-9/Proeb]:R<FCKjgD-d70lgg&94O;$9P8pWq`0nq/>qapo`'`]ufBs<DSmbHB>#EQq)"5q-cl`mFF7oBp%H=G0K$3;96VpPl0Ol-bRjE4WIMMk#n'hK;3cmn3Pa`T\oUsT4]0O3Jimh`naammB20MMhf&ejEl8jg)Xn^\k]_d!=\D:obb2fms5j3($-.K][]B$R8Ka'SH7mh+lL8h[;$DhYTPBR33=SD&Rb\?OU5_i7AT6XJUW+KX.H=p^G2:,eW:J?joc+F+rc`"cp.^#dKM:0C-+Fmg1FlKhmIqir40gp3dZH&Js#Sj?0\]F`)]]YU6f2Ns_4d,0@8k><Y^_#9<&?`7^gAl585A=)q*A#Og$;/S0S7]R@/Fo.oJFcPUI.N\KA-$AWYKkMfp^Vh_^5M*;4g1OLQJH<b<!Pq5P)E)_326g=lTibm=?>*Oo/3;-kmtph[aa&7@.,Yt_$k(lT60IU-opgCgK&9;,%m!7,#>gl/luudH_n!J"1JjPL!K"1QZ#L4#DkAd04dBa*l_an<luA+*A%nA1Q=stJGt;k\aIqc=iNN8*c\#<g@SJPnB^+_3#15t:htjNdj_jH!hn'tVVL$."D/fNWn:L"%6$'BHqRGVY0:4K,CG'm#7!]mG%^`)n0#<HTcb*(8CEXCs.rU>22DCO8,Z!DkJ*/I%fSeV<-pnm1Q=ZiJ5t.Ap4!"%pZ)5j+lsJqE$p/c=KWo&XX;.6kR``h5ps2*O;\:nhA8?VQf)hf98kc_gEhLK,g>GN1k3rePqhJ([K_9;61b*^1-eCWKXc71cFf8GHB0Cq&f0F7i0h<P[VJC.Eab<HoHJ_0p%3(;'j3u`<b%e;^B,Gg/Y-L(f[fhc2YUq-lY@D]b;/2AFer8:J*EhOEOd[_+CPKXW)SYaq@:SR0@c2VFSnFBhLc"jkrnm1"#J%`q2lc4#JO9F0aJODR,BUlMOX8nK9ALq@@LK%:1M@?Q`'Y(kG<QH>5'YA0"%fQ[QI%,.aZ(nVOZMqVgBjno6W9jO:.N:$Z&j',$Z>fTrnIlI*&O.*:2;K&X@L56+-hOmWU",_4Ze0)S>UFq)u&V2njICk(&02mg6=R0,'l?Q__pNR@/`M&9kq2^N`YlRGh't"ocD<s'mq>(WipDOW\mtdZ%oM'gSp-hYk%,<YPd(lWSeMqm)]$3)@IAPat@M^EImcNT/QN=R<JcW_&i`b;@AJA+fb/g^MGM>nb$#3e-1AnTWG)j#i79b=Zi(X.]Ui[[[W(OVEhVR2n/HqePd'E'(gbap5A3.OZ[o0mh3*!ZNiKUg/ZZ47rg8$04L_p/fJ8e%>R_?Ot/jAk5+`CkilsZ;BG/rbNm9LU)#I(#M_02cQ:TNO0(nfnfE#/[eFFC>cXsn`HG0l0pHgK.3f$QO2:Ml'kPWDD?,LW$tUnPdcu/S:V[1=*sr1_ONpjcFfWlJ.5<5)&m*N5!aDYlPa)-6^=T]Y,$A^8BS3baXGE(+\[IjLSQfRJqE)G+g2SN11GV0rd3]0pQ$J13ObQ&V)(?TLh0>ac$AV[5=[^,u]BIJL*+GDB*[*l$ikC0&e&@`JF%f)#<`XkC"u9O5b[NYt='i+HF?b'NNm!5n46`Ps&WQ"Mr%A\sV,d9Rr6cg#Un5+9@m)6?fjYuk2@l7BqRkR/cJ6)C\oOBQ><Abjll>&K?8[-oRliHFB5%2%`<rm//n+q/pldg5bnB\RXh:iLM%^m:^=dj/F?RC!H3oW$CJKPU@`g0LOP\?61g\4hAG3L`)2MR#<qtudJ%GhRolsag@%3f.!`8_@OI%.rA)rUmigJB=&'`sscSZTRkO/O)W<g\u=8sbR79hud?Fks,p7'W3c#UeV9mX&^Lm>af$`a$c[OA$;hOcY!1k<MMkH^+S(B`7)5pm"aTq,s-Z^AF1JO;Il+1Bnr!jI)"ZP\[^)HZl[TZN<e,E;pBhkkLNcr`rSBUjc9'Ah&5(QJ@WRS)l&kYHpa(i.VDjf6'(i$$^&o.e`C6pP?Ln>"f$5K!'aXSJF=pZUj`g8Q6$BTmu9Uao=W_!5FDaeZ!b9lk@sC#bD\MZZhSj8c:,of&AM&eMNVa;Dc`c!FO=F>`]IoE#c8?[I9;&Xuu2'Y!S0Iqj[!_c?%Hrg_igQ"C=o+Hii-8N6'N&?\CUU_D*&hB&q<YO<Nh2m(s=@(6CmH/ZuWL4g"a'TB,^oN6+p.*KuukB<Rpj0MQWeP!Rt_b-)7O.?@\Yg<7Yo\pP8fn).2.@7Kb!B)_S0R+/R-h^+O*a&8;XciK.&,1=,4(TgHM+m(S_?1Sqp'Am1L1foYDohTOj'kG<;R%1/N08j>@?NHTZU8)/)dU'iO1`JT:e4NOem8\^qkWA4'8j>M;tnYWh-J5eO1P^$LJ,GYU(m.G=iPP5k,_4K$!8?2Y)c>%Xb8/#Y"TN2&AgBhC%4Z+(RW7FA-"E+7&:r:#6k3fYE9T:CkqM'QZZL^=Zt/p>S(j[9jL0?r<=N''K8fM,-]R50[3d>#JY]k]Ees2U7(;S7,5TJ!@?1D.tU`pFsP[Vde0n4pDZbL!mA`g\F[7Zk\>PuVZr&<rT92ka48J9^HndJW9Pmn'7t;Ho46GZ&SmeA=H4)*6-+A=)2_V!1E)-L2B/b%O*FKu;<SJ9`Hs.uN08WZ`f4Zp4O^S5M,t)MX'X&g*f=Nu.Dp)pL-4Bm['Vpp\pILTQ+0GM,Uq=#Je[d.Kho%Q$]`BOFtL`'Q&&DJ<h5oS&oA6@P\ZS?I=*eE)k:7dAjk.R>d."-^RdT8ZL'55X75m21g\h):OB&;"]Cs`1g'VR[786nI+CrI+Hb`7'U;Pdj`H#[!]Oan#+B/C"Br)le$J3`Tk`Oc(F7'4eY"b!*tj(<10*po/n]'/fLZSbg6N%pgrTW4L"6h,#8t`)_gP7f:D6m*96H$Fct`Wc-q2_l.+Q.J[$,s9l1"gLUCY/ISY6,6BZ9dLW+`<dLX2>oMT>9NKC"`1d7N7AW2D4kY#3[kfYgI9Y"+9cacEjF;1"#AV/*$#?Y0;\#.OJAdF1m:TQ,sM?*JF3H@i1B,<m7LWV2/oXnFut'd^BWW"IjtD/f\*0mQU6B'dlC^mYJ8:&PPiO[@6fHL\4<%'""XK"39X.QSh3Q0]dZ*l,K)'<Osl3<0%U3nRH@a4&oL;uCO[a3f+L.[U<[[0b\,&[[&#TKh>N1/;Q,Md/pugqE:Rb:>+km,<Om_od!8Q#?r";eeq0$=I.a&sE$fgpP!rIsP7(&4d9E.(qnc2g#s`<7@*5h%*.4VPWmG#d?C6p$@!9?\5TBlRW`^F>K-d]mhF6,=;<#"g@NEiDhc%VjeJP*O1]/UuKW(ON#\PcisKGlUrBEa?a(HinJAl1*8Kk'kBk:*FX6rJ)sc^Z9=@2Y_H'!,=Ce3Cc[<mbm]Ja6es'Hkdfo2!B84i):e89L7D92+neO@:ad4k3WCn28.SPdC*R/c$:_9"Ld'%c7.Ga];/6Gh)AI4.F5b>gD9,D1N$EY6\([.Nh)h(c^`L/6QRRHp#1>1HQM[tgR4?"?Up-/a-7s0<8hl4`frD?-KZF:LUhb;!#1GtA\!cSh)$!uon"-85'PFA3Wuj__gIB^$6Z7H-K07`Vq?F'@JI(=Zh\8>?6)@aG@'WCJ53A$!&u39nrUBTtk(;F0f'!B7?I*:"STe*i=_OS!irr$EeK3uV'hFK;e<VDkQdgT77plRq<%%Xn4*Ild$g/9Ji;o6=_4)S,+D7m]?&l4af^^^r0=Z#B<";!M3N^t)IU8J4'D0<[rYR`EU2f8/hiu"Q1fU_cS63[qI2>sS1=3F>mfY1)c$Zl>+.Vq=,Nt!=[%Mh;s-:F,8QFCMdJ=PM&e[Ns+VgL_`*Zi?!a?B]N[i"S%#-N[N/\S\&2bXsAULqo;'ioS+.NBc5Hua"97.)9IE3k^M972\GSaJY^c$V.M8/7i^FsKemCAgnDRd?(]"/l%[fsh)fq8#)UB\f$&uSFpDUs=OFCc<[VgEu]$t$[]+1*VKhl!f((IL?nU])s2(`=1tqsVWjT6^A>$%iF);inaA,LXM2=F)g4]H*1Noo(ICgp^(;7qN[AO-B%$Ag+G/1WU3ON8O@""RZ3"]_u<Jb6)^ZAZi^t-(M^D*1rD7jb]L&6$tRsM?9d`hms,4ad='RZ$L6#P,La;Y@'cl;Mul):<Eu(.r:6r0bKD*G"qLZ<E]1[e_"/%\NA\(,ln&!W*cIR@?e'SD\I.lGj;V6)7A=kp9*OaUN;j@TLUN'8nIKC$+;Z0\m;V5S_r#rM0G>N8E]0e/d5Ln&?:FiPJO':aj7N=5N_C_;^l=6C-KcAL)1HWdt5E#V6qK?,?9n-j1RqWiLu`o2m';Jj`GO]25Ujm[Lg26/ZYFM.;c9V?-V)8C&P/Ej'6u24Tdu"iV*#PkPBo^^@84>;&VQCkJtPNW^Wt=,uAbm6,Q$OD)t,EdO1*>MRe!-pJ'3D#X27k+s$)fofce)f>V,&s'4`o:Obn'N*&Dq1"P160>XqtQKX1r8BRMfI'agV\QN['`4gk]0/:sVT:]u.pX&pjl@o%)%[o`(I2G@XU)Lm%1+C)T:2aZJCu1*Ycc3;uN#$P5niE#.n&!8DBtVX_Yn:QdjE:NG@Z14++5:j*`ks4H`4]!W&4m4.Ze&dN0)=%cM_KF$&3MhiMmhsKTQrD`p4F%/(!=b`n=^\PM<;@h^t3K\%c(h!PKd?D(.YeJb3;W^+c"L;0AEMKBYZh\YnoQghXr+[/1[+AP[A/)dFaJmg>?i,*P?@+]^+3n]!(Ys(1u4clPS*KURKi*-&e%")!cOkcgU&Ugs=hh6"IQ?bZ!H#`'ltUgU("pE%n$afNo8N*n>=dJKbn@ia[h8X<+b$=":L@"FQAAIEY5HA7j5a&uLYtH`m/WNogDL0$qZVR>T<8.9,W.Ah6IiFJX`?r0>XlTB\X'aOG1K`5C**c1%p`8G?QG5iKJ%8\,1<=:o"rrUC\)TDD&ckC5_k[p)";3I1bB?HgsU]lr`oJ\RB<<5N+uV(\ZA1"R>b7N!G"r3C&m:H#p4P1>",mfo-e(0G64kVC;O:S1_)qG;RI[4@%M1h(aW"FeE?;U$75eq%YZZc'0f+4.j-natlY0m/>cas:&XUeMd\dXZ=nBq(dmPOSF8l1-EKe>MkAa-p^q*bC:&B?F&H'566n^!f-9K\Dqb,OokokpnoEBJ>CkCJ_2<,,#XFUeP\4l7;SuS*c+W,7m"l!j1-MjL\Vm@G$J+l9J^8L;8>m0h*@%k5(U,UZ8?r%,XPo(N?Dn$@NIt4#WTS8'SQp?A)nc@G.S3IQa>1&R"t[gM)kcp=4?AN#4WZ!K'g;cRYYShq\tBE>m.pVR5eKq_,S90QG*D@-MeKWW%#A3$-da<`8tT%#.YZ5R#6SJgOP2eUk'%`!r(JWVEY@DcRg-RCkVtCFip4-Stgc<G=(VG,]jVl0IU*kbm.#-J]mkLYq!:C\DTm<*jhHaOsdqL"QZhpp^Jcbu0W3egEhrCZq@)(7\=72`&PeIVr5]ak@TGd2VfrF(,j507"aBPoJ>)I!NpYOA'*+'r?0^C`lARkDOt)MdSsc8M0_!+grN->Xl$r;Y-!]R:#[q$L93V4RW*eVBRt!eItI@I:qTZF4a#jOLH\7]l!Q20s/Sfb_?b$B+;fQ\ug_(7S"p5UneOh#"]$!R(W^L7Wem=Tm77)KDt@AVY.nC^VG[DPIUE@1H?$4WbunO5m3<Sak?\!g>(/B2kRCXgO45oajJ>F*qee.'6JY)N]cGY"MF>'TeYn-fb'G7T"Vi8h5fV)+rg.?IRLHCUh_$+;ZVT0qMj6#X("Im.DYJ1IoJ++.plbMr4La$`2J/fPGHc![sqP5(fnHK:1,MNCbgI^J0+4Q'oe&aq8rB/_<NTOmAr,a5`:=L:(0pEZ^Y6/<Yf8_$1!rbJj*'J2hHqYCD*5/7-F3=;Pj?MktnKLpqYSQXen'NSHVq5PcN`0T7n[);_4)]RBjV++=Bgs8Yrkj-3m3KT^]81_l"l!2?W6%U4Z\#ULnK!molX(8#9578iB8=iE4gMmrGU3@;!J''I;)28pCJr)cR#VT/r:4L;<3%c?";![>a:M.ZA`>Z/W=0#Z5Z1iAKB&?dl!uc0K*K0)!?jG1Bt+&9HDnZIbKQo35*a+k7;doHaIYHt^I$r[I.);G^8gZtELs+KAf2I4KOVqNS7H1!3V:%dYV[We@?pJ[<V_Ae4WP(.!at\VZGB!KZuW$qA5dfDAH-V<[JB_@>e,nuA4Gr5#5X[/Jpuh2IgqduMasC_c>"PJ=%bP#VrF;';!i53.lcNV@mU-U53q.JTdbSoMA]M+X)[[;kNq2=i6)`#gnWkU#j$ia;r\`E>66-nd03-MbbsBs2aT]$.#=6qJJrb`DfbkV'#i`o4<L<`R$_=mVX.i3n8ChS6=bBd$++D6_"iYV4KH7.MW)23e2.VdVD*"FXY0'>A0e8@b@H@G_\U(-0lANQJ2p)NEJG%q2Fo@j)'U(.=q#hVTsn?Y#!+bH$kPEt8.l@[<,'EcaZ4>EI?h9<b*=OFoD#ftpPf[qP=]&L>SNCaoX]l?6*A@H]]"nKUI'?dCiLSN-0.WMK0Aku]fr9JFs4L@9+.@gX(5hj*lH5bBX*o>G#Xqj??mG,K:!'?44=YhRDk?^rj^mfEFB-Y6UOHX$_A^1VSqXF;8@ZUP4#GYO6F:!N,kb<lc#,`613s1bn4$O(O''.cqrH,6O<"E?ZLFKsJ--`F1gQ3Y.q_L%Q#itdT_"ZVQ7@WZ@<F9)HN)\gZrnC>#[*5s,$PE;+F5+-,ObW`\s2#O9aR)sjGbJ\8kg8-Cj@bU?=LKq$74\C%,:X14-fVtNbeM'AKloebc\kqE-"!VBHY\uZ5Z-HSc]:X(5*"u(Pe>L-eS_J_L36R9=rrg]lY)r=ioVjVG,+.oOfF/(ZFF75EpY>N*7"QBG.'.n3_"SPuX<NYi22g9No6F*P*#CX._XkpD3m=J51_meb]`6L9D,Z^+cH;(4*<CDf&]S(O$:i(#du'm_8+"_3CfmbClYq5nR<+&Ue\'/WQ:eE7k7C6N=dG16GS#H-4oS"#,/TMgNX"Qe)BI%'L^=]!^cFuj'0\Ged6EloIahHUlV:4gP(u3pl&O%U9dESO$%\[$_%a'l)^=/\7?t5%:?UJpQ>nf&7`O1;0DR7`G2ekB.+W$7BQZ"8GrU._DDelI:n)RSh3$=LC=D%uAR6V9b+A0-_UeN(3<8;,cBr>QJD^20QrFJg']R+5,:oVOEnNa,F5;`uT"OCf0:1p,1'MQklJSkcgSQFaIRWBUIl9m,5F9lmTmL_>#c9f=qeO$b1QEKdL6A';fE3GpLPr>gX8Dt>=h<W*_"3;]6nIcl"HCToT?Q^RDab?IEoRu:\3hd,lqG`k_j9'SY;4TTSNNN'*ur]#jjVB&!4\Pa\W5R"^n#ljB9g=Tg'&dQ_3?Y,=HYTQBc<Qj@3"35''!2k<Bq&7ZNhsS-p`rTd-.2W`HWOUrTtZL^]5"Q0>X4ma>l3a$+pr6rA8od*Tnpg_srWQI75f^>h7<Zm_?h>2\F@ekI%@MPn6hsU0SCHfnc!)`Ai$Vf1<.N@Dssq/%5!^&GJ^lkU:j2A_(rA+#:r"ZGa"n33$F%l'[-iGdd9#5U+b%E](6k`XBM@=ojE:\0mu[;UoX/`%=C7`;Sd8m#fLib*./+?=@F>iWa=]+WPdbH[.73%MNmhhcUK2@1/3`87l)*!Co&IR$FMU_o<:,%*q#lBe\!u54^hteBJjQpq83"\)F[nPdEd^[6hJ)2'J7UrTkJ9N6F[3D'QMK!@e<cM5cEGN;63)InS8V0W^FVX97nKJt<Z4:Et7\);&GS58#R#FRWQ*Y(_fd(('ok+,XLcS"lNZD$P7&fLOiRj@E*FF,^E3Q>\.@LLfMJQgC_GkaCmg#$WH_I;Be;9XFB[Zoq6pp;@7fP'"qLdD0Ri.[r7#a;lVY*3@!&$*NVfHlH2q`D.MIZ31OAi3pc!pspJB.G/Vl^A#k!EXg['BX!g-Wur!sqeNJJdmStU!0n,4p\9:Ei=g$n^L+Qj,Z=?h:%R?X2U<`so^KWeS8O2s4ERooTffhN+[S0,m%AeJ@U5+aO]-e%JD\;p-GY9HH5&ckOGT2TBE;[Sc[k;mAOo*E4jqkLE.7sO:F2\*c]OG;],ifsE"i$NjeHY3Iqn;LNgik%WAYW@3sP=-109R)1U7?F0!kF"\\Z!ua5ddF1G"RFhXp&+m'"sK\M#rjB$5.@6)&tkYmIL3K<h-)GSHRSOE(GO\Ms*!Bq7V<?iGjNDPtUHllN"0+Q>S8Q10p^SJ"oL91Z1Rs"=9-6R;he_"M!8H0/NHIt>1,eW'nRm%:J5'A=S=*oj^.ZCiC4U!ac,N;A$uV+`,a\u$00=Cr=ar/&>;V`#'d$)AYsb[F^n\`)nN%@uAki`1aWR;gGGg6f=tn^<HI7f.*kncKJ?3"^Y@n*BaA?.>)1ke/`n[?XV0WW""WdsX"h>]*0^6#]3JAFU-j%M@V?[6gg%MT#(S\ESUc^Y'9q3u,?$P>X\j9No3r6]qdLW@hjr9#m:"A)V@sj&bs`3ts7fh)1uL'\/IgFZ0lt-LHnjjo3a`#RMIgpl*af0=(j]/%*K^9Y@b?)c.X59[t^$G^-e9cH&$fF/^UH*:XET:Y9B5]Hs<%'dG\mIbRA0j^Uj^^Ce#(0\ZA8kRAFHcjB,=_9,1@f`j`65dNjDE&ldd$3XJ;>jb@I:%!(!VJ[r\>Ce[YN?WcDhCY7PJ8b@uqPZpbF\]_P5:Z">H(&%0cX4`*i9+L-'Z=->b(%7#JMkIQ<jH0X0-WVcB.oIC``g"52me[op05UP^(*Aa9r;12bK=;)BAoFH<d7BSlNW:5^VB0"r5:Hb-C`F,#:l]01L2IEl@=Y"@tSR)X=6Df=`'_9o/\e!YBX?P<huoh`Yrd(3SBZF?.W&f^aoOc3k1ETTqqC3^gok2LJm.O!'q5)#4rnl@l.aM/FJl&*_MjjOpTcEmVE8G/9&s=EX.-WB/H_F<.-97T:U157`X."b]R@OEjSL8YjbMr^1pTD+#KRG/XW-Yp'3AIYr@rq\8V[5H&1PR1,KlF87Il#4Z;ah&.RYhkccqfDl#.!&i=H/aYbP=%UL2!Wd;FbhhCYhlAP1?J4!LO'KJhkQGI!N9@RlAXAY%Io0Pf\TYe$H!C\).MJb/Vs"+G3icm%h;%Q.IlIOoC/t%1'@P4(u./>17\>f)8+Cg3`k2:u)nP_q,(Hq)(RK[?Q(4FbAnT0jZ.GU*ekIF/(Uer$!VICXh1Y,Ipr.:"912Yhela_@1)HK5TYi7@'TTCVl+-F_@im^n8Zlhp^2$sSC2pC<c4"Gc&'&OpuZ*+A2I"N6#=-,a<-4a6!"]YdL#+DdG[Nc'[GY@t_7B'.h=\?N&_1HW*BkJO.gKV7$'grK9Qdd8]@bnNdIc,@JVbG/20Drmbh5PObVLiarpiSD;/q96P[\]?"RZJ*5Uu`!-K\r3!:%3_u"qKG7-dNmL$+`c50R$&Oe`r'7M`>]0(K1G'[mlLR.Z7;(!A!E(^WWFOQM^GaZ@!@TC`X'A6gV(lm(iO]<L12'oHWO^_#4QDA^eJh-;YOJ,*=r*4'0fU7r_TL2p9kARl-,U0:@$$LfP"]XM46Ph!cqaUOH;+MCsF??$/jAVj]IS78ZU_Uegm%Ql,^e%b6ns<T77!%?K4Pk1Uf_Y2<B&R/nf@\!s.XF3S.kk1G9+)OVS)dSFTpdSI\/7<)tANG;*'.:<(RW7oGRhrjT(";,4'9N8'.-Z>m_$LbCq:daoPek`;8U2hJP;flI[1sM]'XJBE#QFP[jC2\Rbk!jeV=`QrW9'9M%oSqj3;Wmp;1LPpGe9mS.SHjEd7,</`Hah\%NbIYcMNmo>-6=E4\`]q7\(\h;TBHX*>uf%Xq)Ug=&M3cc^1NGK!>2b!)nGDXk+FiP9-J^!,A8'_qP?s+H;H\J'h'6%Y#8a6LD$(qhkssep]S[!Oa[1Ta#I']&`apdE+)O:(%@&-C41.Bg#m.b#2V-kg/0SM^&3X;rp?uI=JB`Q8ZdnY,j;Y2.bI50>cs5W[WN\O+<?9/<#-Iqg_p:)ND'c/.Zbm?qMZ;ZSZtW-s$JdLeGAFblFscAWVo1oZhsuU*lQCt#L7iu'HD)3Q1^"OU32j[fMH`6a+>k6RW_tNW$+Ip*\VYXpssnh%)IZ>J#eoHH2RO[\"js]U1M$"3<MIn@sBWAM+u?42Rr<'6+OcbL3lfH2qccp%'?C4@`sdmHSRlh%I.tLN#CA`(CY<CjK4@8'o6)^/7G-B1o#.RBPXa7<\S0519*gXP%!HdadBSJghejnqr?^OriF6*?8WSm1dInI=p=s\DQAU&*Hif:m,#$mPV5&p:.Fu\2E-k8^WL^X?Aiuq#!A;77<Y""VU`*$0naT&JofGZ279[l.iq7p)Pf\b2n6oHPfKaaX)03(>=9M6#r^[D?e`8>f.l3Ijb\c;&E(5`fn7DL=T_6@Ja5Rn_h8BKS?obfmr;V2$q48C\u=G;36P^k:pg%PC)J*"G4MHTf:q7??s?0L:nEE2QQc!'k2p^PP\K2gp4AVIG]SVl=\jG$_(%SIZ)NL*kJ7(E)J5<DWg8J(J!hEcXe5iN:r42HQrr>_8&85gFJS99GFYiaHp]>5W6ouH`7P9O4JP.jJcV![%EIoOV[HuSY*1HHl;seHJVAMc*cNt:W>bK@j?bdOl<"CdD?aYbh+4u?(jdf",WnFe<[c4DqqjUMA5I&:WW(6ca1s+(erbgXO#_3QeZ#9?c<f7^47pPG1VV_35a7V[Fi=bm=eJlICXOLXBS^;mK@U^ddm55/q2N/i8P'Mo8:$Kr?8gQC1\FUd59LCG99]0ar9C"Ha<,2KUf7>^iT=RFC2U5L)uNqZlHbf\_S:>c15IkVEPaL6O]ke2`0p.5j_@T$r%GB@;C:@DXBuQ/H5<CdcI,@)T!Hq#Gc'q4"K7#qkk`OmKbFf?Ir1tUa,>L;\$'"eG>L5[LlD<peU_@cOPZ]@<aLA[fZ6#(`":p<pTJI.gBN^1&R,V^#.Ct=>[@c/c+5P5<DZCo3=eks,\*7ml$2SaDm/3bfSNZ"]M:KU]_?@U/@&o6nPA*<Z_5AJ0,R>Q5X;s(Jq%r+0aK&-q3Z<m:F=EOr6XcoaVWo]9,ks8I>Yf+"pdSl0@).5,QBIg9j7:]+lubGC*qaU_5Uf?GIM.39]qJq*2"WjX#]d_r;.U3R2(Pj&oBApI&KH2[<e,lW3*(SUd"8!6RBQ_G_;Xg@RTf,T.=$kEu$O;Fg^PD_r.P6iutrgSkXka6(oopHr;C;Y$7+L'GX[KZGMt@dT*ouhYoZbQ43n1P^n:on:1c2b<f3L,Lue/NYc*&U]T+&4Ol`<L*3sAnBHb;b(?%+WMG*EeeN*Pp\P48>4f2=E3rlpLO'->beBc_.qq@EjICd,/;4G0qH5cE0J..PF)#tXrbf*e1TXPsnj^scOTi58>7Oj6W4T$%^tSN8X(pG6kSnKd$Q@r'G$f/jhb)Uu_:[C^KCQ'rKrlt>"S,nFoSdNY*8PqC:E%B.f4mQGF0;_]4P(:b1]6Cp.LZfh[W><X%oLt[0$<[d8!L]5$f$1PLZ%heg]gpV]8f^"+BiC\_=+'fU-)EMrJPrhF2bPg*YK2b8F+MQ$G;;U\;VSP`C`E#OgNQOJ-(7ZBumj%I#\]KDlYA,5McHk7B6d6UO9)aMpQFVUX%aE0:qtEa?U[:>p_#4P#F<`$d8rX>0/tdrN9!CG,0NF0#D8.2'("Y[^tK8POs]*nIkbQX@'Mj1OV<;%kZ/<%8'Q9mM!cCY'YbSWrBeAmbb)EC.1PmJY\^D)pM!PA9ht3)>lm"`g)':S\<?h?c*#-O-aYr7;Ogt+\5^Eq=_T`Ud$3i3_!fR:Gr-he^V?!BCLIdVSb<qk#DJAOI5Jc21VBMAK4eQU,'&WqN47@^cXXlIWU.d&GD#fdDAWtomRh4?%9Xe=U;s,2;DF7*bCp;@r_PW-CW'?7+Ts+A2A=US='Ra2;$XPCp<rBBcH'jcc)J."b$^e.'3L_g,7sh6@#K?Hf=_n>7UbcgdZ.8.N7-3eqhn8jOuoNdjYJHKc!)!)C(eZ0?D!MSqI%6BB_e]jj[0.q#F/!lWad]k\_=Bi"stjF4tcpeO:jLrTA0:kkKZSk)XF&fF7Zf@7$-_>@e<7VO4-u;R(;K/d;V4(Gn$\[C'lc%a[aqS0i_KRIt*ANbj$oCQbucMch`j[>%*[+Lrk^?e>.s;4<*]&I?77I:$o9rEL(mCCt+-`FJ943[(-omu_V01R2@YGT<[JYC0ZeKgc^GL&*Y<ZEs#ekM!&D_=,RkcaDPGO><)o`c(+`efgofWY&eE;*IT>nqdF.Rr8%^E4BS-r948rS9,"d\AHh5g`5gpi]FjN8Z1m$,'D;r,N*ZC_D-"DO#u-,?9EKj8"J/s[jC/]DZM_sjjcEO+%*$?[a]taB6K/K8%<WP,<!"KDXK-s\N,Lt%S?q4a/(d%XP7fKKj`mfY9'ck(JFFh,bA<AP$_DMoQb!$h]6UJ_RS=gF`-qj#Q`SZ;1(a<!Y#n<s2^n;eWh%4*'66Jn0:V2;9XXM:un<pNS%D*EF/+M\[FJ/(p#i\n@5q)/,lqA<dm$Z>!+%tbOqG(3"=W4Ykj9]Wc$S6qNHglfV&1N#5kjLp0f9:efp?M)t#hQ;X_99`?5Pk-;rWq8[\*r#rB?.eefI*IMdr+8gM_q;pp]b53df#/34EA/tp$[?8j#-[#$VV]jg?lkS7<;aO-S43uRad^MIZ/.d*_Y)o4uXBK7O>gQ+=\Iuj!GM>_#s)CaV^R&$ZN;8nd=L=A#>'gEmp=&P[1CL7]=qMd0k&cXhEeuC^]Mtm(l4Y*Q@;Y"ZTV&-ha[8:Mfj8[L,b1[?5mhA5J!SCqIMRZG,.bp'12l#uCEnn>X$S8g>KZb[6m?r3=-@HGMFbQF$\VW_%[)#L@lM_>#I@mITs8QDAf=uL*Gk;&k?UR)F^"+18kSZhG7FgbZ'cU"\[kGO]i%-hOjfs,fTPB&p6Z*ZR=+;u,ES:dY,kYC]brS!>K;AXOj9<*?>.37acg@5bBRrIWm&tL8KOuKR(%4bh>IhQ1$$&>Q0$KBCMgZcp_G]doB&[)X2&sHlq\;Tc"(s[3o!<Lu)eVGip@=G.gUb_`(:@K:0MNtQ8+4e21c&)p24Z"Sm;-M(r)VV%#[4NmkC2=!6F*\;QTT1q8?<Di_@h<A6^b;U23`+T+C[knP?(Y=$AbbLR/O6-4eY=XUp=;L,Z?tdk9ek#a%*i;'b=@5X>u:a/uc8\C#GYhM8s0]>EoY+%Ao=WlY'C3YN0FJLFkZS3ldFm!Mil%_HdcRd2n<2;^1C+H%0FTBXiIq*eL%j:\+02;2>`6rfpdQ6,H*8f,qh=()GCqc"l*uD+ZkMUIKH";%("Okq;1K&kSZA%Y`a>XPAR8R"M!DN-(6:25G:Nd4h',fWjq"-ilnjKruJ?8-^G+JX0,'(?=gab!pNY,F!^V3uTo6s#>5O<D7"UR?72=eBDY>BK,phjiM^nhk=AA.p]/R9XXcn<t_j7,;nSEI0@a(?kOR>U%U'E&Ah@9l!4]X.F*Kuitl?fE@TU``a9^1UELNECGH@n&b6![G8,J&J:\@Q)25o[nr5H%qr;>lKbKDqJY;/d&W,?E^D`*2jX%YT7K,'B'ruV+An,ZpncWtLB3Ej?ih&Z_kt,b-hqCfegM1"/q.:!`bh^s.$pmO+j_GVF(LZ=.mA$r[#L3TDf+1B6#$"m(g-ZEs=i/f\27-I61;Z_8J<rDk$O6DA]i(c\aCj4bm4e\:XIU+n0\jjGe!%HY#k,@iBh'F#Z^q!f+94bXJG[AZGmaW,Lq<tVTQck+1'Te/?\;k@F*P;D8.epq+.URL0&?s/raF0!!eLmLba/kM?r_W56tE]q#cVBad#>Yc,kj)Uqj9a%%C[O[E-1R*ksmm"NCJ67fAJ:u"FJD%1:%rMXT[eZ`uuJ>eK3[KOTT!qQAAD,`rnRn/4niX3g+qRqN?W8,U_aNr]rJJTGO@M1"ULO8mDVV6rYR;+/)qd[>f&n]BLskTMMSl@gE$C[(i)t(2&`_ZAsecNsgj,e%4or);Hf@UO?s9?)d@j0`m-k[M4b?+/<'dUiXDA&IPG[S<%+2<cumIK7!2aNAnWR$JtiE<c/sT8hh8GjamsZkIG_UbCA=p$bJ:7q1'boj,AEoNaA\m7Ta!:`*-r2gt7hS;d4Wl?__(J\!)BP32;FYm[#I.m6m"mFVG.AX;;rV:.B?_mfP5:h\61&0.EGR>0U[[=J1I/n2YgKI]&`.GsVEBQ4IO\(lPXGf\7$*L,<iYFA%&Ajm02_4gT_Kken40/QrKckP`d+#dgS*)7GD/5m26=W>![SU'e_N]U^$n:&gW[4=g8pJrDHiKJ;#+dHc+tScd[LcPpK#TAI?5%!I:^%l]3Hb8rJr3'f35\U+FsZGti^<sj<SZQ-R\kgJ&9Q\*#!DVUpM>jNOH5KlN09o:i+"Ol+V.#U/_)K]3R`N"*GQu<IR3-h@=VesH)#R'7t(?+YiQC*jmq&bYn(]W(;N0DlEk+VMQ6u=Wga!1r[i+cgg%PWtk5+LuC#`7!O%Ge"_C4G=n'UJ/BNjf4Vdg&nPIrMiU<:B,2Kh'MBk9#hV(kS=%8t(I-*RRp94oO/Ok5KL2d!L0a'G],Do=;d(o=oq9<2mUa'\!9H-Pns@0?+86?_d6m<[/7>Y1R0de*p*"[fHJT`2YpBC/sb9!-H69;Kb)?@]U(]!gb=!e5eRP:54L<&koHFO6'"3jh^<I0BrQ.C-F-R%,?#QC.1MTaUYhrong.EXcun`3JCHG<F0XC]DqR7C!6PW]==],Z)),{[0]=1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192,16384,32768,65536,131072,262144,524288,1048576,2097152,4194304,8388608,16777216,33554432,67108864,134217728,268435456,536870912,1073741824,2147483648,4294967296},0;local D=#G;local z=function()y=y+1;return m(G,y,y);end;local m=0;for F=1,5 do m=m*256+z();end;local F=0xFFFFFFFF;local function Z(G)local X=0;for h=G,1,-1.0 do F=F/2;F=F-F%1;X=X*2;if not(m<F)then m=m-F;X=X+1;end;if F<=0x00FFFFFF then F=F*256;m=m*256+z();end;end;return X;end;local function G(X,h)local s,w,B=X[h],F/2048;w=w-w%1;local l=w*s;if m<l then F=l;local w=(2048-s)/32;w=w-w%1;s=s+w;B=0;else F=F-l;m=m-l;local w=s/32;w=w-w%1;s=s-w;B=1;end;X[h]=s;if F<=0x00FFFFFF then F=F*256;m=m*256+z();end;return B;end;local function m(z,F,X)local h=1;for s=1,F do h=h*2+G(z,h);end;return(h-X);end;local function z(F,X,h)local s,w=0,1;for B=0,h-1 do local h=G(F,X+w);w=w*2+h;s=s+h*L[B];end;return s;end;local function F(X,h)local s=1;for w=7,0,-1.0 do local B=(h/L[w])%2;B=B-B%1;local h=G(X,s+(B*256)+256);s=s*2+h;if B~=h then while s<0x100 do s=s*2+G(X,s);end;break;end;end;return(s%256);end;local function X(h,s)if G(h,1)==0 then return m(h[3][s],3,8);elseif G(h,2)==0 then return 8+m(h[4][s],3,8);end;return m(h[5],8,256)+16.0;end;local h,s,w,B=0,{[0]=0},0,{[0]=0,0,0,0,1,2,3,4,5,6,4,5};local function l(k)local f={};for Y=0,k-1 do f[Y]=1024.0;end;return f;end;local function k(f,Y)local I={};for d=0,f-1 do local f={};I[d]=f;for d=0,Y-1 do f[d]=1024.0;end;end;return I;end;local function f()return{1024.0,1024.0,k(1,8),k(1,8),l(256)};end;local function Y()local I,d,r,O,g,b,_,c,o,u,t,p,M,E,q,i=k(8,0x300),k(12,1),l(12),l(12),l(12),l(12),k(12,1),k(4,64),l(115.0),l(16),f(),f(),0,0,0,0;while y<=D do local D=(h%1);if G(d[w],D)==0 then local y=s[h];local l=y/L[5.0];l=l-l%1;local y=I[l];h=h+1;s[h]=w<7 and m(y,8,256)or F(y,s[h-M-1]);w=B[w];else local F;if G(r,w)~=0 then if G(O,w)==0 then if G(_[w],D)==0 then w=w<7 and 9 or 11;F=1;end;else local y;if G(g,w)==0 then y=E;else if G(b,w)==0 then y=q;else y=i;i=q;end;q=E;end;E=M;M=y;end;if not F then w=w<7 and 8 or 11;F=2+X(p,D);end;else i=q;q=E;E=M;F=2+X(t,D);local D=F-2;if 4<=D then D=3.0;end;M=m(c[D],6,64);if M>=4 then local m=M;local D=m/2-1;D=D-D%1;M=(2+m%2)*L[D];if m<14 then M=M+z(o,M-m,D);else M=M+(Z(D-4)*16)+z(u,0,4);if M==0xFFFFFFFF then return F==2;end;end;end;w=w<7 and 7 or 10;if M>=h then return false;end;end;local m=h+F;for D=h+1,m do s[D]=s[D-M-1];end;h=m;end;end;return false;end;Y();V(v,P({},{__tostring=function()s=nil;end}),nil,nil);local m,D="",#s;for z=1,D,7997 do local P=z+7996.0;if P>D then P=D;end;m=m..K(J(s,z,P));end;local D,K=V(v,m,"Luraph"..W(" ",2),nil);A(D and K and Q(K)=='function',"Luraph decompression error: "..j(K).." (does your environment support load/loadstring?)");return K;end)()(...);
+local env = getgenv and getgenv() or _G
+local SCRIPT_FLAG = '_AVATAR_CHANGER_LOADED_'
+
+local SGUI = game:GetService("StarterGui")
+
+if env[SCRIPT_FLAG] then
+    return
+end
+
+cloneref = cloneref or function(...) return ... end
+
+local service = setmetatable({}, {
+    __index = function(self, name)
+        rawset(self, name, cloneref(game:GetService(name)))
+        return rawget(self, name)
+    end
+})
+
+local Players = service.Players
+local TweenService = service.TweenService
+local HttpService = service.HttpService
+local UserInputService = service.UserInputService
+local RunService = service.RunService
+
+local LocalPlayer = Players.LocalPlayer
+local PlayerGui = LocalPlayer:WaitForChild('PlayerGui')
+
+local IS_MOBILE = UserInputService.TouchEnabled and not UserInputService.MouseEnabled
+
+local Icons = {
+    eye = 'rbxassetid://10723346959',
+    minus = 'rbxassetid://10734896206',
+    plus = 'rbxassetid://10734924532',
+    search = 'rbxassetid://10734943674',
+    play = 'rbxassetid://10734923549',
+    dice = 'rbxassetid://10723343321',
+    rotate = 'rbxassetid://10734940376',
+    chevron_left = 'rbxassetid://10709791281',
+    chevron_right = 'rbxassetid://10709791437',
+    check = 'rbxassetid://10709790644',
+    x = 'rbxassetid://10747384394',
+    warning = 'rbxassetid://10709753149',
+    info = 'rbxassetid://10723415903',
+    heart = 'rbxassetid://10723406885',
+    heart_off = 'rbxassetid://10723406662',
+    home = 'rbxassetid://10723407389',
+    users = 'rbxassetid://10747373426',
+    user = 'rbxassetid://10747373176',
+    settings = 'rbxassetid://10734950309',
+    bookmark = 'rbxassetid://10709782154',
+    refresh = 'rbxassetid://10734933222',
+    stats = 'rbxassetid://10747372167',
+    palette = 'rbxassetid://10734963400'
+}
+
+local Sounds = {
+    ui_toggle = 'rbxassetid://124972635680154',
+    reset = 'rbxassetid://123698506133442',
+    dice = 'rbxassetid://500839268',
+    tab_switch = 'rbxassetid://9065073444',
+    button_click = 'rbxassetid://12948391899',
+    favorite = 'rbxassetid://74914703480819',
+    unfavorite = 'rbxassetid://92708987611847'
+}
+
+local State = {
+    applying = false,
+    auto = false,
+    undo_history = {},
+    redo_history = {},
+    max_history = 10,
+    applied_id = nil,
+    minimized = false,
+    visible = true,
+    preview_open = false,
+    client_preview_open = false,
+    cache = {},
+    randoms = {},
+    conns = {},
+    original_desc = nil,
+    input_ready = false,
+    random_cooldown = false,
+    fab_toggle_cooldown = false,
+    visibility_animating = false,
+    favorites = {},
+    favorites_index = {},
+    current_tab = 'main',
+    fav_name_cache = {},
+    width_scale = 1,
+    width_enabled = false,
+    client_applying = false,
+    player_original_descs = {},
+    fav_search_text = '',
+    fav_ui_initialized = false,
+    zoom_level = 5.5,
+    client_zoom_level = 5.5,
+    avatar_details = {},
+    height_scale = 1,
+    height_enabled = false,
+    depth_scale = 1,
+    depth_enabled = false,
+    head_scale = 1,
+    head_enabled = false,
+    music_playing = false,
+    music_index = 1,
+    music_sound = nil,
+    music_loop = false,
+    music_volume = 1.0,
+    music_dynamic_volume = false,
+    bass_boost_enabled = false,
+    sound_effects_enabled = true,
+    apply_counts = {},
+    stats_apply_cooldown = false,
+    rgb_mode = false,
+    rgb_hue = 0,
+    rgb_mode_type = 'cycle',
+    rgb_saturation = 1,
+    rgb_brightness = 1,
+    rgb_speed = 1,
+    rgb_time = 0,
+    rgb_element_delays = {},
+    rgb_intro_playing = false,
+    minimize_cooldown = false,
+    current_theme = 'purple',
+    esp_enabled = false,
+    esp_teamcheck = false,
+    esp_highlights = true,
+    esp_show_only_highlights = false,
+    esp_show_teamname = true,
+    esp_update_rate = 0.01,
+    esp_last_update = 0,
+    esp_priority_update_rate = 0.005,
+    esp_low_priority_update_rate = 0.016,
+    toggle_keybind = Enum.KeyCode.LeftControl,
+    last_apply_time = 0,
+    apply_cooldown = 0.25,
+    notifications_enabled = true,
+    music_loaded = false,
+    presets_loaded = false
+}
+
+local SoundManager = {}
+SoundManager.pool = {}
+SoundManager.pool_size = 10
+SoundManager.active_sounds = {}
+SoundManager.last_play_time = {}
+
+function SoundManager.init()
+    for i = 1, SoundManager.pool_size do
+        local sound = Instance.new('Sound')
+        sound.Volume = 0.3
+        sound.Parent = PlayerGui
+        table.insert(SoundManager.pool, sound)
+    end
+end
+
+function SoundManager.get_sound()
+    for i, sound in ipairs(SoundManager.pool) do
+        if not sound.IsPlaying then
+            return sound
+        end
+    end
+    
+    local sound = Instance.new('Sound')
+    sound.Volume = 0.3
+    sound.Parent = PlayerGui
+    table.insert(SoundManager.pool, sound)
+    return sound
+end
+
+function SoundManager.play(sound_id, volume)
+    if not State.sound_effects_enabled then return end
+    
+    local current_time = tick()
+    local last_time = SoundManager.last_play_time[sound_id] or 0
+    
+    SoundManager.last_play_time[sound_id] = current_time
+    
+    local sound = SoundManager.get_sound()
+    sound.SoundId = sound_id
+    sound.Volume = volume or 0.3
+    
+    sound:Play()
+    
+    SoundManager.active_sounds[sound] = true
+    
+    local connection
+    connection = sound.Ended:Connect(function()
+    SoundManager.active_sounds[sound] = nil
+    connection:Disconnect()
+    end)
+    
+    return sound
+end
+
+function SoundManager.play_click()
+    return SoundManager.play(Sounds.button_click, 0.35)
+end
+
+function SoundManager.play_toggle()
+    return SoundManager.play(Sounds.ui_toggle, 0.2)
+end
+
+function SoundManager.play_tab_switch()
+    return SoundManager.play(Sounds.tab_switch, 0.5)
+end
+
+function SoundManager.play_favorite()
+    return SoundManager.play(Sounds.favorite, 0.2)
+end
+
+function SoundManager.play_unfavorite()
+    return SoundManager.play(Sounds.unfavorite, 0.15)
+end
+
+function SoundManager.play_dice()
+    return SoundManager.play(Sounds.dice, 0.2)
+end
+
+function SoundManager.play_reset()
+    return SoundManager.play(Sounds.reset, 0.2)
+end
+
+function SoundManager.cleanup()
+    for _, sound in ipairs(SoundManager.pool) do
+        sound:Stop()
+        sound:Destroy()
+    end
+    SoundManager.pool = {}
+    SoundManager.active_sounds = {}
+end
+
+SoundManager.init()
+
+local Maid = {}
+Maid.__index = Maid
+
+function Maid.new()
+    return setmetatable({
+        _tasks = {}
+    }, Maid)
+end
+
+function Maid:Add(task, cleanup_method)
+    if not task then return end
+    
+    table.insert(self._tasks, {
+        task = task,
+        method = cleanup_method
+    })
+    
+    return task
+end
+
+function Maid:AddConnection(connection)
+    return self:Add(connection, 'Disconnect')
+end
+
+function Maid:AddInstance(instance)
+    return self:Add(instance, 'Destroy')
+end
+
+function Maid:Cleanup()
+    for _, task_data in ipairs(self._tasks) do
+        local task = task_data.task
+        local method = task_data.method
+        
+        if task then
+            if method and type(task[method]) == 'function' then
+                pcall(function()
+                    task[method](task)
+                end)
+            elseif type(task) == 'function' then
+                pcall(task)
+            end
+        end
+    end
+    
+    self._tasks = {}
+end
+
+function Maid:Destroy()
+    self:Cleanup()
+end
+
+local Music = {
+    {name = 'Merry Christmas', id = 'rbxassetid://1838667168'},
+    {name = 'TacoBot-3000', id = 'rbxassetid://9245552700'},
+    {name = 'Montagem Blue Shirt', id = 'rbxassetid://122203857226173'},
+    {name = 'CHAOS', id = 'rbxassetid://1843497734'},
+    {name = 'SAVAGE GHOST SLOWED', id = 'rbxassetid://72811197789142'},
+    {name = 'MONTAGEM AURA', id = 'rbxassetid://117759015860393'},
+    {name = 'GOOD GIRL FUNK', id = 'rbxassetid://123723674864058'},
+    {name = 'FUNK FESTA', id = 'rbxassetid://103409297553965'},
+    {name = 'I Still Think of You', id = 'rbxassetid://86766967120839'},
+    {name = 'Shattered Reflections', id = 'rbxassetid://127812909272456'},
+    {name = 'Kakusei Erwachen', id = 'rbxassetid://124853612881772'},
+    {name = 'Turkish Art', id = 'rbxassetid://1842150151'},
+    {name = 'Scary Beats For You', id = 'rbxassetid://88456225545062'},
+    {name = 'The Lonely Guy', id = 'rbxassetid://114213622974713'},
+    {name = 'TOMA FUNK PHONK', id = 'rbxassetid://129098116998483'},
+    {name = 'Raining Tacos', id = 'rbxassetid://142376088'},
+    {name = 'Happy Song', id = 'rbxassetid://1843404009'},
+    {name = 'The Cult', id = 'rbxassetid://98183757946208'},
+    {name = 'Windows To The Sun', id = 'rbxassetid://119384335997294'},
+   {name = 'Heavenly Song', id = 'rbxassetid://9125603749'},
+    {name = 'SIGMA BOY', id = 'rbxassetid://109420952262721'},
+    {name = 'Evangelion Sword Outro', id = 'rbxassetid://102468604705752'},
+    {name = 'Christmas Anime Opening', id = 'rbxassetid://112881604345924'},
+    {name = 'Kieta Hoshi', id = 'rbxassetid://88704298134223'},
+    {name = 'Rise to the Horizon', id = 'rbxassetid://72573266268313'},
+    {name = 'Fading Memories', id = 'rbxassetid://87065827699369'},
+    {name = 'Backrooms', id = 'rbxassetid://120817494107898'},
+    {name = 'Kimi no Kodou', id = 'rbxassetid://127296569646417'},
+    {name = 'Moeru Kodou', id = 'rbxassetid://138614247392811'},
+    {name = 'Kienai Koe', id = 'rbxassetid://90588286632687'},
+    {name = 'Saigo no Yakusoku', id = 'rbxassetid://87102415343081'},
+    {name = 'Menta Ma', id = 'rbxassetid://98337901681441'},
+    {name = 'Megavalanio Remix', id = 'rbxassetid://101598365847186'},
+    {name = 'Tsuko G - Deja Vu', id = 'rbxassetid://16831106636'},
+    {name = 'Jumpstyle', id = 'rbxassetid://1839246711'},
+    {name = 'Total Confusion', id = 'rbxassetid://103419239604004'},
+    {name = 'Run Away', id = 'rbxassetid://128118999630439'},
+    {name = 'I Have No Enemies', id = 'rbxassetid://109550779401749'},
+    {name = 'Hold On (Speed Up)', id = 'rbxassetid://71045969776776'},
+    {name = 'United No Borders', id = 'rbxassetid://134841562378374'},
+    {name = 'Dear Lana', id = 'rbxassetid://119589412825080'},
+    {name = 'Woo Woo Woo Woo', id = 'rbxassetid://77139878722989'},
+    {name = 'Fur Elise', id = 'rbxassetid://1836283178'},
+    {name = 'Clair De Lune', id = 'rbxassetid://1838457617'},
+    {name = 'Beauty PHONK', id = 'rbxassetid://115249562236391'},
+    {name = 'Slava Bass Boosted', id = 'rbxassetid://117237954599243'},
+    {name = 'BRAZIL FUNK', id = 'rbxassetid://133498554139200'},
+    {name = 'CREPPY FUNK', id = 'rbxassetid://110170687361544'},
+    {name = 'ORAY BEY FUNK', id = 'rbxassetid://135286582331883'},
+    {name = 'Marginal Phonk', id = 'rbxassetid://95177104398382'},
+    {name = 'Recognized', id = 'rbxassetid://86255275876700'},
+    {name = 'Montagem', id = 'rbxassetid://88913864169288'},
+    {name = 'Nocturne', id = 'rbxassetid://129108903964685'},
+    {name = 'Hide & Seek', id = 'rbxassetid://131571387429103'},
+    {name = 'キラメキ∞ループ', id = 'rbxassetid://108849060438649'},
+    {name = 'Banana Bashin', id = 'rbxassetid://118231802185865'}
+}
+
+local Themes = {
+    purple = {
+        accent = Color3.fromRGB(99, 102, 241),
+        accent_glow = Color3.fromRGB(129, 132, 255)
+    },
+    blue = {
+        accent = Color3.fromRGB(59, 130, 246),
+        accent_glow = Color3.fromRGB(96, 165, 250)
+    },
+    red = {
+        accent = Color3.fromRGB(239, 68, 68),
+        accent_glow = Color3.fromRGB(248, 113, 113)
+    },
+    green = {
+        accent = Color3.fromRGB(34, 197, 94),
+        accent_glow = Color3.fromRGB(74, 222, 128)
+    },
+    pink = {
+        accent = Color3.fromRGB(236, 72, 153),
+        accent_glow = Color3.fromRGB(244, 114, 182)
+    },
+    cyan = {
+        accent = Color3.fromRGB(6, 182, 212),
+        accent_glow = Color3.fromRGB(34, 211, 238)
+    }
+}
+
+local C = {
+    base = Color3.fromRGB(12, 12, 16),
+    panel = Color3.fromRGB(18, 18, 24),
+    card = Color3.fromRGB(26, 26, 34),
+    elevated = Color3.fromRGB(36, 36, 46),
+    hover = Color3.fromRGB(46, 46, 58),
+    border = Color3.fromRGB(55, 55, 70),
+    text = Color3.fromRGB(255, 255, 255),
+    subtext = Color3.fromRGB(180, 180, 195),
+    muted = Color3.fromRGB(100, 100, 120),
+    accent = Color3.fromRGB(99, 102, 241),
+    accent_glow = Color3.fromRGB(129, 132, 255),
+    success = Color3.fromRGB(34, 197, 94),
+    error = Color3.fromRGB(239, 68, 68),
+    warning = Color3.fromRGB(245, 158, 11),
+    star = Color3.fromRGB(255, 200, 50)
+}
+
+local function apply_theme(theme_name)
+    local theme = Themes[theme_name]
+    if theme then
+        C.accent = theme.accent
+        C.accent_glow = theme.accent_glow
+    end
+end
+
+local TRANSPARENCY = 0.22
+
+local Presets = {
+   289438135, 1707711223, 188732, 2298753899, 9119588309, 5254879171, 8595350470, 6007609888, 124751865, 5019714978, 5007631110, 9088628683, 7223875998, 2474943274, 3104949425, 3335871296, 203030608, 2596305840, 201124389, 1981724228, 3731169417, 205419201, 7422492329, 406436524, 1803380, 9406742928, 1359861204, 3012958642, 2260118449, 188829949, 2261820401, 8094705681, 9894023718, 6077615334, 2281971469, 1946404863, 660132420, 1125262365, 3018607207, 144018186, 3577671250, 2017401176, 3473976672, 9122248242, 1667867130, 9294642379, 5366504429, 8264800124, 283156132, 1630540916, 4416918097, 344091683, 6538096, 7623744992, 1099702304, 1199088309, 1369842558, 3624257547, 145740081, 215710487, 2255861564, 7330109199, 524749295, 272574783, 4100936320, 4863227235, 1132340350, 5210946332, 3331434198, 2618555079, 4201687597, 147198435, 704071723, 465771760, 254829155, 8069027498, 2646550793, 366768658, 2885260147
+}
+
+local ContentLoader = {}
+ContentLoader.loaded_music = {}
+ContentLoader.loaded_presets = {}
+
+function ContentLoader.load_music_progressive(callback, progress_callback)
+    if State.music_loaded then 
+        if callback then callback() end
+        return 
+    end
+    
+    local batch_size = 5
+    local delay_between_batches = 0.2
+    
+    task.spawn(function()
+        for i = 1, #Music, batch_size do
+            local batch_end = math.min(i + batch_size - 1, #Music)
+            
+            for j = i, batch_end do
+                table.insert(ContentLoader.loaded_music, Music[j])
+            end
+            
+            if progress_callback then
+                local progress = math.floor((#ContentLoader.loaded_music / #Music) * 100)
+                progress_callback(progress)
+            end
+            
+            if i + batch_size <= #Music then
+                task.wait(delay_between_batches)
+            end
+        end
+        
+        State.music_loaded = true
+        if callback then callback() end
+    end)
+end
+
+function ContentLoader.load_presets_progressive(callback, progress_callback)
+    if State.presets_loaded then 
+        if callback then callback() end
+        return 
+    end
+    
+    local batch_size = 10
+    local delay_between_batches = 0.15
+    
+    task.spawn(function()
+        for i = 1, #Presets, batch_size do
+            local batch_end = math.min(i + batch_size - 1, #Presets)
+            
+            for j = i, batch_end do
+                table.insert(ContentLoader.loaded_presets, Presets[j])
+            end
+            
+            if progress_callback then
+                local progress = math.floor((#ContentLoader.loaded_presets / #Presets) * 100)
+                progress_callback(progress)
+            end
+            
+            if i + batch_size <= #Presets then
+                task.wait(delay_between_batches)
+            end
+        end
+        
+        State.presets_loaded = true
+        if callback then callback() end
+    end)
+end
+
+function ContentLoader.get_music()
+    return State.music_loaded and Music or ContentLoader.loaded_music
+end
+
+function ContentLoader.get_presets()
+    return State.presets_loaded and Presets or ContentLoader.loaded_presets
+end
+
+local StateProtection = {}
+StateProtection.__index = StateProtection
+
+function StateProtection.new(state_table)
+    local self = setmetatable({}, StateProtection)
+    self._state = state_table
+    self._locked_keys = {
+        favorites = true,
+        favorites_index = true,
+        cache = true,
+        conns = true
+    }
+    return self
+end
+
+function StateProtection:is_locked(key)
+    return self._locked_keys[key] == true
+end
+
+function StateProtection:get(key)
+    return self._state[key]
+end
+
+function StateProtection:set(key, value)
+    if self:is_locked(key) then
+        warn('[StateProtection] Attempted To Modify Protected Key:', key)
+        return false
+    end
+    self._state[key] = value
+    return true
+end
+
+function StateProtection:add_favorite(user_id)
+    if not user_id then return false end
+    if not self._state.favorites_index[user_id] then
+        local fav_data = {id = user_id, name = tostring(user_id), time = os.time()}
+        table.insert(self._state.favorites, fav_data)
+        self._state.favorites_index[user_id] = true
+        return true
+    end
+    return false
+end
+
+function StateProtection:remove_favorite(user_id)
+    if not self._state.favorites_index[user_id] then
+        return false
+    end
+    
+    for i, fav in ipairs(self._state.favorites) do
+        if fav.id == user_id then
+            table.remove(self._state.favorites, i)
+            self._state.favorites_index[user_id] = nil
+            return true
+        end
+    end
+    return false
+end
+
+function StateProtection:is_favorite(user_id)
+    return self._state.favorites_index[user_id] == true
+end
+
+function StateProtection:get_favorites()
+    local copy = {}
+    for i, v in ipairs(self._state.favorites) do
+        copy[i] = v
+    end
+    return copy
+end
+
+local function get_char_and_hum(player_or_char)
+    local char = player_or_char
+    if typeof(player_or_char) == "Instance" and player_or_char:IsA("Player") then
+        char = player_or_char.Character
+    end
+    
+    if not char or not char:FindFirstChild('HumanoidRootPart') then
+        return nil, nil
+    end
+    
+    local hum = char:FindFirstChildOfClass('Humanoid')
+    return char, hum
+end
+
+local function apply_description(humanoid, description)
+    pcall(function()
+        if humanoid.ApplyDescriptionClientServer then
+            humanoid:ApplyDescriptionClientServer(description)
+        else
+            humanoid:ApplyDescription(description)
+        end
+    end)
+end
+
+local function is_click_input(input)
+    return input.UserInputType == Enum.UserInputType.MouseButton1 or 
+           input.UserInputType == Enum.UserInputType.Touch
+end
+
+local function find_player_by_name(playerName)
+    local lowerName = playerName:lower()
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p.Name:lower() == lowerName or p.DisplayName:lower() == lowerName then
+            return p
+        end
+    end
+    return nil
+end
+
+local function collect_tools(char)
+    local tools = {}
+    
+    for _, c in ipairs(char:GetChildren()) do
+        if c:IsA('Tool') then
+            table.insert(tools, c)
+        end
+    end
+    
+    local backpack = char.Parent and char.Parent:FindFirstChild('Backpack')
+    if backpack then
+        for _, t in ipairs(backpack:GetChildren()) do
+            if t:IsA('Tool') then
+                table.insert(tools, t)
+            end
+        end
+    end
+    
+    return tools, backpack
+end
+
+local function restore_tools(tools, backpack, char)
+    for _, t in ipairs(tools) do
+        if t and t.Parent == nil then
+            if backpack then
+                t.Parent = backpack
+            else
+                t.Parent = char
+            end
+        end
+    end
+end
+
+local function client_apply_guard(operation_func)
+    if State.client_applying then
+        return
+    end
+    State.client_applying = true
+    
+    task.spawn(function()
+        operation_func()
+        State.client_applying = false
+    end)
+end
+
+local function apply_history_state(history, target_history, is_undo)
+    if #history == 0 then
+        Notify.show(is_undo and 'Nothing To Undo' or 'Nothing To Redo', 'warning')
+        return
+    end
+    
+    if State.applying then
+        return
+    end
+    
+    local target_id = table.remove(history)
+    
+    if State.applied_id then
+        table.insert(target_history, State.applied_id)
+        if #target_history > State.max_history then
+            table.remove(target_history, 1)
+        end
+    end
+    
+    Av.apply(target_id, nil, true, true)
+    
+    if E.update_undo_redo_ui then
+        E.update_undo_redo_ui()
+    end
+    
+    if E.input then
+        E.input.Text = tostring(target_id)
+    end
+    
+    save_data()
+    play_sound(Sounds.reset, 0.1)
+end
+
+local Janitor = {}
+Janitor.__index = Janitor
+
+function Janitor.new()
+    local self = setmetatable({}, Janitor)
+    self._objects = {}
+    return self
+end
+
+function Janitor:Add(object, cleanup_method)
+    if not object then return end
+    
+    local index = #self._objects + 1
+    self._objects[index] = {
+        object = object,
+        method = cleanup_method or (typeof(object) == 'RBXScriptConnection' and 'Disconnect' or 'Destroy')
+    }
+    
+    return object
+end
+
+function Janitor:AddMultiple(objects, cleanup_method)
+    for _, obj in ipairs(objects) do
+        self:Add(obj, cleanup_method)
+    end
+end
+
+function Janitor:LinkToJanitor(other_janitor)
+    return self:Add(other_janitor, 'Cleanup')
+end
+
+function Janitor:Remove(object)
+    for i, data in ipairs(self._objects) do
+        if data.object == object then
+            self:_cleanup_object(data)
+            table.remove(self._objects, i)
+            return true
+        end
+    end
+    return false
+end
+
+function Janitor:_cleanup_object(data)
+    if not data or not data.object then return end
+    
+    local success, err = pcall(function()
+        if type(data.object[data.method]) == 'function' then
+            data.object[data.method](data.object)
+        end
+    end)
+    
+    if not success and err then
+        warn('[Janitor] Cleanup Error:', err)
+    end
+end
+
+function Janitor:Cleanup()
+    for i = #self._objects, 1, -1 do
+        self:_cleanup_object(self._objects[i])
+        self._objects[i] = nil
+    end
+end
+
+function Janitor:Destroy()
+    self:Cleanup()
+end
+
+function Janitor:GetCount()
+    return #self._objects
+end
+
+local ScriptJanitor = Janitor.new()
+
+local ESPSystem = {}
+ESPSystem.Enabled = false
+ESPSystem.TeamCheck = false
+ESPSystem.ESPs = {}
+ESPSystem.Config = {
+    Chams = {
+        Enabled = true,
+        FillColor = Color3.fromRGB(255, 0, 0),
+        FillTransparency = 0.5,
+        OutlineColor = Color3.fromRGB(255, 255, 255),
+        OutlineTransparency = 0
+    }
+}
+
+ESPSystem.WeaponBlacklist = {
+    ["Lunch"] = true,
+    ["Lunchbox"] = true,
+    ["Lunch Box"] = true,
+    ["Combat"] = true,
+    ["Assist"] = true,
+    ["Camera"] = true,
+    ["Binoculars"] = true,
+    ["Flashlight"] = true,
+    ["Phone"] = true,
+    ["Radio"] = true,
+    ["Tablet"] = true,
+    ["Map"] = true,
+    ["Compass"] = true,
+    ["Watch"] = true,
+    ["Medkit"] = true,
+    ["Bandage"] = true,
+    ["Pills"] = true,
+    ["Syringe"] = true,
+    ["Food"] = true,
+    ["Drink"] = true,
+    ["Water"] = true,
+    ["Soda"] = true,
+    ["Energy Drink"] = true,
+    ["Snack"] = true,
+    ["Candy"] = true,
+    ["Chips"] = true,
+    ["Burger"] = true,
+    ["Pizza"] = true,
+    ["Sandwich"] = true,
+    ["Apple"] = true,
+    ["Banana"] = true,
+    ["Orange"] = true,
+    ["Bread"] = true,
+    ["Key"] = true,
+    ["Keycard"] = true,
+    ["ID Card"] = true,
+    ["Badge"] = true,
+    ["Pass"] = true,
+    ["Ticket"] = true,
+    ["Document"] = true,
+    ["Folder"] = true,
+    ["Notepad"] = true,
+    ["Notebook"] = true,
+    ["Book"] = true,
+    ["Screwdriver"] = true,
+    ["Toolbox"] = true,
+    ["Pickaxe"] = true,
+    ["Hammer"] = true,
+    ["Dinner"] = true,
+    ["Shovel"] = true,
+    ["Hatchet"] = true,
+    ["Paint"] = true,
+    ["Spray"] = true,
+    ["Rope"] = true,
+    ["Net"] = true,
+    ["Trap"] = true,
+    ["Lockpick"] = true,
+    ["Handcuffs"] = true,
+    ["Zipties"] = true,
+    ["Stun Gun"] = true,
+    ["Pepper Spray"] = true,
+    ["Baton"] = true,
+    ["Crude Knife"] = true,
+    ["Glowstick"] = true,
+    ["VIP"] = true,
+    ["Popcorn"] = true,
+    ["Nightstick"] = true
+}
+
+local function is_weapon_blacklisted(weapon_name)
+    if not weapon_name then return true end
+    
+    local lower_name = weapon_name:lower()
+    
+    for blacklisted, _ in pairs(ESPSystem.WeaponBlacklist) do
+        if lower_name:find(blacklisted:lower()) then
+            return true
+        end
+    end
+    
+    return false
+end
+
+local function create_esp_for_player(player)
+    if player == LocalPlayer then return end
+    
+    local esp_data = {
+        Player = player,
+        Highlight = nil,
+        Drawings = {},
+        Connections = {}
+    }
+    
+    local function create_drawings()
+        esp_data.Drawings = {
+            Box = Drawing.new("Square"),
+            NameText = Drawing.new("Text"),
+            DistanceText = Drawing.new("Text"),
+            TeamText = Drawing.new("Text"),
+            HealthText = Drawing.new("Text"),
+            WeaponText = Drawing.new("Text"),
+            HealthBar = Drawing.new("Line"),
+            HealthBarOutline = Drawing.new("Line")
+        }
+        
+        esp_data.Drawings.Box.Color = Color3.fromRGB(255, 255, 255)
+        esp_data.Drawings.Box.Thickness = 1.5
+        esp_data.Drawings.Box.Filled = false
+        esp_data.Drawings.Box.Visible = false
+        esp_data.Drawings.Box.ZIndex = 2
+        
+        esp_data.Drawings.NameText.Color = Color3.fromRGB(255, 255, 255)
+        esp_data.Drawings.NameText.Size = 11.5
+        esp_data.Drawings.NameText.Center = false
+        esp_data.Drawings.NameText.Outline = true
+        esp_data.Drawings.NameText.Visible = false
+        esp_data.Drawings.NameText.Text = player.Name
+        esp_data.Drawings.NameText.ZIndex = 3
+        
+        esp_data.Drawings.DistanceText.Color = Color3.fromRGB(150, 150, 150)
+        esp_data.Drawings.DistanceText.Size = 10
+        esp_data.Drawings.DistanceText.Center = false
+        esp_data.Drawings.DistanceText.Outline = true
+        esp_data.Drawings.DistanceText.Visible = false
+        esp_data.Drawings.DistanceText.Text = ""
+        esp_data.Drawings.DistanceText.ZIndex = 3
+        
+        esp_data.Drawings.TeamText.Color = Color3.fromRGB(0, 255, 255)
+        esp_data.Drawings.TeamText.Size = 12
+        esp_data.Drawings.TeamText.Center = true
+        esp_data.Drawings.TeamText.Outline = true
+        esp_data.Drawings.TeamText.Visible = false
+        esp_data.Drawings.TeamText.ZIndex = 3
+        
+        esp_data.Drawings.HealthText.Color = Color3.fromRGB(255, 255, 255)
+        esp_data.Drawings.HealthText.Size = 11
+        esp_data.Drawings.HealthText.Center = false
+        esp_data.Drawings.HealthText.Outline = true
+        esp_data.Drawings.HealthText.Visible = false
+        esp_data.Drawings.HealthText.Text = ""
+        esp_data.Drawings.HealthText.ZIndex = 3
+        
+        esp_data.Drawings.WeaponText.Color = Color3.fromRGB(255, 255, 255)
+        esp_data.Drawings.WeaponText.Size = 12
+        esp_data.Drawings.WeaponText.Center = true
+        esp_data.Drawings.WeaponText.Outline = true
+        esp_data.Drawings.WeaponText.Visible = false
+        esp_data.Drawings.WeaponText.Text = ""
+        esp_data.Drawings.WeaponText.ZIndex = 3
+        
+        esp_data.Drawings.HealthBar.Color = Color3.fromRGB(0, 255, 0)
+        esp_data.Drawings.HealthBar.Thickness = 25
+        esp_data.Drawings.HealthBar.Visible = false
+        esp_data.Drawings.HealthBar.ZIndex = 2
+        
+        esp_data.Drawings.HealthBarOutline.Color = Color3.fromRGB(0, 0, 0)
+        esp_data.Drawings.HealthBarOutline.Thickness = 35
+        esp_data.Drawings.HealthBarOutline.Visible = false
+        esp_data.Drawings.HealthBarOutline.ZIndex = 1
+    end
+    
+    local function update_esp()
+        if not player.Character then
+            for _, drawing in pairs(esp_data.Drawings) do
+                drawing.Visible = false
+            end
+            return
+        end
+        
+        local character = player.Character
+        local humanoid = character:FindFirstChildOfClass("Humanoid")
+        local root = character:FindFirstChild("HumanoidRootPart")
+        
+        if not humanoid or not root or humanoid.Health <= 0 then
+            for _, drawing in pairs(esp_data.Drawings) do
+                drawing.Visible = false
+            end
+            if esp_data.Highlight then
+                esp_data.Highlight.Enabled = false
+            end
+            return
+        end
+        
+        if not esp_data.Highlight and State.esp_highlights then
+            local highlight = Instance.new("Highlight")
+            highlight.Name = "ESP_Highlight"
+            highlight.Adornee = character
+            
+            local teamColor = Color3.fromRGB(255, 255, 255)
+            if player.Team then
+                if player.Team.TeamColor then
+                    teamColor = player.Team.TeamColor.Color
+                elseif player.TeamColor then
+                    teamColor = player.TeamColor.Color
+                end
+            end
+            
+            highlight.FillColor = teamColor
+            highlight.FillTransparency = 0.5
+            highlight.OutlineColor = teamColor
+            highlight.OutlineTransparency = 0
+            highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+            highlight.Parent = character
+            esp_data.Highlight = highlight
+        end
+        
+        if esp_data.Highlight then
+            if State.esp_highlights then
+                local teamColor = Color3.fromRGB(255, 255, 255)
+                if player.Team then
+                    if player.Team.TeamColor then
+                        teamColor = player.Team.TeamColor.Color
+                    elseif player.TeamColor then
+                        teamColor = player.TeamColor.Color
+                    end
+                end
+                esp_data.Highlight.FillColor = teamColor
+                esp_data.Highlight.OutlineColor = teamColor
+                esp_data.Highlight.Enabled = true
+            else
+                esp_data.Highlight.Enabled = false
+            end
+        end
+        
+        if ESPSystem.TeamCheck and player.Team == LocalPlayer.Team then
+            if esp_data.Highlight then
+                esp_data.Highlight.Enabled = false
+            end
+            for _, drawing in pairs(esp_data.Drawings) do
+                drawing.Visible = false
+            end
+            return
+        else
+            if esp_data.Highlight then
+                esp_data.Highlight.Enabled = true
+            end
+        end
+        
+        local camera = workspace.CurrentCamera
+        local rootPos, onScreen = camera:WorldToViewportPoint(root.Position)
+        
+        if not onScreen then
+            for _, drawing in pairs(esp_data.Drawings) do
+                drawing.Visible = false
+            end
+            return
+        end
+        
+        local head = character:FindFirstChild("Head")
+        if not head then
+            for _, drawing in pairs(esp_data.Drawings) do
+                drawing.Visible = false
+            end
+            return
+        end
+        
+        local headPos = camera:WorldToViewportPoint(head.Position + Vector3.new(0, 0.5, 0))
+        local legPos = camera:WorldToViewportPoint(root.Position - Vector3.new(0, 3, 0))
+        
+        local height = math.abs(headPos.Y - legPos.Y)
+        local width = height / 1.5
+        
+        esp_data.Drawings.Box.Size = Vector2.new(width, height)
+        esp_data.Drawings.Box.Position = Vector2.new(rootPos.X - width / 2, headPos.Y)
+        esp_data.Drawings.Box.Visible = not State.esp_show_only_highlights
+        
+        esp_data.Drawings.NameText.Text = player.Name
+        esp_data.Drawings.NameText.Visible = not State.esp_show_only_highlights
+        
+        local my_char = LocalPlayer.Character
+        local my_root = my_char and my_char:FindFirstChild("HumanoidRootPart")
+        if my_root then
+            local distance = math.floor((my_root.Position - root.Position).Magnitude)
+            
+            local nameWidth = #player.Name * 4.25
+            local textOffset = math.max(12.5, height * 0.05)
+            
+            esp_data.Drawings.NameText.Position = Vector2.new(rootPos.X - nameWidth / 2 - 12, headPos.Y - textOffset)
+            
+            esp_data.Drawings.DistanceText.Text = string.format("[%d]", distance)
+            esp_data.Drawings.DistanceText.Position = Vector2.new(rootPos.X - nameWidth / 2 + nameWidth + 0.5, headPos.Y - textOffset)
+            esp_data.Drawings.DistanceText.Visible = not State.esp_show_only_highlights
+        else
+            esp_data.Drawings.NameText.Position = Vector2.new(rootPos.X - (#player.Name * 3.25), headPos.Y - textOffset)
+            esp_data.Drawings.DistanceText.Visible = false
+        end
+        
+        if player.Team and State.esp_show_teamname then
+            esp_data.Drawings.TeamText.Text = player.Team.Name
+            esp_data.Drawings.TeamText.Position = Vector2.new(rootPos.X, legPos.Y + 5)
+            esp_data.Drawings.TeamText.Visible = not State.esp_show_only_highlights
+        else
+            esp_data.Drawings.TeamText.Visible = false
+        end
+        
+        local healthPercentage = humanoid.Health / humanoid.MaxHealth
+        local barHeight = height
+        
+        esp_data.Drawings.HealthBarOutline.From = Vector2.new(rootPos.X - width / 2 - 7, headPos.Y)
+        esp_data.Drawings.HealthBarOutline.To = Vector2.new(rootPos.X - width / 2 - 7, legPos.Y)
+        esp_data.Drawings.HealthBarOutline.Visible = not State.esp_show_only_highlights
+        
+        local healthBarLength = barHeight * healthPercentage
+        esp_data.Drawings.HealthBar.From = Vector2.new(rootPos.X - width / 2 - 7, legPos.Y)
+        esp_data.Drawings.HealthBar.To = Vector2.new(rootPos.X - width / 2 - 7, legPos.Y - healthBarLength)
+        esp_data.Drawings.HealthBar.Visible = not State.esp_show_only_highlights
+        
+        local r = math.floor((1 - healthPercentage) * 255)
+        local g = math.floor(healthPercentage * 255)
+        esp_data.Drawings.HealthBar.Color = Color3.fromRGB(r, g, 0)
+        
+        local healthPercent = math.floor(healthPercentage * 100)
+        esp_data.Drawings.HealthText.Text = tostring(healthPercent)
+        esp_data.Drawings.HealthText.Position = Vector2.new(rootPos.X - width / 2 - 30, legPos.Y - healthBarLength - 1)
+        esp_data.Drawings.HealthText.Visible = not State.esp_show_only_highlights
+        
+        local weapon = character:FindFirstChildWhichIsA("Tool")
+        if not weapon or is_weapon_blacklisted(weapon.Name) then
+            local backpack = player:FindFirstChild("Backpack")
+            if backpack then
+                weapon = nil
+                for _, tool in ipairs(backpack:GetChildren()) do
+                    if tool:IsA("Tool") and not is_weapon_blacklisted(tool.Name) then
+                        weapon = tool
+                        break
+                    end
+                end
+            else
+                weapon = nil
+            end
+        end
+        
+        if weapon then
+            local teamColor = Color3.fromRGB(255, 255, 255)
+            if player.Team then
+                if player.Team.TeamColor then
+                    teamColor = player.Team.TeamColor.Color
+                elseif player.TeamColor then
+                    teamColor = player.TeamColor.Color
+                end
+            end
+            
+            esp_data.Drawings.WeaponText.Color = teamColor
+            esp_data.Drawings.WeaponText.Text = string.format("[%s]", weapon.Name)
+            esp_data.Drawings.WeaponText.Position = Vector2.new(rootPos.X, legPos.Y + (State.esp_show_teamname and 20 or 5))
+            esp_data.Drawings.WeaponText.Visible = true
+        else
+            esp_data.Drawings.WeaponText.Visible = false
+        end
+    end
+    
+    local function cleanup_esp()
+        if esp_data.Highlight then
+            esp_data.Highlight:Destroy()
+            esp_data.Highlight = nil
+        end
+        for _, drawing in pairs(esp_data.Drawings) do
+            drawing:Remove()
+        end
+        esp_data.Drawings = {}
+        for _, conn in pairs(esp_data.Connections) do
+            conn:Disconnect()
+        end
+        esp_data.Connections = {}
+    end
+    
+    table.insert(esp_data.Connections, player.CharacterAdded:Connect(function()
+        cleanup_esp()
+        task.wait(0.07)
+        if next(esp_data.Drawings) == nil then
+            create_drawings()
+        end
+        update_esp()
+    end))
+    
+    table.insert(esp_data.Connections, player.CharacterRemoving:Connect(function()
+        cleanup_esp()
+    end))
+    
+    create_drawings()
+    
+    if ESPSystem.Enabled then
+        update_esp()
+    end
+    
+    ESPSystem.ESPs[player] = esp_data
+end
+
+function ESPSystem.CreateESPForPlayer(player)
+    if ESPSystem.ESPs[player] then
+        ESPSystem.RemoveESP(player)
+    end
+    create_esp_for_player(player)
+end
+
+function ESPSystem.RemoveESP(player)
+    local esp_data = ESPSystem.ESPs[player]
+    if not esp_data then return end
+    
+    pcall(function()
+        if esp_data.Highlight then
+            esp_data.Highlight.Enabled = false
+            esp_data.Highlight:Destroy()
+            esp_data.Highlight = nil
+        end
+    end)
+    
+    for _, drawing in pairs(esp_data.Drawings) do
+        pcall(function()
+            drawing.Visible = false
+            drawing:Remove()
+        end)
+    end
+    esp_data.Drawings = {}
+    
+    for _, conn in pairs(esp_data.Connections) do
+        pcall(function()
+            conn:Disconnect()
+        end)
+    end
+    esp_data.Connections = {}
+    
+    ESPSystem.ESPs[player] = nil
+end
+
+function ESPSystem.Toggle(enabled)
+    ESPSystem.Enabled = enabled
+    
+    if enabled then
+        for _, player in ipairs(Players:GetPlayers()) do
+            if player ~= LocalPlayer then
+                ESPSystem.CreateESPForPlayer(player)
+            end
+        end
+    else
+        for player, esp_data in pairs(ESPSystem.ESPs) do
+            if esp_data.Highlight then
+                esp_data.Highlight.Enabled = false
+            end
+            for _, drawing in pairs(esp_data.Drawings) do
+                drawing.Visible = false
+            end
+        end
+        
+        for player, _ in pairs(ESPSystem.ESPs) do
+            ESPSystem.RemoveESP(player)
+        end
+    end
+end
+
+function ESPSystem.RefreshAll()
+    for player, esp_data in pairs(ESPSystem.ESPs) do
+        if player.Character then
+            local root = player.Character:FindFirstChild("HumanoidRootPart")
+            local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+            if root and humanoid and humanoid.Health > 0 then
+                if ESPSystem.TeamCheck and player.Team == LocalPlayer.Team then
+                    if esp_data.Highlight then
+                        esp_data.Highlight.Enabled = false
+                    end
+                    for _, drawing in pairs(esp_data.Drawings) do
+                        drawing.Visible = false
+                    end
+                else
+                    if esp_data.Highlight and State.esp_highlights then
+                        esp_data.Highlight.Enabled = true
+                    end
+                end
+            end
+        end
+    end
+end
+
+function ESPSystem.RefreshHighlights()
+    for player, esp_data in pairs(ESPSystem.ESPs) do
+        if player.Character then
+            local character = player.Character
+            local root = character:FindFirstChild("HumanoidRootPart")
+            local humanoid = character:FindFirstChildOfClass("Humanoid")
+            
+            if root and humanoid and humanoid.Health > 0 then
+                if State.esp_highlights then
+                    if not esp_data.Highlight then
+                        local highlight = Instance.new("Highlight")
+                        highlight.Name = "ESP_Highlight"
+                        highlight.Adornee = character
+                        
+                        local teamColor = Color3.fromRGB(255, 255, 255)
+                        if player.Team then
+                            if player.Team.TeamColor then
+                                teamColor = player.Team.TeamColor.Color
+                            elseif player.TeamColor then
+                                teamColor = player.TeamColor.Color
+                            end
+                        end
+                        
+                        highlight.FillColor = teamColor
+                        highlight.FillTransparency = 0.5
+                        highlight.OutlineColor = teamColor
+                        highlight.OutlineTransparency = 0
+                        highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+                        highlight.Parent = character
+                        esp_data.Highlight = highlight
+                    end
+                    
+                    if esp_data.Highlight then
+                        local teamColor = Color3.fromRGB(255, 255, 255)
+                        if player.Team then
+                            if player.Team.TeamColor then
+                                teamColor = player.Team.TeamColor.Color
+                            elseif player.TeamColor then
+                                teamColor = player.TeamColor.Color
+                            end
+                        end
+                        esp_data.Highlight.FillColor = teamColor
+                        esp_data.Highlight.OutlineColor = teamColor
+                        esp_data.Highlight.Enabled = true
+                    end
+                else
+                    if esp_data.Highlight then
+                        esp_data.Highlight.Enabled = false
+                    end
+                end
+            end
+        end
+    end
+end
+
+RunService.RenderStepped:Connect(function()
+    if not ESPSystem.Enabled then return end
+    
+    local current_time = tick()
+    if current_time - State.esp_last_update < State.esp_update_rate then
+        return
+    end
+    State.esp_last_update = current_time
+    
+    for player, esp_data in pairs(ESPSystem.ESPs) do
+        if not player or not player.Parent or not Players:FindFirstChild(player.Name) then
+            ESPSystem.RemoveESP(player)
+        elseif player.Character then
+            local root = player.Character:FindFirstChild("HumanoidRootPart")
+            local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+            
+            if root and humanoid and humanoid.Health > 0 then
+                local function update_drawings()
+                    if esp_data.Highlight then
+                        if State.esp_highlights then
+                            local teamColor = Color3.fromRGB(255, 255, 255)
+                            if player.Team then
+                                if player.Team.TeamColor then
+                                    teamColor = player.Team.TeamColor.Color
+                                elseif player.TeamColor then
+                                    teamColor = player.TeamColor.Color
+                                end
+                            end
+                            esp_data.Highlight.FillColor = teamColor
+                            esp_data.Highlight.OutlineColor = teamColor
+                            esp_data.Highlight.Enabled = true
+                        else
+                            esp_data.Highlight.Enabled = false
+                        end
+                    end
+                    
+                    if ESPSystem.TeamCheck and player.Team == LocalPlayer.Team then
+                        if esp_data.Highlight then
+                            esp_data.Highlight.Enabled = false
+                        end
+                        for _, drawing in pairs(esp_data.Drawings) do
+                            drawing.Visible = false
+                        end
+                        return
+                    else
+                        if esp_data.Highlight and State.esp_highlights then
+                            esp_data.Highlight.Enabled = true
+                        end
+                    end
+                    
+                    local camera = workspace.CurrentCamera
+                    local rootPos, onScreen = camera:WorldToViewportPoint(root.Position)
+                    
+                    if not onScreen then
+                        for _, drawing in pairs(esp_data.Drawings) do
+                            drawing.Visible = false
+                        end
+                        return
+                    end
+                    
+                    local head = player.Character:FindFirstChild("Head")
+                    if not head then
+                        for _, drawing in pairs(esp_data.Drawings) do
+                            drawing.Visible = false
+                        end
+                        return
+                    end
+                    
+                    local headPos = camera:WorldToViewportPoint(head.Position + Vector3.new(0, 0.5, 0))
+                    local legPos = camera:WorldToViewportPoint(root.Position - Vector3.new(0, 3, 0))
+                    
+                    local height = math.abs(headPos.Y - legPos.Y)
+                    local width = height / 1.5
+                    
+                    esp_data.Drawings.Box.Size = Vector2.new(width, height)
+                    esp_data.Drawings.Box.Position = Vector2.new(rootPos.X - width / 2, headPos.Y)
+                    esp_data.Drawings.Box.Visible = not State.esp_show_only_highlights
+                    
+                    esp_data.Drawings.NameText.Text = player.Name
+                    esp_data.Drawings.NameText.Visible = not State.esp_show_only_highlights
+                    
+                    local my_char = LocalPlayer.Character
+                    local my_root = my_char and my_char:FindFirstChild("HumanoidRootPart")
+                    if my_root then
+                        local distance = math.floor((my_root.Position - root.Position).Magnitude)
+                        
+                        local nameWidth = #player.Name * 4.25
+                        local textOffset = math.max(12.5, height * 0.05)
+                        
+                        esp_data.Drawings.NameText.Position = Vector2.new(rootPos.X - nameWidth / 2 - 12, headPos.Y - textOffset)
+                        
+                        esp_data.Drawings.DistanceText.Text = string.format("[%d]", distance)
+                        esp_data.Drawings.DistanceText.Position = Vector2.new(rootPos.X - nameWidth / 2 + nameWidth + 0.5, headPos.Y - textOffset)
+                        esp_data.Drawings.DistanceText.Visible = not State.esp_show_only_highlights
+                    else
+                        esp_data.Drawings.NameText.Position = Vector2.new(rootPos.X - (#player.Name * 3.25), headPos.Y - textOffset)
+                        esp_data.Drawings.DistanceText.Visible = false
+                    end
+                    
+                    if player.Team and State.esp_show_teamname then
+                        esp_data.Drawings.TeamText.Text = player.Team.Name
+                        esp_data.Drawings.TeamText.Position = Vector2.new(rootPos.X, legPos.Y + 5)
+                        esp_data.Drawings.TeamText.Visible = not State.esp_show_only_highlights
+                    else
+                        esp_data.Drawings.TeamText.Visible = false
+                    end
+                    
+                    local healthPercentage = humanoid.Health / humanoid.MaxHealth
+                    local barHeight = height
+                    
+                    esp_data.Drawings.HealthBarOutline.From = Vector2.new(rootPos.X - width / 2 - 7, headPos.Y)
+                    esp_data.Drawings.HealthBarOutline.To = Vector2.new(rootPos.X - width / 2 - 7, legPos.Y)
+                    esp_data.Drawings.HealthBarOutline.Visible = not State.esp_show_only_highlights
+                    
+                    local healthBarLength = barHeight * healthPercentage
+                    esp_data.Drawings.HealthBar.From = Vector2.new(rootPos.X - width / 2 - 7, legPos.Y)
+                    esp_data.Drawings.HealthBar.To = Vector2.new(rootPos.X - width / 2 - 7, legPos.Y - healthBarLength)
+                    esp_data.Drawings.HealthBar.Visible = not State.esp_show_only_highlights
+                    
+                    local r = math.floor((1 - healthPercentage) * 255)
+                    local g = math.floor(healthPercentage * 255)
+                    esp_data.Drawings.HealthBar.Color = Color3.fromRGB(r, g, 0)
+                    
+                    local healthPercent = math.floor(healthPercentage * 100)
+                    esp_data.Drawings.HealthText.Text = tostring(healthPercent)
+                    esp_data.Drawings.HealthText.Position = Vector2.new(rootPos.X - width / 2 - 30, legPos.Y - healthBarLength - 1)
+                    esp_data.Drawings.HealthText.Visible = not State.esp_show_only_highlights
+                    
+                    local weapon = player.Character:FindFirstChildWhichIsA("Tool")
+                    if not weapon or is_weapon_blacklisted(weapon.Name) then
+                        local backpack = player:FindFirstChild("Backpack")
+                        if backpack then
+                            weapon = nil
+                            for _, tool in ipairs(backpack:GetChildren()) do
+                                if tool:IsA("Tool") and not is_weapon_blacklisted(tool.Name) then
+                                    weapon = tool
+                                    break
+                                end
+                            end
+                        else
+                            weapon = nil
+                        end
+                    end
+                    
+                    if weapon then
+                        local teamColor = Color3.fromRGB(255, 255, 255)
+                        if player.Team then
+                            if player.Team.TeamColor then
+                                teamColor = player.Team.TeamColor.Color
+                            elseif player.TeamColor then
+                                teamColor = player.TeamColor.Color
+                            end
+                        end
+                        
+                        esp_data.Drawings.WeaponText.Color = teamColor
+                        esp_data.Drawings.WeaponText.Text = string.format("[%s]", weapon.Name)
+                        esp_data.Drawings.WeaponText.Position = Vector2.new(rootPos.X, legPos.Y + (State.esp_show_teamname and 20 or 5))
+                        esp_data.Drawings.WeaponText.Visible = true
+                    else
+                        esp_data.Drawings.WeaponText.Visible = false
+                    end
+                end
+                
+                pcall(update_drawings)
+            else
+                if esp_data.Highlight then
+                    esp_data.Highlight.Enabled = false
+                end
+                for _, drawing in pairs(esp_data.Drawings) do
+                    drawing.Visible = false
+                end
+            end
+        end
+    end
+end)
+
+
+ScriptJanitor:Add(Players.PlayerAdded:Connect(function(player)
+    if ESPSystem.Enabled and player ~= LocalPlayer then
+        task.wait(0.25)
+        ESPSystem.CreateESPForPlayer(player)
+    end
+end))
+
+ScriptJanitor:Add(Players.PlayerRemoving:Connect(function(player)
+    ESPSystem.RemoveESP(player)
+end))
+
+
+local E = {}
+E.toggle_tracks = {}
+E.settings_sliders = {}
+local file = '__Avatar__Changer__.json'
+local UI_VERSION = 7
+    
+    local function calculate_preview_position(check_other_preview, prefer_left)
+   if not E.saved_pos or not E.main then
+    return UDim2.new(0, 10, 0, 100)
+end
+    local vp = workspace.CurrentCamera.ViewportSize
+    local main_x = E.saved_pos.X.Offset
+    local main_y = E.saved_pos.Y.Offset
+    local main_w = E.main.AbsoluteSize.X
+    local prev_w = 210
+    local prev_h = 340
+    
+    local right_x = main_x + main_w + 12
+    local left_x = main_x - prev_w - 12
+    local can_right = right_x + prev_w <= vp.X - 10
+    local can_left = left_x >= 10
+    
+    local x
+    if check_other_preview then
+        if prefer_left then
+            if can_left then
+                x = left_x
+            elseif can_right then
+                x = right_x
+            else
+                x = 10
+            end
+        else
+            if can_right then
+                x = right_x
+            elseif can_left then
+                x = left_x
+            else
+                x = vp.X - prev_w - 10
+            end
+        end
+    else
+        if prefer_left then
+            if can_left then
+                x = left_x
+            elseif can_right then
+                x = right_x
+            else
+                x = 10
+            end
+        else
+            if can_right then
+                x = right_x
+            elseif can_left then
+                x = left_x
+            else
+                x = vp.X - prev_w - 10
+            end
+        end
+    end
+    
+    local y = main_y
+    if y + prev_h > vp.Y - 10 then
+        y = vp.Y - prev_h - 10
+    end
+    if y < 10 then
+        y = 10
+    end
+    
+    return UDim2.new(0, x, 0, y)
+end
+
+local ComponentFactory = {}
+
+local TweenInfoCache = {}
+
+local function get_tween_info(duration, style, direction)
+    duration = duration or 0.2
+    style = style or Enum.EasingStyle.Quint
+    direction = direction or Enum.EasingDirection.Out
+    
+    local key = string.format("%s_%s_%s", tostring(duration), tostring(style), tostring(direction))
+    
+    if not TweenInfoCache[key] then
+        TweenInfoCache[key] = TweenInfo.new(duration, style, direction)
+    end
+    
+    return TweenInfoCache[key]
+end
+
+local function tween(obj, props, dur, style, dir)
+    local info = get_tween_info(dur, style, dir)
+    local t = TweenService:Create(obj, info, props)
+    t:Play()
+    return t
+end
+
+local function spring(obj, props, dur)
+    return tween(obj, props, dur or 0.25, Enum.EasingStyle.Back, Enum.EasingDirection.Out)
+end
+
+local function add_hover_effect(btn, normal_color, hover_color, duration, maid)
+    normal_color = normal_color or C.elevated
+    hover_color = hover_color or C.hover
+    duration = duration or 0.1
+    
+    local enter_conn = btn.MouseEnter:Connect(function() 
+        tween(btn, { BackgroundColor3 = hover_color }, duration) 
+    end)
+    local leave_conn = btn.MouseLeave:Connect(function() 
+        tween(btn, { BackgroundColor3 = normal_color }, duration) 
+    end)
+    
+    if maid then
+        maid:AddConnection(enter_conn)
+        maid:AddConnection(leave_conn)
+    end
+    
+    return enter_conn, leave_conn
+end
+
+local TOGGLE_POSITIONS = {
+    small = { 
+        on = UDim2.new(1, -19, 0.5, -8), 
+        off = UDim2.new(0, 3, 0.5, -8) 
+    },
+    medium = { 
+        on = UDim2.new(1, -23, 0.5, -10), 
+        off = UDim2.new(0, 3, 0.5, -10) 
+    }
+}
+
+local function animate_toggle_knob(knob, enabled, size)
+    size = size or 'medium'
+    local pos = TOGGLE_POSITIONS[size]
+    if pos then
+        spring(knob, { Position = enabled and pos.on or pos.off }, 0.2)
+    end
+end
+
+local function new(class, props)
+    local obj = Instance.new(class)
+    for k, v in pairs(props) do
+        if k ~= 'Parent' then
+            obj[k] = v
+        end
+    end
+    if props.Parent then
+        obj.Parent = props.Parent
+    end
+    return obj
+end
+
+function ComponentFactory.Frame(props)
+    local defaults = {
+        BackgroundColor3 = C.card,
+        BackgroundTransparency = 0,
+        BorderSizePixel = 0,
+        Size = UDim2.new(1, 0, 0, 100)
+    }
+    for k, v in pairs(defaults) do
+        if props[k] == nil then props[k] = v end
+    end
+    return new('Frame', props)
+end
+
+function ComponentFactory.TextLabel(props)
+    local defaults = {
+        BackgroundTransparency = 1,
+        Font = Enum.Font.GothamMedium,
+        TextColor3 = C.text,
+        TextSize = 13,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Size = UDim2.new(1, 0, 0, 20)
+    }
+    for k, v in pairs(defaults) do
+        if props[k] == nil then props[k] = v end
+    end
+    return new('TextLabel', props)
+end
+
+function ComponentFactory.TextButton(props)
+    local defaults = {
+        BackgroundColor3 = C.elevated,
+        Font = Enum.Font.GothamBold,
+        TextColor3 = C.text,
+        TextSize = 13,
+        AutoButtonColor = false,
+        BorderSizePixel = 0,
+        Size = UDim2.new(1, 0, 0, 40)
+    }
+    for k, v in pairs(defaults) do
+        if props[k] == nil then props[k] = v end
+    end
+    return new('TextButton', props)
+end
+
+function ComponentFactory.TextBox(props)
+    local defaults = {
+        BackgroundTransparency = 1,
+        Font = Enum.Font.GothamMedium,
+        TextColor3 = C.text,
+        PlaceholderColor3 = C.muted,
+        TextSize = 13,
+        ClearTextOnFocus = false,
+        Size = UDim2.new(1, 0, 0, 40)
+    }
+    for k, v in pairs(defaults) do
+        if props[k] == nil then props[k] = v end
+    end
+    return new('TextBox', props)
+end
+
+function ComponentFactory.Icon(props)
+    local size = props.IconSize or 16
+    local defaults = {
+        Size = UDim2.new(0, size, 0, size),
+        Position = props.Position or UDim2.new(0.5, -size / 2, 0.5, -size / 2),
+        BackgroundTransparency = 1,
+        ImageColor3 = C.text
+    }
+    for k, v in pairs(defaults) do
+        if k ~= 'IconSize' and props[k] == nil then props[k] = v end
+    end
+    props.IconSize = nil
+    return new('ImageLabel', props)
+end
+
+function ComponentFactory.ImageButton(props)
+    local size = props.IconSize or 16
+    local defaults = {
+        Size = UDim2.new(0, size, 0, size),
+        BackgroundTransparency = 1,
+        ImageColor3 = C.text,
+        AutoButtonColor = false
+    }
+    for k, v in pairs(defaults) do
+        if k ~= 'IconSize' and props[k] == nil then props[k] = v end
+    end
+    props.IconSize = nil
+    return new('ImageButton', props)
+end
+
+function ComponentFactory.ScrollingFrame(props)
+    local defaults = {
+        BackgroundTransparency = 1,
+        BorderSizePixel = 0,
+        ScrollBarThickness = 4,
+        ScrollBarImageColor3 = C.accent,
+        ScrollBarImageTransparency = 0.5,
+        CanvasSize = UDim2.new(0, 0, 0, 0),
+        AutomaticCanvasSize = Enum.AutomaticSize.Y,
+        ScrollingDirection = Enum.ScrollingDirection.Y,
+        ScrollingEnabled = true
+    }
+    for k, v in pairs(defaults) do
+        if props[k] == nil then props[k] = v end
+    end
+    return new('ScrollingFrame', props)
+end
+
+function ComponentFactory.Corner(parent, radius)
+    return new('UICorner', {
+        CornerRadius = UDim.new(0, radius or 8),
+        Parent = parent
+    })
+end
+
+function ComponentFactory.Stroke(parent, color, thickness, transparency)
+    return new('UIStroke', {
+        Color = color or C.border,
+        Thickness = thickness or 1,
+        Transparency = transparency or 0.5,
+        Parent = parent
+    })
+end
+
+function ComponentFactory.ListLayout(parent, props)
+    local defaults = {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 8),
+        Parent = parent
+    }
+    for k, v in pairs(props or {}) do
+        defaults[k] = v
+    end
+    return new('UIListLayout', defaults)
+end
+
+function ComponentFactory.Padding(parent, all)
+    if type(all) == 'number' then
+        return new('UIPadding', {
+            PaddingTop = UDim.new(0, all),
+            PaddingBottom = UDim.new(0, all),
+            PaddingLeft = UDim.new(0, all),
+            PaddingRight = UDim.new(0, all),
+            Parent = parent
+        })
+    else
+        return new('UIPadding', all)
+    end
+end
+
+local function corner(p, r)
+    return ComponentFactory.Corner(p, r)
+end
+
+local function stroke(p, c, t, trans)
+    return ComponentFactory.Stroke(p, c, t, trans)
+end
+
+local function icon(parent, id, size, color, position)
+    return ComponentFactory.Icon({
+        Parent = parent,
+        Image = id,
+        IconSize = size,
+        ImageColor3 = color,
+        Position = position
+    })
+end
+
+local function save_data()
+    if not writefile then
+        return
+    end
+    if not E.main then
+        return
+    end
+    pcall(function()
+        local pos_x = E.saved_pos and E.saved_pos.X.Offset or (E.main and E.main.Position.X.Offset or 0)
+        local pos_y = E.saved_pos and E.saved_pos.Y.Offset or (E.main and E.main.Position.Y.Offset or 0)
+        
+        writefile(file, HttpService:JSONEncode({
+            ui_version = UI_VERSION,
+            input = E.input and E.input.Text or '',
+            auto = State.auto,
+            minimized = State.minimized,
+            visible = State.visible,
+            x = pos_x,
+            y = pos_y,
+            fab_x = E.fab and E.fab.Position.X.Offset or 0,
+            fab_y = E.fab and E.fab.Position.Y.Offset or 0,
+            favorites = State.favorites,
+            width_scale = State.width_scale,
+            width_enabled = State.width_enabled,
+            height_scale = State.height_scale,
+            height_enabled = State.height_enabled,
+            depth_scale = State.depth_scale,
+            depth_enabled = State.depth_enabled,
+            music_index = State.music_index,
+            music_loop = State.music_loop,
+            sound_effects_enabled = State.sound_effects_enabled,
+            apply_counts = State.apply_counts,
+            rgb_mode = State.rgb_mode,
+            rgb_mode_type = State.rgb_mode_type,
+            rgb_speed = State.rgb_speed,
+            current_theme = State.current_theme,
+            esp_enabled = State.esp_enabled,
+            esp_teamcheck = State.esp_teamcheck,
+            esp_highlights = State.esp_highlights,
+            esp_show_teamname = State.esp_show_teamname,
+            toggle_keybind = State.toggle_keybind.Name,
+            applied_id = State.applied_id,
+            notifications_enabled = State.notifications_enabled
+        }))
+    end)
+end
+
+local function load_data()
+    if not readfile then
+        return {}
+    end
+    local ok, d = pcall(function()
+        return HttpService:JSONDecode(readfile(file))
+    end)
+    return ok and d or {}
+end
+
+local function play_sound(sound_id, volume)
+    return SoundManager.play(sound_id, volume or 0.5)
+end
+
+local ApiUtils = {}
+ApiUtils.retry_config = {
+    max_attempts = 3,
+    initial_delay = 0.5,
+    max_delay = 5,
+    backoff_multiplier = 2
+}
+
+local function resolve(txt)
+    if type(txt) == 'number' then
+        return txt
+    end
+    if not txt or txt == '' then
+        return nil
+    end
+    if type(txt) == 'string' then
+        txt = txt:match('^%s*(.-)%s*$')
+        if tonumber(txt) then
+            return tonumber(txt)
+        end
+    end
+    return nil
+end
+
+local function resolve_or_lookup(txt)
+    local id = resolve(txt)
+    if id then return id end
+    
+    if type(txt) == 'string' and txt ~= '' then
+        local success, userid = pcall(function()
+            return Players:GetUserIdFromNameAsync(txt)
+        end)
+        if success and userid then
+            return userid
+        end
+    end
+    return nil
+end
+
+local function clamp_frame(frame, avoid_overlap)
+    local vp = workspace.CurrentCamera.ViewportSize
+    local s = frame.AbsoluteSize
+    local max_x = math.max(10, vp.X - s.X - 10)
+    local max_y = math.max(10, vp.Y - s.Y - 10)
+    local x = math.clamp(frame.Position.X.Offset, 10, max_x)
+    local y = math.clamp(frame.Position.Y.Offset, 10, max_y)
+    
+    if avoid_overlap and State.preview_open and E.preview and E.preview.Visible then
+        local prev_x = E.preview.Position.X.Offset
+        local prev_y = E.preview.Position.Y.Offset
+        local prev_w = 210
+        local prev_h = 340
+        local main_right = x + s.X
+        local main_bottom = y + s.Y
+        local prev_right = prev_x + prev_w
+        local prev_bottom = prev_y + prev_h
+        
+        if x < prev_right and main_right > prev_x and y < prev_bottom and main_bottom > prev_y then
+            local left_x = prev_x - s.X - 12
+            if left_x >= 10 then
+                x = left_x
+            else
+                local right_x = prev_right + 12
+                if right_x + s.X <= vp.X - 10 then
+                    x = right_x
+                else
+                    local above_y = prev_y - s.Y - 12
+                    local below_y = prev_bottom + 12
+                    if above_y >= 10 then
+                        y = above_y
+                    elseif below_y + s.Y <= vp.Y - 10 then
+                        y = below_y
+                    end
+                end
+            end
+        end
+    end
+    return UDim2.new(0, x, 0, y)
+end
+
+local function cleanup_all()
+    ScriptJanitor:Cleanup()
+    State.conns = {}
+    
+    if State.music_sound then
+        State.music_sound:Stop()
+        State.music_sound:Destroy()
+        State.music_sound = nil
+    end
+    
+    SoundManager.cleanup()
+    SoundManager.init()
+    
+    for player, _ in pairs(ESPSystem.ESPObjects or {}) do
+    ESPSystem.RemoveESP(player)
+    end
+    
+    if State.cache then
+        table.clear(State.cache)
+    end
+    if State.player_original_descs then
+        table.clear(State.player_original_descs)
+    end
+    if State.apply_counts then
+        table.clear(State.apply_counts)
+    end
+    
+    if State.original_desc and State.applied_id then
+        local char = LocalPlayer.Character
+        if char then
+            local hum = char:FindFirstChildOfClass('Humanoid')
+            if hum then
+                pcall(function()
+                    if hum.ApplyDescriptionClientServer then
+                        hum:ApplyDescriptionClientServer(State.original_desc)
+                    else
+                        hum:ApplyDescription(State.original_desc)
+                    end
+                end)
+            end
+        end
+    end
+    
+    if E.screen then
+        E.screen:Destroy()
+    end
+    
+    State.applied_id = nil
+end
+
+env[SCRIPT_FLAG] = {
+    cleanup = cleanup_all,
+    state = State
+}
+
+local PlayerAutocomplete = {}
+
+function PlayerAutocomplete.setup(textbox, autocomplete_label, on_change)
+    local current_suggestion = ''
+    
+    local function update_suggestion()
+        local input_text = textbox.Text:lower()
+        
+        if input_text == '' then
+            autocomplete_label.Text = ''
+            current_suggestion = ''
+            if on_change then on_change('') end
+            return
+        end
+        
+        local match = nil
+        for _, player in ipairs(Players:GetPlayers()) do
+            if player ~= LocalPlayer then
+                local username = player.Name:lower()
+                local display = player.DisplayName:lower()
+                
+                if username:sub(1, #input_text) == input_text then
+                    match = player.Name
+                    break
+                elseif display:sub(1, #input_text) == input_text then
+                    match = player.Name
+                    break
+                end
+            end
+        end
+        
+        if match and #input_text < #match then
+            current_suggestion = match
+            autocomplete_label.Text = match
+        else
+            autocomplete_label.Text = ''
+            current_suggestion = ''
+        end
+        
+        if on_change then on_change(input_text) end
+    end
+    
+    local is_updating_from_autocomplete = false
+    
+    textbox:GetPropertyChangedSignal('Text'):Connect(function()
+        if not is_updating_from_autocomplete then
+            update_suggestion()
+        end
+    end)
+    
+    textbox.FocusLost:Connect(function(enterPressed)
+        if enterPressed and current_suggestion ~= '' then
+            is_updating_from_autocomplete = true
+            textbox.Text = current_suggestion
+            autocomplete_label.Text = ''
+            local final_suggestion = current_suggestion
+            current_suggestion = ''
+            
+            if on_change then 
+                on_change(final_suggestion:lower())
+            end
+            
+            task.wait()
+            is_updating_from_autocomplete = false
+        elseif not enterPressed then
+            if on_change then on_change(textbox.Text:lower()) end
+        end
+    end)
+    
+    ScriptJanitor:Add(Players.PlayerAdded:Connect(function()
+        if textbox:IsFocused() and textbox.Text ~= "" then
+            update_suggestion()
+        end
+    end))
+    
+    ScriptJanitor:Add(Players.PlayerRemoving:Connect(function(leaving_player)
+        if current_suggestion == leaving_player.Name then
+            autocomplete_label.Text = ''
+            current_suggestion = ''
+        end
+    end))
+    
+    return {
+        update = update_suggestion,
+        clear = function()
+            textbox.Text = ''
+            autocomplete_label.Text = ''
+            current_suggestion = ''
+        end
+    }
+end
+
+local Notify = {}
+Notify.list = {}
+
+function Notify.show(msg, ntype, dur)
+    if not State.notifications_enabled then
+        return
+    end
+    
+    if not E.screen or not E.screen.Parent then
+        return
+    end
+    
+    dur = dur or 3
+    local color = C.accent
+    local ico = Icons.info
+    
+    if ntype == 'success' then
+        color = C.success
+        ico = Icons.check
+    elseif ntype == 'error' then
+        color = C.error
+        ico = Icons.x
+    elseif ntype == 'warning' then
+        color = C.warning
+        ico = Icons.warning
+    end
+    
+    local container = ComponentFactory.Frame({
+        Size = UDim2.new(0, 300, 0, 0),
+        Position = UDim2.new(1, -315, 1, -15 - (#Notify.list * 75)),
+        AnchorPoint = Vector2.new(0, 1),
+        BackgroundColor3 = C.panel,
+        BackgroundTransparency = TRANSPARENCY,
+        ClipsDescendants = true,
+        Parent = E.screen
+    })
+    corner(container, 12)
+    stroke(container, color, 1.5, 0.3)
+    
+    new('Frame', {
+        Size = UDim2.new(0, 4, 1, -16),
+        Position = UDim2.new(0, 12, 0, 8),
+        BackgroundColor3 = color,
+        Parent = container
+    })
+    
+    local icon_bg = ComponentFactory.Frame({
+        Size = UDim2.new(0, 36, 0, 36),
+        Position = UDim2.new(0, 26, 0.5, -18),
+        BackgroundColor3 = color,
+        BackgroundTransparency = 0.85,
+        Parent = container
+    })
+    corner(icon_bg, 10)
+    icon(icon_bg, ico, 18, color)
+    
+    local titles = {
+        success = 'Success',
+        error = 'Error',
+        warning = 'Warning',
+        info = 'Info'
+    }
+    
+    new('TextLabel', {
+        Size = UDim2.new(1, -85, 0, 16),
+        Position = UDim2.new(0, 72, 0, 14),
+        BackgroundTransparency = 1,
+        Text = titles[ntype] or titles.info,
+        TextColor3 = color,
+        Font = Enum.Font.GothamBold,
+        TextSize = 11,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = container
+    })
+    
+    new('TextLabel', {
+        Size = UDim2.new(1, -85, 0, 18),
+        Position = UDim2.new(0, 72, 0, 32),
+        BackgroundTransparency = 1,
+        Text = msg,
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 12,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        TextTruncate = Enum.TextTruncate.AtEnd,
+        Parent = container
+    })
+    
+    local prog_bg = ComponentFactory.Frame({
+        Size = UDim2.new(1, -24, 0, 3),
+        Position = UDim2.new(0, 12, 1, -10),
+        BackgroundColor3 = C.card,
+        Parent = container
+    })
+    corner(prog_bg, 2)
+    
+    local prog = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundColor3 = color,
+        Parent = prog_bg
+    })
+    corner(prog, 2)
+    
+    table.insert(Notify.list, container)
+    spring(container, { Size = UDim2.new(0, 300, 0, 70) }, 0.25)
+    tween(prog, { Size = UDim2.new(0, 0, 1, 0) }, dur, Enum.EasingStyle.Linear)
+    
+    task.delay(dur, function()
+        tween(container, { Size = UDim2.new(0, 300, 0, 0), BackgroundTransparency = 1 }, 0.2)
+        task.delay(0.25, function()
+            for i, n in ipairs(Notify.list) do
+                if n == container then
+                    table.remove(Notify.list, i)
+                    break
+                end
+            end
+            container:Destroy()
+            for i, n in ipairs(Notify.list) do
+                tween(n, { Position = UDim2.new(1, -315, 1, -15 - ((i - 1) * 75)) }, 0.2)
+            end
+        end)
+    end)
+end
+
+local Fav = {}
+Fav.removing = false
+
+function Fav.is_favorited(id)
+    return State.favorites_index[id] == true
+end
+
+function Fav.update_star_icon()
+    if not E.star_icon then
+        return
+    end
+    if State.applied_id and Fav.is_favorited(State.applied_id) then
+        E.star_icon.Image = Icons.heart
+        tween(E.star_icon, { ImageColor3 = Color3.fromRGB(239, 68, 68) }, 0.15)
+    else
+        E.star_icon.Image = Icons.heart_off
+        tween(E.star_icon, { ImageColor3 = C.subtext }, 0.15)
+    end
+end
+
+function Fav.add(id)
+    if Fav.is_favorited(id) then
+        return
+    end
+    local name
+    local ok, n = pcall(Players.GetNameFromUserIdAsync, Players, id)
+    name = ok and n or tostring(id)
+    table.insert(State.favorites, {id = id, name = name, time = os.time()})
+    State.favorites_index[id] = true
+    save_data()
+    State.fav_ui_initialized = false
+    if State.current_tab == 'favorites' then
+        Fav.update_ui()
+        State.fav_ui_initialized = true
+    end
+    play_sound(Sounds.favorite)
+    Notify.show('Added To Favorites!', 'success', 2)
+    Fav.update_star_icon()
+end
+
+function Fav.remove(id)
+    if Fav.removing then
+        return
+    end
+    Fav.removing = true
+    
+    for i, fav in ipairs(State.favorites) do
+        if fav.id == id then
+            table.remove(State.favorites, i)
+            State.favorites_index[id] = nil
+            save_data()
+            State.fav_ui_initialized = false
+            if State.current_tab == 'favorites' then
+                Fav.update_ui()
+                State.fav_ui_initialized = true
+            end
+            play_sound(Sounds.unfavorite)
+            Notify.show('Removed From Favorites', 'info', 2)
+            task.delay(0.2, function() Fav.removing = false end)
+            Fav.update_star_icon()
+            return
+        end
+    end
+    Fav.removing = false
+end
+
+function Fav.toggle(id)
+    if Fav.is_favorited(id) then
+        Fav.remove(id)
+    else
+        Fav.add(id)
+    end
+end
+
+local Av = {}
+
+function Fav.update_ui()
+    if not E.fav_list then
+        return
+    end
+    
+    for _, child in ipairs(E.fav_list:GetChildren()) do
+        if child:IsA('Frame') or child:IsA('TextLabel') then
+            child:Destroy()
+        end
+    end
+    
+    local filtered_favorites = {}
+    local search_lower = State.fav_search_text:lower()
+    
+    for _, fav in ipairs(State.favorites) do
+        if search_lower == '' or 
+           fav.name:lower():find(search_lower, 1, true) or 
+           tostring(fav.id):find(search_lower, 1, true) then
+            table.insert(filtered_favorites, fav)
+        end
+    end
+    
+    if #filtered_favorites == 0 then
+        local empty_text = #State.favorites == 0 and
+            '⭐ No Favorites Yet!\nApply An Avatar And Click\nThe Button To Save It' or
+            '🔍 No Matches Found\nTry A Different Search'
+        
+        new('TextLabel', {
+            Size = UDim2.new(1, 0, 0, 100),
+            BackgroundTransparency = 1,
+            Text = empty_text,
+            TextColor3 = C.muted,
+            Font = Enum.Font.GothamMedium,
+            TextSize = 13,
+            Parent = E.fav_list
+        })
+        E.fav_list.CanvasSize = UDim2.new(0, 0, 0, 100)
+        return
+    end
+    
+    local total_height = 0
+    for i = #filtered_favorites, 1, -1 do
+        local fav = filtered_favorites[i]
+        
+        local item = ComponentFactory.Frame({
+            Size = UDim2.new(1, -12, 0, 68),
+            BackgroundColor3 = C.elevated,
+            Parent = E.fav_list
+        })
+        corner(item, 12)
+        stroke(item, C.border, 1, 0.3)
+        
+        local content_container = ComponentFactory.Frame({
+            Size = UDim2.new(1, 0, 1, 0),
+            BackgroundTransparency = 1,
+            Parent = item
+        })
+        
+        new('TextLabel', {
+            Size = UDim2.new(1, -140, 0, 20),
+            Position = UDim2.new(0, 16, 0, 12),
+            BackgroundTransparency = 1,
+            Text = fav.name,
+            TextColor3 = C.text,
+            Font = Enum.Font.GothamBold,
+            TextSize = 14,
+            TextXAlignment = Enum.TextXAlignment.Left,
+            TextTruncate = Enum.TextTruncate.AtEnd,
+            Parent = content_container
+        })
+        
+        new('TextLabel', {
+            Size = UDim2.new(1, -140, 0, 16),
+            Position = UDim2.new(0, 16, 0, 36),
+            BackgroundTransparency = 1,
+            Text = 'ID : ' .. tostring(fav.id),
+            TextColor3 = C.muted,
+            Font = Enum.Font.GothamMedium,
+            TextSize = 12,
+            TextXAlignment = Enum.TextXAlignment.Left,
+            Parent = content_container
+        })
+        
+        local apply_btn = ComponentFactory.TextButton({
+            Size = UDim2.new(0, 70, 0, 50),
+            Position = UDim2.new(1, -120, 0.5, -25),
+            BackgroundColor3 = C.accent,
+            Text = '',
+            AutoButtonColor = false,
+            Parent = content_container
+        })
+        corner(apply_btn, 10)
+        
+        new('TextLabel', {
+            Size = UDim2.new(1, 0, 1, 0),
+            BackgroundTransparency = 1,
+            Text = 'APPLY',
+            TextColor3 = C.text,
+            Font = Enum.Font.GothamBold,
+            TextSize = 12,
+            Parent = apply_btn
+        })
+        
+        apply_btn.MouseEnter:Connect(function() tween(apply_btn, { BackgroundColor3 = C.accent_glow }, 0.1) end)
+        apply_btn.MouseLeave:Connect(function() tween(apply_btn, { BackgroundColor3 = C.accent }, 0.1) end)
+        
+        local captured_id = fav.id
+        apply_btn.InputBegan:Connect(function(inp)
+            if is_click_input(inp) then
+                E.input.Text = tostring(captured_id)
+                E.switch_tab('main')
+                Av.apply(tostring(captured_id), nil, false, true)
+            end
+        end)
+        
+        local remove_btn = ComponentFactory.TextButton({
+            Size = UDim2.new(0, 36, 0, 50),
+            Position = UDim2.new(1, -44, 0.5, -25),
+            BackgroundColor3 = C.card,
+            Text = '',
+            AutoButtonColor = false,
+            Parent = content_container
+        })
+        corner(remove_btn, 10)
+        icon(remove_btn, Icons.x, 16, C.subtext)
+        
+        remove_btn.MouseEnter:Connect(function() tween(remove_btn, { BackgroundColor3 = C.hover }, 0.1) end)
+        remove_btn.MouseLeave:Connect(function() tween(remove_btn, { BackgroundColor3 = C.card }, 0.1) end)
+        
+        local captured_id_remove = fav.id
+        remove_btn.InputBegan:Connect(function(inp)
+            if is_click_input(inp) then
+                Fav.remove(captured_id_remove)
+            end
+        end)
+        
+        total_height = total_height + 68 + 12
+    end
+    
+    E.fav_list.CanvasSize = UDim2.new(0, 0, 0, total_height + 30)
+end
+
+local Prev = {
+    rot = 180,
+    model = nil,
+    cam = nil,
+    world = nil,
+    loading = false,
+    current_id = nil,
+    load_token = 0
+}
+
+function Prev.clear()
+    if Prev.model then
+        Prev.model:Destroy() Prev.model = nil
+    end
+    if Prev.cam then
+        Prev.cam:Destroy() Prev.cam = nil
+    end
+    if Prev.world then
+        Prev.world:Destroy() Prev.world = nil
+    end
+    Prev.rot = 180
+    Prev.current_id = nil
+end
+
+function Prev.update()
+    if not Prev.cam or not Prev.model then
+        return
+    end
+    local root = Prev.model:FindFirstChild('HumanoidRootPart')
+    if not root or not root.Parent then
+        Prev.clear()
+        return
+    end
+    local a = math.rad(Prev.rot)
+    local zoom = State.zoom_level
+    Prev.cam.CFrame = CFrame.new(
+        root.Position + Vector3.new(math.sin(a) * zoom, 0.4, math.cos(a) * zoom),
+        root.Position + Vector3.new(0, 0.2, 0)
+    )
+end
+
+function Prev.load(target)
+    Prev.load_token = Prev.load_token + 1
+    local this_token = Prev.load_token
+    
+    if not target or target == '' then
+        Prev.clear()
+        E.vp_label.Text = 'Enter ID'
+        E.vp_label.Visible = true
+        E.vp_user.Text = ''
+        return
+    end
+    
+    task.spawn(function()
+        local id = resolve_or_lookup(target)
+        if not id then
+            Prev.clear()
+            E.vp_label.Text = 'Not Found'
+            E.vp_label.Visible = true
+            E.vp_user.Text = ''
+            return
+        end
+        
+        if Prev.current_id == id and not Prev.loading then
+            return
+        end
+        
+        if Prev.load_token ~= this_token then return end
+        
+        E.vp_label.Text = 'Loading...'
+        E.vp_label.Visible = true
+        E.vp_user.Text = ''
+        
+        Prev.clear()
+        Prev.loading = true
+        Prev.current_id = id
+        
+        local ok, name = pcall(Players.GetNameFromUserIdAsync, Players, id)
+        if Prev.load_token ~= this_token then
+            Prev.loading = false return
+        end
+        E.vp_user.Text = ok and name or tostring(id)
+        
+        local cok, char = pcall(Players.CreateHumanoidModelFromUserId, Players, id)
+        if Prev.load_token ~= this_token then
+            if char then
+                char:Destroy()
+            end
+            Prev.loading = false
+            return
+        end
+        
+        if not cok or not char then
+            E.vp_label.Text = 'Failed'
+            Prev.loading = false
+            Prev.current_id = nil
+            return
+        end
+        
+        Prev.world = Instance.new('WorldModel')
+        Prev.world.Parent = E.viewport
+        Prev.model = char
+        Prev.model.Parent = Prev.world
+        
+        local hum = Prev.model:FindFirstChildOfClass('Humanoid')
+        if hum then
+            hum.DisplayDistanceType = Enum.HumanoidDisplayDistanceType.None
+        end
+        
+        local root = Prev.model:FindFirstChild('HumanoidRootPart')
+        if root then
+            root.Anchored = true
+            Prev.model.PrimaryPart = root
+            root.CFrame = CFrame.new(0, 0, 0)
+        end
+        
+        Prev.cam = Instance.new('Camera')
+        Prev.cam.Parent = E.viewport
+        E.viewport.CurrentCamera = Prev.cam
+        Prev.rot = 180
+        Prev.update()
+        E.vp_label.Visible = false
+        Prev.loading = false
+        
+        local rig_type = 'R15'
+        if hum then
+            if hum.RigType == Enum.HumanoidRigType.R6 then
+                rig_type = 'R6'
+            end
+        end
+        
+        State.avatar_details[id] = {
+            username = ok and name or tostring(id),
+            rig_type = rig_type,
+            user_id = id
+        }
+        
+        if E.vp_details then
+            E.vp_details.Text = string.format('%s • %s', rig_type, ok and name or tostring(id))
+        end
+        
+        task.spawn(function()
+            if Prev.load_token ~= this_token or not Prev.model then
+                return
+            end
+            for _, o in ipairs(Prev.model:GetChildren()) do
+                if o:IsA('Shirt') then
+                    local t = o.ShirtTemplate
+                    o.ShirtTemplate = ''
+                    o.ShirtTemplate = t
+                elseif o:IsA('Pants') then
+                    local t = o.PantsTemplate
+                    o.PantsTemplate = ''
+                    o.PantsTemplate = t
+                end
+            end
+        end)
+    end)
+end
+
+local ClientPrev = {
+    rot = 180,
+    model = nil,
+    cam = nil,
+    world = nil,
+    loading = false,
+    current_id = nil,
+    load_token = 0
+}
+
+function ClientPrev.clear()
+    if ClientPrev.model then
+        ClientPrev.model:Destroy() ClientPrev.model = nil
+    end
+    if ClientPrev.cam then
+        ClientPrev.cam:Destroy() ClientPrev.cam = nil
+    end
+    if ClientPrev.world then
+        ClientPrev.world:Destroy() ClientPrev.world = nil
+    end
+    ClientPrev.rot = 180
+    ClientPrev.current_id = nil
+end
+
+function ClientPrev.update()
+    if not ClientPrev.cam or not ClientPrev.model then
+        return
+    end
+    local root = ClientPrev.model:FindFirstChild('HumanoidRootPart')
+    if not root then
+        return
+    end
+    local a = math.rad(ClientPrev.rot)
+    local zoom = State.client_zoom_level
+    ClientPrev.cam.CFrame = CFrame.new(
+        root.Position + Vector3.new(math.sin(a) * zoom, 0.4, math.cos(a) * zoom),
+        root.Position + Vector3.new(0, 0.2, 0)
+    )
+end
+
+function ClientPrev.load(target)
+    ClientPrev.load_token = ClientPrev.load_token + 1
+    local this_token = ClientPrev.load_token
+    
+    if not target or target == '' then
+        ClientPrev.clear()
+        if E.client_vp_label then
+            E.client_vp_label.Text = 'Enter ID'
+            E.client_vp_label.Visible = true
+        end
+        if E.client_vp_user then
+            E.client_vp_user.Text = ''
+        end
+        return
+    end
+    
+    task.spawn(function()
+        local id = resolve_or_lookup(target)
+        if not id then
+            ClientPrev.clear()
+            if E.client_vp_label then
+                E.client_vp_label.Text = 'Not Found'
+                E.client_vp_label.Visible = true
+            end
+            if E.client_vp_user then
+                E.client_vp_user.Text = ''
+            end
+            return
+        end
+        
+        if ClientPrev.current_id == id and not ClientPrev.loading then
+            return
+        end
+        
+        if ClientPrev.load_token ~= this_token then return end
+        
+        if E.client_vp_label then
+            E.client_vp_label.Text = 'Loading...'
+            E.client_vp_label.Visible = true
+        end
+        if E.client_vp_user then
+            E.client_vp_user.Text = ''
+        end
+        
+        ClientPrev.clear()
+        ClientPrev.loading = true
+        ClientPrev.current_id = id
+        
+        local ok, name = pcall(Players.GetNameFromUserIdAsync, Players, id)
+        if ClientPrev.load_token ~= this_token then
+            ClientPrev.loading = false return
+        end
+        if E.client_vp_user then
+            E.client_vp_user.Text = ok and name or tostring(id)
+        end
+        
+        local cok, char = pcall(Players.CreateHumanoidModelFromUserId, Players, id)
+        if ClientPrev.load_token ~= this_token then
+            if char then
+                char:Destroy()
+            end
+            ClientPrev.loading = false
+            return
+        end
+        
+        if not cok or not char then
+            if E.client_vp_label then
+                E.client_vp_label.Text = 'Failed'
+            end
+            ClientPrev.loading = false
+            ClientPrev.current_id = nil
+            return
+        end
+        
+        ClientPrev.world = Instance.new('WorldModel')
+        ClientPrev.world.Parent = E.client_viewport
+        ClientPrev.model = char
+        ClientPrev.model.Parent = ClientPrev.world
+        
+        local hum = ClientPrev.model:FindFirstChildOfClass('Humanoid')
+        if hum then
+            hum.DisplayDistanceType = Enum.HumanoidDisplayDistanceType.None
+        end
+        
+        local root = ClientPrev.model:FindFirstChild('HumanoidRootPart')
+        if root then
+            root.Anchored = true
+            ClientPrev.model.PrimaryPart = root
+            root.CFrame = CFrame.new(0, 0, 0)
+        end
+        
+        ClientPrev.cam = Instance.new('Camera')
+        ClientPrev.cam.Parent = E.client_viewport
+        E.client_viewport.CurrentCamera = ClientPrev.cam
+        ClientPrev.rot = 180
+        ClientPrev.update()
+        if E.client_vp_label then
+            E.client_vp_label.Visible = false
+        end
+        ClientPrev.loading = false
+        
+        task.spawn(function()
+            if ClientPrev.load_token ~= this_token or not ClientPrev.model then
+                return
+            end
+            for _, o in ipairs(ClientPrev.model:GetChildren()) do
+                if o:IsA('Shirt') then
+                    local t = o.ShirtTemplate
+                    o.ShirtTemplate = ''
+                    o.ShirtTemplate = t
+                elseif o:IsA('Pants') then
+                    local t = o.PantsTemplate
+                    o.PantsTemplate = ''
+                    o.PantsTemplate = t
+                end
+            end
+        end)
+    end)
+end
+
+function Av.get_desc(id)
+    if State.cache[id] then
+        return State.cache[id]
+    end
+    local ok, desc = pcall(Players.GetHumanoidDescriptionFromUserId, Players, id)
+    if ok and desc then
+        State.cache[id] = desc
+        return desc
+    end
+    return nil
+end
+
+function Av.build_allowed_from_userid(userId)
+    local ok, model = pcall(function()
+        return Players:GetCharacterAppearanceAsync(userId)
+    end)
+    if not ok or not model then
+        return nil
+    end
+    local allowedAccessories = {}
+    local allowedShirt, allowedPants, allowedGraphic
+    for _, inst in ipairs(model:GetChildren()) do
+        if inst:IsA('Accessory') then
+            allowedAccessories[inst.Name] = true
+        elseif inst:IsA('Shirt') then
+            allowedShirt = inst.ShirtTemplate
+        elseif inst:IsA('Pants') then
+            allowedPants = inst.PantsTemplate
+        elseif inst:IsA('ShirtGraphic') then
+            allowedGraphic = inst.Graphic
+        end
+    end
+    model:Destroy()
+    return {
+        Accessories = allowedAccessories,
+        Shirt = allowedShirt,
+        Pants = allowedPants,
+        Graphic = allowedGraphic,
+    }
+end
+
+function Av.selective_cleanup(Character, allowed)
+    if not allowed then
+        return
+    end
+    for _, v in ipairs(Character:GetChildren()) do
+        if v:IsA('Accessory') then
+            if not allowed.Accessories[v.Name] then
+                v:Destroy()
+            end
+        elseif v:IsA('Shirt') then
+            if not allowed.Shirt or v.ShirtTemplate ~= allowed.Shirt then
+                v:Destroy()
+            end
+        elseif v:IsA('Pants') then
+            if not allowed.Pants or v.PantsTemplate ~= allowed.Pants then
+                v:Destroy()
+            end
+        elseif v:IsA('ShirtGraphic') then
+            if not allowed.Graphic or v.Graphic ~= allowed.Graphic then
+                v:Destroy()
+            end
+        end
+    end
+end
+
+function Av.clean(char)
+    local preserved_tools = {}
+    for _, c in ipairs(char:GetChildren()) do
+        if c:IsA('Tool') or c:IsA('HopperBin') then
+            table.insert(preserved_tools, c)
+            c.Parent = nil
+        end
+    end
+    
+    local backpack = char.Parent and char.Parent:FindFirstChild('Backpack')
+    if backpack then
+        for _, t in ipairs(backpack:GetChildren()) do
+            if t:IsA('Tool') or t:IsA('HopperBin') then
+                table.insert(preserved_tools, t)
+            end
+        end
+    end
+    
+    local safe = {}
+    for _, o in ipairs(char:GetDescendants()) do
+        if o:IsA('BaseScript') then
+            safe[o] = true
+            if o.Parent then
+                safe[o.Parent] = true
+            end
+        end
+    end
+    
+    for _, c in ipairs(char:GetChildren()) do
+        if safe[c] then
+            continue
+        end
+        if c:IsA('Accessory') or c:IsA('Hat') or c:IsA('BodyColors') or 
+           c:IsA('CharacterMesh') or c:IsA('Shirt') or c:IsA('Pants') or 
+           c:IsA('ShirtGraphic') then
+            c:Destroy()
+        end
+    end
+    
+    for _, tool in ipairs(preserved_tools) do
+        if tool and tool.Parent == nil then
+            if backpack then
+                tool.Parent = backpack
+            else
+                tool.Parent = char
+            end
+        end
+    end
+end
+
+function Av.apply_body_scales(char)
+    if not char then
+        char = LocalPlayer.Character
+    end
+    if not char then
+        return
+    end
+    
+    local hum = char:FindFirstChildOfClass('Humanoid')
+    if not hum then
+        return
+    end
+    
+    local desc = hum:GetAppliedDescription()
+    if not desc then
+        return
+    end
+    
+    local changed = false
+    
+    if State.width_enabled then
+        desc.WidthScale = State.width_scale
+        changed = true
+    end
+    
+    if State.height_enabled then
+        desc.HeightScale = State.height_scale
+        changed = true
+    end
+    
+    if State.depth_enabled then
+        desc.DepthScale = State.depth_scale
+        changed = true
+    end
+    
+    if State.head_enabled then
+        desc.HeadScale = State.head_scale
+        changed = true
+    end
+    
+    if changed then
+        apply_description(hum, desc)
+    end
+end
+
+function Av.apply(target, targetChar, skip_history, is_manual)
+    if State.applying then
+        return
+    end
+    
+    local current_time = tick()
+    if not targetChar and not is_manual and (current_time - State.last_apply_time) < State.apply_cooldown then
+        return
+    end
+    
+    State.applying = true
+    
+    task.spawn(function()
+        local id = resolve_or_lookup(target)
+        if not id then
+            State.applying = false
+            Notify.show('User Not Found', 'error')
+            return
+        end
+        
+     if not targetChar and State.applied_id == id and not skip_history and State.last_apply_time > 0 then
+       State.applying = false
+       Notify.show('Avatar Already Applied!', 'warning', 2)
+           return
+        end
+        
+        local char = targetChar or LocalPlayer.Character
+        if not char or not char:FindFirstChild('HumanoidRootPart') then
+            State.applying = false
+            return
+        end
+        
+        if not targetChar then
+            Notify.show('Loading Avatar...', 'info')
+        end
+        
+        local desc = Av.get_desc(id)
+        if not desc then
+            State.applying = false
+            Notify.show('Failed To Fetch', 'error')
+            return
+        end
+        
+        local hum = char:FindFirstChildOfClass('Humanoid')
+        if not hum then
+            State.applying = false
+            return
+        end
+        
+        if not targetChar and not State.original_desc then
+            local original_desc = hum:GetAppliedDescription()
+            if original_desc then
+                State.original_desc = original_desc
+            end
+        end
+        
+        local tools, backpack = collect_tools(char)
+        
+        local allowed = Av.build_allowed_from_userid(id)
+        if allowed then
+            Av.selective_cleanup(char, allowed)
+        else
+            Av.clean(char)
+        end
+        
+        apply_description(hum, desc)
+        
+        restore_tools(tools, backpack, char)
+        
+        local bc = char:FindFirstChildOfClass('BodyColors')
+        if not bc then
+            bc = Instance.new('BodyColors')
+            bc.Parent = char
+        end
+        
+        bc.HeadColor3 = desc.HeadColor
+        bc.TorsoColor3 = desc.TorsoColor
+        bc.LeftArmColor3 = desc.LeftArmColor
+        bc.RightArmColor3 = desc.RightArmColor
+        bc.LeftLegColor3 = desc.LeftLegColor
+        bc.RightLegColor3 = desc.RightLegColor
+        
+        if not targetChar then
+            if not skip_history and State.applied_id then
+                for i = #State.undo_history, 1, -1 do
+                    if State.undo_history[i] == id then
+                        table.remove(State.undo_history, i)
+                        break
+                    end
+                end
+                
+                table.insert(State.undo_history, State.applied_id)
+                if #State.undo_history > State.max_history then
+                    table.remove(State.undo_history, 1)
+                end
+                State.redo_history = {}
+            end
+            
+            State.applied_id = id
+            State.apply_counts[tostring(id)] = (State.apply_counts[tostring(id)] or 0) + 1
+            State.last_apply_time = tick()
+            save_data()
+            Av.apply_body_scales(char)
+            Fav.update_star_icon()
+            if E.update_stats_ui then
+                task.spawn(function()
+                    E.update_stats_ui()
+                end)
+            end
+            if E.update_undo_redo_ui then
+                E.update_undo_redo_ui()
+            end
+        end
+        
+        State.applying = false
+        Notify.show('Avatar Applied!', 'success')
+    end)
+end
+
+function Av.undo()
+    apply_history_state(State.undo_history, State.redo_history, true)
+end
+
+function Av.redo()
+    apply_history_state(State.redo_history, State.undo_history, false)
+end
+
+function Av.apply_to_player(targetPlayer, avatarId, skipNotify)
+    local char = targetPlayer.Character
+    if not char or not char:FindFirstChild('HumanoidRootPart') then
+        if not skipNotify then
+            Notify.show('Player Has No Character', 'error')
+        end
+        return false
+    end
+    
+    local id = resolve_or_lookup(avatarId)
+    if not id then
+        if not skipNotify then
+            Notify.show('Avatar Not Found', 'error')
+        end
+        return false
+    end
+    
+    local desc = Av.get_desc(id)
+    if not desc then
+        if not skipNotify then
+            Notify.show('Failed To Fetch Avatar', 'error')
+        end
+        return false
+    end
+    
+    local hum = char:FindFirstChildOfClass('Humanoid')
+    if not hum then
+        if not skipNotify then
+            Notify.show('No Humanoid Found', 'error')
+        end
+        return false
+    end
+    
+    if not State.player_original_descs[targetPlayer.UserId] then
+        local original = hum:GetAppliedDescription()
+        if original then
+            State.player_original_descs[targetPlayer.UserId] = original
+        end
+    end
+    
+    local allowed = Av.build_allowed_from_userid(id)
+    if allowed then
+        Av.selective_cleanup(char, allowed)
+    else
+        Av.clean(char)
+    end
+    
+    pcall(function()
+        if hum.ApplyDescriptionClientServer then
+            hum:ApplyDescriptionClientServer(desc)
+        else
+            hum:ApplyDescription(desc)
+        end
+    end)
+    
+    local bc = char:FindFirstChildOfClass('BodyColors')
+    if not bc then
+        bc = Instance.new('BodyColors')
+        bc.Parent = char
+    end
+    
+    bc.HeadColor3 = desc.HeadColor
+    bc.TorsoColor3 = desc.TorsoColor
+    bc.LeftArmColor3 = desc.LeftArmColor
+    bc.RightArmColor3 = desc.RightArmColor
+    bc.LeftLegColor3 = desc.LeftLegColor
+    bc.RightLegColor3 = desc.RightLegColor
+    
+    local fields = {
+        'HatAccessory', 'HairAccessory', 'FaceAccessory', 'NeckAccessory',
+        'FrontAccessory', 'BackAccessory', 'WaistAccessory'
+    }
+    return true
+end
+
+function Av.apply_to_player_by_name(playerName, avatarId)
+    client_apply_guard(function()
+        local targetPlayer = find_player_by_name(playerName)
+        
+        if not targetPlayer then
+            Notify.show('Player Not Found', 'error')
+            return
+        end
+        
+        local success = Av.apply_to_player(targetPlayer, avatarId)
+        
+        if success then
+            Notify.show('Applied To ' .. targetPlayer.Name .. '!', 'success')
+        end
+    end)
+end
+
+function Av.reset_player_avatar(playerName)
+    local targetPlayer = find_player_by_name(playerName)
+    
+    if not targetPlayer then
+        Notify.show('Player Not Found', 'error')
+        return
+    end
+    
+    if not State.player_original_descs[targetPlayer.UserId] then
+        Notify.show('No Avatar Applied To ' .. targetPlayer.Name, 'warning')
+        return
+    end
+    
+    local char, hum = get_char_and_hum(targetPlayer)
+    if not char or not hum then
+        Notify.show('Player Has No Character', 'error')
+        return
+    end
+    
+    local originalDesc = State.player_original_descs[targetPlayer.UserId]
+    
+    local allowed = Av.build_allowed_from_userid(targetPlayer.UserId)
+    if allowed then
+        Av.selective_cleanup(char, allowed)
+    end
+    
+    apply_description(hum, originalDesc)
+    
+    State.player_original_descs[targetPlayer.UserId] = nil
+    Notify.show('Reset ' .. targetPlayer.Name .. '!', 'success')
+end
+
+function Av.apply_to_all_players(avatarId)
+    client_apply_guard(function()
+        local id = resolve_or_lookup(avatarId)
+        if not id then
+            Notify.show('Avatar Not Found', 'error')
+            return
+        end
+        
+        local count = 0
+        local players = Players:GetPlayers()
+        
+        for _, player in ipairs(players) do
+            if player ~= LocalPlayer then
+                local success = Av.apply_to_player(player, avatarId, true)
+                if success then
+                    count = count + 1
+                end
+            end
+        end
+        
+        Notify.show('Applied To ' .. count .. ' Players!', 'success')
+    end)
+end
+
+function Av.reset_all_players()
+    client_apply_guard(function()
+        local count = 0
+        local skipped = 0
+        local players = Players:GetPlayers()
+        
+        for _, player in ipairs(players) do
+            if player ~= LocalPlayer then
+                if State.player_original_descs[player.UserId] then
+                    local char, hum = get_char_and_hum(player)
+                    if char and hum then
+                        local originalDesc = State.player_original_descs[player.UserId]
+                        local allowed = Av.build_allowed_from_userid(player.UserId)
+                        if allowed then
+                            Av.selective_cleanup(char, allowed)
+                        end
+                        
+                        apply_description(hum, originalDesc)
+                        State.player_original_descs[player.UserId] = nil
+                        count = count + 1
+                    end
+                else
+                    skipped = skipped + 1
+                end
+            end
+        end
+        
+        if count > 0 then
+            Notify.show('Reset ' .. count .. ' Players!', 'success')
+        else
+            Notify.show('No Players To Reset', 'warning')
+        end
+    end)
+end
+
+function Av.reset()
+    if State.applying then
+        return
+    end
+    if not State.original_desc then
+        Notify.show('What We Trying?', 'warning')
+        return
+    end
+    if not State.applied_id then
+        Notify.show('Already At Original Avatar', 'info')
+        return
+    end
+    
+    State.applying = true
+    task.spawn(function()
+        local char = LocalPlayer.Character
+        if not char or not char:FindFirstChild('HumanoidRootPart') then
+            State.applying = false
+            return
+        end
+        
+        local hum = char:FindFirstChildOfClass('Humanoid')
+        if not hum then
+            State.applying = false
+            return
+        end
+        
+        local tools = {}
+        for _, c in ipairs(char:GetChildren()) do
+            if c:IsA('Tool') then
+                table.insert(tools, c)
+            end
+        end
+        
+        local backpack = LocalPlayer:FindFirstChild('Backpack')
+        if backpack then
+            for _, t in ipairs(backpack:GetChildren()) do
+                if t:IsA('Tool') then
+                    table.insert(tools, t)
+                end
+            end
+        end
+        
+        Av.clean(char)
+        
+        pcall(function()
+            if hum.ApplyDescriptionClientServer then
+                hum:ApplyDescriptionClientServer(State.original_desc)
+            else
+                hum:ApplyDescription(State.original_desc)
+            end
+        end)
+        
+        for _, t in ipairs(tools) do
+            if t and t.Parent == nil then
+                if backpack then
+                    t.Parent = backpack
+                else
+                    t.Parent = char
+                end
+            end
+        end
+        
+        State.applied_id = nil
+        State.applying = false
+        State.width_scale = 1
+        State.width_enabled = false
+        State.height_scale = 1
+        State.height_enabled = false
+        State.depth_scale = 1
+        State.depth_enabled = false
+        save_data()
+        
+        Fav.update_star_icon()
+        Notify.show('Original Avatar Restored!', 'success')
+    end)
+end
+
+local Auto = { running = false, thread = nil, connection = nil }
+
+function Auto.start()
+    if Auto.running then
+        return
+    end
+    Auto.running = true
+    
+    Auto.connection = RunService.Heartbeat:Connect(function()
+        if not Auto.running then return end
+        
+        if E.input.Text ~= '' and not State.applying and State.input_ready then
+            -- Let Av.apply handle resolution and deduplication logic
+            Av.apply(E.input.Text, nil, false, true)
+            State.input_ready = false
+        end
+    end)
+    ScriptJanitor:Add(Auto.connection)
+end
+
+function Auto.stop()
+    Auto.running = false
+    if Auto.connection then
+        Auto.connection:Disconnect()
+        Auto.connection = nil
+    end
+end
+
+local function get_preview_pos()
+    return calculate_preview_position(State.client_preview_open, false)
+end
+
+local function get_client_preview_pos()
+    return calculate_preview_position(State.preview_open, true)
+end
+
+local function update_fab_state(visible)
+    tween(E.fab_indicator, { BackgroundColor3 = visible and C.success or C.error }, 0.15)
+end
+
+local function update_preview_icon()
+    if E.prev_icon then
+        tween(E.prev_icon, { ImageColor3 = State.preview_open and C.accent or C.subtext }, 0.15)
+    end
+end
+
+local function update_client_preview_icon()
+    if E.client_prev_icon then
+        tween(E.client_prev_icon, { ImageColor3 = State.client_preview_open and C.accent or C.subtext }, 0.15)
+    end
+end
+
+local function show_gui()
+    if State.visibility_animating then return end
+    
+    State.visibility_animating = true
+    State.visible = true
+    update_fab_state(true)
+    save_data()
+    play_sound(Sounds.ui_toggle)
+    
+    local vp = workspace.CurrentCamera.ViewportSize
+    local ui_w = IS_MOBILE and 525 or 565
+    local ui_h = IS_MOBILE and 425 or 440
+    local minimized_w = IS_MOBILE and 340 or 360
+    local correct_size = State.minimized and UDim2.new(0, minimized_w, 0, 50) or UDim2.new(0, ui_w, 0, ui_h)
+    
+    local size_w = State.minimized and minimized_w or ui_w
+    local size_h = State.minimized and 50 or ui_h
+    local max_x = math.max(10, vp.X - size_w - 10)
+    local max_y = math.max(10, vp.Y - size_h - 10)
+    local x = math.clamp(E.saved_pos.X.Offset, 10, max_x)
+    local y = math.clamp(E.saved_pos.Y.Offset, 10, max_y)
+    local final_pos = UDim2.new(0, x, 0, y)
+    
+    E.saved_pos = final_pos
+    E.main.Position = UDim2.new(0, final_pos.X.Offset, 0, vp.Y + 50)
+    E.main.Visible = true
+    
+    spring(E.main, { Position = final_pos }, 0.35)
+    
+    if E.volume_slider_fill and E.volume_slider_handle then
+        local volume_percent = math.clamp(State.music_volume, 0, 1)
+        tween(E.volume_slider_fill, { Size = UDim2.new(volume_percent, 0, 1, 0) }, 0.4, Enum.EasingStyle.Quint)
+        tween(E.volume_slider_handle, { Position = UDim2.new(volume_percent, -8, 0.5, -8) }, 0.4, Enum.EasingStyle.Quint)
+        
+        if E.volume_value_label then
+            E.volume_value_label.Text = string.format('%d%%', math.floor(volume_percent * 100))
+        end
+    end
+    
+    if E.dynamic_volume_toggle_track and E.dynamic_volume_toggle_thumb then
+        tween(E.dynamic_volume_toggle_track, {
+            BackgroundColor3 = State.music_dynamic_volume and C.accent or C.elevated
+        }, 0.3)
+        tween(E.dynamic_volume_toggle_thumb, {
+            Position = State.music_dynamic_volume and UDim2.new(1, -19, 0.5, -8) or UDim2.new(0, 3, 0.5, -8)
+        }, 0.3, Enum.EasingStyle.Quad)
+    end
+    
+    if State.preview_open then
+        local prev_pos = get_preview_pos()
+        E.preview.Position = UDim2.new(0, prev_pos.X.Offset, 0, vp.Y + 50)
+        E.preview.Visible = true
+        task.spawn(function()
+            spring(E.preview, { Position = prev_pos }, 0.35)
+        end)
+    end
+    
+    if State.client_preview_open then
+        local prev_pos = get_client_preview_pos()
+        E.client_preview.Position = UDim2.new(0, prev_pos.X.Offset, 0, vp.Y + 50)
+        E.client_preview.Visible = true
+        task.spawn(function()
+            spring(E.client_preview, { Position = prev_pos }, 0.35)
+        end)
+    end
+    
+    task.delay(0.35, function()
+        State.visibility_animating = false
+    end)
+end
+
+local function hide_gui()
+    if State.visibility_animating then return end
+    
+    State.visibility_animating = true
+    State.visible = false
+    update_fab_state(false)
+    play_sound(Sounds.ui_toggle)
+    
+    local vp = workspace.CurrentCamera.ViewportSize
+    local current_pos = E.main.Position
+    
+    local s = E.main.AbsoluteSize
+    local max_x = math.max(10, vp.X - s.X - 10)
+    local max_y = math.max(10, vp.Y - s.Y - 10)
+    local x = math.clamp(current_pos.X.Offset, 10, max_x)
+    local y = math.clamp(current_pos.Y.Offset, 10, max_y)
+    E.saved_pos = UDim2.new(0, x, 0, y)
+    save_data()
+    
+    if State.preview_open then
+        tween(E.preview, { Position = UDim2.new(0, E.preview.Position.X.Offset, 0, vp.Y + 50) }, 0.25, Enum.EasingStyle.Back, Enum.EasingDirection.In)
+    end
+    
+    if State.client_preview_open then
+        tween(E.client_preview, { Position = UDim2.new(0, E.client_preview.Position.X.Offset, 0, vp.Y + 50) }, 0.25, Enum.EasingStyle.Back, Enum.EasingDirection.In)
+    end
+    
+    tween(E.main, { Position = UDim2.new(0, current_pos.X.Offset, 0, vp.Y + 50) }, 0.3, Enum.EasingStyle.Back, Enum.EasingDirection.In)
+    
+    task.delay(0.35, function()
+        State.visibility_animating = false
+        if not State.visible then
+            E.main.Visible = false
+            E.preview.Visible = false
+            E.client_preview.Visible = false
+        end
+    end)
+end
+
+local function create_icon_btn(parent, ico, pos, size)
+    size = size or 36
+    local btn = ComponentFactory.TextButton({
+        Size = UDim2.new(0, size, 0, size),
+        Position = pos,
+        BackgroundColor3 = C.elevated,
+        Text = '',
+        AutoButtonColor = false,
+        Parent = parent
+    })
+    corner(btn, 10)
+    local ico_img = icon(btn, ico, 16, C.subtext)
+    ico_img.ZIndex = 2
+    
+    btn.MouseEnter:Connect(function() tween(btn, { BackgroundColor3 = C.hover }, 0.1) end)
+    btn.MouseLeave:Connect(function() tween(btn, { BackgroundColor3 = C.elevated }, 0.1) end)
+    
+    return btn, ico_img
+end
+
+local function create_button(parent, text, is_primary, order, ico)
+    local btn = ComponentFactory.TextButton({
+        Size = UDim2.new(1, 0, 0, 44),
+        BackgroundColor3 = is_primary and C.accent or C.elevated,
+        Text = '',
+        AutoButtonColor = false,
+        LayoutOrder = order or 0,
+        Parent = parent
+    })
+    corner(btn, 10)
+    if not is_primary then
+        stroke(btn, C.border, 1, 0.5)
+    end
+    
+    local content = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        Parent = btn
+    })
+    
+    if ico then
+        icon(content, ico, 16, C.text, UDim2.new(0, 14, 0.5, -8))
+        new('TextLabel', {
+            Size = UDim2.new(1, -44, 1, 0),
+            Position = UDim2.new(0, 38, 0, 0),
+            BackgroundTransparency = 1,
+            Text = text,
+            TextColor3 = C.text,
+            Font = Enum.Font.GothamBold,
+            TextSize = 13,
+            TextXAlignment = Enum.TextXAlignment.Left,
+            Parent = content
+        })
+    else
+        new('TextLabel', {
+            Size = UDim2.new(1, 0, 1, 0),
+            BackgroundTransparency = 1,
+            Text = text,
+            TextColor3 = C.text,
+            Font = Enum.Font.GothamBold,
+            TextSize = 13,
+            Parent = content
+        })
+    end
+    
+    local hover = is_primary and C.accent_glow or C.hover
+    local normal = is_primary and C.accent or C.elevated
+    
+    btn.MouseEnter:Connect(function() tween(btn, { BackgroundColor3 = hover }, 0.1) end)
+    btn.MouseLeave:Connect(function() tween(btn, { BackgroundColor3 = normal }, 0.1) end)
+    
+    btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            spring(btn, { Size = UDim2.new(1, -4, 0, 40) }, 0.15)
+        end
+    end)
+    
+    btn.InputEnded:Connect(function(inp)
+        if is_click_input(inp) then
+            spring(btn, { Size = UDim2.new(1, 0, 0, 44) }, 0.15)
+        end
+    end)
+    
+    return btn
+end
+
+local function create_toggle(parent, text, initial, callback, order)
+    local container = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 50),
+        BackgroundColor3 = C.card,
+        LayoutOrder = order or 0,
+        Parent = parent
+    })
+    corner(container, 10)
+    stroke(container, C.border, 1, 0.5)
+    
+    new('TextLabel', {
+        Size = UDim2.new(1, -70, 1, 0),
+        Position = UDim2.new(0, 16, 0, 0),
+        BackgroundTransparency = 1,
+        Text = text,
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamSemibold,
+        TextSize = 13,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = container
+    })
+    
+    local track = ComponentFactory.Frame({
+        Size = UDim2.new(0, 48, 0, 26),
+        Position = UDim2.new(1, -60, 0.5, -13),
+        BackgroundColor3 = initial and C.accent or C.elevated,
+        Parent = container
+    })
+    corner(track, 13)
+    
+    local knob = ComponentFactory.Frame({
+        Size = UDim2.new(0, 20, 0, 20),
+        Position = initial and UDim2.new(1, -23, 0.5, -10) or UDim2.new(0, 3, 0.5, -10),
+        BackgroundColor3 = C.text,
+        Parent = track
+    })
+    corner(knob, 10)
+    
+    local enabled = initial
+    
+    local toggle_data = {track = track, is_enabled = function() return enabled end}
+    table.insert(E.toggle_tracks, toggle_data)
+    
+    track.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            enabled = not enabled
+            tween(track, { BackgroundColor3 = enabled and C.accent or C.elevated }, 0.15)
+            spring(knob, { Position = enabled and UDim2.new(1, -23, 0.5, -10) or UDim2.new(0, 3, 0.5, -10) }, 0.2)
+            if callback then
+                callback(enabled)
+            end
+        end
+    end)
+    
+    return container, track, knob
+end
+
+function E.switch_tab(tab_id)
+    if State.current_tab == tab_id then return end
+    
+    State.current_tab = tab_id
+    play_sound(Sounds.tab_switch, 0.6)
+    
+    if E.main_content then E.main_content.Visible = false end
+    if E.fav_content then E.fav_content.Visible = false end
+    if E.client_content then E.client_content.Visible = false end
+    if E.customize_content then E.customize_content.Visible = false end
+    if E.settings_content then E.settings_content.Visible = false end
+    
+    if tab_id == 'main' then
+        if E.main_content then E.main_content.Visible = true end
+        if E.input and E.input.Parent and E.input.Parent.Parent then
+            E.input.Parent.Parent.Visible = true
+        end
+    elseif tab_id == 'favorites' then
+        if E.fav_content then E.fav_content.Visible = true end
+        if E.input and E.input.Parent and E.input.Parent.Parent then
+            E.input.Parent.Parent.Visible = false
+        end
+        if not State.fav_ui_initialized then
+            Fav.update_ui()
+            State.fav_ui_initialized = true
+        end
+    elseif tab_id == 'client' then
+        if E.client_content then E.client_content.Visible = true end
+        if E.input and E.input.Parent and E.input.Parent.Parent then
+            E.input.Parent.Parent.Visible = false
+        end
+    elseif tab_id == 'customize' then
+        if E.customize_content then E.customize_content.Visible = true end
+        if E.input and E.input.Parent and E.input.Parent.Parent then
+            E.input.Parent.Parent.Visible = false
+        end
+    elseif tab_id == 'settings' then
+        if E.settings_content then E.settings_content.Visible = true end
+        if E.input and E.input.Parent and E.input.Parent.Parent then
+            E.input.Parent.Parent.Visible = false
+        end
+    end
+    
+    local tab_buttons = {
+        {btn = E.main_tab_btn, icon = E.main_tab_icon, id = 'main'},
+        {btn = E.fav_tab_btn, icon = E.fav_tab_icon, id = 'favorites'},
+        {btn = E.client_tab_btn, icon = E.client_tab_icon, id = 'client'},
+        {btn = E.customize_tab_btn, icon = E.customize_tab_icon, id = 'customize'},
+        {btn = E.settings_tab_btn, icon = E.settings_tab_icon, id = 'settings'}
+    }
+    
+    for _, tab_data in ipairs(tab_buttons) do
+        if not tab_data.btn then continue end
+        
+        local is_active = tab_data.id == tab_id
+        local target_bg = is_active and C.accent or C.elevated
+        local target_icon = is_active and C.text or C.subtext
+        
+        if not State.rgb_mode or not is_active then
+            tween(tab_data.btn, { BackgroundColor3 = target_bg }, 0.25)
+        end
+        
+        if tab_data.icon then
+            tween(tab_data.icon, { ImageColor3 = target_icon }, 0.25)
+        end
+    end
+end
+
+function E.build()
+    local saved = load_data()
+    
+    State.auto = saved.auto or false
+    State.minimized = saved.minimized or false
+    State.visible = saved.visible ~= false
+    State.favorites = saved.favorites or {}
+    
+    State.favorites_index = {}
+    for _, fav in ipairs(State.favorites) do
+        if fav and fav.id then
+            State.favorites_index[fav.id] = true
+        end
+    end
+    State.width_scale = saved.width_scale or 1
+    State.width_enabled = saved.width_enabled or false
+    State.height_scale = saved.height_scale or 1
+    State.height_enabled = saved.height_enabled or false
+    State.depth_scale = saved.depth_scale or 1
+    State.depth_enabled = saved.depth_enabled or false
+    State.music_index = saved.music_index or 1
+    State.music_loop = saved.music_loop or false
+    State.sound_effects_enabled = saved.sound_effects_enabled ~= false
+    State.apply_counts = saved.apply_counts or {}
+    State.rgb_mode = saved.rgb_mode or false
+    State.rgb_mode_type = saved.rgb_mode_type or 'cycle'
+    State.rgb_speed = saved.rgb_speed or 1
+    State.current_theme = saved.current_theme or 'purple'
+    if saved.toggle_keybind then
+        State.toggle_keybind = Enum.KeyCode[saved.toggle_keybind] or Enum.KeyCode.LeftControl
+    end
+    State.esp_enabled = saved.esp_enabled or false
+    State.esp_teamcheck = saved.esp_teamcheck or false
+    State.esp_highlights = saved.esp_highlights ~= false
+    State.esp_show_teamname = saved.esp_show_teamname ~= false
+    State.applied_id = saved.applied_id or nil
+    State.notifications_enabled = saved.notifications_enabled ~= false
+    
+    apply_theme(State.current_theme)
+    
+    local ui_width = IS_MOBILE and 525 or 565
+    local ui_height = IS_MOBILE and 425 or 440
+    local minimized_width = IS_MOBILE and 340 or 360
+    local fab_size = IS_MOBILE and 50 or 56
+    E.fab_size = fab_size
+    
+    local screen = new('ScreenGui', {
+        Name = 'AvatarUI',
+        ResetOnSpawn = false,
+        ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
+        DisplayOrder = 999999,
+        IgnoreGuiInset = true,
+        Parent = PlayerGui
+    })
+    E.screen = screen
+    
+    local vp = workspace.CurrentCamera.ViewportSize
+    local default_x = (vp.X - ui_width) / 2
+    local default_y = (vp.Y - ui_height) / 2
+    
+    local use_saved_pos = (saved.ui_version == UI_VERSION)
+    
+    local main = ComponentFactory.Frame({
+        Size = State.minimized and UDim2.new(0, minimized_width, 0, 50) or UDim2.new(0, ui_width, 0, ui_height),
+        Position = UDim2.new(0, (use_saved_pos and saved.x) or default_x, 0, (use_saved_pos and saved.y) or default_y),
+        BackgroundColor3 = C.base,
+        BackgroundTransparency = TRANSPARENCY,
+        ClipsDescendants = true,
+        Parent = screen
+    })
+    corner(main, State.minimized and 8 or 14)
+    E.main_stroke = stroke(main, C.accent, 1.5, 0.6)
+    E.main = main
+    E.saved_pos = main.Position
+    
+    local header = ComponentFactory.Frame({
+        Size = State.minimized and UDim2.new(1, 0, 1, 0) or UDim2.new(1, 0, 0, 52),
+        BackgroundColor3 = C.panel,
+        BackgroundTransparency = TRANSPARENCY,
+        Parent = main
+    })
+    corner(header, State.minimized and 8 or 14)
+    
+    local header_extension = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 18),
+        Position = UDim2.new(0, 0, 1, -18),
+        BackgroundColor3 = C.panel,
+        BackgroundTransparency = TRANSPARENCY,
+        BorderSizePixel = 0,
+        Visible = not State.minimized,
+        Parent = header
+    })
+    E.header = header
+    E.header_extension = header_extension
+    
+    local title_container = ComponentFactory.Frame({
+        Size = UDim2.new(1, -138, 1, 0),
+        Position = UDim2.new(0, 16, 0, 0),
+        BackgroundTransparency = 1,
+        Parent = header
+    })
+    
+    local title_text = 'AURA HUB'
+    E.title_letters = {}
+    
+    for i = 1, #title_text do
+        local letter = ComponentFactory.TextLabel({
+            Size = UDim2.new(0, 15, 1, 0),
+            Position = UDim2.new(0, (i - 1) * 15, 0, 0),
+            BackgroundTransparency = 1,
+            Text = title_text:sub(i, i),
+            TextColor3 = C.text,
+            Font = Enum.Font.GothamBlack,
+            TextSize = 14,
+            TextXAlignment = Enum.TextXAlignment.Center,
+            Parent = title_container
+        })
+        table.insert(E.title_letters, letter)
+    end
+    
+    local loading_label = ComponentFactory.TextLabel({
+        Size = UDim2.new(0, 100, 1, 0),
+        Position = UDim2.new(0, #title_text * 15 + 5, 0, 0),
+        BackgroundTransparency = 1,
+        Text = '•  Loading...',
+        TextColor3 = C.muted,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 11,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = title_container
+    })
+    E.loading_label = loading_label
+    
+    E.title = title_container
+    
+    E.star_btn, E.star_icon = create_icon_btn(header, Icons.heart_off, UDim2.new(1, -128, 0.5, -18))
+    E.prev_btn, E.prev_icon = create_icon_btn(header, Icons.eye, UDim2.new(1, -86, 0.5, -18))
+    E.min_btn, E.min_icon = create_icon_btn(header, State.minimized and Icons.plus or Icons.minus, UDim2.new(1, -44, 0.5, -18))
+    
+    local content_height = IS_MOBILE and 410 or 400
+    local content = ComponentFactory.Frame({
+        Size = UDim2.new(1, -28, 0, content_height),
+        Position = UDim2.new(0, 14, 0, 58),
+        BackgroundTransparency = 1,
+        ClipsDescendants = true,
+        Visible = not State.minimized,
+        Parent = main
+    })
+    
+    new('UIListLayout', {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 10),
+        Parent = content
+    })
+    E.content = content
+    
+    local tabs_frame = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 38),
+        BackgroundTransparency = 1,
+        LayoutOrder = 0.5,
+        Parent = content
+    })
+
+    new('UIListLayout', {
+        FillDirection = Enum.FillDirection.Horizontal,
+        Padding = UDim.new(0, 8),
+        Parent = tabs_frame
+    })
+
+    local function create_tab(ico_id, id, order)
+        local is_initial_active = (State.current_tab == id)
+        local btn = ComponentFactory.TextButton({
+            Size = UDim2.new(0.1985, -6.4, 1, 0),
+            BackgroundColor3 = is_initial_active and C.accent or C.elevated,
+            Text = '',
+            AutoButtonColor = false,
+            LayoutOrder = order,
+            Parent = tabs_frame
+        })
+        corner(btn, 8)
+        
+        local ico_img = icon(btn, ico_id, 18, is_initial_active and C.text or C.subtext)
+        
+        btn.MouseEnter:Connect(function()
+            if State.current_tab ~= id then
+                tween(btn, { BackgroundColor3 = C.hover }, 0.1)
+            end
+        end)
+        
+        btn.MouseLeave:Connect(function()
+            if State.current_tab ~= id then
+                tween(btn, { BackgroundColor3 = C.elevated }, 0.1)
+            end
+        end)
+        
+        btn.InputBegan:Connect(function(inp)
+            if is_click_input(inp) then
+                spring(btn, { Size = UDim2.new(0.2, -8.4, 1, -2) }, 0.1)
+                E.switch_tab(id)
+                task.delay(0.1, function()
+                    spring(btn, { Size = UDim2.new(0.2, -6.4, 1, 0) }, 0.15)
+                end)
+            end
+        end)
+        
+        return btn, ico_img
+    end
+
+    E.main_tab_btn, E.main_tab_icon = create_tab(Icons.home, 'main', 1)
+    E.fav_tab_btn, E.fav_tab_icon = create_tab(Icons.bookmark, 'favorites', 2)
+    E.client_tab_btn, E.client_tab_icon = create_tab(Icons.users, 'client', 3)
+    E.customize_tab_btn, E.customize_tab_icon = create_tab(Icons.palette, 'customize', 4)
+    E.settings_tab_btn, E.settings_tab_icon = create_tab(Icons.settings, 'settings', 5)
+    
+    local top_row = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 48),
+        BackgroundTransparency = 1,
+        LayoutOrder = 1,
+        Parent = content
+    })
+    
+    new('UIListLayout', {
+        FillDirection = Enum.FillDirection.Horizontal,
+        Padding = UDim.new(0, 12),
+        Parent = top_row
+    })
+    
+    local input_frame = ComponentFactory.Frame({
+        Size = UDim2.new(0.5, -6, 0, 48),
+        BackgroundColor3 = C.card,
+        Parent = top_row
+    })
+    corner(input_frame, 10)
+    stroke(input_frame, C.border, 1, 0.5)
+    
+    icon(input_frame, Icons.search, 16, C.muted, UDim2.new(0, 14, 0.5, -8))
+    
+    local input = ComponentFactory.TextBox({
+        Size = UDim2.new(1, -50, 1, 0),
+        Position = UDim2.new(0, 40, 0, 0),
+        BackgroundTransparency = 1,
+        Text = saved.applied_id and tostring(saved.applied_id) or saved.input or '',
+        PlaceholderText = 'Search Username or ID...',
+        PlaceholderColor3 = C.muted,
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 14,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        ClearTextOnFocus = false,
+        Parent = input_frame
+    })
+    E.input = input
+    
+    local stats_top_frame = ComponentFactory.Frame({
+        Size = UDim2.new(0.5, -6, 0, 48),
+        BackgroundTransparency = 1,
+        Parent = top_row
+    })
+    
+    E.stats_icon = icon(stats_top_frame, Icons.stats, 18, C.accent, UDim2.new(0, 0, 0.5, -9))
+    
+    new('TextLabel', {
+        Size = UDim2.new(1, -28, 1, 0),
+        Position = UDim2.new(0, 28, 0, 0),
+        BackgroundTransparency = 1,
+        Text = 'Most Applied Avatars',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamBold,
+        TextSize = 15,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = stats_top_frame
+    })
+    
+    local main_content = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 1, -98),
+        Position = UDim2.new(0, 0, 0, 98),
+        BackgroundTransparency = 1,
+        Visible = true,
+        LayoutOrder = 2,
+        ZIndex = 1,
+        Parent = content
+    })
+
+    local main_horizontal = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        Parent = main_content
+    })
+
+    new('UIListLayout', {
+        FillDirection = Enum.FillDirection.Horizontal,
+        Padding = UDim.new(0, 12),
+        Parent = main_horizontal
+    })
+
+    local main_left = ComponentFactory.Frame({
+        Size = UDim2.new(0.5, -6, 1, 0),
+        BackgroundTransparency = 1,
+        Parent = main_horizontal
+    })
+
+    new('UIListLayout', {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 10),
+        Parent = main_left
+    })
+
+    local main_right = ComponentFactory.Frame({
+        Size = UDim2.new(0.5, -6, 1, 0),
+        BackgroundTransparency = 1,
+        Parent = main_horizontal
+    })
+
+    local main_right_scroll = ComponentFactory.ScrollingFrame({
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        ScrollBarThickness = 4,
+        BorderSizePixel = 0,
+        CanvasSize = UDim2.new(0, 0, 0, 0),
+        AutomaticCanvasSize = Enum.AutomaticSize.Y,
+        Parent = main_right
+    })
+
+    new('UIListLayout', {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 10),
+        Parent = main_right_scroll
+    })
+
+    local fav_content = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 1, -50),
+        Position = UDim2.new(0, 0, 0, 50),
+        BackgroundTransparency = 1,
+        Visible = false,
+        LayoutOrder = 2,
+        ZIndex = 2,
+        Parent = content
+    })
+
+    local fav_top = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 42),
+        BackgroundTransparency = 1,
+        Parent = fav_content
+    })
+    
+    local fav_search_frame = ComponentFactory.Frame({
+        Size = UDim2.new(1, -48, 0, 42),
+        BackgroundColor3 = C.card,
+        LayoutOrder = 0,
+        Parent = fav_top
+    })
+    corner(fav_search_frame, 10)
+    stroke(fav_search_frame, C.border, 1, 0.5)
+    
+    icon(fav_search_frame, Icons.search, 14, C.muted, UDim2.new(0, 12, 0.5, -7))
+    
+    local fav_search_input = ComponentFactory.TextBox({
+        Size = UDim2.new(1, -40, 1, 0),
+        Position = UDim2.new(0, 34, 0, 0),
+        BackgroundTransparency = 1,
+        Text = '',
+        PlaceholderText = 'Search Favorites...',
+        PlaceholderColor3 = C.muted,
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 13,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        ClearTextOnFocus = false,
+        Parent = fav_search_frame
+    })
+    E.fav_search_input = fav_search_input
+    
+    local fav_random_btn = ComponentFactory.TextButton({
+        Size = UDim2.new(0, 42, 0, 42),
+        Position = UDim2.new(1, -42, 0, 0),
+        BackgroundColor3 = C.card,
+        Text = '',
+        AutoButtonColor = false,
+        Parent = fav_top
+    })
+    corner(fav_random_btn, 10)
+    stroke(fav_random_btn, C.border, 1, 0.5)
+    local fav_random_icon = icon(fav_random_btn, Icons.dice, 18, C.accent)
+    E.fav_random_icon = fav_random_icon
+    
+    
+    fav_random_btn.MouseEnter:Connect(function()
+        tween(fav_random_btn, { BackgroundColor3 = C.hover }, 0.1)
+    end)
+    fav_random_btn.MouseLeave:Connect(function()
+        tween(fav_random_btn, { BackgroundColor3 = C.card }, 0.1)
+    end)
+    
+    fav_random_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            if #State.favorites == 0 then
+                Notify.show('No Favorites Yet!', 'warning')
+                return
+            end
+            
+            local available_favs = {}
+            for _, fav in ipairs(State.favorites) do
+                if fav.id ~= State.applied_id then
+                    table.insert(available_favs, fav)
+                end
+            end
+            
+            if #available_favs == 0 then
+                Notify.show('All Favorites Already Applied!', 'info')
+                return
+            end
+            
+            play_sound(Sounds.dice)
+            local random_fav = available_favs[math.random(#available_favs)]
+            E.input.Text = tostring(random_fav.id)
+            E.switch_tab('main')
+            Av.apply(tostring(random_fav.id), nil, false, true)
+        end
+    end)
+
+    local fav_scroll = ComponentFactory.ScrollingFrame({
+        Size = UDim2.new(1, 0, 1, -52),
+        Position = UDim2.new(0, 0, 0, 48),
+        BackgroundTransparency = 1,
+        ScrollBarThickness = 4,
+        BorderSizePixel = 0,
+        CanvasSize = UDim2.new(0, 0, 0, 0),
+        LayoutOrder = 1,
+        Parent = fav_content
+    })
+
+    new('UIListLayout', {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 12),
+        Parent = fav_scroll
+    })
+
+    E.fav_list = fav_scroll
+    E.main_content = main_content
+    E.fav_content = fav_content
+
+    local client_content = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 1, -50),
+        Position = UDim2.new(0, 0, 0, 50),
+        BackgroundTransparency = 1,
+        Visible = false,
+        LayoutOrder = 2,
+        ZIndex = 3,
+        Parent = content
+    })
+
+    local client_horizontal = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        Parent = client_content
+    })
+
+    new('UIListLayout', {
+        FillDirection = Enum.FillDirection.Horizontal,
+        Padding = UDim.new(0, 12),
+        Parent = client_horizontal
+    })
+
+    local client_left = ComponentFactory.Frame({
+        Size = UDim2.new(0.5, -6, 1, 0),
+        BackgroundTransparency = 1,
+        Parent = client_horizontal
+    })
+
+    new('UIListLayout', {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 8),
+        Parent = client_left
+    })
+
+    local client_right = ComponentFactory.Frame({
+        Size = UDim2.new(0.5, -6, 1, 0),
+        BackgroundTransparency = 1,
+        Parent = client_horizontal
+    })
+
+    new('UIListLayout', {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 8),
+        Parent = client_right
+    })
+
+    E.client_content = client_content
+    
+    local customize_content = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 1, -50),
+        Position = UDim2.new(0, 0, 0, 50),
+        BackgroundTransparency = 1,
+        Visible = false,
+        LayoutOrder = 2,
+        ZIndex = 4,
+        Parent = content
+    })
+
+    local customize_scroll = ComponentFactory.ScrollingFrame({
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        ScrollBarThickness = 4,
+        BorderSizePixel = 0,
+        CanvasSize = UDim2.new(0, 0, 0, 550),
+        AutomaticCanvasSize = Enum.AutomaticSize.Y,
+        ScrollingEnabled = true,
+        ClipsDescendants = true,
+        Parent = customize_content
+    })
+
+    new('UIListLayout', {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 8.5),
+        Parent = customize_scroll
+    })
+
+    E.customize_content = customize_content
+  
+    local esp_frame = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 180),
+        BackgroundColor3 = C.card,
+        LayoutOrder = 2,
+        Parent = client_right
+    })
+    corner(esp_frame, 10)
+    stroke(esp_frame, C.border, 1, 0.5)
+
+    local settings_content = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 1, -50),
+        Position = UDim2.new(0, 0, 0, 50),
+        BackgroundTransparency = 1,
+        Visible = false,
+        LayoutOrder = 2,
+        ZIndex = 4,
+        Parent = content
+    })
+
+    local settings_horizontal = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        Parent = settings_content
+    })
+
+    new('UIListLayout', {
+        FillDirection = Enum.FillDirection.Horizontal,
+        Padding = UDim.new(0, 12),
+        Parent = settings_horizontal
+    })
+
+    local settings_left = ComponentFactory.ScrollingFrame({
+        Size = UDim2.new(0.5, -6, 1, 0),
+        BackgroundTransparency = 1,
+        ScrollBarThickness = 4,
+        BorderSizePixel = 0,
+        CanvasSize = UDim2.new(0, 0, 0, 0),
+        AutomaticCanvasSize = Enum.AutomaticSize.Y,
+        Parent = settings_horizontal
+    })
+
+    new('UIListLayout', {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 12),
+        Parent = settings_left
+    })
+
+    new('UIPadding', {
+        PaddingBottom = UDim.new(0, 50),
+        PaddingTop = UDim.new(0, 5),
+        Parent = settings_left
+    })
+
+    local settings_right = ComponentFactory.ScrollingFrame({
+        Size = UDim2.new(0.5, -6, 1, 0),
+        BackgroundTransparency = 1,
+        ScrollBarThickness = 4,
+        BorderSizePixel = 0,
+        CanvasSize = UDim2.new(0, 0, 0, 0),
+        AutomaticCanvasSize = Enum.AutomaticSize.Y,
+        Parent = settings_horizontal
+    })
+
+    new('UIListLayout', {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 10),
+        Parent = settings_right
+    })
+
+    new('UIPadding', {
+        PaddingBottom = UDim.new(0, 45),
+        PaddingTop = UDim.new(0, 5),
+        Parent = settings_right
+    })
+
+    local keybind_frame = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 50),
+        BackgroundColor3 = C.card,
+        LayoutOrder = 15,
+        Parent = settings_right
+    })
+    corner(keybind_frame, 10)
+    stroke(keybind_frame, C.border, 1, 0.5)
+
+    E.update_undo_redo_ui = function()
+        local has_undo = #State.undo_history > 0
+        local has_redo = #State.redo_history > 0
+        
+        if E.main_undo_btn then
+            E.main_undo_btn.BackgroundColor3 = has_undo and C.accent or C.elevated
+        end
+        if E.main_redo_btn then
+            E.main_redo_btn.BackgroundColor3 = has_redo and C.accent or C.elevated
+        end
+        if E.main_history_count_label then
+            E.main_history_count_label.Text = tostring(#State.undo_history) .. ' / ' .. tostring(#State.redo_history)
+        end
+    end
+
+    local keybind_label = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -90, 0, 16),
+        Position = UDim2.new(0, 14, 0, 10),
+        BackgroundTransparency = 1,
+        Text = 'UI Toggle Keybind',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamSemibold,
+        TextSize = 13,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = keybind_frame
+    })
+
+    local keybind_current = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -28, 0, 14),
+        Position = UDim2.new(0, 14, 0, 30),
+        BackgroundTransparency = 1,
+        Text = 'Current: ' .. State.toggle_keybind.Name,
+        TextColor3 = C.subtext,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 11,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = keybind_frame
+    })
+
+    local keybind_btn = ComponentFactory.TextButton({
+        Size = UDim2.new(0, 70, 0, 26),
+        Position = UDim2.new(1, -84, 0, 12),
+        BackgroundColor3 = C.accent,
+        Text = 'Change',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamSemibold,
+        TextSize = 11,
+        Parent = keybind_frame
+    })
+    corner(keybind_btn, 6)
+
+    local keybind_changing = false
+    local current_keybind_connection = nil
+
+    local esp_title = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -28, 0, 20),
+        Position = UDim2.new(0, 14, 0, 10),
+        BackgroundTransparency = 1,
+        Text = 'ESP Settings',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamBold,
+        TextSize = 14,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = esp_frame
+    })
+
+    local esp_scroll = ComponentFactory.ScrollingFrame({
+        Size = UDim2.new(1, -28, 0, 145),
+        Position = UDim2.new(0, 14, 0, 35),
+        BackgroundTransparency = 1,
+        ScrollBarThickness = 4,
+        BorderSizePixel = 0,
+        CanvasSize = UDim2.new(0, 0, 0, 0),
+        ScrollingEnabled = false,
+        Parent = esp_frame
+    })
+
+    new('UIListLayout', {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 8),
+        Parent = esp_scroll
+    })
+
+    local function create_esp_toggle(text, state_key, callback, order)
+        local toggle_frame = ComponentFactory.Frame({
+            Size = UDim2.new(1, -5, 0, 28),
+            BackgroundTransparency = 1,
+            LayoutOrder = order,
+            Parent = esp_scroll
+        })
+        
+        local label = ComponentFactory.TextLabel({
+            Size = UDim2.new(1, -40, 1, 0),
+            BackgroundTransparency = 1,
+            Text = text,
+            TextColor3 = C.subtext,
+            Font = Enum.Font.GothamMedium,
+            TextSize = 12,
+            TextXAlignment = Enum.TextXAlignment.Left,
+            Parent = toggle_frame
+        })
+        
+        local track = ComponentFactory.Frame({
+            Size = UDim2.new(0, 38, 0, 20),
+            Position = UDim2.new(1, -38, 0.5, -10),
+            BackgroundColor3 = State[state_key] and C.accent or C.elevated,
+            Parent = toggle_frame
+        })
+        corner(track, 10)
+        
+        local thumb = ComponentFactory.Frame({
+            Size = UDim2.new(0, 14, 0, 14),
+            Position = State[state_key] and UDim2.new(0, 21, 0.5, -7) or UDim2.new(0, 3, 0.5, -7),
+            BackgroundColor3 = C.text,
+            Parent = track
+        })
+        corner(thumb, 7)
+        
+        local btn = ComponentFactory.TextButton({
+            Size = UDim2.new(1, 0, 1, 0),
+            BackgroundTransparency = 1,
+            Text = '',
+            Parent = toggle_frame
+        })
+        
+        btn.MouseButton1Click:Connect(function()
+            State[state_key] = not State[state_key]
+            tween(track, { BackgroundColor3 = State[state_key] and C.accent or C.elevated }, 0.2)
+            tween(thumb, { Position = State[state_key] and UDim2.new(0, 21, 0.5, -7) or UDim2.new(0, 3, 0.5, -7) }, 0.2)
+            
+            if callback then
+                callback(State[state_key])
+            end
+            
+            save_data()
+        end)
+        
+        return toggle_frame
+    end
+
+    create_esp_toggle('Enable ESP', 'esp_enabled', function(enabled)
+        ESPSystem.Toggle(enabled)
+    end, 1)
+
+    create_esp_toggle('Team Check', 'esp_teamcheck', function(enabled)
+        ESPSystem.TeamCheck = enabled
+        
+        if ESPSystem.Enabled then
+            ESPSystem.RefreshAll()
+        end
+        
+        if Notify and Notify.show then
+            Notify.show('Team Check: ' .. (enabled and 'ON' or 'OFF'), 'info', 2)
+        end
+    end, 2)
+
+    create_esp_toggle('Show Highlights', 'esp_highlights', function(enabled)
+        State.esp_highlights = enabled
+    
+        if not enabled and State.esp_show_only_highlights then
+            State.esp_show_only_highlights = false
+            save_data()
+            
+            if State.esp_enabled then
+                ESPSystem.RefreshHighlights()
+            end
+            
+            local esp_scroll_children = esp_scroll:GetChildren()
+            for _, child in ipairs(esp_scroll_children) do
+                if child:IsA('Frame') and child.LayoutOrder == 4 then
+                    local track = child:FindFirstChild('Frame')
+                    local thumb = track and track:FindFirstChild('Frame')
+                    if track and thumb then
+                        tween(track, { BackgroundColor3 = C.elevated }, 0.2)
+                        tween(thumb, { Position = UDim2.new(0, 3, 0.5, -7) }, 0.2)
+                    end
+                    break
+                end
+            end
+        end
+        
+        if State.esp_enabled then
+            ESPSystem.RefreshHighlights()
+        end
+        
+        if Notify and Notify.show then
+            Notify.show('Highlights: ' .. (enabled and 'ON' or 'OFF'), 'info', 2)
+        end
+    end, 3)
+
+    create_esp_toggle('Show Only Highlights', 'esp_show_only_highlights', function(enabled)
+        if State.esp_enabled then
+            ESPSystem.RefreshAll()
+        end
+        if Notify and Notify.show then
+            Notify.show('Only Highlights: ' .. (enabled and 'ON' or 'OFF'), 'info', 2)
+        end
+    end, 4)
+
+    create_esp_toggle('Show Team Names', 'esp_show_teamname', function(enabled)
+        if Notify and Notify.show then
+            Notify.show('Team Names: ' .. (enabled and 'ON' or 'OFF'), 'info', 2)
+        end
+    end, 5)
+
+    keybind_btn.MouseButton1Click:Connect(function()
+        if keybind_changing then return end
+        keybind_changing = true
+        
+        if current_keybind_connection then
+            current_keybind_connection:Disconnect()
+            current_keybind_connection = nil
+        end
+        
+        keybind_btn.Text = 'Press Key...'
+        keybind_btn.BackgroundColor3 = C.warning
+        
+        current_keybind_connection = UserInputService.InputBegan:Connect(function(inp, gameProcessed)
+            if inp.UserInputType == Enum.UserInputType.Keyboard then
+                if current_keybind_connection then
+                    current_keybind_connection:Disconnect()
+                    current_keybind_connection = nil
+                end
+                
+                State.toggle_keybind = inp.KeyCode
+                keybind_current.Text = 'Current: ' .. inp.KeyCode.Name
+                keybind_btn.Text = 'Change'
+                keybind_btn.BackgroundColor3 = C.accent
+                keybind_changing = false
+                save_data()
+                Notify.show('Keybind Changed to ' .. inp.KeyCode.Name, 'success', 2)
+            end
+        end)
+        
+        task.delay(10, function()
+            if keybind_changing and current_keybind_connection then
+                current_keybind_connection:Disconnect()
+                current_keybind_connection = nil
+                keybind_btn.Text = 'Change'
+                keybind_btn.BackgroundColor3 = C.accent
+                keybind_changing = false
+            end
+        end)
+    end)
+    
+    local notif_frame = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 70),
+        BackgroundColor3 = C.card,
+        LayoutOrder = 10,
+        Parent = settings_right
+    })
+    corner(notif_frame, 10)
+    stroke(notif_frame, C.border, 1, 0.5)
+
+    local notif_title = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -28, 0, 20),
+        Position = UDim2.new(0, 14, 0, 10),
+        BackgroundTransparency = 1,
+        Text = 'Notifications',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamBold,
+        TextSize = 14,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = notif_frame
+    })
+
+    local notif_toggle_container = ComponentFactory.Frame({
+        Size = UDim2.new(1, -28, 0, 28),
+        Position = UDim2.new(0, 14, 0, 35),
+        BackgroundTransparency = 1,
+        Parent = notif_frame
+    })
+
+    local notif_label = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -50, 1, 0),
+        BackgroundTransparency = 1,
+        Text = 'Show Notifications',
+        TextColor3 = C.subtext,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 12,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = notif_toggle_container
+    })
+
+    local notif_track = ComponentFactory.Frame({
+        Size = UDim2.new(0, 38, 0, 20),
+        Position = UDim2.new(1, -38, 0.5, -10),
+        BackgroundColor3 = State.notifications_enabled and C.accent or C.elevated,
+        Parent = notif_toggle_container
+    })
+    corner(notif_track, 10)
+
+    local notif_thumb = ComponentFactory.Frame({
+        Size = UDim2.new(0, 14, 0, 14),
+        Position = State.notifications_enabled and UDim2.new(0, 21, 0.5, -7) or UDim2.new(0, 3, 0.5, -7),
+        BackgroundColor3 = C.text,
+        Parent = notif_track
+    })
+    corner(notif_thumb, 7)
+
+    local notif_btn = ComponentFactory.TextButton({
+        Size = UDim2.new(0, 38, 0, 20),
+        Position = UDim2.new(1, -38, 0.5, -10),
+        BackgroundTransparency = 1,
+        Text = '',
+        Parent = notif_toggle_container
+    })
+
+    notif_btn.MouseButton1Click:Connect(function()
+        State.notifications_enabled = not State.notifications_enabled
+        tween(notif_track, { BackgroundColor3 = State.notifications_enabled and C.accent or C.elevated }, 0.2)
+        tween(notif_thumb, { Position = State.notifications_enabled and UDim2.new(0, 21, 0.5, -7) or UDim2.new(0, 3, 0.5, -7) }, 0.2)
+        save_data()
+        
+        if State.notifications_enabled then
+            Notify.show('Notifications Enabled', 'success', 2)
+        end
+    end)
+
+    E.settings_content = settings_content
+    E.settings_scroll = settings_right
+    
+    local function create_slider(parent, label_text, initial_value, min_val, max_val, callback, order)
+        local frame = ComponentFactory.Frame({
+            Size = UDim2.new(1, 0, 0, 70),
+            BackgroundColor3 = C.card,
+            LayoutOrder = order or 0,
+            Parent = parent
+        })
+        corner(frame, 10)
+        stroke(frame, C.border, 1, 0.5)
+        
+        new('TextLabel', {
+            Size = UDim2.new(0.7, 0, 0, 20),
+            Position = UDim2.new(0, 14, 0, 10),
+            BackgroundTransparency = 1,
+            Text = label_text,
+            TextColor3 = C.text,
+            Font = Enum.Font.GothamSemibold,
+            TextSize = 13,
+            TextXAlignment = Enum.TextXAlignment.Left,
+            Parent = frame
+        })
+        
+        local value_label = ComponentFactory.TextLabel({
+            Size = UDim2.new(0, 50, 0, 20),
+            Position = UDim2.new(1, -64, 0, 10),
+            BackgroundTransparency = 1,
+            Text = string.format('%.1fx', initial_value),
+            TextColor3 = C.accent,
+            Font = Enum.Font.GothamBold,
+            TextSize = 13,
+            TextXAlignment = Enum.TextXAlignment.Right,
+            Parent = frame
+        })
+        
+        local slider_bg = ComponentFactory.Frame({
+            Size = UDim2.new(1, -28, 0, 6),
+            Position = UDim2.new(0, 14, 0, 42),
+            BackgroundColor3 = C.elevated,
+            Parent = frame
+        })
+        corner(slider_bg, 3)
+        
+        local slider_percent = math.clamp((initial_value - min_val) / (max_val - min_val), 0, 1)
+        
+        local slider_fill = ComponentFactory.Frame({
+            Size = UDim2.new(slider_percent, 0, 1, 0),
+            BackgroundColor3 = C.accent,
+            Parent = slider_bg
+        })
+        corner(slider_fill, 3)
+        
+        local slider_handle = ComponentFactory.Frame({
+            Size = UDim2.new(0, 16, 0, 16),
+            Position = UDim2.new(slider_percent, -8, 0.5, -8),
+            BackgroundColor3 = C.text,
+            ZIndex = 2,
+            Parent = slider_bg
+        })
+        corner(slider_handle, 8)
+        
+        local dragging = false
+        local active_slider_input = nil
+        
+        slider_bg.InputBegan:Connect(function(inp)
+            if is_click_input(inp) then
+                if dragging then return end
+                dragging = true
+                active_slider_input = inp
+            end
+        end)
+        
+        ScriptJanitor:Add(UserInputService.InputChanged:Connect(function(inp)
+            if not dragging then return end
+            
+            if inp.UserInputType == Enum.UserInputType.MouseMovement then
+                if active_slider_input.UserInputType ~= Enum.UserInputType.MouseButton1 then return end
+            elseif inp.UserInputType == Enum.UserInputType.Touch then
+                if active_slider_input ~= inp then return end
+            else
+                return
+            end
+            
+            local mouse_pos = UserInputService:GetMouseLocation()
+            local slider_pos = slider_bg.AbsolutePosition
+            local slider_size = slider_bg.AbsoluteSize
+            
+            local relative_x = mouse_pos.X - slider_pos.X
+            local percent = math.clamp(relative_x / slider_size.X, 0, 1)
+            
+            local value = min_val + (percent * (max_val - min_val))
+            
+            slider_fill.Size = UDim2.new(percent, 0, 1, 0)
+            slider_handle.Position = UDim2.new(percent, -8, 0.5, -8)
+            value_label.Text = string.format('%.1fx', value)
+            
+            if callback then
+                callback(value)
+            end
+        end))
+        
+        ScriptJanitor:Add(UserInputService.InputEnded:Connect(function(inp)
+            if active_slider_input ~= inp then return end
+            if is_click_input(inp) then
+                dragging = false
+                active_slider_input = nil
+            end
+        end))
+        
+        return frame
+    end
+    
+    local function create_body_scale_slider(parent, label_text, state_key, enabled_key, order)
+        local frame = ComponentFactory.Frame({
+            Size = UDim2.new(1, -6, 0, 125),
+            BackgroundColor3 = C.card,
+            LayoutOrder = order,
+            Parent = parent
+        })
+        corner(frame, 10)
+        stroke(frame, C.border, 1, 0.5)
+
+        new('TextLabel', {
+            Size = UDim2.new(0.5, 0, 0, 20),
+            Position = UDim2.new(0, 14, 0, 10),
+            BackgroundTransparency = 1,
+            Text = label_text,
+            TextColor3 = C.text,
+            Font = Enum.Font.GothamSemibold,
+            TextSize = 13,
+            TextXAlignment = Enum.TextXAlignment.Left,
+            Parent = frame
+        })
+
+        local value_label = ComponentFactory.TextLabel({
+            Size = UDim2.new(0, 50, 0, 20),
+            Position = UDim2.new(1, -64, 0, 10),
+            BackgroundTransparency = 1,
+            Text = math.floor((State[state_key] or 1) * 100) .. '%',
+            TextColor3 = State[enabled_key] and C.accent or C.muted,
+            Font = Enum.Font.GothamBold,
+            TextSize = 13,
+            TextXAlignment = Enum.TextXAlignment.Right,
+            Parent = frame
+        })
+
+        local input_box = new('TextBox', {
+            Size = UDim2.new(1, -28, 0, 28),
+            Position = UDim2.new(0, 14, 0, 36),
+            BackgroundColor3 = C.elevated,
+            Text = '',
+            PlaceholderText = 'Enter Value (50-150)',
+            TextColor3 = C.text,
+            PlaceholderColor3 = C.muted,
+            Font = Enum.Font.GothamMedium,
+            TextSize = 12,
+            TextXAlignment = Enum.TextXAlignment.Center,
+            ClearTextOnFocus = false,
+            Parent = frame
+        })
+        corner(input_box, 6)
+
+        local slider_bg = ComponentFactory.Frame({
+            Size = UDim2.new(1, -28, 0, 6),
+            Position = UDim2.new(0, 14, 0, 72),
+            BackgroundColor3 = C.elevated,
+            Parent = frame
+        })
+        corner(slider_bg, 3)
+
+        local slider_percent = math.clamp((State[state_key] - 0.5) / 1, 0, 1)
+        
+        local slider_fill = ComponentFactory.Frame({
+            Size = UDim2.new(slider_percent, 0, 1, 0),
+            BackgroundColor3 = State[enabled_key] and C.accent or C.muted,
+            Parent = slider_bg
+        })
+        corner(slider_fill, 3)
+
+        local slider_handle = ComponentFactory.Frame({
+            Size = UDim2.new(0, 16, 0, 16),
+            Position = UDim2.new(slider_percent, -8, 0.5, -8),
+            BackgroundColor3 = C.text,
+            ZIndex = 2,
+            Parent = slider_bg
+        })
+        corner(slider_handle, 8)
+
+        local toggle_frame = ComponentFactory.Frame({
+            Size = UDim2.new(1, -28, 0, 26),
+            Position = UDim2.new(0, 14, 0, 86),
+            BackgroundTransparency = 1,
+            Parent = frame
+        })
+        
+        new('TextLabel', {
+            Size = UDim2.new(0.5, 0, 1, 0),
+            BackgroundTransparency = 1,
+            Text = 'Enable ' .. label_text,
+            TextColor3 = C.subtext,
+            Font = Enum.Font.GothamMedium,
+            TextSize = 11,
+            TextXAlignment = Enum.TextXAlignment.Left,
+            Parent = toggle_frame
+        })
+        
+        local toggle_track = ComponentFactory.Frame({
+            Size = UDim2.new(0, 42, 0, 22),
+            Position = UDim2.new(1, -42, 0.5, -11),
+            BackgroundColor3 = State[enabled_key] and C.accent or C.elevated,
+            Parent = toggle_frame
+        })
+        corner(toggle_track, 11)
+
+        table.insert(E.settings_sliders, {
+            fill = slider_fill,
+            value_label = value_label,
+            toggle_track = toggle_track,
+            enabled_key = enabled_key
+        })
+        
+        local toggle_knob = ComponentFactory.Frame({
+            Size = UDim2.new(0, 16, 0, 16),
+            Position = State[enabled_key] and UDim2.new(1, -19, 0.5, -8) or UDim2.new(0, 3, 0.5, -8),
+            BackgroundColor3 = C.text,
+            Parent = toggle_track
+        })
+        corner(toggle_knob, 8)
+        
+        local function update_slider_from_value(value)
+            if not State[enabled_key] then
+                Notify.show('Enable ' .. label_text .. ' first!', 'warning', 2)
+                return
+            end
+            
+            local clamped_value = math.clamp(value, 50, 150) / 100
+            State[state_key] = clamped_value
+            
+            local percent = math.clamp((clamped_value - 0.5) / 1, 0, 1)
+            slider_fill.Size = UDim2.new(percent, 0, 1, 0)
+            slider_handle.Position = UDim2.new(percent, -8, 0.5, -8)
+            value_label.Text = math.floor(clamped_value * 100) .. '%'
+            
+            if State.applied_id and State[enabled_key] then
+                Av.apply_body_scales()
+            end
+        end
+        
+        input_box:GetPropertyChangedSignal('Text'):Connect(function()
+            local text = input_box.Text
+            local number = tonumber(text)
+            
+            if number then
+                if number > 150 then
+                    input_box.Text = '150'
+                elseif number < 50 and string.len(text) >= 2 then
+                    input_box.Text = '50'
+                end
+            end
+        end)
+        
+        input_box.FocusLost:Connect(function(enter_pressed)
+            local text = input_box.Text
+            local number = tonumber(text)
+            
+            if number then
+                if number < 50 then
+                    number = 50
+                elseif number > 150 then
+                    number = 150
+                end
+                
+                update_slider_from_value(number)
+                Notify.show(label_text .. ' set to ' .. number .. '%', 'success', 1.5)
+            elseif text ~= '' then
+                Notify.show('Please enter a valid number', 'error', 2)
+            end
+            
+            input_box.Text = ''
+            save_data()
+        end)
+        
+        toggle_track.InputBegan:Connect(function(inp)
+            if is_click_input(inp) then
+                State[enabled_key] = not State[enabled_key]
+                tween(toggle_track, { BackgroundColor3 = State[enabled_key] and C.accent or C.elevated }, 0.15)
+                spring(toggle_knob, { Position = State[enabled_key] and UDim2.new(1, -19, 0.5, -8) or UDim2.new(0, 3, 0.5, -8) }, 0.2)
+                tween(slider_fill, { BackgroundColor3 = State[enabled_key] and C.accent or C.muted }, 0.15)
+                tween(value_label, { TextColor3 = State[enabled_key] and C.accent or C.muted }, 0.15)
+                
+                if not State[enabled_key] then
+                    State[state_key] = 1
+                    local reset_percent = 0.5
+                    tween(slider_fill, { Size = UDim2.new(reset_percent, 0, 1, 0) }, 0.2)
+                    tween(slider_handle, { Position = UDim2.new(reset_percent, -8, 0.5, -8) }, 0.2)
+                    value_label.Text = '100%'
+                    
+                    if State.applied_id then
+                        local char = LocalPlayer.Character
+                        if char then
+                            local hum = char:FindFirstChildOfClass('Humanoid')
+                            if hum then
+                                pcall(function()
+                                    local desc = hum:GetAppliedDescription()
+                                    if desc then
+                                        if state_key == 'width_scale' then
+                                            desc.WidthScale = 1
+                                        elseif state_key == 'height_scale' then
+                                            desc.HeightScale = 1
+                                        elseif state_key == 'depth_scale' then
+                                            desc.DepthScale = 1
+                                        elseif state_key == 'head_scale' then
+                                            desc.HeadScale = 1
+                                        end
+                                        
+                                        if hum.ApplyDescriptionClientServer then
+                                            hum:ApplyDescriptionClientServer(desc)
+                                        else
+                                            hum:ApplyDescription(desc)
+                                        end
+                                    end
+                                end)
+                            end
+                        end
+                    end
+                end
+                
+                if State.applied_id then
+                    if State[enabled_key] then
+                        Av.apply_body_scales()
+                    end
+                    Notify.show(label_text .. (State[enabled_key] and ' Enabled' or ' Disabled → Reset To 100%'), State[enabled_key] and 'success' or 'info', 1.5)
+                end
+                save_data()
+            end
+        end)
+
+        local dragging = false
+        local active_rgb_input = nil
+
+        slider_bg.InputBegan:Connect(function(inp)
+            if is_click_input(inp) then
+                if not State[enabled_key] then
+                    Notify.show('Enable ' .. label_text .. ' first!', 'warning', 1.5)
+                    return
+                end
+                if dragging then return end
+                dragging = true
+                active_rgb_input = inp
+            end
+        end)
+
+        ScriptJanitor:Add(UserInputService.InputChanged:Connect(function(inp)
+            if not dragging then return end
+            
+            if inp.UserInputType == Enum.UserInputType.MouseMovement then
+                if active_rgb_input.UserInputType ~= Enum.UserInputType.MouseButton1 then return end
+            elseif inp.UserInputType == Enum.UserInputType.Touch then
+                if active_rgb_input ~= inp then return end
+            else
+                return
+            end
+            
+            local mouse_pos = UserInputService:GetMouseLocation()
+            local slider_pos = slider_bg.AbsolutePosition
+            local slider_size = slider_bg.AbsoluteSize
+            
+            local relative_x = mouse_pos.X - slider_pos.X
+            local percent = math.clamp(relative_x / slider_size.X, 0, 1)
+            
+            State[state_key] = 0.5 + (percent * 1)
+            
+            slider_fill.Size = UDim2.new(percent, 0, 1, 0)
+            slider_handle.Position = UDim2.new(percent, -8, 0.5, -8)
+            value_label.Text = math.floor(State[state_key] * 100) .. '%'
+            
+            if State.applied_id and State[enabled_key] then
+                Av.apply_body_scales()
+            end
+        end))
+
+        ScriptJanitor:Add(UserInputService.InputEnded:Connect(function(inp)
+            if active_rgb_input ~= inp then return end
+            if is_click_input(inp) then
+                if dragging then
+                    dragging = false
+                    active_rgb_input = nil
+                    save_data()
+                end
+            end
+        end))
+        
+        return frame
+    end
+    
+    create_body_scale_slider(settings_left, 'Avatar Width', 'width_scale', 'width_enabled', 1)
+    create_body_scale_slider(settings_left, 'Avatar Height', 'height_scale', 'height_enabled', 2)
+    create_body_scale_slider(settings_left, 'Avatar Depth', 'depth_scale', 'depth_enabled', 3)
+    create_body_scale_slider(settings_left, 'Head Size', 'head_scale', 'head_enabled', 4)
+
+    create_toggle(customize_scroll, 'Disable Sound Effects', not State.sound_effects_enabled, function(enabled)
+        State.sound_effects_enabled = not enabled
+        save_data()
+        Notify.show('Sound Effects : ' .. (State.sound_effects_enabled and 'Enabled' or 'Disabled'), 'info', 2)
+    end, 1)
+
+    create_toggle(customize_scroll, 'Enable RGB Mode', State.rgb_mode, function(enabled)
+        State.rgb_mode = enabled
+        save_data()
+        Notify.show('RGB Mode : ' .. (State.rgb_mode and 'Enabled' or 'Disabled'), 'info', 2)
+        
+        if enabled then
+            State.rgb_intro_playing = true
+            
+            if E.title_letters then
+                for i, letter in ipairs(E.title_letters) do
+                    if letter and letter.Parent then
+                        task.delay((i - 1) * 0.08, function()
+                            if State.rgb_mode then
+                                local hue = ((State.rgb_hue + (i * 40)) % 360) / 360
+                                local rainbow_color = Color3.fromHSV(hue, 1, 1)
+                                tween(letter, { TextColor3 = rainbow_color }, 0.3)
+                            end
+                        end)
+                    end
+                end
+            end
+            
+            task.delay(0.1, function()
+                if State.rgb_mode then
+                    local hue = (State.rgb_hue % 360) / 360
+                    local rainbow_color = Color3.fromHSV(hue, 1, 1)
+                    tween(E.main_stroke, { Color = rainbow_color }, 0.4)
+                end
+            end)
+            
+            task.delay(0.8, function()
+                State.rgb_intro_playing = false
+            end)
+            
+        elseif not enabled then
+            if E.title_letters then
+                for i = #E.title_letters, 1, -1 do
+                    local letter = E.title_letters[i]
+                    if letter and letter.Parent then
+                        task.delay((#E.title_letters - i) * 0.08, function()
+                            if not State.rgb_mode then
+                                tween(letter, { TextColor3 = C.text }, 0.3)
+                            end
+                        end)
+                    end
+                end
+            end
+            
+            task.delay(0.1, function()
+                if not State.rgb_mode then
+                    tween(E.main_stroke, { Color = C.accent }, 0.4)
+                end
+            end)
+            
+            tween(E.apply_btn, { BackgroundColor3 = C.accent }, 0.4)
+            tween(E.client_apply_btn, { BackgroundColor3 = C.accent }, 0.4)
+            tween(E.fav_random_icon, { ImageColor3 = C.accent }, 0.3)
+            tween(E.music_play_pause_btn, { BackgroundColor3 = State.music_playing and C.success or C.accent }, 0.3)
+            if State.music_loop then
+                tween(E.music_loop_btn, { BackgroundColor3 = C.accent }, 0.3)
+            end
+            tween(E.music_name_label, { TextColor3 = C.accent }, 0.3)
+            tween(E.progress_fill, { BackgroundColor3 = C.accent }, 0.3)
+            if E.volume_slider_fill then
+                tween(E.volume_slider_fill, { BackgroundColor3 = C.accent }, 0.3)
+            end
+            if E.stats_icon then
+                tween(E.stats_icon, { ImageColor3 = C.accent }, 0.3)
+            end
+            
+            if State.current_tab == 'main' then
+                tween(E.main_tab_btn, { BackgroundColor3 = C.accent }, 0.4)
+                tween(E.fav_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.client_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.customize_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.settings_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+            elseif State.current_tab == 'favorites' then
+                tween(E.main_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.fav_tab_btn, { BackgroundColor3 = C.accent }, 0.4)
+                tween(E.client_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.customize_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.settings_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+            elseif State.current_tab == 'client' then
+                tween(E.main_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.fav_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.client_tab_btn, { BackgroundColor3 = C.accent }, 0.4)
+                tween(E.customize_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.settings_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+            elseif State.current_tab == 'customize' then
+                tween(E.main_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.fav_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.client_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.customize_tab_btn, { BackgroundColor3 = C.accent }, 0.4)
+                tween(E.settings_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+            elseif State.current_tab == 'settings' then
+                tween(E.main_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.fav_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.client_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.customize_tab_btn, { BackgroundColor3 = C.elevated }, 0.4)
+                tween(E.settings_tab_btn, { BackgroundColor3 = C.accent }, 0.4)
+            end
+        end
+    end, 2)
+
+    local rgb_mode_section = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 85),
+        BackgroundColor3 = C.card,
+        LayoutOrder = 3,
+        Parent = customize_scroll
+    })
+    corner(rgb_mode_section, 10)
+    stroke(rgb_mode_section, C.border, 1, 0.5)
+
+    local rgb_mode_label = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -28, 0, 20),
+        Position = UDim2.new(0, 14, 0, 12),
+        BackgroundTransparency = 1,
+        Text = 'RGB Effect Mode',
+        TextColor3 = C.text,
+        TextSize = 13,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Font = Enum.Font.GothamSemibold,
+        Parent = rgb_mode_section
+    })
+
+    local rgb_mode_grid = ComponentFactory.Frame({
+        Size = UDim2.new(1, -28, 0, 62),
+        Position = UDim2.new(0, 14, 0, 38),
+        BackgroundTransparency = 1,
+        Parent = rgb_mode_section
+    })
+
+    new('UIGridLayout', {
+        CellSize = UDim2.new(0, 70, 0, 25),
+        CellPadding = UDim2.new(0, 6, 0, 6),
+        FillDirection = Enum.FillDirection.Horizontal,
+        Parent = rgb_mode_grid
+    })
+
+    local rgb_modes = {
+        {id = 'cycle', name = '       Cycle'},
+        {id = 'pulse', name = '        Pulse'},
+        {id = 'wave', name = '       Wave'},
+        {id = 'breathing', name = '     Breathe'},
+        {id = 'music_sync', name = '       Music'},
+        {id = 'rainbow_trail', name = '         Trail'}
+    }
+
+    E.rgb_mode_btns = {}
+
+    local function update_rgb_mode_buttons()
+        for _, btn_data in ipairs(E.rgb_mode_btns) do
+            local is_active = btn_data.mode == State.rgb_mode_type
+            tween(btn_data.btn, {
+                BackgroundColor3 = is_active and C.accent or C.elevated
+            }, 0.2)
+            tween(btn_data.label, {
+                TextColor3 = is_active and C.text or C.subtext
+            }, 0.2)
+        end
+    end
+
+    for _, mode_data in ipairs(rgb_modes) do
+        local mode_btn = ComponentFactory.TextButton({
+            BackgroundColor3 = mode_data.id == State.rgb_mode_type and C.accent or C.elevated,
+            Text = '',
+            AutoButtonColor = false,
+            Parent = rgb_mode_grid
+        })
+        corner(mode_btn, 6)
+        
+        local mode_label = ComponentFactory.TextLabel({
+            Size = UDim2.new(1, 0, 1, 0),
+            BackgroundTransparency = 1,
+            Text = mode_data.name,
+            TextColor3 = mode_data.id == State.rgb_mode_type and C.text or C.subtext,
+            TextSize = 12,
+            Font = Enum.Font.GothamMedium,
+            Parent = mode_btn
+        })
+        
+        table.insert(E.rgb_mode_btns, {btn = mode_btn, label = mode_label, mode = mode_data.id})
+        
+        mode_btn.InputBegan:Connect(function(inp)
+            if is_click_input(inp) then
+                play_sound(Sounds.button_click)
+                State.rgb_mode_type = mode_data.id
+                State.rgb_time = 0
+                update_rgb_mode_buttons()
+                save_data()
+                Notify.show('RGB Mode: ' .. mode_data.name, 'info', 1.5)
+            end
+        end)
+    end
+
+    create_slider(customize_scroll, 'RGB Speed', State.rgb_speed, 0.1, 3, function(value)
+        State.rgb_speed = value
+        save_data()
+    end, 2.5)
+
+    local function update_theme_colors()
+        if not State.rgb_mode then
+            tween(E.main_stroke, { Color = C.accent }, 0.3)
+            tween(E.progress_fill, { BackgroundColor3 = C.accent }, 0.3)
+        end
+        
+        tween(E.apply_btn, { BackgroundColor3 = C.accent }, 0.3)
+        tween(E.client_apply_btn, { BackgroundColor3 = C.accent }, 0.3)
+        
+        tween(E.fav_random_icon, { ImageColor3 = C.accent }, 0.3)
+        
+        tween(E.music_play_pause_btn, { 
+            BackgroundColor3 = State.music_playing and C.success or C.accent 
+        }, 0.3)
+        
+        if State.music_loop then
+            tween(E.music_loop_btn, { BackgroundColor3 = C.accent }, 0.3)
+        end
+        
+        tween(E.music_name_label, { TextColor3 = C.accent }, 0.3)
+        
+        if E.stats_icon then
+            tween(E.stats_icon, { ImageColor3 = C.accent }, 0.3)
+        end
+        
+        if State.current_tab == 'main' then
+            tween(E.main_tab_btn, { BackgroundColor3 = C.accent }, 0.3)
+        elseif State.current_tab == 'favorites' then
+            tween(E.fav_tab_btn, { BackgroundColor3 = C.accent }, 0.3)
+        elseif State.current_tab == 'client' then
+            tween(E.client_tab_btn, { BackgroundColor3 = C.accent }, 0.3)
+        elseif State.current_tab == 'customize' then
+            tween(E.customize_tab_btn, { BackgroundColor3 = C.accent }, 0.3)
+        elseif State.current_tab == 'settings' then
+            tween(E.settings_tab_btn, { BackgroundColor3 = C.accent }, 0.3)
+        end
+        
+        for _, toggle_data in ipairs(E.toggle_tracks) do
+            if toggle_data.track and toggle_data.track.Parent then
+                local is_enabled = toggle_data.is_enabled()
+                if is_enabled then
+                    tween(toggle_data.track, { BackgroundColor3 = C.accent }, 0.3)
+                end
+            end
+        end
+        
+        if E.dynamic_volume_toggle_track and State.music_dynamic_volume then
+            tween(E.dynamic_volume_toggle_track, { BackgroundColor3 = C.accent }, 0.3)
+        end
+        
+        for _, slider_data in ipairs(E.settings_sliders) do
+            if State[slider_data.enabled_key] then
+                if slider_data.fill then
+                    tween(slider_data.fill, { BackgroundColor3 = C.accent }, 0.3)
+                end
+                if slider_data.value_label then
+                    tween(slider_data.value_label, { TextColor3 = C.accent }, 0.3)
+                end
+                if slider_data.toggle_track then
+                    tween(slider_data.toggle_track, { BackgroundColor3 = C.accent }, 0.3)
+                end
+            end
+        end
+        
+        if E.volume_slider_fill then
+            tween(E.volume_slider_fill, { BackgroundColor3 = C.accent }, 0.3)
+        end
+        
+        if E.apply_btn then
+            for _, conn in pairs(getconnections(E.apply_btn.MouseEnter)) do
+                conn:Disconnect()
+            end
+            for _, conn in pairs(getconnections(E.apply_btn.MouseLeave)) do
+                conn:Disconnect()
+            end
+            E.apply_btn.MouseEnter:Connect(function()
+                tween(E.apply_btn, { BackgroundColor3 = C.accent_glow }, 0.1)
+            end)
+            E.apply_btn.MouseLeave:Connect(function()
+                tween(E.apply_btn, { BackgroundColor3 = C.accent }, 0.1)
+            end)
+        end
+        
+        if E.client_apply_btn then
+            for _, conn in pairs(getconnections(E.client_apply_btn.MouseEnter)) do
+                conn:Disconnect()
+            end
+            for _, conn in pairs(getconnections(E.client_apply_btn.MouseLeave)) do
+                conn:Disconnect()
+            end
+            E.client_apply_btn.MouseEnter:Connect(function()
+                tween(E.client_apply_btn, { BackgroundColor3 = C.accent_glow }, 0.1)
+            end)
+            E.client_apply_btn.MouseLeave:Connect(function()
+                tween(E.client_apply_btn, { BackgroundColor3 = C.accent }, 0.1)
+            end)
+        end
+    end
+
+    local theme_selector_frame = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 145),
+        BackgroundColor3 = C.card,
+        LayoutOrder = 3,
+        Parent = customize_scroll
+    })
+    corner(theme_selector_frame, 10)
+    stroke(theme_selector_frame, C.border, 1, 0.5)
+
+    new('TextLabel', {
+        Size = UDim2.new(1, -20, 0, 20),
+        Position = UDim2.new(0, 10, 0, 10),
+        BackgroundTransparency = 1,
+        Text = 'UI Theme',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamBold,
+        TextSize = 13,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = theme_selector_frame
+    })
+
+    local theme_grid = ComponentFactory.Frame({
+        Size = UDim2.new(1, -20, 0, 140),
+        Position = UDim2.new(0, 10, 0, 35),
+        BackgroundTransparency = 1,
+        Parent = theme_selector_frame
+    })
+
+    new('UIGridLayout', {
+        CellSize = UDim2.new(0.333, -5, 0, 42),
+        CellPadding = UDim2.new(0, 6, 0, 8),
+        Parent = theme_grid
+    })
+
+    local theme_data = {
+        {name = 'purple', display = 'Purple'},
+        {name = 'blue', display = 'Blue'},
+        {name = 'red', display = 'Red'},
+        {name = 'green', display = 'Green'},
+        {name = 'pink', display = 'Pink'},
+        {name = 'cyan', display = 'Cyan'}
+    }
+
+    for _, theme_info in ipairs(theme_data) do
+        local theme_name = theme_info.name
+        local theme_container = ComponentFactory.Frame({
+            BackgroundColor3 = C.elevated,
+            Parent = theme_grid
+        })
+        corner(theme_container, 8)
+        
+        local theme_btn = ComponentFactory.TextButton({
+            Size = UDim2.new(1, 0, 1, 0),
+            BackgroundTransparency = 1,
+            Text = '',
+            AutoButtonColor = false,
+            Parent = theme_container
+        })
+        
+        local color_preview = ComponentFactory.Frame({
+            Size = UDim2.new(0, 20, 0, 20),
+            Position = UDim2.new(0, 8, 0.5, -10),
+            BackgroundColor3 = Themes[theme_name].accent,
+            Parent = theme_container
+        })
+        corner(color_preview, 4)
+        
+        new('TextLabel', {
+            Size = UDim2.new(1, -36, 1, 0),
+            Position = UDim2.new(0, 32, 0, 0),
+            BackgroundTransparency = 1,
+            Text = theme_info.display,
+            TextColor3 = C.text,
+            Font = Enum.Font.GothamMedium,
+            TextSize = 12,
+            TextXAlignment = Enum.TextXAlignment.Left,
+            Parent = theme_container
+        })
+        
+        if State.current_theme == theme_name then
+            stroke(theme_container, C.accent, 2, 0)
+            new('ImageLabel', {
+                Size = UDim2.new(0, 14, 0, 14),
+                Position = UDim2.new(1, -20, 0.5, -7),
+                BackgroundTransparency = 1,
+                Image = Icons.check,
+                ImageColor3 = C.accent,
+                Parent = theme_container
+            })
+        end
+        
+        theme_btn.MouseEnter:Connect(function()
+            tween(theme_container, { BackgroundColor3 = C.hover }, 0.1)
+        end)
+        
+        theme_btn.MouseLeave:Connect(function()
+            tween(theme_container, { BackgroundColor3 = C.elevated }, 0.1)
+        end)
+        
+        theme_btn.InputBegan:Connect(function(inp)
+            if is_click_input(inp) then
+                State.current_theme = theme_name
+                apply_theme(theme_name)
+                save_data()
+                
+                for _, container in ipairs(theme_grid:GetChildren()) do
+                    if container:IsA('Frame') then
+                        local s = container:FindFirstChildOfClass('UIStroke')
+                        if s then s:Destroy() end
+                        
+                        local check = container:FindFirstChildOfClass('ImageLabel')
+                        if check then check:Destroy() end
+                    end
+                end
+                
+                stroke(theme_container, C.accent, 2, 0)
+                new('ImageLabel', {
+                    Size = UDim2.new(0, 14, 0, 14),
+                    Position = UDim2.new(1, -20, 0.5, -7),
+                    BackgroundTransparency = 1,
+                    Image = Icons.check,
+                    ImageColor3 = C.accent,
+                    Parent = theme_container
+                })
+                
+                update_theme_colors()
+                
+                Notify.show('Theme: ' .. theme_info.display, 'info', 2)
+            end
+        end)
+    end
+
+    local player_input_container = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 48),
+        BackgroundTransparency = 1,
+        LayoutOrder = 1,
+        Parent = client_left
+    })
+    
+    local player_input_frame = ComponentFactory.Frame({
+        Size = UDim2.new(1, -46, 0, 48),
+        BackgroundColor3 = C.card,
+        Parent = player_input_container
+    })
+    corner(player_input_frame, 10)
+    stroke(player_input_frame, C.border, 1, 0.5)
+
+    icon(player_input_frame, Icons.user, 16, C.muted, UDim2.new(0, 14, 0.5, -8))
+
+    local player_input = ComponentFactory.TextBox({
+        Size = UDim2.new(1, -50, 1, 0),
+        Position = UDim2.new(0, 40, 0, 0),
+        BackgroundTransparency = 1,
+        Text = '',
+        PlaceholderText = 'Player Username...',
+        PlaceholderColor3 = C.muted,
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 14,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        ClearTextOnFocus = false,
+        Parent = player_input_frame
+    })
+    E.player_input = player_input
+
+    local autocomplete_label = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -50, 1, 0),
+        Position = UDim2.new(0, 40, 0, 0),
+        BackgroundTransparency = 1,
+        Text = '',
+        TextColor3 = C.muted,
+        TextTransparency = 0.6,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 14,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        ZIndex = 0,
+        Parent = player_input_frame
+    })
+
+    local client_prev_btn, client_prev_icon = create_icon_btn(player_input_container, Icons.eye, UDim2.new(1, -38, 0, 6))
+    E.client_prev_btn = client_prev_btn
+    E.client_prev_icon = client_prev_icon
+
+    PlayerAutocomplete.setup(player_input, autocomplete_label)
+
+    local client_input_frame = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 48),
+        BackgroundColor3 = C.card,
+        LayoutOrder = 2,
+        Parent = client_left
+    })
+    corner(client_input_frame, 10)
+    stroke(client_input_frame, C.border, 1, 0.5)
+
+    icon(client_input_frame, Icons.search, 16, C.muted, UDim2.new(0, 14, 0.5, -8))
+
+    local client_input = ComponentFactory.TextBox({
+        Size = UDim2.new(1, -50, 1, 0),
+        Position = UDim2.new(0, 40, 0, 0),
+        BackgroundTransparency = 1,
+        Text = '',
+        PlaceholderText = 'Avatar ID To Apply...',
+        PlaceholderColor3 = C.muted,
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 14,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        ClearTextOnFocus = false,
+        Parent = client_input_frame
+    })
+    E.client_input = client_input
+
+    client_input:GetPropertyChangedSignal('Text'):Connect(function()
+        if State.client_preview_open then
+            ClientPrev.load(client_input.Text)
+        end
+    end)
+
+    local client_btn_row = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 44),
+        BackgroundTransparency = 1,
+        LayoutOrder = 3,
+        Parent = client_left
+    })
+
+    new('UIListLayout', {
+        FillDirection = Enum.FillDirection.Horizontal,
+        Padding = UDim.new(0, 8),
+        Parent = client_btn_row
+    })
+
+    local client_apply_wrap = ComponentFactory.Frame({
+        Size = UDim2.new(0.5, -4, 1, 0),
+        BackgroundTransparency = 1,
+        LayoutOrder = 1,
+        Parent = client_btn_row
+    })
+    E.client_apply_btn = create_button(client_apply_wrap, 'APPLY', true, 0, Icons.play)
+
+    local client_reset_wrap = ComponentFactory.Frame({
+        Size = UDim2.new(0.5, -4, 1, 0),
+        BackgroundTransparency = 1,
+        LayoutOrder = 2,
+        Parent = client_btn_row
+    })
+    E.client_reset_btn = create_button(client_reset_wrap, 'RESET', false, 0, Icons.rotate)
+
+    local client_all_row = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 44),
+        BackgroundTransparency = 1,
+        LayoutOrder = 4,
+        Parent = client_left
+    })
+
+    new('UIListLayout', {
+        FillDirection = Enum.FillDirection.Horizontal,
+        Padding = UDim.new(0, 8),
+        Parent = client_all_row
+    })
+
+    local client_apply_all_wrap = ComponentFactory.Frame({
+        Size = UDim2.new(0.5, -4, 1, 0),
+        BackgroundTransparency = 1,
+        LayoutOrder = 1,
+        Parent = client_all_row
+    })
+    E.client_apply_all_btn = create_button(client_apply_all_wrap, 'APPLY ALL', false, 0, Icons.users)
+
+    local client_reset_all_wrap = ComponentFactory.Frame({
+        Size = UDim2.new(0.5, -4, 1, 0),
+        BackgroundTransparency = 1,
+        LayoutOrder = 2,
+        Parent = client_all_row
+    })
+    E.client_reset_all_btn = create_button(client_reset_all_wrap, 'RESET ALL', false, 0, Icons.refresh)
+
+    new('UIListLayout', {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 10),
+        Parent = main_content
+    })
+
+    local btn_row = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 48),
+        BackgroundTransparency = 1,
+        LayoutOrder = 2,
+        Parent = main_left
+    })
+
+    new('UIListLayout', {
+        FillDirection = Enum.FillDirection.Horizontal,
+        Padding = UDim.new(0, 10),
+        Parent = btn_row
+    })
+
+    local apply_wrap = ComponentFactory.Frame({
+        Size = UDim2.new(0.55, -5, 1, 0),
+        BackgroundTransparency = 1,
+        LayoutOrder = 1,
+        Parent = btn_row
+    })
+    E.apply_btn = create_button(apply_wrap, 'APPLY', true, 0, Icons.play)
+
+    local rand_wrap = ComponentFactory.Frame({
+        Size = UDim2.new(0.45, -5, 1, 0),
+        BackgroundTransparency = 1,
+        LayoutOrder = 2,
+        Parent = btn_row
+    })
+    E.rand_btn = create_button(rand_wrap, 'RANDOM', false, 0, Icons.dice)
+
+    local reset_row = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 44),
+        BackgroundTransparency = 1,
+        LayoutOrder = 3,
+        Parent = main_left
+    })
+
+    local reset_wrap = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        Parent = reset_row
+    })
+    E.reset_btn = create_button(reset_wrap, 'RESET TO ORIGINAL', false, 0, Icons.rotate)
+
+    new('Frame', {
+        Size = UDim2.new(1, 0, 0, 1),
+        BackgroundColor3 = C.border,
+        BackgroundTransparency = 0.5,
+        LayoutOrder = 4,
+        Parent = main_left
+    })
+
+    local stats_container = ComponentFactory.ScrollingFrame({
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        BorderSizePixel = 0,
+        ScrollBarThickness = 4,
+        ScrollBarImageColor3 = C.accent,
+        CanvasSize = UDim2.new(0, 0, 0, 0),
+        AutomaticCanvasSize = Enum.AutomaticSize.Y,
+        Parent = main_right
+    })
+    
+    local stats_layout = new('UIListLayout', {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 4),
+        Parent = stats_container
+    })
+    
+    E.stats_list = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 0),
+        AutomaticSize = Enum.AutomaticSize.Y,
+        BackgroundTransparency = 1,
+        LayoutOrder = 1,
+        Parent = stats_container
+    })
+    
+    new('UIListLayout', {
+        SortOrder = Enum.SortOrder.LayoutOrder,
+        Padding = UDim.new(0, 6),
+        Parent = E.stats_list
+    })
+    
+    new('UIPadding', {
+        PaddingTop = UDim.new(0, 4),
+        PaddingBottom = UDim.new(0, 4),
+        Parent = E.stats_list
+    })
+    
+    local function update_stats_ui()
+        for _, c in ipairs(E.stats_list:GetChildren()) do
+            if c:IsA('Frame') then
+                c:Destroy()
+            end
+        end
+        
+        local sorted_stats = {}
+        for id, count in pairs(State.apply_counts) do
+            table.insert(sorted_stats, {id = tonumber(id), count = count})
+        end
+        table.sort(sorted_stats, function(a, b) return a.count > b.count end)
+        
+        local max_count = sorted_stats[1] and sorted_stats[1].count or 1
+        local max_display = 5
+        
+        if #sorted_stats == 0 then
+            local empty_label = ComponentFactory.TextLabel({
+                Size = UDim2.new(1, 0, 0, 60),
+                BackgroundColor3 = C.card,
+                Text = 'No Avatars Applied Yet\nStart Applying To See Stats!',
+                TextColor3 = C.muted,
+                Font = Enum.Font.Gotham,
+                TextSize = 12,
+                TextWrapped = true,
+                Parent = E.stats_list
+            })
+            corner(empty_label, 8)
+            stroke(empty_label, C.border, 1, 0.5)
+        else
+            for i = 1, math.min(#sorted_stats, max_display) do
+                local stat = sorted_stats[i]
+                
+                local rank_styles = {
+                    {bg = Color3.fromRGB(255, 215, 0), glow = Color3.fromRGB(255, 200, 0), label = 'TOP 1', icon_size = 20},
+                    {bg = Color3.fromRGB(192, 192, 192), glow = Color3.fromRGB(170, 170, 170), label = 'TOP 2', icon_size = 18},
+                    {bg = Color3.fromRGB(205, 127, 50), glow = Color3.fromRGB(185, 110, 40), label = 'TOP 3', icon_size = 18},
+                    {bg = Color3.fromRGB(100, 120, 140), glow = Color3.fromRGB(80, 100, 120), label = '#4', icon_size = 16},
+                    {bg = Color3.fromRGB(80, 100, 120), glow = Color3.fromRGB(60, 80, 100), label = '#5', icon_size = 16}
+                }
+                
+                local style = rank_styles[i]
+                local is_top_3 = i <= 3
+                
+                local stat_card = ComponentFactory.Frame({
+                    Size = UDim2.new(1, 0, 0, is_top_3 and 48 or 40),
+                    BackgroundColor3 = is_top_3 and C.card or C.elevated,
+                    BackgroundTransparency = 0,
+                    LayoutOrder = i,
+                    Parent = E.stats_list
+                })
+                corner(stat_card, 12)
+                
+                if is_top_3 then
+                    local glow_stroke = Instance.new('UIStroke')
+                    glow_stroke.Color = style.bg
+                    glow_stroke.Thickness = 1.5
+                    glow_stroke.Transparency = 0.3
+                    glow_stroke.Parent = stat_card
+                else
+                    stroke(stat_card, C.border, 0.5, 0.3)
+                end
+                
+                local rank_badge = ComponentFactory.Frame({
+                    Size = UDim2.new(0, is_top_3 and 38 or 34, 0, is_top_3 and 38 or 34),
+                    Position = UDim2.new(0, 8, 0.5, is_top_3 and -19 or -17),
+                    BackgroundColor3 = style.bg,
+                    Parent = stat_card
+                })
+                corner(rank_badge, is_top_3 and 10 or 8)
+                
+                if is_top_3 then
+                    local gradient = Instance.new('UIGradient')
+                    gradient.Color = ColorSequence.new({
+                        ColorSequenceKeypoint.new(0, style.bg),
+                        ColorSequenceKeypoint.new(1, style.glow)
+                    })
+                    gradient.Rotation = 45
+                    gradient.Parent = rank_badge
+                    
+                    local badge_stroke = Instance.new('UIStroke')
+                    badge_stroke.Color = style.bg
+                    badge_stroke.Thickness = 1
+                    badge_stroke.Transparency = 0.2
+                    badge_stroke.Parent = rank_badge
+                end
+                
+                local rank_label = ComponentFactory.TextLabel({
+                    Size = UDim2.new(1, 0, 1, 0),
+                    BackgroundTransparency = 1,
+                    Text = style.label,
+                    TextColor3 = Color3.fromRGB(255, 255, 255),
+                    Font = Enum.Font.GothamBlack,
+                    TextSize = is_top_3 and 10 or 9,
+                    TextXAlignment = Enum.TextXAlignment.Center,
+                    TextYAlignment = Enum.TextYAlignment.Center,
+                    Parent = rank_badge
+                })
+                
+                if is_top_3 then
+                    local shadow = Instance.new('UIStroke')
+                    shadow.Color = Color3.fromRGB(0, 0, 0)
+                    shadow.Thickness = 2
+                    shadow.Transparency = 0.7
+                    shadow.Parent = rank_label
+                end
+                
+                local id_label = ComponentFactory.TextLabel({
+                    Size = UDim2.new(1, -180, 1, 0),
+                    Position = UDim2.new(0, is_top_3 and 52 or 48, 0, 0),
+                    BackgroundTransparency = 1,
+                    Text = 'Loading...',
+                    TextColor3 = C.text,
+                    Font = Enum.Font.GothamBold,
+                    TextSize = is_top_3 and 12 or 11,
+                    TextXAlignment = Enum.TextXAlignment.Left,
+                    TextTruncate = Enum.TextTruncate.AtEnd,
+                    Parent = stat_card
+                })
+                
+                task.spawn(function()
+                    local success, username = pcall(function()
+                        return Players:GetNameFromUserIdAsync(stat.id)
+                    end)
+                    
+                    if success and username then
+                        id_label.Text = '@' .. username
+                    else
+                        id_label.Text = 'ID: ' .. tostring(stat.id)
+                    end
+                end)
+                
+                local count_label = ComponentFactory.TextLabel({
+                    Size = UDim2.new(0, 60, 1, 0),
+                    Position = UDim2.new(1, -125, 0, 0),
+                    BackgroundTransparency = 1,
+                    Text = stat.count .. ' Applies',
+                    TextColor3 = style.bg,
+                    Font = Enum.Font.GothamBold,
+                    TextSize = is_top_3 and 10 or 9,
+                    TextXAlignment = Enum.TextXAlignment.Right,
+                    Parent = stat_card
+                })
+                
+                local quick_apply_btn = ComponentFactory.TextButton({
+                    Size = UDim2.new(0, 58, 0, 28),
+                    Position = UDim2.new(1, -63, 0.5, -14),
+                    BackgroundColor3 = C.accent,
+                    Text = 'APPLY',
+                    TextColor3 = C.text,
+                    Font = Enum.Font.GothamBold,
+                    TextSize = 10,
+                    AutoButtonColor = false,
+                    Parent = stat_card
+                })
+                corner(quick_apply_btn, 8)
+                
+                quick_apply_btn.MouseEnter:Connect(function()
+                    tween(quick_apply_btn, { BackgroundColor3 = C.accent_glow }, 0.1)
+                end)
+                
+                quick_apply_btn.MouseLeave:Connect(function()
+                    tween(quick_apply_btn, { BackgroundColor3 = C.accent }, 0.1)
+                end)
+                
+                quick_apply_btn.InputBegan:Connect(function(inp)
+                    if is_click_input(inp) then
+                        if State.stats_apply_cooldown then
+                            return
+                        end
+                        State.stats_apply_cooldown = true
+                        
+                        for _, card in ipairs(E.stats_list:GetChildren()) do
+                            if card:IsA('Frame') then
+                                local btn = card:FindFirstChild('TextButton')
+                                if btn then
+                                    tween(btn, { BackgroundColor3 = C.muted }, 0.15)
+                                    btn.Active = false
+                                end
+                            end
+                        end
+                        
+                        local id_str = tostring(stat.id)
+                        E.input.Text = id_str
+                        State.input_ready = true
+                        local was_applied = State.applied_id == stat.id
+                        if was_applied then
+                            State.applied_id = nil
+                        end
+                        Av.apply(id_str, nil, false, true)
+                        
+                        task.delay(0.75, function()
+                            State.stats_apply_cooldown = false
+                            for _, card in ipairs(E.stats_list:GetChildren()) do
+                                if card:IsA('Frame') then
+                                    local btn = card:FindFirstChild('TextButton')
+                                    if btn then
+                                        tween(btn, { BackgroundColor3 = C.accent }, 0.15)
+                                        btn.Active = true
+                                    end
+                                end
+                            end
+                        end)
+                    end
+                end)
+                
+                quick_apply_btn.MouseEnter:Connect(function()
+                    if not State.stats_apply_cooldown then
+                        tween(quick_apply_btn, { BackgroundColor3 = C.accent_glow }, 0.15)
+                    end
+                end)
+                
+                quick_apply_btn.MouseLeave:Connect(function()
+                    if not State.stats_apply_cooldown then
+                        tween(quick_apply_btn, { BackgroundColor3 = C.accent }, 0.15)
+                    end
+                end)
+            end
+        end
+    end
+    
+    E.update_stats_ui = update_stats_ui
+    update_stats_ui()
+
+    local main_undoredo_frame = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 70),
+        BackgroundColor3 = C.card,
+        LayoutOrder = 5,
+        Parent = main_left
+    })
+    corner(main_undoredo_frame, 10)
+    stroke(main_undoredo_frame, C.border, 1, 0.5)
+
+    local main_undoredo_label = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -28, 0, 16),
+        Position = UDim2.new(0, 14, 0, 8),
+        BackgroundTransparency = 1,
+        Text = 'Avatar History',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamSemibold,
+        TextSize = 13,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = main_undoredo_frame
+    })
+
+    local main_undo_btn = ComponentFactory.TextButton({
+        Size = UDim2.new(0, 85, 0, 32),
+        Position = UDim2.new(0, 14, 0, 30),
+        BackgroundColor3 = C.elevated,
+        Text = '← Undo',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamSemibold,
+        TextSize = 12,
+        Parent = main_undoredo_frame
+    })
+    corner(main_undo_btn, 6)
+    E.main_undo_btn = main_undo_btn
+
+    local main_redo_btn = ComponentFactory.TextButton({
+        Size = UDim2.new(0, 85, 0, 32),
+        Position = UDim2.new(0, 109, 0, 30),
+        BackgroundColor3 = C.elevated,
+        Text = 'Redo →',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamSemibold,
+        TextSize = 12,
+        Parent = main_undoredo_frame
+    })
+    corner(main_redo_btn, 6)
+    E.main_redo_btn = main_redo_btn
+
+    local main_history_count = ComponentFactory.TextLabel({
+        Size = UDim2.new(0, 100, 0, 32),
+        Position = UDim2.new(1, -114, 0, 30),
+        BackgroundTransparency = 1,
+        Text = '0 / 0',
+        TextColor3 = C.muted,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 11,
+        TextXAlignment = Enum.TextXAlignment.Right,
+        Parent = main_undoredo_frame
+    })
+    E.main_history_count_label = main_history_count
+
+    main_undo_btn.MouseButton1Click:Connect(function()
+        Av.undo()
+    end)
+
+    main_redo_btn.MouseButton1Click:Connect(function()
+        Av.redo()
+    end)
+
+    main_undo_btn.MouseEnter:Connect(function()
+        if #State.undo_history > 0 then
+            tween(main_undo_btn, { BackgroundColor3 = C.accent_glow }, 0.1)
+        end
+    end)
+
+    main_undo_btn.MouseLeave:Connect(function()
+        if #State.undo_history > 0 then
+            tween(main_undo_btn, { BackgroundColor3 = C.accent }, 0.1)
+        else
+            tween(main_undo_btn, { BackgroundColor3 = C.elevated }, 0.1)
+        end
+    end)
+
+    main_redo_btn.MouseEnter:Connect(function()
+        if #State.redo_history > 0 then
+            tween(main_redo_btn, { BackgroundColor3 = C.accent_glow }, 0.1)
+        end
+    end)
+
+    main_redo_btn.MouseLeave:Connect(function()
+        if #State.redo_history > 0 then
+            tween(main_redo_btn, { BackgroundColor3 = C.accent }, 0.1)
+        else
+            tween(main_redo_btn, { BackgroundColor3 = C.elevated }, 0.1)
+        end
+    end)
+
+    create_toggle(main_left, 'Auto Apply', State.auto, function(enabled)
+        State.auto = enabled
+        save_data()
+        
+        if enabled then
+            Notify.show('Auto Apply Enabled', 'success', 2)
+            Auto.start()
+            E.reset_btn.BackgroundTransparency = 0.5
+            E.reset_btn.Active = false
+            if E.input.Text ~= '' then
+                State.input_ready = true
+            end
+        else
+            Notify.show('Auto Apply Disabled', 'info', 2)
+            Auto.stop()
+            E.reset_btn.BackgroundTransparency = 0
+            E.reset_btn.Active = true
+        end
+    end, 6)
+    
+    local music_frame = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 315),
+        BackgroundColor3 = C.card,
+        LayoutOrder = 0.5,
+        Parent = settings_right
+    })
+    corner(music_frame, 10)
+    stroke(music_frame, C.border, 1, 0.5)
+
+    new('TextLabel', {
+        Size = UDim2.new(1, -28, 0, 18),
+        Position = UDim2.new(0, 14, 0, 8),
+        BackgroundTransparency = 1,
+        Text = 'Music Player',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamSemibold,
+        TextSize = 13,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = music_frame
+    })
+
+    local music_name_label = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -28, 0, 16),
+        Position = UDim2.new(0, 14, 0, 28),
+        BackgroundTransparency = 1,
+        Text = Music[State.music_index].name,
+        TextColor3 = C.accent,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 12,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        TextTruncate = Enum.TextTruncate.AtEnd,
+        Parent = music_frame
+    })
+    E.music_name_label = music_name_label
+
+    local progress_container = ComponentFactory.Frame({
+        Size = UDim2.new(1, -28, 0, 32),
+        Position = UDim2.new(0, 14, 0, 48),
+        BackgroundTransparency = 1,
+        Parent = music_frame
+    })
+
+    local time_current = ComponentFactory.TextLabel({
+        Size = UDim2.new(0, 40, 0, 14),
+        Position = UDim2.new(0, 0, 0, 0),
+        BackgroundTransparency = 1,
+        Text = '0:00',
+        TextColor3 = C.subtext,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 10,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = progress_container
+    })
+    E.time_current = time_current
+
+    local time_total = ComponentFactory.TextLabel({
+        Size = UDim2.new(0, 40, 0, 14),
+        Position = UDim2.new(1, -40, 0, 0),
+        BackgroundTransparency = 1,
+        Text = '0:00',
+        TextColor3 = C.subtext,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 10,
+        TextXAlignment = Enum.TextXAlignment.Right,
+        Parent = progress_container
+    })
+    E.time_total = time_total
+
+    local function format_time(seconds)
+        local mins = math.floor(seconds / 60)
+        local secs = math.floor(seconds % 60)
+        return string.format('%d:%02d', mins, secs)
+    end
+
+    local progress_bg = ComponentFactory.Frame({
+        Size = UDim2.new(1, -90, 0, 4),
+        Position = UDim2.new(0, 45, 0, 18),
+        BackgroundColor3 = C.elevated,
+        Parent = progress_container
+    })
+    corner(progress_bg, 2)
+
+    local progress_dragging = false
+    local active_progress_input = nil
+
+    progress_bg.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            if State.music_sound then
+                if progress_dragging then return end
+                progress_dragging = true
+                active_progress_input = inp
+                
+                local mouse_pos = UserInputService:GetMouseLocation()
+                local bar_pos = progress_bg.AbsolutePosition
+                local bar_size = progress_bg.AbsoluteSize
+                
+                local relative_x = mouse_pos.X - bar_pos.X
+                local percent = math.clamp(relative_x / bar_size.X, 0, 1)
+                
+                local new_time = percent * State.music_sound.TimeLength
+                State.music_sound.TimePosition = new_time
+                
+                E.progress_fill.Size = UDim2.new(percent, 0, 1, 0)
+                E.progress_handle.Position = UDim2.new(percent, -5, 0.5, -5)
+                E.time_current.Text = format_time(new_time)
+            end
+        end
+    end)
+
+    ScriptJanitor:Add(UserInputService.InputChanged:Connect(function(inp)
+        if not progress_dragging then return end
+        
+        if inp.UserInputType == Enum.UserInputType.MouseMovement then
+            if active_progress_input.UserInputType ~= Enum.UserInputType.MouseButton1 then return end
+        elseif inp.UserInputType == Enum.UserInputType.Touch then
+            if active_progress_input ~= inp then return end
+        else
+            return
+        end
+        
+        if State.music_sound then
+            local mouse_pos = UserInputService:GetMouseLocation()
+            local bar_pos = progress_bg.AbsolutePosition
+            local bar_size = progress_bg.AbsoluteSize
+            
+            local relative_x = mouse_pos.X - bar_pos.X
+            local percent = math.clamp(relative_x / bar_size.X, 0, 1)
+            
+            local new_time = percent * State.music_sound.TimeLength
+            State.music_sound.TimePosition = new_time
+            
+            E.progress_fill.Size = UDim2.new(percent, 0, 1, 0)
+            E.progress_handle.Position = UDim2.new(percent, -5, 0.5, -5)
+            E.time_current.Text = format_time(new_time)
+        end
+    end))
+
+    ScriptJanitor:Add(UserInputService.InputEnded:Connect(function(inp)
+        if active_progress_input ~= inp then return end
+        if is_click_input(inp) then
+            progress_dragging = false
+            active_progress_input = nil
+        end
+    end))
+
+    local progress_fill = ComponentFactory.Frame({
+        Size = UDim2.new(0, 0, 1, 0),
+        BackgroundColor3 = C.accent,
+        Parent = progress_bg
+    })
+    corner(progress_fill, 2)
+    E.progress_fill = progress_fill
+
+    local progress_handle = ComponentFactory.Frame({
+        Size = UDim2.new(0, 10, 0, 10),
+        Position = UDim2.new(0, -5, 0.5, -5),
+        BackgroundColor3 = C.text,
+        ZIndex = 2,
+        Parent = progress_bg
+    })
+    corner(progress_handle, 5)
+    E.progress_handle = progress_handle
+
+    local music_controls = ComponentFactory.Frame({
+        Size = UDim2.new(1, -28, 0, 28),
+        Position = UDim2.new(0, 14, 0, 84),
+        BackgroundTransparency = 1,
+        Parent = music_frame
+    })
+
+    new('UIListLayout', {
+        FillDirection = Enum.FillDirection.Horizontal,
+        Padding = UDim.new(0, 25),
+        Parent = music_controls
+    })
+
+    local prev_music_btn = ComponentFactory.TextButton({
+        Size = UDim2.new(0, 28, 0, 28),
+        BackgroundColor3 = C.elevated,
+        Text = '',
+        AutoButtonColor = false,
+        Parent = music_controls
+    })
+    corner(prev_music_btn, 6)
+    icon(prev_music_btn, Icons.chevron_left, 16, C.text)
+
+    local play_pause_btn = ComponentFactory.TextButton({
+        Size = UDim2.new(0, 28, 0, 28),
+        BackgroundColor3 = C.accent,
+        Text = '',
+        AutoButtonColor = false,
+        Parent = music_controls
+    })
+    corner(play_pause_btn, 6)
+    local play_icon = icon(play_pause_btn, Icons.play, 14, C.text)
+    E.music_play_icon = play_icon
+    E.music_play_pause_btn = play_pause_btn
+
+    local next_music_btn = ComponentFactory.TextButton({
+        Size = UDim2.new(0, 28, 0, 28),
+        BackgroundColor3 = C.elevated,
+        Text = '',
+        AutoButtonColor = false,
+        Parent = music_controls
+    })
+    corner(next_music_btn, 6)
+    icon(next_music_btn, Icons.chevron_right, 16, C.text)
+
+    local loop_btn = ComponentFactory.TextButton({
+        Size = UDim2.new(0, 28, 0, 28),
+        BackgroundColor3 = State.music_loop and C.accent or C.elevated,
+        Text = '',
+        AutoButtonColor = false,
+        Parent = music_controls
+    })
+    corner(loop_btn, 6)
+    local loop_icon = icon(loop_btn, Icons.refresh, 14, State.music_loop and C.text or C.muted)
+    E.music_loop_btn = loop_btn
+    E.music_loop_icon = loop_icon
+    E.music_loop_btn_ref = loop_btn
+
+    local music_ended_conn = nil
+    local music_update_conn = nil
+    local stop_music, pause_music, resume_music, play_music, next_track, prev_track, update_progress
+    local current_dynamic_volume = 1
+    local target_dynamic_volume = 1
+
+    update_progress = function()
+        if not State.music_sound or not State.music_sound.IsPlaying then
+            return
+        end
+        local current = State.music_sound.TimePosition
+        local total = State.music_sound.TimeLength
+        if total > 0 then
+            local progress = current / total
+            E.progress_fill.Size = UDim2.new(progress, 0, 1, 0)
+            E.progress_handle.Position = UDim2.new(progress, -5, 0.5, -5)
+            E.time_current.Text = format_time(current)
+            E.time_total.Text = format_time(total)
+        end
+    end
+
+    stop_music = function()
+        if State.music_sound then
+            State.music_sound:Stop()
+            State.music_sound:Destroy()
+            State.music_sound = nil
+        end
+        
+        if music_ended_conn then
+            music_ended_conn:Disconnect()
+            music_ended_conn = nil
+        end
+        
+        if music_update_conn then
+            music_update_conn:Disconnect()
+            music_update_conn = nil
+        end
+        
+        State.music_playing = false
+        play_icon.Image = Icons.play
+        tween(play_pause_btn, { BackgroundColor3 = C.accent }, 0.2)
+        E.progress_fill.Size = UDim2.new(0, 0, 1, 0)
+        E.progress_handle.Position = UDim2.new(0, -5, 0.5, -5)
+        E.time_current.Text = '0:00'
+        E.time_total.Text = '0:00'
+    end
+
+    pause_music = function()
+        if State.music_sound and State.music_sound.IsPlaying then
+            State.music_sound:Pause()
+        end
+        State.music_playing = false
+        play_icon.Image = Icons.play
+        tween(play_pause_btn, { BackgroundColor3 = C.accent }, 0.2)
+        update_progress()
+    end
+
+    resume_music = function()
+        if State.music_sound and not State.music_sound.IsPlaying then
+            State.music_sound:Resume()
+            State.music_playing = true
+            play_icon.Image = Icons.x
+            tween(play_pause_btn, { BackgroundColor3 = C.success }, 0.2)
+        end
+    end
+
+    local switch_music_track = function(direction)
+        if direction > 0 then
+            State.music_index = State.music_index + 1
+            if State.music_index > #Music then
+                State.music_index = 1
+            end
+        else
+            State.music_index = State.music_index - 1
+            if State.music_index < 1 then
+                State.music_index = #Music
+            end
+        end
+        
+        local was_playing = State.music_playing
+        stop_music()
+        music_name_label.Text = Music[State.music_index].name
+        if was_playing then
+            play_music()
+        end
+        save_data()
+    end
+
+    next_track = function()
+        switch_music_track(1)
+    end
+
+    prev_track = function()
+        switch_music_track(-1)
+    end
+
+    play_music = function()
+        if State.music_sound and not State.music_sound.IsPlaying then
+            resume_music()
+            return
+        end
+    
+        stop_music()
+        State.music_sound = Instance.new('Sound')
+        State.music_sound.SoundId = Music[State.music_index].id
+        State.music_sound.Volume = State.music_volume
+        State.music_sound.Looped = State.music_loop
+        State.music_sound.Parent = workspace
+        
+        if not State.music_loop then
+            music_ended_conn = State.music_sound.Ended:Connect(function()
+                if State.music_playing and State.music_loaded then
+                    next_track()
+                end
+            end)
+        end
+        
+        State.music_sound:Play()
+        State.music_playing = true
+        play_icon.Image = Icons.x
+        tween(play_pause_btn, { BackgroundColor3 = C.success }, 0.2)
+        music_name_label.Text = Music[State.music_index].name
+        
+        if E.apply_bass_boost then
+            E.apply_bass_boost()
+        end
+        
+        task.spawn(function()
+            if State.music_sound then
+                E.time_total.Text = format_time(State.music_sound.TimeLength)
+            end
+        end)
+        
+        if music_update_conn then
+            music_update_conn:Disconnect()
+        end
+        
+        local music_update_interval = 0.1
+        local last_music_update = 0
+        
+        music_update_conn = RunService.Heartbeat:Connect(function()
+            local now = tick()
+            if now - last_music_update < music_update_interval then return end
+            last_music_update = now
+            
+            if State.music_playing and State.music_sound and State.music_sound.IsPlaying then
+                update_progress()
+                
+                if State.music_dynamic_volume then
+                    local loudness = State.music_sound.PlaybackLoudness / 500
+                    loudness = math.clamp(loudness, 0, 1)
+                    
+                    local base_volume = State.music_volume
+                    local dynamic_multiplier = 0.5 + (loudness * 0.5)
+                    
+                    target_dynamic_volume = base_volume * dynamic_multiplier
+                    current_dynamic_volume = current_dynamic_volume + (target_dynamic_volume - current_dynamic_volume) * 0.15
+                    
+                    State.music_sound.Volume = current_dynamic_volume
+                    
+                    if State.visible and E.volume_slider_fill and E.volume_slider_handle and E.volume_value_label then
+                        local visual_volume = math.clamp(current_dynamic_volume, 0, 1)
+                        
+                        E.volume_slider_fill.Size = UDim2.new(visual_volume, 0, 1, 0)
+                        E.volume_slider_handle.Position = UDim2.new(visual_volume, -8, 0.5, -8)
+                        E.volume_value_label.Text = string.format('%d%%', math.floor(visual_volume * 100))
+                    end
+                else
+                    State.music_sound.Volume = State.music_volume
+                    current_dynamic_volume = State.music_volume
+                    target_dynamic_volume = State.music_volume
+                    
+                    if State.visible and E.volume_slider_fill and E.volume_slider_handle and E.volume_value_label then
+                        E.volume_slider_fill.Size = UDim2.new(State.music_volume, 0, 1, 0)
+                        E.volume_slider_handle.Position = UDim2.new(State.music_volume, -8, 0.5, -8)
+                        E.volume_value_label.Text = string.format('%d%%', math.floor(State.music_volume * 100))
+                    end
+                end
+            end
+        end)
+        ScriptJanitor:Add(music_update_conn)
+    end
+
+    play_pause_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            if State.music_playing then
+                pause_music()
+            else
+                play_music()
+            end
+        end
+    end)
+
+    next_music_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            next_track()
+        end
+    end)
+
+    prev_music_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            prev_track()
+        end
+    end)
+
+    loop_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            State.music_loop = not State.music_loop
+            tween(loop_btn, { BackgroundColor3 = State.music_loop and C.accent or C.elevated }, 0.2)
+            tween(loop_icon, { ImageColor3 = State.music_loop and C.text or C.muted }, 0.2)
+            
+            if State.music_sound then
+                State.music_sound.Looped = State.music_loop
+                
+                if music_ended_conn then
+                    music_ended_conn:Disconnect()
+                    music_ended_conn = nil
+                end
+                
+                if not State.music_loop then
+                    music_ended_conn = State.music_sound.Ended:Connect(function()
+                        if State.music_playing and State.music_loaded then
+                            next_track()
+                        end
+                    end)
+                end
+            end
+            
+            Notify.show('Loop : ' .. (State.music_loop and 'ON (Current track)' or 'OFF (Auto-advance)'), 'info', 2)
+            save_data()
+        end
+    end)
+
+    
+    local sfx_toggle_frame = ComponentFactory.Frame({
+        Size = UDim2.new(1, -28, 0, 24),
+        Position = UDim2.new(0, 14, 1, -27),
+        BackgroundTransparency = 1,
+        Parent = music_frame
+    })
+    
+    local volume_slider_container = ComponentFactory.Frame({
+        Size = UDim2.new(1, -28, 0, 55),
+        Position = UDim2.new(0, 14, 0, 120),
+        BackgroundTransparency = 1,
+        Parent = music_frame
+    })
+    
+    new('TextLabel', {
+        Size = UDim2.new(0.7, 0, 0, 18),
+        Position = UDim2.new(0, 0, 0, 0),
+        BackgroundTransparency = 1,
+        Text = 'Volume',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamSemibold,
+        TextSize = 12,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = volume_slider_container
+    })
+    
+    local volume_value_label = ComponentFactory.TextLabel({
+        Size = UDim2.new(0, 50, 0, 18),
+        Position = UDim2.new(1, -50, 0, 0),
+        BackgroundTransparency = 1,
+        Text = string.format('%d%%', math.floor(State.music_volume * 100)),
+        TextColor3 = C.accent,
+        Font = Enum.Font.GothamBold,
+        TextSize = 12,
+        TextXAlignment = Enum.TextXAlignment.Right,
+        Parent = volume_slider_container
+    })
+    E.volume_value_label = volume_value_label
+    
+    local volume_slider_bg = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 6),
+        Position = UDim2.new(0, 0, 0, 28),
+        BackgroundColor3 = C.elevated,
+        Parent = volume_slider_container
+    })
+    corner(volume_slider_bg, 3)
+    
+    local volume_slider_percent = math.clamp(State.music_volume, 0, 1)
+    
+    local volume_slider_fill = ComponentFactory.Frame({
+        Size = UDim2.new(volume_slider_percent, 0, 1, 0),
+        BackgroundColor3 = C.accent,
+        Parent = volume_slider_bg
+    })
+    corner(volume_slider_fill, 3)
+    E.volume_slider_fill = volume_slider_fill
+    
+    local volume_slider_handle = ComponentFactory.Frame({
+        Size = UDim2.new(0, 16, 0, 16),
+        Position = UDim2.new(volume_slider_percent, -8, 0.5, -8),
+        BackgroundColor3 = C.text,
+        ZIndex = 2,
+        Parent = volume_slider_bg
+    })
+    corner(volume_slider_handle, 8)
+    E.volume_slider_handle = volume_slider_handle
+    
+    local volume_dragging = false
+    local active_volume_input = nil
+    
+    volume_slider_bg.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            if volume_dragging then return end
+            volume_dragging = true
+            active_volume_input = inp
+            
+            local mouse_pos = UserInputService:GetMouseLocation()
+            local slider_pos = volume_slider_bg.AbsolutePosition
+            local slider_size = volume_slider_bg.AbsoluteSize
+            
+            local relative_x = mouse_pos.X - slider_pos.X
+            local percent = math.clamp(relative_x / slider_size.X, 0, 1)
+            
+            State.music_volume = percent
+            
+            if State.music_sound then
+                State.music_sound.Volume = State.music_volume
+            end
+            
+            volume_slider_fill.Size = UDim2.new(percent, 0, 1, 0)
+            volume_slider_handle.Position = UDim2.new(percent, -8, 0.5, -8)
+            volume_value_label.Text = string.format('%d%%', math.floor(percent * 100))
+            save_data()
+        end
+    end)
+    
+    ScriptJanitor:Add(UserInputService.InputChanged:Connect(function(inp)
+        if not volume_dragging then return end
+        
+        if inp.UserInputType == Enum.UserInputType.MouseMovement then
+            if active_volume_input.UserInputType ~= Enum.UserInputType.MouseButton1 then return end
+        elseif inp.UserInputType == Enum.UserInputType.Touch then
+            if active_volume_input ~= inp then return end
+        else
+            return
+        end
+        
+        local mouse_pos = UserInputService:GetMouseLocation()
+        local slider_pos = volume_slider_bg.AbsolutePosition
+        local slider_size = volume_slider_bg.AbsoluteSize
+        
+        local relative_x = mouse_pos.X - slider_pos.X
+        local percent = math.clamp(relative_x / slider_size.X, 0, 1)
+        
+        State.music_volume = percent
+        
+        if State.music_sound then
+            State.music_sound.Volume = State.music_volume
+        end
+        
+        volume_slider_fill.Size = UDim2.new(percent, 0, 1, 0)
+        volume_slider_handle.Position = UDim2.new(percent, -8, 0.5, -8)
+        volume_value_label.Text = string.format('%d%%', math.floor(percent * 100))
+        save_data()
+    end))
+    
+    ScriptJanitor:Add(UserInputService.InputEnded:Connect(function(inp)
+        if active_volume_input ~= inp then return end
+        if is_click_input(inp) then
+            volume_dragging = false
+            active_volume_input = nil
+        end
+    end))
+    
+    local dynamic_volume_container = ComponentFactory.Frame({
+        Size = UDim2.new(1, -28, 0, 30),
+        Position = UDim2.new(0, 14, 0, 185),
+        BackgroundTransparency = 1,
+        Parent = music_frame
+    })
+    
+    local dynamic_volume_label = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -50, 1, 0),
+        BackgroundTransparency = 1,
+        Text = 'Dynamic Volume',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 12,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = dynamic_volume_container
+    })
+    
+    local dynamic_volume_toggle_bg = ComponentFactory.Frame({
+        Size = UDim2.new(0, 40, 0, 22),
+        Position = UDim2.new(1, -40, 0.5, -11),
+        BackgroundColor3 = State.music_dynamic_volume and C.accent or C.elevated,
+        Parent = dynamic_volume_container
+    })
+    corner(dynamic_volume_toggle_bg, 11)
+    E.dynamic_volume_toggle_track = dynamic_volume_toggle_bg
+    
+    local dynamic_volume_toggle_thumb = ComponentFactory.Frame({
+        Size = UDim2.new(0, 16, 0, 16),
+        Position = State.music_dynamic_volume and UDim2.new(1, -19, 0.5, -8) or UDim2.new(0, 3, 0.5, -8),
+        BackgroundColor3 = C.text,
+        Parent = dynamic_volume_toggle_bg
+    })
+    corner(dynamic_volume_toggle_thumb, 8)
+    E.dynamic_volume_toggle_thumb = dynamic_volume_toggle_thumb
+    
+    local dynamic_volume_btn = ComponentFactory.TextButton({
+        Size = UDim2.new(0, 40, 0, 22),
+        Position = UDim2.new(1, -40, 0.5, -11),
+        BackgroundTransparency = 1,
+        Text = '',
+        Parent = dynamic_volume_container
+    })
+    
+    dynamic_volume_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            State.music_dynamic_volume = not State.music_dynamic_volume
+            
+            tween(dynamic_volume_toggle_bg, {
+                BackgroundColor3 = State.music_dynamic_volume and C.accent or C.elevated
+            }, 0.2)
+            
+            tween(dynamic_volume_toggle_thumb, {
+                Position = State.music_dynamic_volume and UDim2.new(1, -19, 0.5, -8) or UDim2.new(0, 3, 0.5, -8)
+            }, 0.2, Enum.EasingStyle.Quad)
+            
+            if not State.music_dynamic_volume and E.volume_slider_fill and E.volume_slider_handle and E.volume_value_label then
+                tween(E.volume_slider_fill, { Size = UDim2.new(State.music_volume, 0, 1, 0) }, 0.3)
+                tween(E.volume_slider_handle, { Position = UDim2.new(State.music_volume, -8, 0.5, -8) }, 0.3)
+                E.volume_value_label.Text = string.format('%d%%', math.floor(State.music_volume * 100))
+            end
+            
+            SoundManager.play_toggle()
+            save_data()
+            
+            Notify.show('Dynamic Volume: ' .. (State.music_dynamic_volume and 'ON' or 'OFF'), 'info', 1.5)
+        end
+    end)
+    
+    local bass_boost_container = ComponentFactory.Frame({
+        Size = UDim2.new(1, -28, 0, 30),
+        Position = UDim2.new(0, 14, 0, 215),
+        BackgroundTransparency = 1,
+        Parent = music_frame
+    })
+    
+    local bass_boost_label = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -50, 1, 0),
+        BackgroundTransparency = 1,
+        Text = 'Bass Boost',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 12,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = bass_boost_container
+    })
+    
+    local bass_boost_toggle_bg = ComponentFactory.Frame({
+        Size = UDim2.new(0, 40, 0, 22),
+        Position = UDim2.new(1, -40, 0.5, -11),
+        BackgroundColor3 = State.bass_boost_enabled and C.accent or C.elevated,
+        Parent = bass_boost_container
+    })
+    corner(bass_boost_toggle_bg, 11)
+    E.bass_boost_toggle_track = bass_boost_toggle_bg
+    
+    local bass_boost_toggle_thumb = ComponentFactory.Frame({
+        Size = UDim2.new(0, 16, 0, 16),
+        Position = State.bass_boost_enabled and UDim2.new(1, -19, 0.5, -8) or UDim2.new(0, 3, 0.5, -8),
+        BackgroundColor3 = C.text,
+        Parent = bass_boost_toggle_bg
+    })
+    corner(bass_boost_toggle_thumb, 8)
+    E.bass_boost_toggle_thumb = bass_boost_toggle_thumb
+    
+    local bass_boost_btn = ComponentFactory.TextButton({
+        Size = UDim2.new(0, 40, 0, 22),
+        Position = UDim2.new(1, -40, 0.5, -11),
+        BackgroundTransparency = 1,
+        Text = '',
+        Parent = bass_boost_container
+    })
+    
+    local function apply_bass_boost()
+        if State.music_sound then
+            local existing_bass = State.music_sound:FindFirstChild('BassBoostEffect')
+            
+            if State.bass_boost_enabled then
+                if not existing_bass then
+                    local bass_boost = Instance.new('EqualizerSoundEffect')
+                    bass_boost.Name = 'BassBoostEffect'
+                    bass_boost.LowGain = 10
+                    bass_boost.MidGain = 0
+                    bass_boost.HighGain = -5
+                    bass_boost.Parent = State.music_sound
+                end
+            else
+                if existing_bass then
+                    existing_bass:Destroy()
+                end
+            end
+        end
+    end
+    
+    bass_boost_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            State.bass_boost_enabled = not State.bass_boost_enabled
+            
+            tween(bass_boost_toggle_bg, {
+                BackgroundColor3 = State.bass_boost_enabled and C.accent or C.elevated
+            }, 0.2)
+            
+            tween(bass_boost_toggle_thumb, {
+                Position = State.bass_boost_enabled and UDim2.new(1, -19, 0.5, -8) or UDim2.new(0, 3, 0.5, -8)
+            }, 0.2, Enum.EasingStyle.Quad)
+            
+            apply_bass_boost()
+            
+            SoundManager.play_toggle()
+            save_data()
+            
+            Notify.show('Bass Boost: ' .. (State.bass_boost_enabled and 'ON' or 'OFF'), 'info', 1.5)
+        end
+    end)
+    
+    E.apply_bass_boost = apply_bass_boost
+    
+    local custom_music_container = ComponentFactory.Frame({
+        Size = UDim2.new(1, -28, 0, 50),
+        Position = UDim2.new(0, 14, 0, 255),
+        BackgroundTransparency = 1,
+        Parent = music_frame
+    })
+    
+    local custom_music_label = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, 0, 0, 14),
+        BackgroundTransparency = 1,
+        Text = 'Custom Music (Asset ID)',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 11,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = custom_music_container
+    })
+    
+    local custom_music_input_bg = ComponentFactory.Frame({
+        Size = UDim2.new(1, -55, 0, 30),
+        Position = UDim2.new(0, 0, 0, 18),
+        BackgroundColor3 = C.elevated,
+        Parent = custom_music_container
+    })
+    corner(custom_music_input_bg, 6)
+    
+    local custom_music_input = ComponentFactory.TextBox({
+        Size = UDim2.new(1, -16, 1, 0),
+        Position = UDim2.new(0, 8, 0, 0),
+        BackgroundTransparency = 1,
+        Text = '',
+        PlaceholderText = '123456789',
+        TextColor3 = C.text,
+        PlaceholderColor3 = C.muted,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 11,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        ClearTextOnFocus = false,
+        Parent = custom_music_input_bg
+    })
+    
+    local custom_play_btn = ComponentFactory.TextButton({
+        Size = UDim2.new(0, 48, 0, 30),
+        Position = UDim2.new(1, -48, 0, 18),
+        BackgroundColor3 = C.accent,
+        Text = 'PLAY',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamBold,
+        TextSize = 11,
+        Parent = custom_music_container
+    })
+    corner(custom_play_btn, 6)
+    
+    custom_play_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            local input_text = custom_music_input.Text:gsub('%s+', '')
+            
+            if input_text == '' then
+                Notify.show('Enter an Asset ID!', 'warning', 2)
+                return
+            end
+            
+            local asset_id = input_text
+            if not asset_id:match('^rbxassetid://') then
+                if tonumber(asset_id) then
+                    asset_id = 'rbxassetid://' .. asset_id
+                else
+                    Notify.show('Invalid Asset ID!', 'error', 2)
+                    return
+                end
+            end
+            
+            stop_music()
+            State.music_sound = Instance.new('Sound')
+            State.music_sound.SoundId = asset_id
+            State.music_sound.Volume = State.music_volume
+            State.music_sound.Looped = State.music_loop
+            State.music_sound.Parent = workspace
+            
+            if not State.music_loop then
+                music_ended_conn = State.music_sound.Ended:Connect(function()
+                    if State.music_playing and State.music_loaded then
+                        State.music_playing = false
+                        play_icon.Image = Icons.play
+                        tween(play_pause_btn, { BackgroundColor3 = C.accent }, 0.2)
+                    end
+                end)
+            end
+            
+            local success = pcall(function()
+                State.music_sound:Play()
+            end)
+            
+            if success then
+                State.music_playing = true
+                play_icon.Image = Icons.x
+                tween(play_pause_btn, { BackgroundColor3 = C.success }, 0.2)
+                music_name_label.Text = 'Loading...'
+                
+                if E.apply_bass_boost then
+                    E.apply_bass_boost()
+                end
+                
+                Notify.show('Playing Custom Music!', 'success', 2)
+                
+                task.spawn(function()
+                    local asset_id_number = asset_id:match('%d+')
+                    if asset_id_number then
+                        local success_name, asset_info = pcall(function()
+                            return game:GetService('MarketplaceService'):GetProductInfo(tonumber(asset_id_number))
+                        end)
+                        
+                        if success_name and asset_info and asset_info.Name then
+                            music_name_label.Text = asset_info.Name
+                        else
+                            music_name_label.Text = 'Custom Music - ID: ' .. asset_id_number
+                        end
+                    else
+                        music_name_label.Text = 'Custom Music'
+                    end
+                end)
+                
+                task.spawn(function()
+                    task.wait(0.1)
+                    if State.music_sound then
+                        E.time_total.Text = format_time(State.music_sound.TimeLength)
+                    end
+                end)
+                
+                if music_update_conn then
+                    music_update_conn:Disconnect()
+                end
+                
+                local music_update_interval = 0.1
+                local last_music_update = 0
+                
+                music_update_conn = RunService.Heartbeat:Connect(function()
+                    local now = tick()
+                    if now - last_music_update < music_update_interval then return end
+                    last_music_update = now
+                    
+                    if State.music_playing and State.music_sound and State.music_sound.IsPlaying then
+                        update_progress()
+                        
+                        if State.music_dynamic_volume then
+                            local loudness = State.music_sound.PlaybackLoudness / 500
+                            loudness = math.clamp(loudness, 0, 1)
+                            
+                            local base_volume = State.music_volume
+                            local dynamic_multiplier = 0.5 + (loudness * 0.5)
+                            
+                            target_dynamic_volume = base_volume * dynamic_multiplier
+                            current_dynamic_volume = current_dynamic_volume + (target_dynamic_volume - current_dynamic_volume) * 0.15
+                            
+                            State.music_sound.Volume = current_dynamic_volume
+                            
+                            if State.visible and E.volume_slider_fill and E.volume_slider_handle and E.volume_value_label then
+                                local visual_volume = math.clamp(current_dynamic_volume, 0, 1)
+                                
+                                E.volume_slider_fill.Size = UDim2.new(visual_volume, 0, 1, 0)
+                                E.volume_slider_handle.Position = UDim2.new(visual_volume, -8, 0.5, -8)
+                                E.volume_value_label.Text = string.format('%d%%', math.floor(visual_volume * 100))
+                            end
+                        else
+                            State.music_sound.Volume = State.music_volume
+                            current_dynamic_volume = State.music_volume
+                            target_dynamic_volume = State.music_volume
+                            
+                            if State.visible and E.volume_slider_fill and E.volume_slider_handle and E.volume_value_label then
+                                E.volume_slider_fill.Size = UDim2.new(State.music_volume, 0, 1, 0)
+                                E.volume_slider_handle.Position = UDim2.new(State.music_volume, -8, 0.5, -8)
+                                E.volume_value_label.Text = string.format('%d%%', math.floor(State.music_volume * 100))
+                            end
+                        end
+                    end
+                end)
+                ScriptJanitor:Add(music_update_conn)
+            else
+                Notify.show('Failed to load music!', 'error', 2)
+                State.music_playing = false
+            end
+        end
+    end)
+    
+    custom_play_btn.MouseEnter:Connect(function()
+        tween(custom_play_btn, { BackgroundColor3 = C.accent_glow }, 0.15)
+    end)
+    
+    custom_play_btn.MouseLeave:Connect(function()
+        tween(custom_play_btn, { BackgroundColor3 = C.accent }, 0.15)
+    end)
+    
+    local preview = ComponentFactory.Frame({
+        Size = UDim2.new(0, 210, 0, 410),
+        BackgroundColor3 = C.base,
+        BackgroundTransparency = TRANSPARENCY,
+        Visible = false,
+        Parent = screen
+    })
+    corner(preview, 14)
+    stroke(preview, C.accent, 1.5, 0.6)
+    E.preview = preview
+    
+    local pv_header = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 46),
+        BackgroundColor3 = C.panel,
+        BackgroundTransparency = TRANSPARENCY,
+        Parent = preview
+    })
+    corner(pv_header, 14)
+    
+    new('Frame', {
+        Size = UDim2.new(1, 0, 0, 14),
+        Position = UDim2.new(0, 0, 1, -14),
+        BackgroundColor3 = C.panel,
+        BackgroundTransparency = TRANSPARENCY,
+        BorderSizePixel = 0,
+        Parent = pv_header
+    })
+    
+    icon(pv_header, Icons.eye, 16, C.subtext, UDim2.new(0, 14, 0.5, -8))
+    
+    new('TextLabel', {
+        Size = UDim2.new(1, -50, 1, 0),
+        Position = UDim2.new(0, 38, 0, 0),
+        BackgroundTransparency = 1,
+        Text = 'PREVIEW',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamBold,
+        TextSize = 13,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = pv_header
+    })
+    
+    local vp_container = ComponentFactory.Frame({
+        Size = UDim2.new(1, -20, 0, 195),
+        Position = UDim2.new(0, 10, 0, 54),
+        BackgroundColor3 = C.card,
+        Parent = preview
+    })
+    corner(vp_container, 10)
+    
+    local viewport = new('ViewportFrame', {
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        Ambient = Color3.fromRGB(100, 100, 100),
+        LightColor = Color3.fromRGB(255, 255, 255),
+        LightDirection = Vector3.new(-1, -1, -1),
+        Parent = vp_container
+    })
+    corner(viewport, 10)
+    E.viewport = viewport
+    
+    local vp_label = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        Text = 'Enter ID',
+        TextColor3 = C.muted,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 12,
+        TextXAlignment = Enum.TextXAlignment.Center,
+        Parent = vp_container
+    })
+    E.vp_label = vp_label
+    
+    local ctrl_row = ComponentFactory.Frame({
+        Size = UDim2.new(1, -20, 0, 38),
+        Position = UDim2.new(0, 10, 0, 257),
+        BackgroundTransparency = 1,
+        Parent = preview
+    })
+    
+    new('UIListLayout', {
+        FillDirection = Enum.FillDirection.Horizontal,
+        HorizontalAlignment = Enum.HorizontalAlignment.Center,
+        Padding = UDim.new(0, 8),
+        Parent = ctrl_row
+    })
+    
+    local function pv_ctrl_btn(ico, ord)
+        local b = ComponentFactory.TextButton({
+            Size = UDim2.new(0, 55, 0, 36),
+            BackgroundColor3 = C.elevated,
+            Text = '',
+            AutoButtonColor = false,
+            LayoutOrder = ord,
+            Parent = ctrl_row
+        })
+        corner(b, 10)
+        icon(b, ico, 16, C.text)
+        
+        b.MouseEnter:Connect(function() tween(b, { BackgroundColor3 = C.hover }, 0.1) end)
+        b.MouseLeave:Connect(function() tween(b, { BackgroundColor3 = C.elevated }, 0.1) end)
+        
+        return b
+    end
+    
+    E.rot_l = pv_ctrl_btn(Icons.chevron_left, 1)
+    E.rot_reset = pv_ctrl_btn(Icons.rotate, 2)
+    E.rot_r = pv_ctrl_btn(Icons.chevron_right, 3)
+    
+    local zoom_row = ComponentFactory.Frame({
+        Size = UDim2.new(1, -20, 0, 38),
+        Position = UDim2.new(0, 10, 0, 303),
+        BackgroundTransparency = 1,
+        Parent = preview
+    })
+    
+    new('UIListLayout', {
+        FillDirection = Enum.FillDirection.Horizontal,
+        HorizontalAlignment = Enum.HorizontalAlignment.Center,
+        Padding = UDim.new(0, 8),
+        Parent = zoom_row
+    })
+    
+    local function zoom_ctrl_btn(ico, ord)
+        local b = ComponentFactory.TextButton({
+            Size = UDim2.new(0, 55, 0, 36),
+            BackgroundColor3 = C.elevated,
+            Text = '',
+            AutoButtonColor = false,
+            LayoutOrder = ord,
+            Parent = zoom_row
+        })
+        corner(b, 10)
+        icon(b, ico, 16, C.text)
+        
+        b.MouseEnter:Connect(function() tween(b, { BackgroundColor3 = C.hover }, 0.1) end)
+        b.MouseLeave:Connect(function() tween(b, { BackgroundColor3 = C.elevated }, 0.1) end)
+        
+        return b
+    end
+    
+    E.zoom_out_btn = zoom_ctrl_btn(Icons.minus, 1)
+    E.zoom_in_btn = zoom_ctrl_btn(Icons.plus, 2)
+    
+    local vp_user = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -20, 0, 22),
+        Position = UDim2.new(0, 10, 0, 352),
+        BackgroundTransparency = 1,
+        Text = '',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamBold,
+        TextSize = 14,
+        TextTruncate = Enum.TextTruncate.AtEnd,
+        TextXAlignment = Enum.TextXAlignment.Center,
+        Parent = preview
+    })
+    E.vp_user = vp_user
+
+    local vp_details = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -20, 0, 18),
+        Position = UDim2.new(0, 10, 0, 377),
+        BackgroundTransparency = 1,
+        Text = '',
+        TextColor3 = C.subtext,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 11,
+        TextTruncate = Enum.TextTruncate.AtEnd,
+        TextXAlignment = Enum.TextXAlignment.Center,
+        Parent = preview
+    })
+    E.vp_details = vp_details
+
+    local client_preview = ComponentFactory.Frame({
+        Size = UDim2.new(0, 210, 0, 410),
+        BackgroundColor3 = C.base,
+        BackgroundTransparency = TRANSPARENCY,
+        Visible = false,
+        Parent = screen
+    })
+    corner(client_preview, 14)
+    stroke(client_preview, C.warning, 1.5, 0.6)
+    E.client_preview = client_preview
+    
+    local cpv_header = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 0, 46),
+        BackgroundColor3 = C.panel,
+        BackgroundTransparency = TRANSPARENCY,
+        Parent = client_preview
+    })
+    corner(cpv_header, 14)
+    
+    new('Frame', {
+        Size = UDim2.new(1, 0, 0, 14),
+        Position = UDim2.new(0, 0, 1, -14),
+        BackgroundColor3 = C.panel,
+        BackgroundTransparency = TRANSPARENCY,
+        BorderSizePixel = 0,
+        Parent = cpv_header
+    })
+    
+    icon(cpv_header, Icons.users, 16, C.warning, UDim2.new(0, 14, 0.5, -8))
+    
+    new('TextLabel', {
+        Size = UDim2.new(1, -50, 1, 0),
+        Position = UDim2.new(0, 38, 0, 0),
+        BackgroundTransparency = 1,
+        Text = 'CLIENT',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamBold,
+        TextSize = 13,
+        TextXAlignment = Enum.TextXAlignment.Left,
+        Parent = cpv_header
+    })
+    
+    local cvp_container = ComponentFactory.Frame({
+        Size = UDim2.new(1, -20, 0, 195),
+        Position = UDim2.new(0, 10, 0, 54),
+        BackgroundColor3 = C.card,
+        Parent = client_preview
+    })
+    corner(cvp_container, 10)
+    
+    local client_viewport = new('ViewportFrame', {
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        Ambient = Color3.fromRGB(100, 100, 100),
+        LightColor = Color3.fromRGB(255, 255, 255),
+        LightDirection = Vector3.new(-1, -1, -1),
+        Parent = cvp_container
+    })
+    corner(client_viewport, 10)
+    E.client_viewport = client_viewport
+    
+    local client_vp_label = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        Text = 'Enter ID',
+        TextColor3 = C.muted,
+        Font = Enum.Font.GothamMedium,
+        TextSize = 12,
+        TextXAlignment = Enum.TextXAlignment.Center,
+        Parent = cvp_container
+    })
+    E.client_vp_label = client_vp_label
+    
+    local c_ctrl_row = ComponentFactory.Frame({
+        Size = UDim2.new(1, -20, 0, 38),
+        Position = UDim2.new(0, 10, 0, 257),
+        BackgroundTransparency = 1,
+        Parent = client_preview
+    })
+    
+    new('UIListLayout', {
+        FillDirection = Enum.FillDirection.Horizontal,
+        HorizontalAlignment = Enum.HorizontalAlignment.Center,
+        Padding = UDim.new(0, 8),
+        Parent = c_ctrl_row
+    })
+    
+    local function cpv_ctrl_btn(ico, ord)
+        local b = ComponentFactory.TextButton({
+            Size = UDim2.new(0, 55, 0, 36),
+            BackgroundColor3 = C.elevated,
+            Text = '',
+            AutoButtonColor = false,
+            LayoutOrder = ord,
+            Parent = c_ctrl_row
+        })
+        corner(b, 10)
+        icon(b, ico, 16, C.text)
+        
+        b.MouseEnter:Connect(function() tween(b, { BackgroundColor3 = C.hover }, 0.1) end)
+        b.MouseLeave:Connect(function() tween(b, { BackgroundColor3 = C.elevated }, 0.1) end)
+        
+        return b
+    end
+    
+    E.c_rot_l = cpv_ctrl_btn(Icons.chevron_left, 1)
+    E.c_rot_reset = cpv_ctrl_btn(Icons.rotate, 2)
+    E.c_rot_r = cpv_ctrl_btn(Icons.chevron_right, 3)
+    
+    local c_zoom_row = ComponentFactory.Frame({
+        Size = UDim2.new(1, -20, 0, 38),
+        Position = UDim2.new(0, 10, 0, 303),
+        BackgroundTransparency = 1,
+        Parent = client_preview
+    })
+    
+    new('UIListLayout', {
+        FillDirection = Enum.FillDirection.Horizontal,
+        HorizontalAlignment = Enum.HorizontalAlignment.Center,
+        Padding = UDim.new(0, 8),
+        Parent = c_zoom_row
+    })
+    
+    local function c_zoom_ctrl_btn(ico, ord)
+        local b = ComponentFactory.TextButton({
+            Size = UDim2.new(0, 55, 0, 36),
+            BackgroundColor3 = C.elevated,
+            Text = '',
+            AutoButtonColor = false,
+            LayoutOrder = ord,
+            Parent = c_zoom_row
+        })
+        corner(b, 10)
+        icon(b, ico, 16, C.text)
+        
+        b.MouseEnter:Connect(function() tween(b, { BackgroundColor3 = C.hover }, 0.1) end)
+        b.MouseLeave:Connect(function() tween(b, { BackgroundColor3 = C.elevated }, 0.1) end)
+        
+        return b
+    end
+    
+    E.c_zoom_out_btn = c_zoom_ctrl_btn(Icons.minus, 1)
+    E.c_zoom_in_btn = c_zoom_ctrl_btn(Icons.plus, 2)
+    
+    local client_vp_user = ComponentFactory.TextLabel({
+        Size = UDim2.new(1, -20, 0, 22),
+        Position = UDim2.new(0, 10, 0, 352),
+        BackgroundTransparency = 1,
+        Text = '',
+        TextColor3 = C.text,
+        Font = Enum.Font.GothamBold,
+        TextSize = 14,
+        TextTruncate = Enum.TextTruncate.AtEnd,
+        TextXAlignment = Enum.TextXAlignment.Center,
+        Parent = client_preview
+    })
+    E.client_vp_user = client_vp_user
+
+    local fab = ComponentFactory.TextButton({
+        Size = UDim2.new(0, fab_size, 0, fab_size),
+        Position = UDim2.new(0, (use_saved_pos and saved.fab_x) or 16, 0, (use_saved_pos and saved.fab_y) or (vp.Y / 2 - fab_size / 2)),
+        BackgroundColor3 = C.elevated,
+        Text = '',
+        AutoButtonColor = false,
+        Parent = screen
+    })
+    corner(fab, math.floor(fab_size / 4))
+    stroke(fab, C.border, 1.5, 0.4)
+    E.fab = fab
+
+    local fab_indicator = ComponentFactory.Frame({
+        Size = UDim2.new(0, 9, 0, 9),
+        Position = UDim2.new(1, -14, 0, 8),
+        BackgroundColor3 = State.visible and C.success or C.error,
+        Parent = fab
+    })
+    corner(fab_indicator, 5)
+    E.fab_indicator = fab_indicator
+
+    local fab_icon_container = ComponentFactory.Frame({
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        Parent = fab
+    })
+
+    icon(fab_icon_container, Icons.eye, IS_MOBILE and 22 or 26, C.text)
+
+    fab.MouseEnter:Connect(function()
+        if not IS_MOBILE then
+            tween(fab, { BackgroundColor3 = C.hover }, 0.1)
+        end
+    end)
+
+    fab.MouseLeave:Connect(function()
+        if not IS_MOBILE then
+            tween(fab, { BackgroundColor3 = C.elevated }, 0.1)
+        end
+    end)
+    
+    E.setup_events()
+    
+    if State.minimized then
+        main.Size = UDim2.new(0, ui_width, 0, 52)
+        content.Visible = false
+        E.min_btn:FindFirstChildOfClass('ImageLabel').Image = Icons.plus
+    end
+
+    main.Position = clamp_frame(main)
+    E.saved_pos = main.Position
+
+    if not State.visible then
+        main.Visible = false
+        update_fab_state(false)
+    else
+        update_fab_state(true)
+    end
+
+    if State.auto then
+        Auto.start()
+        E.reset_btn.BackgroundTransparency = 0.5
+        E.reset_btn.Active = false
+        if E.input.Text ~= '' then
+            State.input_ready = true
+        end
+    end
+
+    E.switch_tab('main')
+    Fav.update_star_icon()
+end
+
+function E.setup_events()
+    local dragging = false
+    local drag_start, start_pos
+    local active_drag_input = nil
+    
+    E.star_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            if State.minimize_cooldown then
+                return
+            end
+            
+            if not State.applied_id then
+                Notify.show('Apply An Avatar First!', 'warning')
+                return
+            end
+            
+            spring(E.star_icon, { Rotation = 360 }, 0.25)
+            task.delay(0.25, function() E.star_icon.Rotation = 0 end)
+            
+            Fav.toggle(State.applied_id)
+        end
+    end)
+    
+    local function start_drag(inp)
+        if is_click_input(inp) then
+            if dragging then return end
+            dragging = true
+            active_drag_input = inp
+            drag_start = inp.Position
+            start_pos = E.main.Position
+        end
+    end
+
+    E.header.InputBegan:Connect(start_drag)
+    -- Removed E.main.InputBegan to prevent sliders from dragging the window
+    
+    ScriptJanitor:Add(UserInputService.InputChanged:Connect(function(inp)
+        if not dragging then return end
+        
+        if inp.UserInputType == Enum.UserInputType.MouseMovement then
+            if active_drag_input.UserInputType ~= Enum.UserInputType.MouseButton1 then return end
+        elseif inp.UserInputType == Enum.UserInputType.Touch then
+            if active_drag_input ~= inp then return end
+        else
+            return
+        end
+        
+        local delta = inp.Position - drag_start
+        E.main.Position = UDim2.new(0, start_pos.X.Offset + delta.X, 0, start_pos.Y.Offset + delta.Y)
+        E.saved_pos = E.main.Position
+        
+        if State.preview_open and E.preview.Visible then
+            E.preview.Position = get_preview_pos()
+        end
+        if State.client_preview_open and E.client_preview.Visible then
+            E.client_preview.Position = get_client_preview_pos()
+        end
+    end))
+    
+    ScriptJanitor:Add(UserInputService.InputEnded:Connect(function(inp)
+        if active_drag_input ~= inp then
+            return
+        end
+        if inp.UserInputType ~= Enum.UserInputType.MouseButton1 and inp.UserInputType ~= Enum.UserInputType.Touch then
+            return
+        end
+        
+        if dragging then
+            dragging = false
+            active_drag_input = nil
+            local clamped_pos = clamp_frame(E.main, true)
+            tween(E.main, { Position = clamped_pos }, 0.2, Enum.EasingStyle.Quint)
+            E.saved_pos = clamped_pos
+            
+            if State.preview_open and E.preview.Visible then
+                tween(E.preview, { Position = get_preview_pos() }, 0.2, Enum.EasingStyle.Quint)
+            end
+            if State.client_preview_open and E.client_preview.Visible then
+                tween(E.client_preview, { Position = get_client_preview_pos() }, 0.2, Enum.EasingStyle.Quint)
+            end
+            save_data()
+        end
+    end))
+    
+    local fab_dragging = false
+    local fab_drag_start, fab_start_pos
+    local fab_moved = false
+    local fab_press_time = 0
+    local active_fab_input = nil
+
+    E.fab.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            if fab_dragging then return end
+            fab_dragging = true
+            active_fab_input = inp
+            fab_moved = false
+            fab_press_time = tick()
+            fab_drag_start = inp.Position
+            fab_start_pos = E.fab.Position
+            
+            tween(E.fab, { Size = UDim2.new(0, E.fab_size - 6, 0, E.fab_size - 6) }, 0.08)
+            tween(E.fab, { BackgroundColor3 = C.hover }, 0.08)
+        end
+    end)
+
+    ScriptJanitor:Add(UserInputService.InputChanged:Connect(function(inp)
+        if not fab_dragging then return end
+        
+        if inp.UserInputType == Enum.UserInputType.MouseMovement then
+            if active_fab_input.UserInputType ~= Enum.UserInputType.MouseButton1 then return end
+        elseif inp.UserInputType == Enum.UserInputType.Touch then
+            if active_fab_input ~= inp then return end
+        else
+            return
+        end
+        
+        local delta = inp.Position - fab_drag_start
+        if math.abs(delta.X) > 5 or math.abs(delta.Y) > 5 then
+            fab_moved = true
+            E.fab.Position = UDim2.new(0, fab_start_pos.X.Offset + delta.X, 0, fab_start_pos.Y.Offset + delta.Y)
+            
+            if E.fab.AbsoluteSize.X < E.fab_size then
+                spring(E.fab, { Size = UDim2.new(0, E.fab_size, 0, E.fab_size) }, 0.1)
+            end
+        end
+    end))
+
+    ScriptJanitor:Add(UserInputService.InputEnded:Connect(function(inp)
+        if active_fab_input ~= inp then
+            return
+        end
+        if inp.UserInputType ~= Enum.UserInputType.MouseButton1 and inp.UserInputType ~= Enum.UserInputType.Touch then
+            return
+        end
+        
+        if fab_dragging then
+            fab_dragging = false
+            active_fab_input = nil
+            
+            spring(E.fab, { Size = UDim2.new(0, E.fab_size, 0, E.fab_size) }, 0.15)
+            tween(E.fab, { BackgroundColor3 = C.elevated }, 0.15)
+            
+            local vp = workspace.CurrentCamera.ViewportSize
+            local new_x = math.clamp(E.fab.Position.X.Offset, 10, vp.X - E.fab_size - 10)
+            local new_y = math.clamp(E.fab.Position.Y.Offset, 10, vp.Y - E.fab_size - 10)
+            
+            spring(E.fab, { Position = UDim2.new(0, new_x, 0, new_y) }, 0.2)
+            save_data()
+            
+            local hold_time = tick() - fab_press_time
+            if not fab_moved and hold_time < 0.3 then
+                if State.fab_toggle_cooldown then
+                    return
+                end
+                State.fab_toggle_cooldown = true
+                
+                tween(E.fab, { Size = UDim2.new(0, E.fab_size + 8, 0, E.fab_size + 8) }, 0.08)
+                task.delay(0.08, function()
+                    spring(E.fab, { Size = UDim2.new(0, E.fab_size, 0, E.fab_size) }, 0.15)
+                end)
+                
+                if State.visible then
+                    hide_gui()
+                else
+                    show_gui()
+                end
+                
+                task.delay(0.35, function() State.fab_toggle_cooldown = false end)
+            end
+        end
+    end))
+    
+    E.prev_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            if State.minimize_cooldown then
+                return
+            end
+            
+            play_sound(Sounds.button_click)
+            State.preview_open = not State.preview_open
+            update_preview_icon()
+            
+            if State.preview_open then
+                local pos = get_preview_pos()
+                local vp = workspace.CurrentCamera.ViewportSize
+                
+                E.preview.Position = UDim2.new(0, pos.X.Offset, 0, vp.Y + 50)
+                E.preview.Visible = true
+                
+                spring(E.preview, { Position = pos }, 0.3)
+                Prev.load(E.input.Text)
+            else
+                local vp = workspace.CurrentCamera.ViewportSize
+                tween(E.preview, { Position = UDim2.new(0, E.preview.Position.X.Offset, 0, vp.Y + 50) }, 0.2, Enum.EasingStyle.Back, Enum.EasingDirection.In)
+                
+                task.delay(0.25, function()
+                    if not State.preview_open then
+                        E.preview.Visible = false
+                        Prev.clear()
+                    end
+                end)
+            end
+        end
+    end)
+    
+    E.client_prev_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            play_sound(Sounds.button_click)
+            State.client_preview_open = not State.client_preview_open
+            update_client_preview_icon()
+            
+            if State.client_preview_open then
+                local pos = get_client_preview_pos()
+                local vp = workspace.CurrentCamera.ViewportSize
+                
+                E.client_preview.Position = UDim2.new(0, pos.X.Offset, 0, vp.Y + 50)
+                E.client_preview.Visible = true
+                
+                spring(E.client_preview, { Position = pos }, 0.3)
+                ClientPrev.load(E.client_input.Text)
+            else
+                local vp = workspace.CurrentCamera.ViewportSize
+                tween(E.client_preview, { Position = UDim2.new(0, E.client_preview.Position.X.Offset, 0, vp.Y + 50) }, 0.2, Enum.EasingStyle.Back, Enum.EasingDirection.In)
+                
+                task.delay(0.25, function()
+                    if not State.client_preview_open then
+                        E.client_preview.Visible = false
+                        ClientPrev.clear()
+                    end
+                end)
+            end
+        end
+    end)
+    
+    E.min_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            if State.minimize_cooldown then
+                return
+            end
+            
+            State.minimize_cooldown = true
+            play_sound(Sounds.button_click)
+            State.minimized = not State.minimized
+            
+            local img = E.min_btn:FindFirstChildOfClass('ImageLabel')
+            img.Image = State.minimized and Icons.plus or Icons.minus
+            
+            local ui_w = IS_MOBILE and 525 or 565
+            local ui_h = IS_MOBILE and 425 or 440
+            local minimized_w = IS_MOBILE and 340 or 360
+            local target_size = State.minimized and UDim2.new(0, minimized_w, 0, 50) or UDim2.new(0, ui_w, 0, ui_h)
+            local target_header_size = State.minimized and UDim2.new(1, 0, 1, 0) or UDim2.new(1, 0, 0, 52)
+            
+            E.content.Visible = not State.minimized
+            if E.header_extension then
+                E.header_extension.Visible = not State.minimized
+            end
+            
+            
+            tween(E.header, { Size = target_header_size }, 0.25, Enum.EasingStyle.Quint)
+            
+            local main_corner = E.main:FindFirstChildOfClass('UICorner')
+            local header_corner = E.main:FindFirstChild('Frame') and E.main:FindFirstChild('Frame'):FindFirstChildOfClass('UICorner')
+            
+            if State.minimized then
+                if main_corner then
+                    tween(main_corner, { CornerRadius = UDim.new(0, 8) }, 0.25)
+                end
+                if header_corner then
+                    tween(header_corner, { CornerRadius = UDim.new(0, 8) }, 0.25)
+                end
+            else
+                if main_corner then
+                    tween(main_corner, { CornerRadius = UDim.new(0, 14) }, 0.25)
+                end
+                if header_corner then
+                    tween(header_corner, { CornerRadius = UDim.new(0, 14) }, 0.25)
+                end
+            end
+            
+            tween(E.main, { Size = target_size }, 0.25, Enum.EasingStyle.Quint)
+            save_data()
+            
+            task.delay(0.45, function()
+                State.minimize_cooldown = false
+            end)
+        end
+    end)
+    
+    E.apply_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            if State.applying then
+                return
+            end
+            if E.input.Text == '' then
+                Notify.show('Enter Username or ID', 'warning')
+                return
+            end
+            play_sound(Sounds.button_click)
+            Av.apply(E.input.Text, nil, false, true)
+        end
+    end)
+    
+    E.rand_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            if State.applying or State.random_cooldown then
+                return
+            end
+            State.random_cooldown = true
+            play_sound(Sounds.dice)
+            
+            local available_presets = ContentLoader.get_presets()
+            
+            if #available_presets == 0 then
+                Notify.show('Presets Still Loading...', 'warning', 2)
+                State.random_cooldown = false
+                return
+            end
+            
+            local pool = {}
+            for _, id in ipairs(available_presets) do
+                if not table.find(State.randoms, id) then
+                    table.insert(pool, id)
+                end
+            end
+            
+            if #pool == 0 then
+                State.randoms = {}
+                pool = available_presets
+            end
+            
+            local pick = pool[math.random(#pool)]
+            table.insert(State.randoms, pick)
+            
+            E.input.Text = tostring(pick)
+            save_data()
+            State.input_ready = true
+            Notify.show('Random : ' .. pick, 'info', 2)
+            
+            task.delay(0.3, function() State.random_cooldown = false end)
+        end
+    end)
+    
+    E.reset_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            if State.auto then
+                Notify.show('Disable Auto Apply First', 'warning')
+                return
+            end
+            play_sound(Sounds.reset)
+            Av.reset()
+        end
+    end)
+    
+    E.client_apply_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            play_sound(Sounds.button_click)
+            if State.client_applying then
+                return
+            end
+            
+            local playerName = E.player_input.Text
+            local avatarId = E.client_input.Text
+            
+            if playerName == '' then
+                Notify.show('Enter Player Name', 'warning')
+                return
+            end
+            
+            if avatarId == '' then
+                Notify.show('Enter Avatar ID', 'warning')
+                return
+            end
+            
+            Av.apply_to_player_by_name(playerName, avatarId)
+        end
+    end)
+    
+    E.client_reset_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            play_sound(Sounds.button_click)
+            local playerName = E.player_input.Text
+            
+            if playerName == '' then
+                Notify.show('Enter Player Name', 'warning')
+                return
+            end
+            
+            Av.reset_player_avatar(playerName)
+        end
+    end)
+    
+    E.client_apply_all_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            play_sound(Sounds.button_click)
+            if State.client_applying then
+                return
+            end
+            
+            local avatarId = E.client_input.Text
+            
+            if avatarId == '' then
+                Notify.show('Enter Avatar ID', 'warning')
+                return
+            end
+            
+            Av.apply_to_all_players(avatarId)
+        end
+    end)
+    
+    E.client_reset_all_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            play_sound(Sounds.button_click)
+            if State.client_applying then
+                return
+            end
+            Av.reset_all_players()
+        end
+    end)
+    
+    E.input.FocusLost:Connect(function(enterPressed)
+        save_data()
+        if E.input.Text ~= '' then
+            State.input_ready = true
+        end
+        if State.preview_open then
+            Prev.load(E.input.Text)
+        end
+    end)
+    
+    E.input:GetPropertyChangedSignal('Text'):Connect(function()
+        State.input_ready = false
+        if State.preview_open then
+            Prev.load(E.input.Text)
+        end
+        Fav.update_star_icon()
+    end)
+    
+    E.rot_l.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            Prev.rot = Prev.rot - 45
+            Prev.update()
+        end
+    end)
+    
+    E.rot_r.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            Prev.rot = Prev.rot + 45
+            Prev.update()
+        end
+    end)
+    
+    E.rot_reset.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            Prev.rot = 180
+            State.zoom_level = 5.5
+            Prev.update()
+        end
+    end)
+    
+    E.zoom_in_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            State.zoom_level = math.max(2, State.zoom_level - 0.5)
+            Prev.update()
+        end
+    end)
+    
+    E.zoom_out_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            State.zoom_level = math.min(10, State.zoom_level + 0.5)
+            Prev.update()
+        end
+    end)
+    
+    if E.fav_search_input then
+        E.fav_search_input:GetPropertyChangedSignal('Text'):Connect(function()
+            State.fav_search_text = E.fav_search_input.Text
+            Fav.update_ui()
+        end)
+    end
+    
+    E.c_rot_l.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            ClientPrev.rot = ClientPrev.rot - 45
+            ClientPrev.update()
+        end
+    end)
+    
+    E.c_rot_r.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            ClientPrev.rot = ClientPrev.rot + 45
+            ClientPrev.update()
+        end
+    end)
+    
+    E.c_rot_reset.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            ClientPrev.rot = 180
+            State.client_zoom_level = 5.5
+            ClientPrev.update()
+        end
+    end)
+    
+    E.c_zoom_in_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            State.client_zoom_level = math.max(2, State.client_zoom_level - 0.5)
+            ClientPrev.update()
+        end
+    end)
+    
+    E.c_zoom_out_btn.InputBegan:Connect(function(inp)
+        if is_click_input(inp) then
+            State.client_zoom_level = math.min(10, State.client_zoom_level + 0.5)
+            ClientPrev.update()
+        end
+    end)
+    
+    ScriptJanitor:Add(workspace.CurrentCamera:GetPropertyChangedSignal('ViewportSize'):Connect(function()
+        if E.main and E.main.Visible then
+            E.main.Position = clamp_frame(E.main, State.preview_open)
+            E.saved_pos = E.main.Position
+            if State.preview_open and E.preview.Visible then
+                E.preview.Position = get_preview_pos()
+            end
+            if State.client_preview_open and E.client_preview.Visible then
+                E.client_preview.Position = get_client_preview_pos()
+            end
+        end
+    end))
+    
+    ScriptJanitor:Add(UserInputService.InputBegan:Connect(function(inp, gameProcessed)
+        if gameProcessed then return end
+        
+        if inp.KeyCode == State.toggle_keybind then
+            if E.main and E.main.Parent then
+                if State.fab_toggle_cooldown then
+                    return
+                end
+                State.fab_toggle_cooldown = true
+                
+                if State.visible then
+                    hide_gui()
+                else
+                    show_gui()
+                end
+                task.delay(0.35, function() 
+                    State.fab_toggle_cooldown = false 
+                end)
+            end
+        end
+    end))
+    
+    ScriptJanitor:Add(LocalPlayer.CharacterAdded:Connect(function(char)
+        local saved_avatar = State.applied_id
+        
+        local humanoid = char:WaitForChild('Humanoid', 10)
+        local rootPart = char:WaitForChild('HumanoidRootPart', 10)
+        
+        if not humanoid or not rootPart then 
+            return 
+        end
+        
+        if not humanoid:IsDescendantOf(workspace) then
+            humanoid.AncestryChanged:Wait()
+        end
+        
+        task.wait(0.65)
+        State.applied_id = nil
+        State.input_ready = true
+        
+        if saved_avatar then
+            local current_time = tick()
+            if (current_time - State.last_apply_time) >= State.apply_cooldown then
+                Av.apply(saved_avatar, nil, true)
+            else
+                State.applied_id = saved_avatar
+            end
+        end
+        
+        Fav.update_star_icon()
+    end))
+    
+    ScriptJanitor:Add(Players.PlayerAdded:Connect(function(player)
+        if player ~= LocalPlayer then
+            local charAddedConn
+            charAddedConn = player.CharacterAdded:Connect(function(char)
+                local playerRef = player
+                
+                task.spawn(function()
+                    if not playerRef or not playerRef.Parent then 
+                        return 
+                    end
+                    
+                    local rootPart = char:WaitForChild("HumanoidRootPart", 10)
+                    local humanoid = char:WaitForChild("Humanoid", 10)
+                    
+                    if not rootPart or not humanoid then return end
+                    if not playerRef or not playerRef.Parent then return end
+                    if State.esp_enabled and playerRef and playerRef.Parent then
+                    ESPSystem.CreateESPForPlayer(playerRef)
+                 end
+                end)
+            end)
+            
+            local removeConn
+            removeConn = Players.PlayerRemoving:Connect(function(removedPlayer)
+                if removedPlayer == player then
+                    if charAddedConn then
+                        charAddedConn:Disconnect()
+                        charAddedConn = nil
+                    end
+                    if removeConn then
+                        removeConn:Disconnect()
+                        removeConn = nil
+                    end
+                end
+            end)
+            
+            if State.esp_enabled and player.Character then
+                task.spawn(function()
+                    local char = player.Character
+                    if not char then return end
+                    
+                    local rootPart = char:WaitForChild("HumanoidRootPart", 10)
+                    local humanoid = char:WaitForChild("Humanoid", 10)
+                    
+                    if not rootPart or not humanoid then return end
+                    if not player or not player.Parent then return end
+                    if State.esp_enabled and player and player.Parent then
+                      ESPSystem.CreateESPForPlayer(player)
+                    end
+                end)
+            end
+        end
+    end))
+    
+    ScriptJanitor:Add(Players.PlayerRemoving:Connect(function(player)
+        ESPSystem.RemoveESP(player)
+        if State.player_original_descs then
+            State.player_original_descs[player.UserId] = nil
+        end
+    end))
+    
+    E.rgb_elements = {
+        {obj = E.main_stroke, prop = 'Color', delay = 0, is_stroke = true}
+    }
+    
+    for i, letter in ipairs(E.title_letters) do
+        table.insert(E.rgb_elements, {obj = letter, prop = 'TextColor3', delay = 0.05 * i, is_letter = true, letter_index = i})
+    end
+    
+    table.insert(E.rgb_elements, {obj = E.progress_fill, prop = 'BackgroundColor3', delay = 0.2})
+    
+    if E.volume_slider_fill then
+        table.insert(E.rgb_elements, {obj = E.volume_slider_fill, prop = 'BackgroundColor3', delay = 0.25})
+    end
+    
+    for i, elem in ipairs(E.rgb_elements) do
+        State.rgb_element_delays[i] = elem.delay or (i - 1) * 0.15
+    end
+    
+    local function lerp_color(c1, c2, alpha)
+        return Color3.new(
+            c1.R + (c2.R - c1.R) * alpha,
+            c1.G + (c2.G - c1.G) * alpha,
+            c1.B + (c2.B - c1.B) * alpha
+        )
+    end
+    
+    local function ease_in_out_sine(t)
+        return -(math.cos(math.pi * t) - 1) / 2
+    end
+    
+    local function get_rgb_color(mode, time, base_hue, element_index, element_info)
+        local hue = base_hue
+        local saturation = State.rgb_saturation
+        local brightness = State.rgb_brightness
+        local element_delay = State.rgb_element_delays[element_index] or 0
+        local is_stroke = element_info and element_info.is_stroke
+        
+        if mode == 'cycle' then
+            local wave_offset = element_delay * 40
+            hue = (base_hue + wave_offset) % 360
+            
+            local brightness_wave = math.sin(time * 1.5 * State.rgb_speed + element_index * 0.3)
+            brightness = 0.7 + (brightness_wave * 0.3)
+            saturation = 1
+            
+        elseif mode == 'pulse' then
+            local pulse = (math.sin(time * 2 * State.rgb_speed) + 1) / 2
+            pulse = ease_in_out_sine(pulse)
+            
+            brightness = 0.4 + (pulse * 0.6)
+            saturation = 0.7 + (pulse * 0.3)
+            
+            hue = (base_hue + (pulse * 60)) % 360
+            
+        elseif mode == 'wave' then
+            local ripple = math.sin(time * 2 * State.rgb_speed - (element_index * 0.6))
+            
+            hue = (base_hue + (ripple * 90) + (element_index * 20)) % 360
+            
+            brightness = 0.6 + (ripple * 0.4)
+            saturation = 0.8 + (math.abs(ripple) * 0.2)
+            
+        elseif mode == 'breathing' then
+            local breath = (math.sin(time * 0.8 * State.rgb_speed) + 1) / 2
+            breath = ease_in_out_sine(breath)
+            
+            saturation = 0.4 + (breath * 0.6)
+            brightness = 0.5 + (breath * 0.5)
+            
+            hue = (base_hue + (breath * 30)) % 360
+            
+        elseif mode == 'music_sync' then
+            if State.music_sound and State.music_sound.Playing then
+                local loudness = State.music_sound.PlaybackLoudness / 500
+                loudness = math.clamp(loudness, 0, 1)
+                
+                brightness = 0.4 + (loudness * 0.6)
+                saturation = 0.6 + (loudness * 0.4)
+                
+                local speed_multiplier = 1 + (loudness * 2)
+                hue = (base_hue * speed_multiplier) % 360
+            else
+                local pulse = (math.sin(time * 2) + 1) / 2
+                brightness = 0.3 + (pulse * 0.7)
+            end
+            
+        elseif mode == 'rainbow_trail' then
+            if is_stroke then
+                hue = base_hue % 360
+                saturation = 1
+                brightness = 1
+            else
+                local trail_offset = element_delay * 180
+                hue = (base_hue + trail_offset) % 360
+                saturation = 1
+                brightness = 1
+            end
+        end
+        
+        return Color3.fromHSV(hue / 360, saturation, brightness)
+    end
+    
+    local RunService = service.RunService
+    local rgb_connection = nil
+    local last_frame_time = tick()
+    
+    local function start_rgb_loop()
+        if rgb_connection then return end
+        
+        local last_color = {}
+        local target_color = {}
+        local transition_progress = {}
+        
+        for i = 1, #E.rgb_elements do
+            last_color[i] = Color3.fromRGB(255, 255, 255)
+            target_color[i] = Color3.fromRGB(255, 255, 255)
+            transition_progress[i] = 1
+        end
+        
+        rgb_connection = RunService.Heartbeat:Connect(function()
+            if not State.visible or not State.rgb_mode or not E.main then
+                return
+            end
+            
+            if State.rgb_intro_playing then
+                return
+            end
+            
+            local current_time = tick()
+            local dt = current_time - last_frame_time
+            last_frame_time = current_time
+            
+            dt = math.min(dt, 0.1)
+            
+            State.rgb_time = State.rgb_time + dt
+            
+            if State.rgb_mode_type == 'cycle' or State.rgb_mode_type == 'rainbow_trail' then
+                State.rgb_hue = (State.rgb_hue + (30 * dt * State.rgb_speed)) % 360
+            else
+                State.rgb_hue = (State.rgb_hue + (15 * dt * State.rgb_speed)) % 360
+            end
+            
+            for i, elem in ipairs(E.rgb_elements) do
+                if not elem.obj or not elem.obj.Parent then 
+                    continue 
+                end
+                
+                pcall(function()
+                    local new_target = get_rgb_color(State.rgb_mode_type, State.rgb_time, State.rgb_hue, i, elem)
+                    
+                    local color_diff = math.abs(new_target.R - target_color[i].R) +
+                                      math.abs(new_target.G - target_color[i].G) +
+                                      math.abs(new_target.B - target_color[i].B)
+                    
+                    if color_diff > 0.01 then
+                        last_color[i] = elem.obj[elem.prop]
+                        target_color[i] = new_target
+                        transition_progress[i] = 0
+                    end
+                    
+                    if transition_progress[i] < 1 then
+                        transition_progress[i] = math.min(1, transition_progress[i] + (dt * 8))
+                        local alpha = ease_in_out_sine(transition_progress[i])
+                        elem.obj[elem.prop] = lerp_color(last_color[i], target_color[i], alpha)
+                    else
+                        elem.obj[elem.prop] = target_color[i]
+                    end
+                end)
+            end
+            
+            local active_btn = nil
+            if State.current_tab == 'main' then
+                active_btn = E.main_tab_btn
+            elseif State.current_tab == 'favorites' then
+                active_btn = E.fav_tab_btn
+            elseif State.current_tab == 'client' then
+                active_btn = E.client_tab_btn
+            elseif State.current_tab == 'customize' then
+                active_btn = E.customize_tab_btn
+            elseif State.current_tab == 'settings' then
+                active_btn = E.settings_tab_btn
+            end
+            
+            if active_btn and active_btn.Parent then
+                local btn_color = get_rgb_color(State.rgb_mode_type, State.rgb_time, State.rgb_hue, 1, {})
+                active_btn.BackgroundColor3 = btn_color
+            end
+        end)
+        
+        ScriptJanitor:Add(rgb_connection)
+    end
+    
+    local function stop_rgb_loop()
+        if rgb_connection then
+            rgb_connection:Disconnect()
+            rgb_connection = nil
+        end
+    end
+    
+    start_rgb_loop()
+end
+
+E.build()
+
+task.spawn(function()
+    if E.loading_label and E.loading_label.Parent then
+        E.loading_label.Visible = true
+        E.loading_label.Text = '•  Loading Music (0%)'
+    end
+    
+    local music_done = false
+    ContentLoader.load_music_progressive(
+        function()
+            music_done = true
+        end,
+        function(progress)
+            if E.loading_label and E.loading_label.Parent and not State.music_loaded then
+                E.loading_label.Text = '•  Loading Music (' .. progress .. '%)'
+            end
+        end
+    )
+    
+    while not music_done do
+        task.wait(0.1)
+    end
+    
+    if E.loading_label and E.loading_label.Parent then
+        E.loading_label.Text = '•  Loading Presets (0%)'
+    end
+    
+    ContentLoader.load_presets_progressive(
+        function()
+            if E.loading_label and E.loading_label.Parent then
+                E.loading_label.Visible = false
+            end
+        end,
+        function(progress)
+            if E.loading_label and E.loading_label.Parent and not State.presets_loaded then
+                E.loading_label.Text = '•  Loading Presets (' .. progress .. '%)'
+            end
+        end
+    )
+end)
+
+if E.update_undo_redo_ui then
+    E.update_undo_redo_ui()
+end
+
+if State.applied_id then
+    if E.input then
+        E.input.Text = tostring(State.applied_id)
+    end
+end
+
+if E.update_undo_redo_ui then
+    E.update_undo_redo_ui()
+end
+
+if State.applied_id then
+    if E.input then
+        E.input.Text = tostring(State.applied_id)
+    end
+end
+
+if State.auto == true and State.applied_id and LocalPlayer.Character then
+    State.input_ready = true
+    task.wait(0.65)
+    Av.apply(State.applied_id, nil, true)
+end
+
+if State.esp_enabled then
+    ESPSystem.Toggle(true)
+end
+
+if State.esp_teamcheck then
+    ESPSystem.TeamCheck = true
+end
+
+local function handle_player(player)
+    player.CharacterAdded:Connect(function(character)
+        local humanoid = character:WaitForChild("Humanoid", 10)
+        if not humanoid then return end
+        local hrp = character:WaitForChild("HumanoidRootPart", 10)
+        if not hrp then return end
+        task.wait(0.25)
+        if State.esp_enabled then
+            ESPSystem.CreateESPForPlayer(player)
+        end
+    end)
+    
+    player.CharacterRemoving:Connect(function()
+        ESPSystem.RemoveESP(player)
+    end)
+    
+    if player.Character then
+        local humanoid = player.Character:FindFirstChildOfClass("Humanoid")
+        local hrp = player.Character:FindFirstChild("HumanoidRootPart")
+        if humanoid and hrp and State.esp_enabled then
+            task.wait(0.25)
+            ESPSystem.CreateESPForPlayer(player)
+        end
+    end
+end
+
+for _, player in ipairs(Players:GetPlayers()) do
+    if player ~= LocalPlayer then
+        handle_player(player)
+    end
+end
+
+ ScriptJanitor:Add(Players.PlayerAdded:Connect(function(player)
+              handle_player(player)
+          end))
+
+ScriptJanitor:Add(Players.PlayerRemoving:Connect(function(player)
+    ESPSystem.RemoveESP(player)
+    
+    if State.player_original_descs[player] then
+        State.player_original_descs[player] = nil
+    end
+    
+    if State.apply_counts[player] then
+        State.apply_counts[player] = nil
+    end
+end))
+
+ScriptJanitor:Add(LocalPlayer:GetPropertyChangedSignal("Team"):Connect(function()
+    if State.esp_enabled then
+        ESPSystem.RefreshAll()
+    end
+end))
+
+env[SCRIPT_FLAG] = {
+    cleanup = function()
+        cleanup_all()
+        ScriptJanitor:Cleanup()
+        if E.screen then
+            E.screen:Destroy()
+        end
+    end
+}
+
+warn('[LORD] Loaded Successfully!')
